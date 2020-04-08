@@ -45,7 +45,7 @@
     const colorList = [
         {
             name: 'vert',
-            temperature: '75° à 85°',
+            temperature: [75, 85],
             quantity: '1:50',
             duration: [30, 40],
             times: ['2', 'plus'],
@@ -53,7 +53,7 @@
         },
         {
             name: 'jaune',
-            temperature: '85° à 90°',
+            temperature: [85, 90],
             quantity: '1:50',
             duration: [30, 60, 120],
             times: ['3', 'plus'],
@@ -61,7 +61,7 @@
         },
         {
             name: 'blanc Fujian (traditionnel)',
-            temperature: '90° et 100°',
+            temperature: [90, 100],
             quantity: '1:20',
             duration: [30, 60, 120],
             times: ['5', 'plus'],
@@ -69,7 +69,7 @@
         },
         {
             name: 'blanc Yunnan (récent)',
-            temperature: '80° et 85°',
+            temperature: [80, 85],
             quantity: '1:50',
             duration: [120, 180, 240],
             times: ['3', 'plus'],
@@ -77,7 +77,7 @@
         },
         {
             name: 'wulong perlé',
-            temperature: '95° à 100°',
+            temperature: [95, 100],
             quantity: '1:20',
             duration: [25, 20, 25, 30, 40],
             times: ['5', 'plus'],
@@ -85,7 +85,7 @@
         },
         {
             name: 'wulong torsadé',
-            temperature: '90° à 95°',
+            temperature: [90, 95],
             quantity: '1:20',
             duration: [20, 15, 20, 25, 35],
             times: ['4', 'plus'],
@@ -93,7 +93,7 @@
         },
         {
             name: 'wulong oriental beauty',
-            temperature: '85° à 90°',
+            temperature: [85, 90],
             quantity: '1:20',
             duration: [25, 20, 25, 30, 40],
             times: ['5', 'plus'],
@@ -101,7 +101,7 @@
         },
         {
             name: 'rouge feuille entière',
-            temperature: '85° à 100°',
+            temperature: [85, 100],
             quantity: '1:20',
             duration: [20, 25, 30, 20],
             times: ['3', '4'],
@@ -109,7 +109,7 @@
         },
         {
             name: 'rouge brisure',
-            temperature: '85°',
+            temperature: [85],
             quantity: '1:50',
             duration: [160],
             times: ['1'],
@@ -117,7 +117,7 @@
         },
         {
             name: 'noir',
-            temperature: '100°',
+            temperature: [100],
             quantity: '1:100',
             duration: [1200],
             times: ['1'],
@@ -125,7 +125,7 @@
         },
         {
             name: "pu'er cuit",
-            temperature: '100°',
+            temperature: [100],
             quantity: '1:100',
             duration: [1200],
             times: ['1'],
@@ -133,7 +133,7 @@
         },
         {
             name: "pu'er cru",
-            temperature: '100°',
+            temperature: [100],
             quantity: '1:100',
             duration: [60, 60, 60, 60, 60, 60, 60, 60, 60],
             times: [20, 'plus'],
@@ -170,16 +170,29 @@
             placeholder="trouvez votre thé ici"
         />
     </div>
-    <h1>茶</h1>
     {#if teaSelected.name}
         <ul>
-            <li>Température : {teaSelected.temperature}</li>
+            <li>
+                <img
+                    src="assets/temperature.svg"
+                    alt="un triangle aux trois côtés égaux"
+                    width="30px"
+                />
+                {teaSelected.temperature}
+            </li>
             <li>Quantité : {teaSelected.quantity}</li>
             <li>Durée : {teaSelected.duration} sec</li>
             <li>Nombre d'infusions : {teaSelected.times}</li>
-            <li>Méthode : {teaSelected.method}</li>
+            <li>
+                <img
+                    src="assets/gaiwan.svg"
+                    alt="un triangle aux trois côtés égaux"
+                    width="50px"
+                />
+            </li>
         </ul>
     {:else}
+        <h1>茶</h1>
         <blockquote>
             Broutille est un outil d'apprentissage pour aborder en douceur la
             complexité de l'infusion. Ce n'est pas une table de loi, l'infusion
