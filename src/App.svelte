@@ -160,7 +160,7 @@
 
 <main>
     <h1>Guide d'infusion</h1>
-    <p>pour aider à déguster les thés de Chine</p>
+    <p>pour apprendre à infuser les thés de Chine</p>
     <div class="tea-type">
         <AutoComplete
             items="{colorList}"
