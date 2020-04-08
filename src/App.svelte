@@ -166,6 +166,7 @@
             bind:selectedItem="{selectedColorObject}"
             labelFieldName="name"
             onChange="{tea => onChange(tea)}"
+            placeholder="saisissez votre thé ici"
         />
     </div>
     {#if teaSelected.name}
