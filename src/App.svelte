@@ -203,10 +203,6 @@
         }
     }
 
-    function onChangeType(type) {
-        console.log('change type:', selectedType)
-    }
-
     function onChange(tea) {
         if (tea) {
             teaSelected = JSON.parse(JSON.stringify(tea))
@@ -221,19 +217,20 @@
         <AutoComplete
             items="{typeTitleList}"
             bind:selectedItem="{selectedType}"
-            onChange="{type => onChangeType(type)}"
             placeholder="sélectionner un type de thé"
             noResultsText="pas de type correspondant"
         />
-        <AutoComplete
-            items="{brewList}"
-            bind:selectedItem="{selectedColorObject}"
-            labelFieldName="name"
-            onChange="{tea => onChange(tea)}"
-            placeholder="trouvez votre type de feuille ici"
-            minCharactersToSearch="2"
-            noResultsText="pas de type de feuille correspondant"
-        />
+        {#if selectedType}
+            <AutoComplete
+                items="{brewList}"
+                bind:selectedItem="{selectedColorObject}"
+                labelFieldName="name"
+                onChange="{tea => onChange(tea)}"
+                placeholder="trouvez votre type de feuille ici"
+                minCharactersToSearch="2"
+                noResultsText="pas de type de feuille correspondant"
+            />
+        {/if}
     </div>
     {#if teaSelected.name}
         <ul>
