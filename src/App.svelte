@@ -62,9 +62,24 @@
 <script>
     import AutoComplete from 'simple-svelte-autocomplete'
 
-    const colorList = [
+    const typeList = {
+        green: ['lü cha', '綠茶', 'vert'],
+        yellow: ['huang cha', '黃茶', 'jaune'],
+        white: ['bai cha', '白茶', 'blanc'],
+        blue: ['qing cha', '青茶', 'bleu'],
+        red: ['hong cha', '紅茶', 'rouge'],
+        black: ['hei cha', '紅茶', 'noir'],
+        'pu er': ['pu er sheng cha', '普洱生茶', 'pu er']
+    }
+
+    const typeTitleList = Object.values(typeList).map(typeTitles =>
+        typeTitles.join(' - ')
+    )
+
+    const brewList = [
         {
-            name: 'vert',
+            type: typeList.green,
+            leaf: ['feuilles entières', 'xiao zhong hong cha', '小種紅茶'],
             temperature: [75, 85],
             quantity: '1:50',
             duration: [30, 40],
@@ -72,7 +87,16 @@
             method: 'gaiwan'
         },
         {
-            name: 'jaune',
+            type: typeList.green,
+            leaf: ['feuilles hachées', 'hong sui cha', '紅碎茶'],
+            temperature: [75, 85],
+            quantity: '1:50',
+            duration: [30, 40],
+            times: '2 fois ou plus',
+            method: 'gaiwan'
+        },
+        {
+            type: typeList.yellow,
             temperature: [85, 90],
             quantity: '1:50',
             duration: [30, 60, 120],
@@ -80,7 +104,7 @@
             method: 'gaiwan'
         },
         {
-            name: 'blanc Fujian (traditionnel)',
+            type: typeList.white,
             temperature: [90, 100],
             quantity: '1:20',
             duration: [30, 60, 120],
@@ -88,7 +112,7 @@
             method: 'gaiwan'
         },
         {
-            name: 'blanc Yunnan (récent)',
+            type: typeList.white,
             temperature: [80, 85],
             quantity: '1:50',
             duration: [120, 180, 240],
@@ -96,7 +120,7 @@
             method: 'theiere'
         },
         {
-            name: 'wulong perlé',
+            type: typeList.blue,
             temperature: [95, 100],
             quantity: '1:20',
             duration: [25, 20, 25, 30, 40],
@@ -104,7 +128,7 @@
             method: 'theiere'
         },
         {
-            name: 'wulong torsadé',
+            type: typeList.blue,
             temperature: [90, 95],
             quantity: '1:20',
             duration: [20, 15, 20, 25, 35],
@@ -112,7 +136,7 @@
             method: 'theiere'
         },
         {
-            name: 'wulong oriental beauty',
+            type: typeList.blue,
             temperature: [85, 90],
             quantity: '1:20',
             duration: [25, 20, 25, 30, 40],
@@ -120,7 +144,7 @@
             method: 'gaiwan'
         },
         {
-            name: 'rouge feuille entière',
+            type: typeList.red,
             temperature: [85, 100],
             quantity: '1:20',
             duration: [20, 25, 30, 20],
@@ -128,7 +152,7 @@
             method: 'gaiwan'
         },
         {
-            name: 'rouge brisure',
+            type: typeList.red,
             temperature: [85],
             quantity: '1:50',
             duration: [160],
@@ -136,7 +160,7 @@
             method: 'mug'
         },
         {
-            name: 'noir',
+            type: typeList.black,
             temperature: [100],
             quantity: '1:100',
             duration: [1200],
@@ -144,7 +168,7 @@
             method: 'bouilloire'
         },
         {
-            name: "pu'er cuit",
+            type: typeList.black,
             temperature: [100],
             quantity: '1:100',
             duration: [1200],
@@ -152,7 +176,7 @@
             method: 'bouilloire'
         },
         {
-            name: "pu'er cru",
+            type: typeList['pu er'],
             temperature: [100],
             quantity: '1:100',
             duration: [60, 60, 60, 60, 60, 60, 60, 60, 60],
@@ -161,9 +185,11 @@
         }
     ]
 
+    let selectedType
     let selectedColorObject
+
     let teaSelected = {
-        name: '',
+        type: '',
         temperature: '',
         quantity: '',
         duration: [],
@@ -175,6 +201,10 @@
         temperature: temperature => {
             return `${temperature.join('° à ')} °`
         }
+    }
+
+    function onChangeType(type) {
+        console.log('change type:', selectedType)
     }
 
     function onChange(tea) {
@@ -189,13 +219,20 @@
     <p>pour apprendre à infuser les thés de Chine</p>
     <div class="tea-search">
         <AutoComplete
-            items="{colorList}"
+            items="{typeTitleList}"
+            bind:selectedItem="{selectedType}"
+            onChange="{type => onChangeType(type)}"
+            placeholder="sélectionner un type de thé"
+            noResultsText="pas de type correspondant"
+        />
+        <AutoComplete
+            items="{brewList}"
             bind:selectedItem="{selectedColorObject}"
             labelFieldName="name"
             onChange="{tea => onChange(tea)}"
-            placeholder="trouvez votre thé ici"
+            placeholder="trouvez votre type de feuille ici"
             minCharactersToSearch="2"
-            noResultsText="pas de thé correspondant"
+            noResultsText="pas de type de feuille correspondant"
         />
     </div>
     {#if teaSelected.name}
