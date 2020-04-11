@@ -8,7 +8,7 @@
 
     .tea-search {
         text-align: left;
-        width: 50%;
+        width: 80%;
         margin: 4em auto;
     }
 
