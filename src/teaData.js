@@ -33,15 +33,14 @@ const brewList = [
         method: 'gaiwan'
     },
     {
-        type: 'yellow',
-        temperature: [85, 90],
-        quantity: '1:50',
-        duration: [30, 60, 120],
-        times: '3 fois ou plus',
-        method: 'gaiwan'
-    },
-    {
         type: 'white',
+        criteria: [
+            {
+                cn: 'bai hao yin zhen',
+                pinyin: '白毫銀針',
+                fr: 'bourgeon et 1 feuille ou bourgeon seul'
+            }
+        ],
         temperature: [90, 100],
         quantity: '1:20',
         duration: [30, 60, 120],
@@ -50,11 +49,41 @@ const brewList = [
     },
     {
         type: 'white',
+        criteria: [
+            {
+                cn: 'bai mu dan',
+                pinyin: '白牡丹',
+                fr: 'bourgeon et 1 ou 2 feuilles'
+            }
+        ],
         temperature: [80, 85],
         quantity: '1:50',
         duration: [120, 180, 240],
         times: '3 fois ou plus',
         method: 'theiere'
+    },
+    {
+        type: 'white',
+        criteria: [
+            {
+                cn: 'shou mei',
+                pinyin: '壽眉',
+                fr: 'bourgeon et 3 feuilles'
+            }
+        ],
+        temperature: [80, 85],
+        quantity: '1:50',
+        duration: [120, 180, 240],
+        times: '3 fois ou plus',
+        method: 'theiere'
+    },
+    {
+        type: 'yellow',
+        temperature: [85, 90],
+        quantity: '1:50',
+        duration: [30, 60, 120],
+        times: '3 fois ou plus',
+        method: 'gaiwan'
     },
     {
         type: 'blue',

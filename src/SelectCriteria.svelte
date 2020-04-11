@@ -1,6 +1,8 @@
 <script>
+    import { type } from './stores.js'
     export let brewList
-    const teas = brewList.filter(tea => tea.type === 'green')
+
+    const teas = brewList.filter(tea => tea.type === $type)
 
     const slugifyTranslation = expression =>
         `${expression.cn} - ${expression.pinyin} - (thé ${expression.fr})`
