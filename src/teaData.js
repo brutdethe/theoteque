@@ -10,7 +10,7 @@ const typeList = {
 const brewList = [
     {
         type: 'green',
-        criteria: [{ cn: 'dan ya', pinyin: '單芽', fr: 'bourgeon' }],
+        criteria: [{ cn: 'dān yá', pinyin: '單芽', fr: '1 bourgeon' }],
         temperature: [75, 85],
         quantity: '1:50',
         duration: [30, 40],
@@ -21,9 +21,9 @@ const brewList = [
         type: 'green',
         criteria: [
             {
-                cn: 'yi ya yi er ye',
-                pinyin: '一芽一',
-                fr: 'bourgeon et 1, 2, ou 3 feuilles'
+                cn: 'yī yá yī, èr yè',
+                pinyin: '一芽一, 二葉',
+                fr: '1 bourgeon et 1, 2, ou 3 feuilles'
             }
         ],
         temperature: [75, 85],
@@ -36,9 +36,9 @@ const brewList = [
         type: 'white',
         criteria: [
             {
-                cn: 'bai hao yin zhen',
+                cn: 'bái háo yín zhēn',
                 pinyin: '白毫銀針',
-                fr: 'bourgeon et 1 feuille ou bourgeon seul'
+                fr: '1 bourgeon et 1 feuille ou bourgeon seul'
             }
         ],
         temperature: [90, 100],
@@ -51,9 +51,9 @@ const brewList = [
         type: 'white',
         criteria: [
             {
-                cn: 'bai mu dan',
+                cn: 'bái mǔ dān',
                 pinyin: '白牡丹',
-                fr: 'bourgeon et 1 ou 2 feuilles'
+                fr: '1 bourgeon et 1 ou 2 feuilles'
             }
         ],
         temperature: [80, 85],
@@ -66,9 +66,9 @@ const brewList = [
         type: 'white',
         criteria: [
             {
-                cn: 'shou mei',
+                cn: 'shòu méi',
                 pinyin: '壽眉',
-                fr: 'bourgeon et 3 feuilles'
+                fr: '1 bourgeon et 3 feuilles'
             }
         ],
         temperature: [80, 85],
@@ -79,6 +79,13 @@ const brewList = [
     },
     {
         type: 'yellow',
+        criteria: [
+            {
+                cn: 'Huáng yá chá, huáng xiǎo chá, huáng dà chá',
+                pinyin: '黃芽茶, 黃小茶, 黃大茶',
+                fr: '1 bourgeon et 1, 2 ou 3 feuilles'
+            }
+        ],
         temperature: [85, 90],
         quantity: '1:50',
         duration: [30, 60, 120],
@@ -87,6 +94,14 @@ const brewList = [
     },
     {
         type: 'blue',
+        criteria: [
+            {
+                cn:
+                    'mǐn běi wū lóng（yán chá)， guǎng dōng wū lóng (dān cōng）',
+                pinyin: '閩北烏龍 （岩茶)， 廣東烏龍（單樅）',
+                fr: 'sombre, brun, rouge'
+            }
+        ],
         temperature: [95, 100],
         quantity: '1:20',
         duration: [25, 20, 25, 30, 40],
@@ -95,6 +110,13 @@ const brewList = [
     },
     {
         type: 'blue',
+        criteria: [
+            {
+                cn: 'mǐnnán wū lóng (Ānxī tiě guān yīn)，Táiwān wū lóng',
+                pinyin: '閩南烏龍 (安溪鐵觀音)，臺灣烏龍',
+                fr: 'vert clair, vert foncé'
+            }
+        ],
         temperature: [90, 95],
         quantity: '1:20',
         duration: [20, 15, 20, 25, 35],
@@ -103,6 +125,13 @@ const brewList = [
     },
     {
         type: 'blue',
+        criteria: [
+            {
+                cn: 'oriental beauty',
+                pinyin: 'oriental beauty',
+                fr: 'oriental beauty'
+            }
+        ],
         temperature: [85, 90],
         quantity: '1:20',
         duration: [25, 20, 25, 30, 40],
@@ -111,6 +140,13 @@ const brewList = [
     },
     {
         type: 'red',
+        criteria: [
+            {
+                cn: 'xiǎo zhǒng hóng chá, gōng fū hóng chá',
+                pinyin: '小種紅茶, 工夫紅茶',
+                fr: 'feuilles entières'
+            }
+        ],
         temperature: [85, 100],
         quantity: '1:20',
         duration: [20, 25, 30, 20],
@@ -119,6 +155,13 @@ const brewList = [
     },
     {
         type: 'red',
+        criteria: [
+            {
+                cn: 'hóng sui chá',
+                pinyin: '紅碎茶',
+                fr: 'feuilles concassées ou en perle'
+            }
+        ],
         temperature: [85],
         quantity: '1:50',
         duration: [160],
@@ -127,6 +170,13 @@ const brewList = [
     },
     {
         type: 'black',
+        criteria: [
+            {
+                cn: 'hēi chá',
+                pinyin: '黑茶',
+                fr: 'thé noir'
+            }
+        ],
         temperature: [100],
         quantity: '1:100',
         duration: [1200],
@@ -135,6 +185,13 @@ const brewList = [
     },
     {
         type: 'black',
+        criteria: [
+            {
+                cn: "pǔ'ěr shú chá",
+                pinyin: '普洱熟茶',
+                fr: 'pu er cuit'
+            }
+        ],
         temperature: [100],
         quantity: '1:100',
         duration: [1200],
