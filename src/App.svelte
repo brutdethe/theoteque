@@ -63,23 +63,36 @@
     import AutoComplete from 'simple-svelte-autocomplete'
 
     const typeList = {
-        green: ['lü cha', '綠茶', 'vert'],
-        yellow: ['huang cha', '黃茶', 'jaune'],
-        white: ['bai cha', '白茶', 'blanc'],
-        blue: ['qing cha', '青茶', 'bleu'],
-        red: ['hong cha', '紅茶', 'rouge'],
-        black: ['hei cha', '紅茶', 'noir'],
-        'pu er': ['pu er sheng cha', '普洱生茶', 'pu er']
+        green: { cn: 'lü cha', pinyin: '綠茶', fr: 'vert' },
+        yellow: { cn: 'huang cha', pinyin: '黃茶', fr: 'jaune' },
+        white: { cn: 'bai cha', pinyin: '白茶', fr: 'blanc' },
+        blue: { cn: 'qing cha', pinyin: '青茶', fr: 'bleu' },
+        red: { cn: 'hong cha', pinyin: '紅茶', fr: 'rouge' },
+        black: { cn: 'hei cha', pinyin: '紅茶', fr: 'noir' },
+        'pu er': { cn: 'pu er sheng cha', pinyin: '普洱生茶', fr: 'pu er' }
     }
 
-    const typeTitleList = Object.values(typeList).map(typeTitles =>
-        typeTitles.join(' - ')
+    const slugifyType = typeTitleList =>
+        `${typeTitleList.cn} - ${typeTitleList.pinyin} - (${typeTitleList.fr})`
+
+    const typeTitleList = Object.values(typeList).map(typeTitle =>
+        slugifyType(typeTitle)
     )
+
+    function findTypeBySlug(slug, typeList) {
+        return Object.keys(typeList).filter(
+            key => slugifyType(typeList[key]) === slug
+        )
+    }
 
     const brewList = [
         {
             type: typeList.green,
-            leaf: ['feuilles entières', 'xiao zhong hong cha', '小種紅茶'],
+            appearance: [
+                'feuilles entières',
+                'xiao zhong hong cha',
+                '小種紅茶'
+            ],
             temperature: [75, 85],
             quantity: '1:50',
             duration: [30, 40],
@@ -88,7 +101,7 @@
         },
         {
             type: typeList.green,
-            leaf: ['feuilles hachées', 'hong sui cha', '紅碎茶'],
+            appearance: ['feuilles hachées', 'hong sui cha', '紅碎茶'],
             temperature: [75, 85],
             quantity: '1:50',
             duration: [30, 40],
