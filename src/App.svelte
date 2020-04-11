@@ -62,6 +62,7 @@
 <script>
     import AutoComplete from 'simple-svelte-autocomplete'
     import SelectType from './SelectType.svelte'
+    import SelectCriteria from './SelectCriteria.svelte'
     import tea from './teaData.js'
 
     const typeList = tea.typeList
@@ -96,6 +97,7 @@
     <p>pour apprendre à infuser les thés de Chine</p>
     <div class="tea-search">
         <SelectType {typeList} />
+        <SelectCriteria />
         {#if selectedType}
             <AutoComplete
                 items="{brewList}"
