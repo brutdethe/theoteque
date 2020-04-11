@@ -63,13 +63,13 @@
     import AutoComplete from 'simple-svelte-autocomplete'
 
     const typeList = {
-        green: { cn: 'lü cha', pinyin: '綠茶', fr: 'vert' },
-        yellow: { cn: 'huang cha', pinyin: '黃茶', fr: 'jaune' },
-        white: { cn: 'bai cha', pinyin: '白茶', fr: 'blanc' },
-        blue: { cn: 'qing cha', pinyin: '青茶', fr: 'bleu' },
-        red: { cn: 'hong cha', pinyin: '紅茶', fr: 'rouge' },
-        black: { cn: 'hei cha', pinyin: '紅茶', fr: 'noir' },
-        'pu er': { cn: 'pu er sheng cha', pinyin: '普洱生茶', fr: 'pu er' }
+        green: { cn: 'lǜ chá', pinyin: '綠茶', fr: 'vert' },
+        yellow: { cn: 'huáng chá', pinyin: '黃茶', fr: 'jaune' },
+        white: { cn: 'bái chá', pinyin: '白茶', fr: 'blanc' },
+        blue: { cn: 'qīng chá', pinyin: '青茶', fr: 'bleu' },
+        red: { cn: 'hóng chá', pinyin: '紅茶', fr: 'rouge' },
+        black: { cn: 'hēi chá', pinyin: '紅茶', fr: 'noir' },
+        'pu er': { cn: 'pu er sheng chá', pinyin: '普洱生茶', fr: 'pu er' }
     }
 
     const slugifyType = typeTitleList =>
@@ -88,7 +88,7 @@
     const brewList = [
         {
             type: typeList.green,
-            appearance: [
+            criteria_1: [
                 'feuilles entières',
                 'xiao zhong hong cha',
                 '小種紅茶'
@@ -101,7 +101,7 @@
         },
         {
             type: typeList.green,
-            appearance: ['feuilles hachées', 'hong sui cha', '紅碎茶'],
+            criteria_1: ['feuilles hachées', 'hong sui cha', '紅碎茶'],
             temperature: [75, 85],
             quantity: '1:50',
             duration: [30, 40],
