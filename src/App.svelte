@@ -66,7 +66,7 @@
     import SelectCriteria from './SelectCriteria.svelte'
     import tea from './teaData.js'
 
-    const typeList = tea.typeList
+    const { typeList, brewList } = tea
 
     const display = {
         temperature: temperature => {
@@ -81,7 +81,7 @@
     <div class="tea-search">
         <SelectType {typeList} />
         {#if $type}
-            <SelectCriteria />
+            <SelectCriteria {brewList} />
         {/if}
     </div>
     {#if false}

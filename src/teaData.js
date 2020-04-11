@@ -4,13 +4,12 @@ const typeList = {
     white: { cn: 'bái chá', pinyin: '白茶', fr: 'blanc' },
     blue: { cn: 'qīng chá', pinyin: '青茶', fr: 'bleu' },
     red: { cn: 'hóng chá', pinyin: '紅茶', fr: 'rouge' },
-    black: { cn: 'hēi chá', pinyin: '紅茶', fr: 'noir' },
-    'pu er': { cn: 'pu er sheng chá', pinyin: '普洱生茶', fr: 'pu er' }
+    black: { cn: 'hēi chá', pinyin: '紅茶', fr: 'noir' }
 }
 
 const brewList = [
     {
-        type: typeList.green,
+        type: 'green',
         criteria: [{ cn: 'dan ya', pinyin: '單芽', fr: 'bourgeon' }],
         temperature: [75, 85],
         quantity: '1:50',
@@ -19,8 +18,8 @@ const brewList = [
         method: 'gaiwan'
     },
     {
-        type: typeList.green,
-        criteria_1: [
+        type: 'green',
+        criteria: [
             {
                 cn: 'yi ya yi er ye',
                 pinyin: '一芽一',
@@ -34,7 +33,7 @@ const brewList = [
         method: 'gaiwan'
     },
     {
-        type: typeList.yellow,
+        type: 'yellow',
         temperature: [85, 90],
         quantity: '1:50',
         duration: [30, 60, 120],
@@ -42,7 +41,7 @@ const brewList = [
         method: 'gaiwan'
     },
     {
-        type: typeList.white,
+        type: 'white',
         temperature: [90, 100],
         quantity: '1:20',
         duration: [30, 60, 120],
@@ -50,7 +49,7 @@ const brewList = [
         method: 'gaiwan'
     },
     {
-        type: typeList.white,
+        type: 'white',
         temperature: [80, 85],
         quantity: '1:50',
         duration: [120, 180, 240],
@@ -58,7 +57,7 @@ const brewList = [
         method: 'theiere'
     },
     {
-        type: typeList.blue,
+        type: 'blue',
         temperature: [95, 100],
         quantity: '1:20',
         duration: [25, 20, 25, 30, 40],
@@ -66,7 +65,7 @@ const brewList = [
         method: 'theiere'
     },
     {
-        type: typeList.blue,
+        type: 'blue',
         temperature: [90, 95],
         quantity: '1:20',
         duration: [20, 15, 20, 25, 35],
@@ -74,7 +73,7 @@ const brewList = [
         method: 'theiere'
     },
     {
-        type: typeList.blue,
+        type: 'blue',
         temperature: [85, 90],
         quantity: '1:20',
         duration: [25, 20, 25, 30, 40],
@@ -82,7 +81,7 @@ const brewList = [
         method: 'gaiwan'
     },
     {
-        type: typeList.red,
+        type: 'red',
         temperature: [85, 100],
         quantity: '1:20',
         duration: [20, 25, 30, 20],
@@ -90,7 +89,7 @@ const brewList = [
         method: 'gaiwan'
     },
     {
-        type: typeList.red,
+        type: 'red',
         temperature: [85],
         quantity: '1:50',
         duration: [160],
@@ -98,7 +97,7 @@ const brewList = [
         method: 'mug'
     },
     {
-        type: typeList.black,
+        type: 'black',
         temperature: [100],
         quantity: '1:100',
         duration: [1200],
@@ -106,20 +105,12 @@ const brewList = [
         method: 'bouilloire'
     },
     {
-        type: typeList.black,
+        type: 'black',
         temperature: [100],
         quantity: '1:100',
         duration: [1200],
         times: 'une fois',
         method: 'bouilloire'
-    },
-    {
-        type: typeList['pu er'],
-        temperature: [100],
-        quantity: '1:100',
-        duration: [60, 60, 60, 60, 60, 60, 60, 60, 60],
-        times: '20 fois et plus',
-        method: 'theiere'
     }
 ]
 
