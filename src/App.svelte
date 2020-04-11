@@ -60,7 +60,7 @@
 </style>
 
 <script>
-    import { type } from './stores.js'
+    import { type, criteria } from './stores.js'
     import AutoComplete from 'simple-svelte-autocomplete'
     import SelectType from './SelectType.svelte'
     import SelectCriteria from './SelectCriteria.svelte'
