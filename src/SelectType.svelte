@@ -1,12 +1,12 @@
 <script>
     export let typeList
 
-    const slugifyTypeTitle = typeTitleList =>
-        `${typeTitleList.cn} - ${typeTitleList.pinyin} - (thé ${typeTitleList.fr})`
+    const slugifyTranslation = expression =>
+        `${expression.cn} - ${expression.pinyin} - (thé ${expression.fr})`
 
     const typeParams = Object.values(typeList).map((typeTitle, index) => ({
         key: Object.keys(typeList)[index],
-        title: slugifyTypeTitle(typeTitle)
+        title: slugifyTranslation(typeTitle)
     }))
 </script>
 
