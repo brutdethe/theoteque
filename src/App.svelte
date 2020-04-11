@@ -60,6 +60,7 @@
 </style>
 
 <script>
+    import { type } from './stores.js'
     import AutoComplete from 'simple-svelte-autocomplete'
     import SelectType from './SelectType.svelte'
     import SelectCriteria from './SelectCriteria.svelte'
@@ -67,27 +68,9 @@
 
     const typeList = tea.typeList
 
-    let selectedType
-    let selectedColorObject
-
-    let teaSelected = {
-        type: '',
-        temperature: '',
-        quantity: '',
-        duration: [],
-        times: '',
-        method: ''
-    }
-
     const display = {
         temperature: temperature => {
             return `${temperature.join('° à ')} °`
-        }
-    }
-
-    function onChange(tea) {
-        if (typeList) {
-            teaSelected = JSON.parse(JSON.stringify(tea))
         }
     }
 </script>
@@ -97,20 +80,11 @@
     <p>pour apprendre à infuser les thés de Chine</p>
     <div class="tea-search">
         <SelectType {typeList} />
-        <SelectCriteria />
-        {#if selectedType}
-            <AutoComplete
-                items="{brewList}"
-                bind:selectedItem="{selectedColorObject}"
-                labelFieldName="name"
-                onChange="{tea => onChange(tea)}"
-                placeholder="trouvez votre type de feuille ici"
-                minCharactersToSearch="2"
-                noResultsText="pas de type de feuille correspondant"
-            />
+        {#if $type}
+            <SelectCriteria />
         {/if}
     </div>
-    {#if teaSelected.name}
+    {#if false}
         <ul>
             <h3>{teaSelected.name}</h3>
             <li>
