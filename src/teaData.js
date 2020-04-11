@@ -11,7 +11,7 @@ const typeList = {
 const brewList = [
     {
         type: typeList.green,
-        criteria_1: ['feuilles entières', 'xiao zhong hong cha', '小種紅茶'],
+        criteria: [{ cn: 'dan ya', pinyin: '單芽', fr: 'bourgeon' }],
         temperature: [75, 85],
         quantity: '1:50',
         duration: [30, 40],
@@ -20,7 +20,13 @@ const brewList = [
     },
     {
         type: typeList.green,
-        criteria_1: ['feuilles hachées', 'hong sui cha', '紅碎茶'],
+        criteria_1: [
+            {
+                cn: 'yi ya yi er ye',
+                pinyin: '一芽一',
+                fr: 'bourgeon et 1, 2, ou 3 feuilles'
+            }
+        ],
         temperature: [75, 85],
         quantity: '1:50',
         duration: [30, 40],
