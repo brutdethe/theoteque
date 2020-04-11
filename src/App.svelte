@@ -61,6 +61,7 @@
 
 <script>
     import AutoComplete from 'simple-svelte-autocomplete'
+    import Select from './Select.svelte'
 
     const typeList = {
         green: { cn: 'lǜ chá', pinyin: '綠茶', fr: 'vert' },
@@ -70,19 +71,6 @@
         red: { cn: 'hóng chá', pinyin: '紅茶', fr: 'rouge' },
         black: { cn: 'hēi chá', pinyin: '紅茶', fr: 'noir' },
         'pu er': { cn: 'pu er sheng chá', pinyin: '普洱生茶', fr: 'pu er' }
-    }
-
-    const slugifyType = typeTitleList =>
-        `${typeTitleList.cn} - ${typeTitleList.pinyin} - (${typeTitleList.fr})`
-
-    const typeTitleList = Object.values(typeList).map(typeTitle =>
-        slugifyType(typeTitle)
-    )
-
-    function findTypeBySlug(slug, typeList) {
-        return Object.keys(typeList).filter(
-            key => slugifyType(typeList[key]) === slug
-        )
     }
 
     const brewList = [
@@ -227,12 +215,7 @@
     <h1>Guide d'infusion</h1>
     <p>pour apprendre à infuser les thés de Chine</p>
     <div class="tea-search">
-        <AutoComplete
-            items="{typeTitleList}"
-            bind:selectedItem="{selectedType}"
-            placeholder="sélectionner un type de thé"
-            noResultsText="pas de type correspondant"
-        />
+        <Select {typeList} />
         {#if selectedType}
             <AutoComplete
                 items="{brewList}"
