@@ -4,6 +4,11 @@
 
     $: teas = brewList.filter(tea => tea.type === $type)
 
+    // les critères uniques sont sélectionnés par défaut
+    $: if (teas.length === 1) {
+        criteria.set(0)
+    }
+
     const slugifyTranslation = expression =>
         `${expression.cn} - ${expression.pinyin} - (${expression.fr})`
 </script>
