@@ -2,10 +2,9 @@
     main {
         text-align: center;
         padding: 1em;
-        width: 720px;
+        width: 900px;
         margin: 0 auto;
     }
-
     h1 {
         color: #2bed0a;
         text-transform: uppercase;
@@ -44,6 +43,7 @@
     <p>pour apprendre à infuser les thés de Chine</p>
     <div class="tea-search">
         <SelectType {typeList} />
+        <br />
         {#if $type}
             <SelectCriteria {brewList} />
         {/if}

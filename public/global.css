@@ -72,4 +72,5 @@ button:focus {
 
 select {
     height: 3em;
+    background: rgb(243, 248, 234);
 }
