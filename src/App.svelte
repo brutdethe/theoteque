@@ -48,7 +48,7 @@
         {/if}
     </div>
     {#if Number.isInteger($criteria)}
-        <DisplayBrew {teaSelected} />
+        <DisplayBrew />
     {:else}
         <img src="assets/logo.jpg" alt="tasse de thé" width="100px" />
         <blockquote>

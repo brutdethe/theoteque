@@ -1,10 +1,4 @@
 <style>
-    .tea-search {
-        text-align: left;
-        width: 80%;
-        margin: 4em auto;
-    }
-
     .times {
         font-style: italic;
     }
@@ -34,7 +28,7 @@
 </style>
 
 <script>
-    export let teaSelected
+    import { teaGroup } from './stores.js'
 
     const display = {
         temperature: temperature => {
@@ -52,20 +46,20 @@
             title="température"
             width="30px"
         />
-        {display.temperature(teaSelected.temperature)}
+        {display.temperature($teaGroup.temperature)}
     </li>
     <li>
         <img src="assets/temps.svg" alt="durée" title="durée" width="30px" />
-        {teaSelected.duration} sec
+        {$teaGroup.duration} sec
     </li>
     <li>
         <img
-            src="assets/{teaSelected.method}.svg"
-            alt="{teaSelected.method}"
+            src="assets/{$teaGroup.method}.svg"
+            alt="{$teaGroup.method}"
             width="50px"
-            title="{teaSelected.method}"
+            title="{$teaGroup.method}"
         />
-        ratio : {teaSelected.quantity}
+        ratio : {$teaGroup.quantity}
     </li>
-    <li class="times">infuser {teaSelected.times}</li>
+    <li class="times">infuser {$teaGroup.times}</li>
 </ul>
