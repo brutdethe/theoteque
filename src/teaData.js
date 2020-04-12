@@ -218,8 +218,8 @@ const brewList = [
         type: 'blue',
         criteria: [
             {
-                cn: 'dong fang mei ren',
-                pinyin: '',
+                cn: 'dōng fāng měi rén chá',
+                pinyin: '東方美人茶',
                 fr: 'oriental beauty'
             }
         ],
