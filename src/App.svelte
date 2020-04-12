@@ -6,46 +6,12 @@
         margin: 0 auto;
     }
 
-    .tea-search {
-        text-align: left;
-        width: 80%;
-        margin: 4em auto;
-    }
-
-    .times {
-        font-style: italic;
-    }
-
     h1 {
         color: #2bed0a;
         text-transform: uppercase;
         font-size: 4em;
         font-weight: 100;
         margin: 0;
-    }
-
-    ul {
-        position: absolute;
-        z-index: -1;
-        top: 250px;
-        left: 41.6%;
-        width: 50%;
-        box-shadow: 1px 1px 1px 1px #ccc;
-        width: 280px;
-        background: rgb(243, 248, 234);
-        margin: 1em auto;
-        text-align: left;
-        list-style: none;
-    }
-
-    li {
-        padding: 1em;
-    }
-
-    img {
-        margin: 0.5em;
-        vertical-align: middle;
-        display: inline-block;
     }
 
     blockquote {
@@ -64,15 +30,13 @@
     import AutoComplete from 'simple-svelte-autocomplete'
     import SelectType from './SelectType.svelte'
     import SelectCriteria from './SelectCriteria.svelte'
+    import DisplayBrew from './DisplayBrew.svelte'
     import tea from './teaData.js'
 
     const { typeList, brewList } = tea
+    let teaSelected
 
-    const display = {
-        temperature: temperature => {
-            return `${temperature.join('° à ')} °`
-        }
-    }
+    teaSelected = brewList[0]
 </script>
 
 <main>
@@ -84,38 +48,8 @@
             <SelectCriteria {brewList} />
         {/if}
     </div>
-    {#if false}
-        <ul>
-            <h3>{teaSelected.name}</h3>
-            <li>
-                <img
-                    src="assets/temperature.svg"
-                    alt="température"
-                    title="température"
-                    width="30px"
-                />
-                {display.temperature(teaSelected.temperature)}
-            </li>
-            <li>
-                <img
-                    src="assets/temps.svg"
-                    alt="durée"
-                    title="durée"
-                    width="30px"
-                />
-                {teaSelected.duration} sec
-            </li>
-            <li>
-                <img
-                    src="assets/{teaSelected.method}.svg"
-                    alt="{teaSelected.method}"
-                    width="50px"
-                    title="{teaSelected.method}"
-                />
-                ratio : {teaSelected.quantity}
-            </li>
-            <li class="times">infuser {teaSelected.times}</li>
-        </ul>
+    {#if Number.isInteger($criteria)}
+        <DisplayBrew {teaSelected} />
     {:else}
         <img src="assets/logo.jpg" alt="tasse de thé" width="100px" />
         <blockquote>
