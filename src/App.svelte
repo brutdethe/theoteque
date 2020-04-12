@@ -13,6 +13,10 @@
         margin: 0;
     }
 
+    .tea-search {
+        margin: 5em;
+    }
+
     blockquote {
         text-align: justify;
     }
