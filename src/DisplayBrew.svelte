@@ -9,14 +9,13 @@
         font-style: italic;
     }
 
+    h2 {
+        padding: 0.5em;
+    }
+
     ul {
-        position: absolute;
-        z-index: -1;
-        top: 350px;
-        left: 41.6%;
-        width: 50%;
+        width: 40%;
         box-shadow: 1px 1px 1px 1px #ccc;
-        width: 280px;
         background: rgb(243, 248, 234);
         margin: 1em auto;
         text-align: left;
@@ -45,6 +44,7 @@
 </script>
 
 <ul>
+    <h2>Conseil d'infusion</h2>
     <li>
         <img
             src="assets/temperature.svg"
