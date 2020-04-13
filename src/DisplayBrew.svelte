@@ -48,10 +48,17 @@
         />
         {display.temperature($brew.temperature)}
     </li>
-    <li>
-        <img src="assets/temps.svg" alt="durée" title="durée" width="30px" />
-        {$brew.duration} sec
-    </li>
+    {#if $brew.duration}
+        <li>
+            <img
+                src="assets/temps.svg"
+                alt="durée"
+                title="durée"
+                width="30px"
+            />
+            {$brew.duration} sec
+        </li>
+    {/if}
     <li>
         <img
             src="assets/{$brewStyle}.svg"
@@ -61,5 +68,7 @@
         />
         ratio : {$brew.quantity}
     </li>
-    <li class="times">infuser {$brew.times}</li>
+    {#if $brew.times}
+        <li class="times">infuser {$brew.times}</li>
+    {/if}
 </ul>
