@@ -38,7 +38,7 @@ const brewData = [
             {
                 cn: 'èr yè',
                 pinyin: '二葉',
-                fr: '1 bourgeon et 1 feuille'
+                fr: '1 bourgeon et 2 ou 3 feuilles'
             }
         ],
         brew_style: {
@@ -58,9 +58,9 @@ const brewData = [
         type: 'green',
         criteria: [
             {
-                cn: 'yī yá yī',
-                pinyin: '一芽一',
-                fr: '1 bourgeon et 2 ou 3 feuilles'
+                cn: 'yī yá yī yè',
+                pinyin: '一芽一葉',
+                fr: '1 bourgeon et 1 feuille'
             }
         ],
         brew_style: {
