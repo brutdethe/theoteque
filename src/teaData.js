@@ -356,7 +356,7 @@ const brewList = [
 
 const tea = {
     typeList: typeList,
-    brewStyleList: brewMethodList,
+    brewStyleList: brewStyleList,
     brewList: brewList
 }
 
