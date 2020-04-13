@@ -112,9 +112,41 @@ const brewList = [
         type: 'yellow',
         criteria: [
             {
-                cn: 'Huáng yá chá, huáng xiǎo chá, huáng dà chá',
-                pinyin: '黃芽茶, 黃小茶, 黃大茶',
-                fr: '1 bourgeon et 1, 2 ou 3 feuilles'
+                cn: 'huáng yá cháá',
+                pinyin: '黃芽茶',
+                fr: '1 bourgeon et 1 feuille'
+            }
+        ],
+        brewing: {
+            granpa: {
+                temperature: [85, 90],
+                quantity: '1:50'
+            }
+        }
+    },
+    {
+        type: 'yellow',
+        criteria: [
+            {
+                cn: 'huáng xiǎo chá',
+                pinyin: '黃小茶',
+                fr: '1 bourgeon et 2 feuilles'
+            }
+        ],
+        brewing: {
+            granpa: {
+                temperature: [85, 90],
+                quantity: '1:50'
+            }
+        }
+    },
+    {
+        type: 'yellow',
+        criteria: [
+            {
+                cn: 'huáng dà chá',
+                pinyin: '黃大茶',
+                fr: '1 bourgeon et 3 feuilles'
             }
         ],
         brewing: {
