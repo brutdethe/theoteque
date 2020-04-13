@@ -14,7 +14,7 @@
     }
 
     .tea-search {
-        margin: 5em;
+        margin: 3em;
     }
 
     blockquote {
@@ -30,14 +30,13 @@
 
 <script>
     import { type, criteria, brewStyle } from './stores.js'
+    import tea from './teaData.js'
     import SelectType from './SelectType.svelte'
     import SelectCriteria from './SelectCriteria.svelte'
     import SelectBrewType from './SelectBrewStyle.svelte'
     import DisplayBrew from './DisplayBrew.svelte'
-    import tea from './teaData.js'
 
     const { typeData, brewStyleData, brewData } = tea
-    let teaSelected
 </script>
 
 <main>
@@ -45,11 +44,9 @@
     <p>pour apprendre à infuser les thés de Chine</p>
     <div class="tea-search">
         <SelectType {typeData} />
-        <br />
         {#if $type}
             <SelectCriteria {brewData} />
         {/if}
-        <br />
         {#if $criteria}
             <SelectBrewType {brewData} {brewStyleData} />
         {/if}
