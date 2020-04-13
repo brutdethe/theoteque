@@ -1,5 +1,5 @@
 <script>
-    import { type, criteria } from './stores.js'
+    import { type, criteria, brewStyle } from './stores.js'
 
     export let brewList
 
@@ -12,9 +12,17 @@
 
     const slugifyTranslation = expression =>
         `${expression.cn} - ${expression.pinyin} - (${expression.fr})`
+
+    const resetBrewStyle = () => {
+        brewStyle.set('')
+    }
 </script>
 
-<select name="criteria-list" bind:value="{$criteria}">
+<select
+    name="criteria-list"
+    bind:value="{$criteria}"
+    on:change="{resetBrewStyle}"
+>
     <option disabled selected value>-- sélectionner un critère --</option>
     {#each teaList as tea}
         <option value="{tea.criteria[0].cn}">

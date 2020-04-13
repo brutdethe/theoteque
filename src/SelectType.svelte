@@ -1,5 +1,5 @@
 <script>
-    import { type, criteria } from './stores.js'
+    import { type, criteria, brewStyle } from './stores.js'
 
     export let typeList
 
@@ -11,10 +11,17 @@
         title: slugifyTranslation(typeTitle)
     }))
 
-    const resetCriteria = () => criteria.set('')
+    const resetCriteriaAndBrewStyle = () => {
+        brewStyle.set('')
+        criteria.set('')
+    }
 </script>
 
-<select name="type-list" bind:value="{$type}" on:change="{resetCriteria}">
+<select
+    name="type-list"
+    bind:value="{$type}"
+    on:change="{resetCriteriaAndBrewStyle}"
+>
     <option disabled selected value>-- sélectionner un type de thé --</option>
     {#each typeParams as typeParam}
         <option value="{typeParam.key}">{typeParam.title}</option>
