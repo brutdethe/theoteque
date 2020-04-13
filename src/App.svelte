@@ -37,8 +37,6 @@
 
     const { typeList, brewList } = tea
     let teaSelected
-
-    teaSelected = brewList[0]
 </script>
 
 <main>
@@ -51,7 +49,7 @@
             <SelectCriteria {brewList} />
         {/if}
     </div>
-    {#if Number.isInteger($criteria)}
+    {#if teaSelected}
         <DisplayBrew />
     {:else}
         <img src="assets/logo.jpg" alt="tasse de thé" width="100px" />
