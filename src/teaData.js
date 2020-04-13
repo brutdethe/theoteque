@@ -36,9 +36,31 @@ const brewList = [
         type: 'green',
         criteria: [
             {
-                cn: 'yī yá yī, èr yè',
-                pinyin: '一芽一, 二葉',
-                fr: '1 bourgeon et 1, 2, ou 3 feuilles'
+                cn: 'èr yè',
+                pinyin: '二葉',
+                fr: '1 bourgeon et 1 feuille'
+            }
+        ],
+        brew_style: {
+            gaiwan: {
+                temperature: [80, 85],
+                quantity: '1:30',
+                duration: [20, 30, 40, 60],
+                times: '2 fois ou plus'
+            },
+            granpa: {
+                temperature: [80, 85],
+                quantity: '1:50'
+            }
+        }
+    },
+    {
+        type: 'green',
+        criteria: [
+            {
+                cn: 'yī yá yī',
+                pinyin: '一芽一',
+                fr: '1 bourgeon et 2 ou 3 feuilles'
             }
         ],
         brew_style: {
