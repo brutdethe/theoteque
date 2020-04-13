@@ -28,7 +28,12 @@
 </style>
 
 <script>
-    import { teaGroup } from './stores.js'
+    import { type, criteria, brewStyle } from './stores.js'
+    import tea from './teaData.js'
+
+    $: brew = tea.brewData.filter(
+        tea => tea.type === $type && tea.criteria[0].cn === $criteria
+    )[0].brew_style[$brewStyle]
 
     const display = {
         temperature: temperature => {
@@ -46,20 +51,29 @@
             title="température"
             width="30px"
         />
-        {display.temperature($teaGroup.temperature)}
+        {display.temperature(brew.temperature)}
     </li>
-    <li>
-        <img src="assets/temps.svg" alt="durée" title="durée" width="30px" />
-        {$teaGroup.duration} sec
-    </li>
+    {#if brew.duration}
+        <li>
+            <img
+                src="assets/temps.svg"
+                alt="durée"
+                title="durée"
+                width="30px"
+            />
+            {brew.duration} sec
+        </li>
+    {/if}
     <li>
         <img
-            src="assets/{$teaGroup.method}.svg"
-            alt="{$teaGroup.method}"
+            src="assets/{$brewStyle}.svg"
+            alt="{$brewStyle}"
             width="50px"
-            title="{$teaGroup.method}"
+            title="{$brewStyle}"
         />
-        ratio : {$teaGroup.quantity}
+        ratio : {brew.quantity}
     </li>
-    <li class="times">infuser {$teaGroup.times}</li>
+    {#if brew.times}
+        <li class="times">infuser {brew.times}</li>
+    {/if}
 </ul>

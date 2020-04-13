@@ -14,7 +14,7 @@
     }
 
     .tea-search {
-        margin: 5em;
+        margin: 3em;
     }
 
     blockquote {
@@ -29,29 +29,29 @@
 </style>
 
 <script>
-    import { type, criteria } from './stores.js'
+    import { type, criteria, brewStyle } from './stores.js'
+    import tea from './teaData.js'
     import SelectType from './SelectType.svelte'
     import SelectCriteria from './SelectCriteria.svelte'
+    import SelectBrewType from './SelectBrewStyle.svelte'
     import DisplayBrew from './DisplayBrew.svelte'
-    import tea from './teaData.js'
 
-    const { typeList, brewList } = tea
-    let teaSelected
-
-    teaSelected = brewList[0]
+    const { typeData, brewStyleData, brewData } = tea
 </script>
 
 <main>
     <h1>Guide d'infusion</h1>
     <p>pour apprendre à infuser les thés de Chine</p>
     <div class="tea-search">
-        <SelectType {typeList} />
-        <br />
+        <SelectType {typeData} />
         {#if $type}
-            <SelectCriteria {brewList} />
+            <SelectCriteria {brewData} />
+        {/if}
+        {#if $criteria}
+            <SelectBrewType {brewData} {brewStyleData} />
         {/if}
     </div>
-    {#if Number.isInteger($criteria)}
+    {#if $brewStyle}
         <DisplayBrew />
     {:else}
         <img src="assets/logo.jpg" alt="tasse de thé" width="100px" />
@@ -63,7 +63,7 @@
         </blockquote>
         <blockquote>
             Si vous découvrez le monde des thés authentiques, les indications
-            prodigués vous permettront de découvrir une porte d'entrée. Vous
+            prodiguées vous permettront de découvrir une porte d'entrée. Vous
             comprendrez peu à peu que chaque thé, chaque instant de dégustation
             et chaque personne étant différents ces indications utiles au départ
             se révéleront pauvres au regard de vos intuitions.
