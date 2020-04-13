@@ -1,14 +1,14 @@
 <script>
     import { type, criteria, brewStyle } from './stores.js'
 
-    export let typeList
+    export let typeData
 
     const slugifyTranslation = expression =>
         `${expression.cn} - ${expression.pinyin} - (thé ${expression.fr})`
 
-    const typeParams = Object.values(typeList).map((typeTitle, index) => ({
-        key: Object.keys(typeList)[index],
-        title: slugifyTranslation(typeTitle)
+    const typeParams = Object.values(typeData).map((type, index) => ({
+        key: Object.keys(typeData)[index],
+        title: slugifyTranslation(type)
     }))
 
     const resetCriteriaAndBrewStyle = () => {

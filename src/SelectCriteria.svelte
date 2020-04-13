@@ -1,9 +1,9 @@
 <script>
     import { type, criteria, brewStyle } from './stores.js'
 
-    export let brewList
+    export let brewData
 
-    $: teaList = brewList.filter(tea => tea.type === $type)
+    $: teaList = brewData.filter(tea => tea.type === $type)
 
     // select by default when type as only one criteria
     $: if (teaList.length === 1) {

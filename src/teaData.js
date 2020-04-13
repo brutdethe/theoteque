@@ -1,4 +1,4 @@
-const typeList = {
+const typeData = {
     green: { cn: 'lǜ chá', pinyin: '綠茶', fr: 'vert' },
     white: { cn: 'bái chá', pinyin: '白茶', fr: 'blanc' },
     yellow: { cn: 'huáng chá', pinyin: '黃茶', fr: 'jaune' },
@@ -7,7 +7,7 @@ const typeList = {
     black: { cn: 'hēi chá', pinyin: '黑茶', fr: 'noir' }
 }
 
-const brewStyleList = {
+const brewStyleData = {
     gaiwan: { cn: 'gàiwǎn pào', pinyin: '蓋碗泡', fr: 'gaiwan' },
     zhong: { cn: 'zhōng pào', pinyin: '盅', fr: 'zhong' },
     teapot: { cn: 'gōng fū chá', pinyin: '功夫茶', fr: 'gong fu cha' },
@@ -15,7 +15,7 @@ const brewStyleList = {
     kettle: { cn: 'shāo shuǐhú', pinyin: '烧水壶', fr: 'bouilloire' }
 }
 
-const brewList = [
+const brewData = [
     {
         type: 'green',
         criteria: [{ cn: 'dān yá', pinyin: '單芽', fr: '1 bourgeon' }],
@@ -377,9 +377,9 @@ const brewList = [
 ]
 
 const tea = {
-    typeList: typeList,
-    brewStyleList: brewStyleList,
-    brewList: brewList
+    typeData: typeData,
+    brewStyleData: brewStyleData,
+    brewData: brewData
 }
 
 export default tea

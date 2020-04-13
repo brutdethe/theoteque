@@ -29,31 +29,31 @@
 </style>
 
 <script>
-    import { type, criteria } from './stores.js'
+    import { type, criteria, brewStyle } from './stores.js'
     import SelectType from './SelectType.svelte'
     import SelectCriteria from './SelectCriteria.svelte'
     import SelectBrewType from './SelectBrewStyle.svelte'
     import DisplayBrew from './DisplayBrew.svelte'
     import tea from './teaData.js'
 
-    const { typeList, brewStyleList, brewList } = tea
+    const { typeData, brewStyleData, brewData } = tea
     let teaSelected
 </script>
 
 <main>
-    type: {$type} - criteria: {$criteria}
+    type: {$type} - criteria: {$criteria} - brewStyle: {$brewStyle}
     <hr />
     <h1>Guide d'infusion</h1>
     <p>pour apprendre à infuser les thés de Chine</p>
     <div class="tea-search">
-        <SelectType {typeList} />
+        <SelectType {typeData} />
         <br />
         {#if $type}
-            <SelectCriteria {brewList} />
+            <SelectCriteria {brewData} />
         {/if}
         <br />
         {#if $criteria}
-            <SelectBrewType {brewList} />
+            <SelectBrewType {brewData} {brewStyleData} />
         {/if}
     </div>
     {#if false}
