@@ -15,7 +15,7 @@
 </script>
 
 <select name="type-list" bind:value="{$type}" on:change="{resetCriteria}">
-    <option disabled selected>-- sélectionner un type de thé --</option>
+    <option disabled selected value>-- sélectionner un type de thé --</option>
     {#each typeParams as typeParam}
         <option value="{typeParam.key}">{typeParam.title}</option>
     {/each}
