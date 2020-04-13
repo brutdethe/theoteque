@@ -1,16 +1,22 @@
 <script>
     import { type, criteria, brewStyle } from './stores.js'
 
-    export let brewList, brewStyleList
+    export let brewList
 
-    const slugifyTranslation = expression =>
-        `${expression.cn} - ${expression.pinyin} - (${expression.fr})`
+    const getTeaByTypeAndCriteria = (teaList, type, criteria) =>
+        teaList.filter(
+            tea => tea.type === type && tea.criteria[0].cn === criteria
+        )[0]
 
-    $: teas = brewList.filter(tea => tea.type === $type)
+    const getBrewStyleList = tea => Object.keys(tea.brew_style)
+
+    $: brewStyleList = getBrewStyleList(
+        getTeaByTypeAndCriteria(brewList, $type, $criteria)
+    )
 
     // les critères uniques sont sélectionnés par défaut
-    $: if (teas.length === 1) {
-        brewStyle.set(0)
+    $: if (brewStyleList.length === 1) {
+        brewStyle.set(brewStyleList[0])
     }
 </script>
 
@@ -18,7 +24,7 @@
     <option disabled selected value>
         -- sélectionner un style d'infusion --
     </option>
-    {#each teas as tea, index}
-        <option value="{index}">{slugifyTranslation(tea.methods[0])}</option>
+    {#each brewStyleList as brewStyle}
+        <option value="{brewStyle}">{brewStyle}</option>
     {/each}
 </select>
