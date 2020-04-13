@@ -11,7 +11,7 @@
         title: slugifyTranslation(typeTitle)
     }))
 
-    const resetCriteria = () => criteria.set('')
+    const resetCriteria = () => criteria.set(undefined)
 </script>
 
 <select name="type-list" bind:value="{$type}" on:change="{resetCriteria}">

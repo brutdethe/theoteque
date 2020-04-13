@@ -49,7 +49,7 @@
         {#if $type}
             <SelectCriteria {brewList} />
         {/if}
-        {#if $criteria}
+        {#if Number.isInteger($criteria)}
             <SelectBrewType />
         {/if}
     </div>
