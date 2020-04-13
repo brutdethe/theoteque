@@ -32,15 +32,17 @@
     import { type, criteria } from './stores.js'
     import SelectType from './SelectType.svelte'
     import SelectCriteria from './SelectCriteria.svelte'
-    import SelectBrewType from './SelectBrewType.svelte'
+    import SelectBrewType from './SelectBrewStyle.svelte'
     import DisplayBrew from './DisplayBrew.svelte'
     import tea from './teaData.js'
 
-    const { typeList, brewList } = tea
+    const { typeList, brewStyleList, brewList } = tea
     let teaSelected
 </script>
 
 <main>
+    type: {$type} - criteria: {$criteria}
+    <hr />
     <h1>Guide d'infusion</h1>
     <p>pour apprendre à infuser les thés de Chine</p>
     <div class="tea-search">
@@ -50,10 +52,10 @@
             <SelectCriteria {brewList} />
         {/if}
         {#if Number.isInteger($criteria)}
-            <SelectBrewType />
+            <SelectBrewType {brewList} {brewStyleList} />
         {/if}
     </div>
-    {#if teaSelected}
+    {#if false}
         <DisplayBrew />
     {:else}
         <img src="assets/logo.jpg" alt="tasse de thé" width="100px" />
