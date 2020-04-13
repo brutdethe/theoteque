@@ -63,7 +63,7 @@
         </blockquote>
         <blockquote>
             Si vous découvrez le monde des thés authentiques, les indications
-            prodigués vous permettront de découvrir une porte d'entrée. Vous
+            prodiguées vous permettront de découvrir une porte d'entrée. Vous
             comprendrez peu à peu que chaque thé, chaque instant de dégustation
             et chaque personne étant différents ces indications utiles au départ
             se révéleront pauvres au regard de vos intuitions.
