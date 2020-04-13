@@ -7,7 +7,7 @@ const typeList = {
     black: { cn: 'hēi chá', pinyin: '黑茶', fr: 'noir' }
 }
 
-const brewMethodList = {
+const brewStyleList = {
     gaiwan: { cn: 'gàiwǎn pào', pinyin: '蓋碗泡', fr: 'gaiwan' },
     zhong: { cn: 'zhōng pào', pinyin: '盅', fr: 'zhong' },
     teapot: { cn: 'gōng fū chá', pinyin: '功夫茶', fr: 'gong fu cha' },
@@ -19,7 +19,7 @@ const brewList = [
     {
         type: 'green',
         criteria: [{ cn: 'dān yá', pinyin: '單芽', fr: '1 bourgeon' }],
-        brewing: {
+        brew_style: {
             gaiwan: {
                 temperature: [75, 80],
                 quantity: '1:30',
@@ -41,14 +41,14 @@ const brewList = [
                 fr: '1 bourgeon et 1, 2, ou 3 feuilles'
             }
         ],
-        brewing: {
+        brew_style: {
             gaiwan: {
                 temperature: [80, 85],
                 quantity: '1:30',
                 duration: [20, 30, 40, 60],
                 times: '2 fois ou plus'
             },
-            'bei pao': {
+            granpa: {
                 temperature: [80, 85],
                 quantity: '1:50'
             }
@@ -63,7 +63,7 @@ const brewList = [
                 fr: '1 bourgeon et 1 feuille ou bourgeon seul'
             }
         ],
-        brewing: {
+        brew_style: {
             gaiwan: {
                 temperature: [90],
                 quantity: '1:20',
@@ -81,7 +81,7 @@ const brewList = [
                 fr: '1 bourgeon et 1 ou 2 feuilles'
             }
         ],
-        brewing: {
+        brew_style: {
             gaiwan: {
                 temperature: [95],
                 quantity: '1:30',
@@ -99,7 +99,7 @@ const brewList = [
                 fr: '1 bourgeon et 3 feuilles'
             }
         ],
-        brewing: {
+        brew_style: {
             gaiwan: {
                 temperature: [100],
                 quantity: '1:30',
@@ -117,7 +117,7 @@ const brewList = [
                 fr: '1 bourgeon et 1 feuille'
             }
         ],
-        brewing: {
+        brew_style: {
             granpa: {
                 temperature: [85, 90],
                 quantity: '1:50'
@@ -133,7 +133,7 @@ const brewList = [
                 fr: '1 bourgeon et 2 feuilles'
             }
         ],
-        brewing: {
+        brew_style: {
             granpa: {
                 temperature: [85, 90],
                 quantity: '1:50'
@@ -149,7 +149,7 @@ const brewList = [
                 fr: '1 bourgeon et 3 feuilles'
             }
         ],
-        brewing: {
+        brew_style: {
             granpa: {
                 temperature: [85, 90],
                 quantity: '1:50'
@@ -165,7 +165,7 @@ const brewList = [
                 fr: 'sombre, brun, rouge'
             }
         ],
-        brewing: {
+        brew_style: {
             gaiwan: {
                 temperature: [95, 100],
                 quantity: '1:20',
@@ -183,7 +183,7 @@ const brewList = [
                 fr: 'sombre, brun, rouge'
             }
         ],
-        brewing: {
+        brew_style: {
             gaiwan: {
                 temperature: [95, 100],
                 quantity: '1:20',
@@ -201,7 +201,7 @@ const brewList = [
                 fr: 'vert clair, vert foncé'
             }
         ],
-        brewing: {
+        brew_style: {
             gaiwan: {
                 temperature: [90, 100],
                 quantity: '1:20',
@@ -225,7 +225,7 @@ const brewList = [
                 fr: 'vert clair, vert foncé'
             }
         ],
-        brewing: {
+        brew_style: {
             gaiwan: {
                 temperature: [90, 100],
                 quantity: '1:20',
@@ -255,7 +255,7 @@ const brewList = [
                 fr: 'oriental beauty'
             }
         ],
-        brewing: {
+        brew_style: {
             gaiwan: {
                 temperature: [85, 95],
                 quantity: '1:20',
@@ -273,7 +273,7 @@ const brewList = [
                 fr: 'feuilles entières'
             }
         ],
-        brewing: {
+        brew_style: {
             gaiwan: {
                 temperature: [85, 95],
                 quantity: '1:20',
@@ -291,7 +291,7 @@ const brewList = [
                 fr: 'feuilles entières'
             }
         ],
-        brewing: {
+        brew_style: {
             gaiwan: {
                 temperature: [85, 95],
                 quantity: '1:20',
@@ -309,7 +309,7 @@ const brewList = [
                 fr: 'feuilles concassées ou en perle'
             }
         ],
-        brewing: {
+        brew_style: {
             granpa: {
                 temperature: [85],
                 quantity: '1:50'
@@ -325,7 +325,7 @@ const brewList = [
                 fr: 'thé noir'
             }
         ],
-        brewing: {
+        brew_style: {
             kettle: {
                 temperature: [100],
                 quantity: '1:100',
@@ -343,7 +343,7 @@ const brewList = [
                 fr: 'pu er cuit'
             }
         ],
-        brewing: {
+        brew_style: {
             kettle: {
                 temperature: [100],
                 quantity: '1:100',
