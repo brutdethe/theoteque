@@ -41,8 +41,6 @@
 </script>
 
 <main>
-    type: {$type} - criteria: {$criteria} - brewStyle: {$brewStyle}
-    <hr />
     <h1>Guide d'infusion</h1>
     <p>pour apprendre à infuser les thés de Chine</p>
     <div class="tea-search">
@@ -56,7 +54,7 @@
             <SelectBrewType {brewData} {brewStyleData} />
         {/if}
     </div>
-    {#if false}
+    {#if $brewStyle}
         <DisplayBrew />
     {:else}
         <img src="assets/logo.jpg" alt="tasse de thé" width="100px" />
