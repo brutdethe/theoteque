@@ -29,7 +29,7 @@
     </option>
     {#each brewStyleList as brewStyle}
         <option value="{brewStyle}">
-            {brewStyle} - {brewStyleData[brewStyle]}
+            {slugifyTranslation(brewStyleData[brewStyle])}
         </option>
     {/each}
 </select>
