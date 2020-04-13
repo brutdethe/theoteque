@@ -11,8 +11,8 @@ const brewMethodList = {
     gaiwan: { cn: 'pǐn chá', pinyin: '品茶', fr: 'gaiwan' },
     zhong: { cn: 'zhōng', pinyin: '盅', fr: 'zhong' },
     teapot: { cn: 'gōng fū chá', pinyin: '功夫茶', fr: 'gong fu cha' },
-    granpa: { cn: 'bei pao', pinyin: '', fr: 'classique' },
-    kettle: { cn: '', pinyin: '', fr: 'bouilloire' }
+    granpa: { cn: 'bēi pào', pinyin: '杯泡', fr: 'classique' },
+    kettle: { cn: 'shāo shuǐhú', pinyin: '烧水壶', fr: 'bouilloire' }
 }
 
 const brewList = [
