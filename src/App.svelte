@@ -32,6 +32,7 @@
     import { type, criteria } from './stores.js'
     import SelectType from './SelectType.svelte'
     import SelectCriteria from './SelectCriteria.svelte'
+    import SelectBrewType from './SelectBrewType.svelte'
     import DisplayBrew from './DisplayBrew.svelte'
     import tea from './teaData.js'
 
@@ -47,6 +48,9 @@
         <br />
         {#if $type}
             <SelectCriteria {brewList} />
+        {/if}
+        {#if $criteria}
+            <SelectBrewType />
         {/if}
     </div>
     {#if teaSelected}
