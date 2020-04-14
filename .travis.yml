@@ -10,7 +10,7 @@ deploy:
     keep_history: true
     local_dir: public
     on:
-        branch: travis
+        branch: master
 
 env:
     global:
