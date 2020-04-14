@@ -8,11 +8,11 @@ const typeData = {
 }
 
 const brewStyleData = {
-    gaiwan: { cn: 'gàiwǎn pào fǎ.', pinyin: '蓋碗泡法', fr: 'gaiwan' },
-    zhong: { cn: 'chá zhōng pào fǎ.', pinyin: '茶盅泡法', fr: 'zhong' },
-    teapot: { cn: 'xiao hu pào fǎ.', pinyin: '小壺泡法', fr: 'gong fu cha' },
-    granpa: { cn: 'chá bēi pào fǎ.', pinyin: '茶杯泡法', fr: 'classique' },
-    kettle: { cn: 'zhu pào fǎ.', pinyin: '煮泡法', fr: 'bouilloire' }
+    gaiwan: { cn: 'gàiwǎn pào fǎ', pinyin: '蓋碗泡法', fr: 'gaiwan' },
+    zhong: { cn: 'chá zhōng pào fǎ', pinyin: '茶盅泡法', fr: 'zhong' },
+    teapot: { cn: 'xiao hu pào fǎ', pinyin: '小壺泡法', fr: 'gong fu cha' },
+    granpa: { cn: 'chá bēi pào fǎ', pinyin: '茶杯泡法', fr: 'classique' },
+    kettle: { cn: 'zhu pào fǎ', pinyin: '煮泡法', fr: 'bouilloire' }
 }
 
 const brewData = [
