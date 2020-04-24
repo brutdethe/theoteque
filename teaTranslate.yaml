@@ -25,48 +25,68 @@
 # Appareance
 # -------------
 
-一芽
+一芽:
   - pinyin: yī yá
   - fr: un bourgeon
-一芽二
+一芽二:
   - pinyin: yī yá èr
   - fr: un bourgeon et deux
-一二葉
+一二葉:
   - pinyin: yī èr yè
   - fr: une ou deux feuilles
-一芽一葉
+一芽一葉:
   - pinyin: yī yá yī yè
   - fr: un bourgeon et une feuille
-一芽二葉
+一芽二葉:
   - pinyin: yī yá èr yè
   - fr: un bourgeon et deux feuilles
-一芽三葉
+一芽三葉:
   - pinyin: yī yá sān yè
   - fr: un bourgeon et trois feuilles
-三葉
+三葉:
   - pinyin: sān yè
   - fr: trois feuilles
-芽葉
+芽葉:
   - pinyin: yá yè
   - fr: feuille de bourgeon
-單壯葉
+單壯葉:
   - pinyin: dān zhuàng yè
   - fr: feuille robuste
-紅碎茶
+紅碎茶:
   - pinyin: hóng suì chá
   - fr: feuilles hachées
-臺灣烏龍
+臺灣烏龍:
   - pinyin: táiwān wū lóng
   - fr: bourgeon avec deux feuilles
-閩北烏龍
+閩北烏龍:
   - pinyin: mǐn běi wū lóng
   - fr: feuilles mâtures
-小種紅茶
+小種紅茶:
   - pinyin: xiǎo zhǒng hóngchá
   - fr: bourgeon avec trois ou quatre feuilles 
-工夫紅茶
+工夫紅茶:
   - pinyin: gōng fū hóng chá
   - fr: bourgeon avec deux ou trois feuilles
+
+# ----------
+# Brewing
+# ----------
+
+蓋碗泡法:
+  - pinyin: gàiwǎn pào fǎ
+  - fr: infusion au gaiwan
+茶盅泡法:
+  - pinyin: chá zhōng pào fǎ
+  - fr: infusion au zhong
+小壺泡法:
+  - pinyin: xiao hu pào fǎ
+  - fr: gong fu cha
+茶杯泡法:
+  - pinyin: chá bēi pào fǎ
+  - fr: traditionnelle
+煮泡法:
+  - pinyin: zhu pào fǎ
+  - fr: bouilloire
 
 # -------
 # Tea
