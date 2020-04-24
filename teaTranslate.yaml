@@ -1,0 +1,156 @@
+# --------
+# Types
+# --------
+
+綠茶:
+  - pinyin: lǜ chá
+  - fr: thé vert
+白茶:
+  - pinyin: bái chá
+  - fr: thé blanc
+黃茶:
+  - pinyin: huáng chá
+  - fr: thé jaune
+青茶:
+  - pinyin: qīng chá
+  - fr: thé bleu
+紅茶:
+  - pinyin: hóng chá
+  - fr: thé rouge
+紅茶:
+  - pinyin: hēi chá
+  - fr: thé noir
+
+# -------------
+# Appareance
+# -------------
+
+一芽
+  - pinyin: yī yá
+  - fr: un bourgeon
+一芽二
+  - pinyin: yī yá èr
+  - fr: un bourgeon et deux
+一二葉
+  - pinyin: yī èr yè
+  - fr: une ou deux feuilles
+一芽一葉
+  - pinyin: yī yá yī yè
+  - fr: un bourgeon et une feuille
+一芽二葉
+  - pinyin: yī yá èr yè
+  - fr: un bourgeon et deux feuilles
+一芽三葉
+  - pinyin: yī yá sān yè
+  - fr: un bourgeon et trois feuilles
+三葉
+  - pinyin: sān yè
+  - fr: trois feuilles
+芽葉
+  - pinyin: yá yè
+  - fr: feuille de bourgeon
+單壯葉
+  - pinyin: dān zhuàng yè
+  - fr: feuille robuste
+紅碎茶
+  - pinyin: hóng suì chá
+  - fr: feuilles hachées
+臺灣烏龍
+  - pinyin: táiwān wū lóng
+  - fr: bourgeon avec deux feuilles
+閩北烏龍
+  - pinyin: mǐn běi wū lóng
+  - fr: feuilles mâtures
+小種紅茶
+  - pinyin: xiǎo zhǒng hóngchá
+  - fr: bourgeon avec trois ou quatre feuilles 
+工夫紅茶
+  - pinyin: gōng fū hóng chá
+  - fr: bourgeon avec deux ou trois feuilles
+
+# -------
+# Tea
+# -------
+
+碧螺春:
+  - pinyin: bì luó chūn
+湄潭翠芽:
+  - pinyin: méi tán cuì yá
+黄山毛峰:
+  - pinyin: huáng shān máo fēng
+龍井茶:
+  - pinyin: lóng jǐng chá
+都勻毛尖:
+  - pinyin: dū yún máo jiān
+信阳毛尖:
+  - pinyin: xìn yáng máo jiān
+竹葉青:
+  - pinyin: zhú yè qīng
+綠寶石:
+  - pinyin: lǜ bǎo shí
+頂谷大方:
+  - pinyin: dǐng gǔ dà fāng
+珠茶:
+  - pinyin: zhū chá
+太平猴魁:
+  - pinyin: tài píng hóu kuí
+綠寶石:
+  - pinyin: lǜ bǎo shí
+珠茶:
+  - pinyin: zhū chá
+六安瓜片:
+  - pinyin: liù ān guā piàn
+四季春:
+  - pinyin: sì jì chūn
+金萱:
+  - pinyin: jīn xuān
+坪林包種:
+  - pinyin: píng lín bāo zhǒng
+高山茶:
+  - pinyin: gāo shān chá
+木柵鐵觀音:
+  - pinyin: mù shān tiě guān yīn
+凍頂烏龍:
+  - pinyin: dòng dǐng wū lóng
+東方美人:
+  - pinyin: dōng fāng měi rén
+大紅袍:
+  - pinyin: dà hóng páo
+武夷水仙:
+  - pinyin: wǔ yí shuǐ xiān
+肉桂:
+  - pinyin: ròu guì
+ 鳳凰單叢:
+  - pinyin: fèng huáng dān cóng
+安溪鐵觀音:
+  - pinyin: ānxī tiě guān yīn
+本山茶:
+  - pinyin: běn shān chá
+毛蟹茶:
+  - pinyin: máo xiè chá
+黃金桂:
+  - pinyin: huáng jīn guì
+白毫銀針:
+  - pinyin: bái háo yín zhēn
+  白牡丹:
+  - pinyin: bái mǔ dān
+月光白:
+  - pinyin: yuè guāng bái
+貢眉:
+  - pinyin: gòng méi
+壽眉:
+  - pinyin: shòu méi
+雲南白茶磚:
+  - pinyin: yún nán bái chá zhuān
+正山小種:
+  - pinyin: zhèng shān xiǎo zhǒng
+外山小種:
+  - pinyin: wài shān xiǎo zhǒng
+祁門紅茶:
+  - pinyin: qí mén hóng chá
+白琳:
+  - pinyin: bái lín
+坦洋:
+  - pinyin: tǎn yáng
+紅碎茶:
+  - pinyin: hóng suì chá

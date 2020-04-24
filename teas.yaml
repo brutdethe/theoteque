@@ -1,0 +1,509 @@
+- zh: 碧螺春
+  type: 綠茶
+  appearance: 芽葉
+  temperature: [80, 85]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:30
+      duration: [25, 30, 45]
+      times: 2 fois ou plus
+
+- zh: 湄潭翠芽
+  type: 綠茶
+  appearance: 芽葉
+  temperature: [80]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:30
+      duration: [25, 30, 45]
+      times: 2 fois ou plus
+    - type: 茶杯泡法
+      quantity: 1:50
+
+- zh: 黄山毛峰
+  type: 綠茶
+  appearance: 一芽一葉
+  temperature: [80, 90]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:30
+      duration: [20, 30, 40, 60]
+      times: 2 fois ou plus
+    - type: 茶杯泡法
+      quantity: 1:50
+
+- zh: 龍井茶
+  type: 綠茶
+  appearance: 一芽一葉
+  temperature: [85]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:30
+      duration: [20, 30, 40, 60]
+      times: 2 fois ou plus
+    - type: 茶杯泡法
+      quantity: 1:50
+
+- zh: 都勻毛尖
+  type: 綠茶
+  appearance: 一芽一葉
+  temperature: [80]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:30
+      duration: [20, 30, 40, 60]
+      times: 2 fois ou plus
+    - type: 茶杯泡法
+      quantity: 1:50
+
+- zh: 信阳毛尖
+  type: 綠茶
+  appearance: 一芽一葉
+  temperature: [80]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:30
+      duration: [20, 30, 40, 60]
+      times: 2 fois ou plus
+    - type: 茶杯泡法
+      quantity: 1:50
+
+- zh: 竹葉青
+  type: 綠茶
+  appearance: 一芽一葉
+  temperature: [85]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:30
+      duration: [20, 30, 40, 60]
+      times: 2 fois ou plus
+    - type: 茶杯泡法
+      quantity: 1:50
+
+- zh: 綠寶石
+  type: 綠茶
+  appearance: 一芽二葉
+  temperature: [80, 85]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:30
+      duration: [20, 30, 40, 60]
+      times: 2 fois ou plus
+    - type: 茶杯泡法
+      quantity: 1:50
+
+- zh: 頂谷大方
+  type: 綠茶
+  appearance: 一芽二葉
+  temperature: [80]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:30
+      duration: [20, 30, 40, 60]
+      times: 2 fois ou plus
+    - type: 茶杯泡法
+      quantity: 1:50
+
+- zh: 珠茶
+  type: 綠茶
+  appearance: 一芽二葉
+  temperature: [90]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:30
+      duration: [20, 30, 40, 60]
+      times: 2 fois ou plus
+    - type: 茶杯泡法
+      quantity: 1:50
+
+- zh: 太平猴魁
+  type: 綠茶
+  appearance: 一芽三葉
+  temperature: [80, 90]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:30
+      duration: [20, 30, 40, 60]
+      times: 2 fois ou plus
+    - type: 茶杯泡法
+      quantity: 1:50
+
+- zh: 綠寶石
+  type: 綠茶
+  appearance: 一芽三葉
+  temperature: [80, 85]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:30
+      duration: [20, 30, 40, 60]
+      times: 2 fois ou plus
+    - type: 茶杯泡法
+      quantity: 1:50
+
+- zh: 珠茶
+  type: 綠茶
+  appearance: 一芽三葉
+  temperature: [90]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:30
+      duration: [20, 30, 40, 60]
+      times: 2 fois ou plus
+    - type: 茶杯泡法
+      quantity: 1:50
+
+- zh: 六安瓜片
+  type: 綠茶
+  appearance: 單壯葉
+  temperature: [85]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:30
+      duration: [20, 30, 40, 60]
+      times: 2 fois ou plus
+    - type: 茶杯泡法
+      quantity: 1:50
+
+- zh: 四季春
+  type: 青茶
+  appearance: 臺灣烏龍
+  temperature: [90]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+    - type: 小壺泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+    - type: 茶盅泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+
+- zh: 金萱
+  type: 青茶
+  appearance: 臺灣烏龍
+  temperature: [90]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+    - type: 小壺泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+    - type: 茶盅泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+
+- zh: 坪林包種
+  type: 青茶
+  appearance: 臺灣烏龍
+  temperature: [90]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+    - type: 小壺泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+    - type: 茶盅泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+
+- zh: 高山茶
+  type: 青茶
+  appearance: 臺灣烏龍
+  temperature: [95, 100]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+    - type: 小壺泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+    - type: 茶盅泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+
+- zh: 木柵鐵觀音
+  type: 青茶
+  appearance: 臺灣烏龍
+  temperature: [90, 95]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+    - type: 小壺泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+    - type: 茶盅泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+
+- zh: 凍頂烏龍
+  type: 青茶
+  appearance: 臺灣烏龍
+  temperature: [90, 95]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+    - type: 小壺泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+    - type: 茶盅泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+
+- zh: 東方美人
+  type: 青茶
+  appearance: 臺灣烏龍
+  temperature: [85, 90]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+    - type: 小壺泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+    - type: 茶盅泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+
+- zh: 大紅袍
+  type: 青茶
+  appearance: 閩北烏龍
+  temperature: [95, 100]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [15, 15, 15, 20, 25]
+      times: 5 fois ou plus
+
+- zh: 武夷水仙
+  type: 青茶
+  appearance: 閩北烏龍
+  temperature: [95, 100]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [15, 15, 15, 20, 25]
+      times: 5 fois ou plus
+
+- zh: 肉桂
+  type: 青茶
+  appearance: 閩北烏龍
+  temperature: [95, 100]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [15, 15, 15, 20, 25]
+      times: 5 fois ou plus
+
+- zh: 鳳凰單叢
+  type: 青茶
+  appearance: 廣東烏龍
+  temperature: [95, 100]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [15, 15, 15, 20, 25]
+      times: 5 fois ou plus
+
+- zh: 安溪鐵觀音
+  type: 青茶
+  appearance: 閩南烏龍
+  temperature: [90, 95]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+    - type: 小壺泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+
+- zh: 本山茶
+  type: 青茶
+  appearance: 閩南烏龍
+  temperature: [90, 95]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+    - type: 小壺泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+
+- zh: 毛蟹茶
+  type: 青茶
+  appearance: 閩南烏龍
+  temperature: [90, 95]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+    - type: 小壺泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+
+- zh: 黃金桂
+  type: 青茶
+  appearance: 閩南烏龍
+  temperature: [90, 95]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+    - type: 小壺泡法
+      quantity: 1:20
+      duration: [20, 15, 20, 25, 35]
+      times: 4 fois ou plus
+
+- zh: 白毫銀針
+  type: 白茶,白茶
+  appearance: 一芽一葉
+  temperature: [90]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [30, 40, 50, 60, 70, 90]
+      times: 5 fois ou plus
+
+- zh: 白牡丹
+  type: 白茶
+  appearance: [一芽, 一二葉]
+  temperature: [95]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:30
+      duration: [30, 40, 50, 60, 70]
+      times: 4 fois ou plus
+
+- zh: 月光白
+  type: 白茶
+  appearance: [一芽, 一二葉]
+  temperature: [95, 100]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:30
+      duration: [30, 40, 50, 60, 70]
+      times: 4 fois ou plus
+
+- zh: 貢眉
+  type: 白茶
+  appearance: [一芽二， 三葉]
+  temperature: [100]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:30
+      duration: [50, 60, 80, 100]
+      times: 4 fois ou plus
+
+- zh: 壽眉
+  type: 白茶
+  appearance: [一芽二， 三葉]
+  temperature: [100]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:30
+      duration: [50, 60, 80, 100]
+      times: 4 fois ou plus
+
+- zh: 雲南白茶磚
+  type: 白茶
+  appearance: [一芽二， 三葉]
+  temperature: [100]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:30
+      duration: [50, 60, 80, 100]
+      times: 4 fois ou plus
+
+- zh: 正山小種
+  type: 紅茶
+  appearance: 小種紅茶
+  temperature: [95, 100]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [25, 25, 30, 40]
+      times: 3 ou 4 fois
+
+- zh: 外山小種
+  type: 紅茶
+  appearance: 小種紅茶
+  temperature: [95, 100]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [25, 25, 30, 40]
+      times: 3 ou 4 fois
+
+- zh: 祁門紅茶
+  type: 紅茶
+  appearance: 工夫紅茶
+  temperature: [95, 100]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [25, 25, 30, 40]
+      times: 3 ou 4 fois
+
+- zh: 白琳
+  type: 紅茶
+  appearance: 工夫紅茶
+  temperature: [95, 100]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [25, 25, 30, 40]
+      times: 3 ou 4 fois
+
+- zh: 坦洋
+  type: 坦洋
+  appearance: 工夫紅茶
+  temperature: [95, 100]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [25, 25, 30, 40]
+      times: 3 ou 4 fois
+
+- zh: 紅碎茶
+  type: 坦洋
+  appearance: 紅碎茶
+  temperature: [85, 90]
+  brew:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [25, 25, 30, 40]
+      times: 3 ou 4 fois
+    - type: 蓋碗泡法
+        quantity: 1:50

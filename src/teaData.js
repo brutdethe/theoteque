@@ -134,7 +134,7 @@ const brewData = [
         type: 'yellow',
         criteria: [
             {
-                cn: 'huáng yá cháá',
+                cn: 'huáng yá chá',
                 pinyin: '黃芽茶',
                 fr: '1 bourgeon et 1 feuille'
             }
