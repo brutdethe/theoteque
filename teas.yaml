@@ -11,7 +11,7 @@
 - zh: 湄潭翠芽
   type: 綠茶
   appearance: 芽葉
-  temperature: [80]
+  temperature: 80
   brew:
     - type: 蓋碗泡法
       quantity: 1:30
@@ -35,7 +35,7 @@
 - zh: 龍井茶
   type: 綠茶
   appearance: 一芽一葉
-  temperature: [85]
+  temperature: 85
   brew:
     - type: 蓋碗泡法
       quantity: 1:30
@@ -47,7 +47,7 @@
 - zh: 都勻毛尖
   type: 綠茶
   appearance: 一芽一葉
-  temperature: [80]
+  temperature: 80
   brew:
     - type: 蓋碗泡法
       quantity: 1:30
@@ -59,7 +59,7 @@
 - zh: 信阳毛尖
   type: 綠茶
   appearance: 一芽一葉
-  temperature: [80]
+  temperature: 80
   brew:
     - type: 蓋碗泡法
       quantity: 1:30
@@ -71,7 +71,7 @@
 - zh: 竹葉青
   type: 綠茶
   appearance: 一芽一葉
-  temperature: [85]
+  temperature: 85
   brew:
     - type: 蓋碗泡法
       quantity: 1:30
@@ -95,7 +95,7 @@
 - zh: 頂谷大方
   type: 綠茶
   appearance: 一芽二葉
-  temperature: [80]
+  temperature: 80
   brew:
     - type: 蓋碗泡法
       quantity: 1:30
@@ -107,7 +107,7 @@
 - zh: 珠茶
   type: 綠茶
   appearance: 一芽二葉
-  temperature: [90]
+  temperature: 90
   brew:
     - type: 蓋碗泡法
       quantity: 1:30
@@ -143,7 +143,7 @@
 - zh: 珠茶
   type: 綠茶
   appearance: 一芽三葉
-  temperature: [90]
+  temperature: 90
   brew:
     - type: 蓋碗泡法
       quantity: 1:30
@@ -155,7 +155,7 @@
 - zh: 六安瓜片
   type: 綠茶
   appearance: 單壯葉
-  temperature: [85]
+  temperature: 85
   brew:
     - type: 蓋碗泡法
       quantity: 1:30
@@ -167,7 +167,7 @@
 - zh: 四季春
   type: 青茶
   appearance: 臺灣烏龍
-  temperature: [90]
+  temperature: 90
   brew:
     - type: 蓋碗泡法
       quantity: 1:20
@@ -185,7 +185,7 @@
 - zh: 金萱
   type: 青茶
   appearance: 臺灣烏龍
-  temperature: [90]
+  temperature: 90
   brew:
     - type: 蓋碗泡法
       quantity: 1:20
@@ -203,7 +203,7 @@
 - zh: 坪林包種
   type: 青茶
   appearance: 臺灣烏龍
-  temperature: [90]
+  temperature: 90
   brew:
     - type: 蓋碗泡法
       quantity: 1:20
@@ -389,7 +389,7 @@
 - zh: 白毫銀針
   type: 白茶,白茶
   appearance: 一芽一葉
-  temperature: [90]
+  temperature: 90
   brew:
     - type: 蓋碗泡法
       quantity: 1:20
@@ -506,4 +506,4 @@
       duration: [25, 25, 30, 40]
       times: 3 ou 4 fois
     - type: 蓋碗泡法
-        quantity: 1:50
+      quantity: 1:50
