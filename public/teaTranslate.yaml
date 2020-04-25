@@ -1,7 +1,5 @@
---- # --------
-
-# --------
 # Types
+
 綠茶:
   pinyin: lǜ chá
   fr: thé vert
@@ -21,9 +19,7 @@
   pinyin: hēi chá
   fr: thé noir
 
-# -------------
 # Appareance
-# -------------
 
 一芽:
   pinyin: yī yá
@@ -65,9 +61,7 @@
   pinyin: gōng fū hóng chá
   fr: bourgeon avec deux ou trois feuilles
 
-# ----------
 # Brewing
-# ----------
 
 蓋碗泡法:
   pinyin: GàiWǎn PàoFǎ
@@ -85,9 +79,7 @@
   pinyin: zhu pào fǎ
   fr: bouilloire
 
-# -------
 # Tea
-# -------
 
 碧螺春:
   pinyin: BìLuóChūn
