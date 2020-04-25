@@ -1,6 +1,7 @@
 - zh: 碧螺春
   type: 綠茶
-  appearance: 芽葉
+  picking: 芽葉
+  origin: Shiantsu
   temperature: [80, 85]
   brew:
     - type: 蓋碗泡法

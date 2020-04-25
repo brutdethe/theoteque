@@ -28,9 +28,6 @@
 一芽:
   pinyin: yī yá
   fr: un bourgeon
-一芽二:
-  pinyin: yī yá èr
-  fr: un bourgeon et deux
 一二葉:
   pinyin: yī èr yè
   fr: une ou deux feuilles
@@ -48,7 +45,7 @@
   fr: trois feuilles
 芽葉:
   pinyin: yá yè
-  fr: feuille de bourgeon
+  fr: un bourgeon et feuilles très jeunes
 單壯葉:
   pinyin: dān zhuàng yè
   fr: feuille robuste
@@ -56,10 +53,10 @@
   pinyin: hóng suì chá
   fr: feuilles hachées
 臺灣烏龍:
-  pinyin: táiwān wū lóng
+  pinyin: TáiWān WūLóng
   fr: bourgeon avec deux feuilles
 閩北烏龍:
-  pinyin: mǐn běi wū lóng
+  pinyin: MǐnBěi WūLóng
   fr: feuilles mâtures
 小種紅茶:
   pinyin: xiǎo zhǒng hóngchá
@@ -73,10 +70,10 @@
 # ----------
 
 蓋碗泡法:
-  pinyin: gàiwǎn pào fǎ
+  pinyin: GàiWǎn PàoFǎ
   fr: infusion au gaiwan
 茶盅泡法:
-  pinyin: chá zhōng pào fǎ
+  pinyin: CháZhōng PàoFǎ
   fr: infusion au zhong
 小壺泡法:
   pinyin: xiao hu pào fǎ
@@ -93,15 +90,15 @@
 # -------
 
 碧螺春:
-  pinyin: bì luó chūn
+  pinyin: BìLuóChūn
 湄潭翠芽:
-  pinyin: méi tán cuì yá
+  pinyin: MéiTánCuìYá
 黄山毛峰:
-  pinyin: huáng shān máo fēng
+  pinyin: HuángShānMáoFēng
 龍井茶:
-  pinyin: lóng jǐng chá
+  pinyin: LóngJǐng Chá
 都勻毛尖:
-  pinyin: dū yún máo jiān
+  pinyin: DūYúnMáoJiān
 信阳毛尖:
   pinyin: xìn yáng máo jiān
 竹葉青:
@@ -137,9 +134,9 @@
 肉桂:
   pinyin: ròu guì
 鳳凰單叢:
-  pinyin: fèng huáng dān cóng
+  pinyin: FèngHuáng DānCóng
 安溪鐵觀音:
-  pinyin: ānxī tiě guān yīn
+  pinyin: Anxī TiěGuānYīn
 本山茶:
   pinyin: běn shān chá
 毛蟹茶:
@@ -149,22 +146,22 @@
 白毫銀針:
   pinyin: bái háo yín zhēn
 白牡丹:
-  pinyin: bái mǔ dān
+  pinyin: BáiMǔDān
 月光白:
   pinyin: yuè guāng bái
 貢眉:
-  pinyin: gòng méi
+  pinyin: GòngMéi
 壽眉:
-  pinyin: shòu méi
+  pinyin: ShòuMéi
 雲南白茶磚:
-  pinyin: yún nán bái chá zhuān
+  pinyin: YúnNán BáiCháZhuān
 正山小種:
-  pinyin: zhèng shān xiǎo zhǒng
+  pinyin: ZhèngShānXiǎoZhǒng
 外山小種:
-  pinyin: wài shān xiǎo zhǒng
+  pinyin: WàiShānXiǎoZhǒng
 祁門紅茶:
-  pinyin: qí mén hóng chá
-白琳:
-  pinyin: bái lín
-坦洋:
-  pinyin: tǎn yáng
+  pinyin: QíMén HóngChá
+白琳紅茶:
+  pinyin: BáiLín HóngChá
+坦洋紅茶:
+  pinyin: TǎnYáng HóngChá
