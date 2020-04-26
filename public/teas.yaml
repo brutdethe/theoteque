@@ -132,6 +132,7 @@
 - zh: 信阳毛尖
   type: 綠茶
   picking: 一芽一葉
+  origin: 河南 
   temperature: 80
   brew:
     - type: 蓋碗泡法
