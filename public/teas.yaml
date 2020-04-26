@@ -73,8 +73,7 @@
 - zh: 碧螺春
   type: 綠茶
   picking: 芽葉
-  origin:
-    - province: 江蘇
+  province: 江蘇
   temperature: [80, 85]
   brewing:
     - type: 蓋碗泡法
@@ -84,7 +83,7 @@
 
 - zh: 湄潭翠芽
   type: 綠茶
-  family: 芽葉
+  picking: 芽葉
   temperature: 80
   brewing:
     - type: 蓋碗泡法
@@ -133,8 +132,7 @@
 - zh: 信阳毛尖
   type: 綠茶
   picking: 一芽一葉
-  origin:
-    - province: 河南
+  province: 河南
   temperature: 80
   brewing:
     - type: 蓋碗泡法
@@ -244,8 +242,7 @@
   type: 青茶
   family: 臺灣烏龍
   picking: 一芽二葉
-  origin:
-    - province: 臺灣
+  province: 臺灣
   temperature: 90
   brewing:
     - type: 蓋碗泡法
@@ -265,8 +262,7 @@
   type: 青茶
   family: 臺灣烏龍
   picking: 一芽二葉
-  origin:
-    - province: 臺灣
+  province: 臺灣
   temperature: 90
   brewing:
     - type: 蓋碗泡法
@@ -286,8 +282,7 @@
   type: 青茶
   family: 臺灣烏龍
   picking: 一芽二葉
-  origin:
-    - province: 臺灣
+  province: 臺灣
   temperature: 90
   brewing:
     - type: 蓋碗泡法
@@ -307,8 +302,7 @@
   type: 青茶
   family: 臺灣烏龍
   picking: 一芽二葉
-  origin:
-    - province: 臺灣
+  province: 臺灣
   temperature: [95, 100]
   brewing:
     - type: 蓋碗泡法
@@ -328,8 +322,7 @@
   type: 青茶
   family: 臺灣烏龍
   picking: 一芽二葉
-  origin:
-    - province: 臺灣
+  province: 臺灣
   temperature: [90, 95]
   brewing:
     - type: 蓋碗泡法
@@ -349,8 +342,7 @@
   type: 青茶
   family: 臺灣烏龍
   picking: 一芽二葉
-  origin:
-    - province: 臺灣
+  province: 臺灣
   temperature: [90, 95]
   brewing:
     - type: 蓋碗泡法
@@ -370,8 +362,7 @@
   type: 青茶
   family: 臺灣烏龍
   picking: 一芽二葉
-  origin:
-    - province: 臺灣
+  province: 臺灣
   temperature: [85, 90]
   brewing:
     - type: 蓋碗泡法
@@ -432,9 +423,8 @@
   family: 閩南烏龍
   harvest: [printemps, automne]
   cultivar: 鐵觀音
-  origin:
-    - province: 福建
-    - town: 安溪
+  province: 福建
+  town: 安溪
   picking: 一芽三葉
   elevation: [600, 2000]
   temperature: [90, 95]

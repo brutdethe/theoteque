@@ -45,26 +45,28 @@
 單壯葉:
   pinyin: Dān Zhuàng Yè
   fr: feuille robuste
+
+# Family
+廣東烏龍:
+  pinyin: Guǎngdōng WūLóng
+閩南烏龍:
+  pinyin: MǐnNán WūLóng
 紅碎茶:
   pinyin: Hóng Suì Chá
 臺灣烏龍:
   pinyin: TáiWān WūLóng
 閩北烏龍:
   pinyin: MǐnBěi WūLóng
-  fr: feuilles mâtures
 小種紅茶:
   pinyin: XiǎoZhǒng HóngChá
-  fr: bourgeon avec trois ou quatre feuilles
 工夫紅茶:
   pinyin: GōngFū HóngChá
 黃芽茶:
   pinyin: HuángYáChá
-  fr: bourgeon seul ou avec une ou deux jeunes feuilles
 黃小茶:
   pinyin: HuángXiǎoChá
 黃大茶:
   pinyin: HuángDàChá
-  fr: Bourgeon avec deux à cinq feuilles
 
 # Origin
 
