@@ -1,159 +1,194 @@
 # Types
 
 綠茶:
-  pinyin: lǜ chá
+  pinyin: LǜChá
   fr: thé vert
 白茶:
-  pinyin: bái chá
+  pinyin: BáiChá
   fr: thé blanc
 黃茶:
-  pinyin: huáng chá
+  pinyin: Huáng Chá
   fr: thé jaune
 青茶:
-  pinyin: qīng chá
+  pinyin: Qīng Chá
   fr: thé bleu
 紅茶:
-  pinyin: hóng chá
+  pinyin: HóngChá
   fr: thé rouge
 黑茶:
-  pinyin: hēi chá
+  pinyin: Hēi Chá
   fr: thé noir
 
 # Appareance
 
 一芽:
-  pinyin: yī yá
+  pinyin: Yī Yá
   fr: un bourgeon
 一二葉:
-  pinyin: yī èr yè
+  pinyin: YīÈr Yè
   fr: une ou deux feuilles
 一芽一葉:
-  pinyin: yī yá yī yè
+  pinyin: Yī Yá YīYè
   fr: un bourgeon et une feuille
 一芽二葉:
-  pinyin: yī yá èr yè
+  pinyin: Yī Yá ÈrYè
   fr: un bourgeon et deux feuilles
 一芽三葉:
-  pinyin: yī yá sān yè
+  pinyin: Yī Yá Sān Yè
   fr: un bourgeon et trois feuilles
 三葉:
-  pinyin: sān yè
+  pinyin: Sān Yè
   fr: trois feuilles
 芽葉:
-  pinyin: yá yè
+  pinyin: Yá Yè
   fr: un bourgeon et feuilles très jeunes
 單壯葉:
-  pinyin: dān zhuàng yè
+  pinyin: Dān Zhuàng Yè
   fr: feuille robuste
 紅碎茶:
-  pinyin: hóng suì chá
-  fr: feuilles hachées
+  pinyin: Hóng Suì Chá
 臺灣烏龍:
-  pinyin: TáiWān WūLóng
-  fr: bourgeon avec deux feuilles
+  pinyin: TáiWān Wū Lóng
 閩北烏龍:
-  pinyin: MǐnBěi WūLóng
+  pinyin: Mǐn Běi Wū Lóng
   fr: feuilles mâtures
 小種紅茶:
-  pinyin: xiǎo zhǒng hóngchá
+  pinyin: Xiǎo Zhǒng HóngChá
   fr: bourgeon avec trois ou quatre feuilles
 工夫紅茶:
-  pinyin: gōng fū hóng chá
-  fr: bourgeon avec deux ou trois feuilles
+  pinyin: GōngFū HóngChá
+黃芽茶:
+  pinyin: Huáng YáChá
+  fr: bourgeon seul ou avec une ou deux jeunes feuilles
+黃小茶:
+  pinyin: HuángXiǎoChá
+黃大茶:
+  pinyin: HuángDàChá
+  fr: Bourgeon avec deux à cinq feuilles
+
+# Origin
+
+臺灣:
+  pinyin: TáiWān
+安溪:
+  pinyin: ĀnXī
+江蘇:
+  pinyin:JiāngSū
+
+# Cultivar
+
+鐵觀音:
+  pinyin: Tiě GuānYīn
 
 # Brewing
 
 蓋碗泡法:
-  pinyin: GàiWǎn PàoFǎ
+  pinyin: GàiWǎn Pào Fǎ
   fr: infusion au gaiwan
 茶盅泡法:
-  pinyin: CháZhōng PàoFǎ
+  pinyin: Chá Zhōng Pào Fǎ
   fr: infusion au zhong
 小壺泡法:
-  pinyin: xiao hu pào fǎ
+  pinyin: Xiao Hu Pào Fǎ
   fr: gong fu cha
 茶杯泡法:
-  pinyin: chá bēi pào fǎ
+  pinyin: CháBēi Pào Fǎ
   fr: traditionnelle
 煮泡法:
-  pinyin: zhu pào fǎ
+  pinyin: Zhu Pào Fǎ
   fr: bouilloire
 
 # Tea
 
+北港毛尖:
+  pinyin: BěiGǎng MáoJiān
+溈山毛尖:
+  pinyin: Wéi Shān MáoJiān
+霍山黃芽:
+  pinyin: PíngYáng HuángTāng
+廣東大葉青:
+  pinyin: GuǎngDōng Dàyè Qīng
+霍山黃大茶:
+  pinyin: HuòShān HuángDàChá
+霍山黃芽:
+  pinyin: HuòShān Huáng Yá
+君山銀針:
+  pinyin: JūnShān Yín Zhēn
+蒙頂黃芽:
+  pinyin: Méng Dǐng Huáng Yá
 碧螺春:
   pinyin: BìLuóChūn
 湄潭翠芽:
-  pinyin: MéiTánCuìYá
+  pinyin: Méi Tán Cuì Yá
 黄山毛峰:
-  pinyin: HuángShānMáoFēng
+  pinyin: HuángShān Máo Fēng
 龍井茶:
   pinyin: LóngJǐng Chá
 都勻毛尖:
-  pinyin: DūYúnMáoJiān
+  pinyin: Dū Yún MáoJiān
 信阳毛尖:
-  pinyin: xìn yáng máo jiān
+  pinyin: XìnYáng MáoJiān
 竹葉青:
-  pinyin: zhú yè qīng
+  pinyin: ZhúYèGīng
 綠寶石:
-  pinyin: lǜ bǎo shí
+  pinyin: Lǜ BǎoShí
 頂谷大方:
-  pinyin: dǐng gǔ dà fāng
+  pinyin: Dǐng Gǔ Dà Fāng
 珠茶:
-  pinyin: zhū chá
+  pinyin: Zhū Chá
 太平猴魁:
-  pinyin: tài píng hóu kuí
+  pinyin: TàiPíng Hóu Kuí
 六安瓜片:
-  pinyin: liù ān guā piàn
+  pinyin: Liù Ān GuāPiàn
 四季春:
-  pinyin: sì jì chūn
+  pinyin: SìJì Chūn
 金萱:
-  pinyin: jīn xuān
+  pinyin: Jīn Xuān
 坪林包種:
-  pinyin: píng lín bāo zhǒng
+  pinyin: Píng Lín Bāo Zhǒng
 高山茶:
-  pinyin: gāo shān chá
+  pinyin: GāoShān Chá
 木柵鐵觀音:
-  pinyin: mù shān tiě guān yīn
+  pinyin: MùShān Tiě GuānYīn
 凍頂烏龍:
-  pinyin: dòng dǐng wū lóng
+  pinyin: Dòng Dǐng Wū Lóng
 東方美人:
-  pinyin: dōng fāng měi rén
+  pinyin: DōngFāng Měi Rén
 大紅袍:
-  pinyin: dà hóng páo
+  pinyin: DàHóng Páo
 武夷水仙:
-  pinyin: wǔ yí shuǐ xiān
+  pinyin: WǔYí ShuǐXiān
 肉桂:
-  pinyin: ròu guì
+  pinyin: RòuGuì
 鳳凰單叢:
-  pinyin: FèngHuáng DānCóng
+  pinyin: FèngHuáng Dān Cóng
 安溪鐵觀音:
-  pinyin: Anxī TiěGuānYīn
+  pinyin: AnXī Tiě GuānYīn
 本山茶:
-  pinyin: běn shān chá
+  pinyin: Běn ShānChá
 毛蟹茶:
-  pinyin: máo xiè chá
+  pinyin: MáoXiè chá
 黃金桂:
-  pinyin: huáng jīn guì
+  pinyin: HuángJīn guì
 白毫銀針:
   pinyin: bái háo yín zhēn
 白牡丹:
-  pinyin: BáiMǔDān
+  pinyin: Bái MǔDān
 月光白:
-  pinyin: yuè guāng bái
+  pinyin: YuèGuāng bái
 貢眉:
-  pinyin: GòngMéi
+  pinyin: Gòng Méi
 壽眉:
-  pinyin: ShòuMéi
+  pinyin: Shòu Méi
 雲南白茶磚:
-  pinyin: YúnNán BáiCháZhuān
+  pinyin: YúnNán Bái CháZhuān
 正山小種:
-  pinyin: ZhèngShānXiǎoZhǒng
+  pinyin: Zhèng Shān Xiǎo Zhǒng
 外山小種:
-  pinyin: WàiShānXiǎoZhǒng
+  pinyin: WàiShān Xiǎo Zhǒng
 祁門紅茶:
   pinyin: QíMén HóngChá
 白琳紅茶:
-  pinyin: BáiLín HóngChá
+  pinyin: Bái Lín HóngChá
 坦洋紅茶:
-  pinyin: TǎnYáng HóngChá
+  pinyin: Tǎn Yáng HóngChá
