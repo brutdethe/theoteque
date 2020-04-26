@@ -491,7 +491,7 @@
       times: [4, 8]
 
 - zh: 白毫銀針
-  type: 白茶,白茶
+  type: 白茶
   picking: 一芽一葉
   temperature: 90
   brewing:
@@ -593,7 +593,7 @@
       times: [3, 4]
 
 - zh: 坦洋
-  type: 坦洋
+  type: 紅茶
   family: 工夫紅茶
   picking: [一芽二葉, 一芽三葉]
   temperature: [95, 100]
