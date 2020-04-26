@@ -29,47 +29,14 @@
 </style>
 
 <script>
-    import yaml from 'js-yaml'
-
-    let promise = loadTeas('./teas.yaml')
-
-    async function loadTeas(file) {
-        const response = await fetch(file)
-        const text = await response.text()
-
-        if (response.ok) {
-            return yaml.safeLoad(text)
-        } else {
-            throw new Error(text)
-        }
-    }
+    import DisplayTeas from './DisplayTeas.svelte'
 </script>
 
 <main>
-
-    {#await promise}
-        <p>...waiting</p>
-    {:then teas}
-        <p>The teas is {teas}</p>
-    {:catch error}
-        <p style="color: red">{error.message}</p>
-    {/await}
-
     <h1>Guide d'infusion</h1>
     <p>pour apprendre à infuser les thés de Chine</p>
     <div class="tea-search"></div>
     <img src="assets/logo.jpg" alt="tasse de thé" width="100px" />
-    <blockquote>
-        Broutille est un outil d'apprentissage pour aborder en douceur la
-        complexité de l'infusion. Ce n'est pas une table de loi, l'infusion des
-        thés est un art au service de la complexité des thés et de la diversité
-        des personnes qui tentent de les apprivoiser.
-    </blockquote>
-    <blockquote>
-        Si vous découvrez le monde des thés authentiques, les indications
-        prodiguées vous permettront de découvrir une porte d'entrée. Vous
-        comprendrez peu à peu que chaque thé, chaque instant de dégustation et
-        chaque personne étant différents ces indications utiles au départ se
-        révéleront pauvres au regard de vos intuitions.
-    </blockquote>
+
+    <DisplayTeas />
 </main>
