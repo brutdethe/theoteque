@@ -1,0 +1,197 @@
+# Types
+
+綠茶:
+  pinyin: LǜChá
+  fr: thé vert
+白茶:
+  pinyin: BáiChá
+  fr: thé blanc
+黃茶:
+  pinyin: HuángChá
+  fr: thé jaune
+青茶:
+  pinyin: QīngChá
+  fr: thé bleu
+紅茶:
+  pinyin: HóngChá
+  fr: thé rouge
+黑茶:
+  pinyin: HēiChá
+  fr: thé noir
+
+# Appareance
+
+一芽:
+  pinyin: YīYá
+  fr: un bourgeon
+一二葉:
+  pinyin: Yi Èr Yè
+  fr: une ou deux feuilles
+一芽一葉:
+  pinyin: YīYá YīYè
+  fr: un bourgeon et une feuille
+一芽二葉:
+  pinyin: YīYá ÈYè
+  fr: un bourgeon et deux feuilles
+一芽三葉:
+  pinyin: YīYá SānYè
+  fr: un bourgeon et trois feuilles
+三葉:
+  pinyin: Sān Yè
+  fr: trois feuilles
+芽葉:
+  pinyin: Yá Yè
+  fr: un bourgeon et feuilles très jeunes
+單壯葉:
+  pinyin: Dān Zhuàng Yè
+  fr: feuille robuste
+紅碎茶:
+  pinyin: Hóng Suì Chá
+臺灣烏龍:
+  pinyin: TáiWān WūLóng
+閩北烏龍:
+  pinyin: MǐnBěi WūLóng
+  fr: feuilles mâtures
+小種紅茶:
+  pinyin: XiǎoZhǒng HóngChá
+  fr: bourgeon avec trois ou quatre feuilles
+工夫紅茶:
+  pinyin: GōngFū HóngChá
+黃芽茶:
+  pinyin: HuángYáChá
+  fr: bourgeon seul ou avec une ou deux jeunes feuilles
+黃小茶:
+  pinyin: HuángXiǎoChá
+黃大茶:
+  pinyin: HuángDàChá
+  fr: Bourgeon avec deux à cinq feuilles
+
+# Origin
+
+臺灣:
+  pinyin: TáiWān
+安溪:
+  pinyin: ĀnXī
+江蘇: pinyin:JiāngSū
+
+# Cultivar
+
+鐵觀音:
+  pinyin: TiěGuānYīn
+
+# Brewing
+
+蓋碗泡法:
+  pinyin: GàiWǎn PàoFǎ
+  fr: infusion au gaiwan
+茶盅泡法:
+  pinyin: CháZhōng PàoFǎ
+  fr: infusion au zhong
+小壺泡法:
+  pinyin: XiaoHu PàoFǎ
+  fr: gong fu cha
+茶杯泡法:
+  pinyin: CháBēi PàoFǎ
+  fr: traditionnelle
+煮泡法:
+  pinyin: Zhu PàoFǎ
+  fr: bouilloire
+
+# Tea
+
+坦洋:
+  pinyin: Tǎn Yáng
+白琳:
+  pinyin: Bái Lín
+平陽黃湯:
+  pinyin: PíngYáng HuángTāng
+北港毛尖:
+  pinyin: BěiGǎng MáoJiān
+溈山毛尖:
+  pinyin: WéiShān MáoJiān
+廣東大葉青:
+  pinyin: GuǎngDōng DàyèQīng
+霍山黃大茶:
+  pinyin: HuòShān HuángDàChá
+霍山黃芽:
+  pinyin: HuòShān HuángYá
+君山銀針:
+  pinyin: JūnShān YínZhēn
+蒙頂黃芽:
+  pinyin: MéngDǐng HuángYá
+碧螺春:
+  pinyin: BìLuóChūn
+湄潭翠芽:
+  pinyin: MéiTánCuìYá
+黄山毛峰:
+  pinyin: HuángShān MáoFēng
+龍井茶:
+  pinyin: LóngJǐng
+都勻毛尖:
+  pinyin: DūYún MáoJiān
+信阳毛尖:
+  pinyin: XìnYáng MáoJiān
+竹葉青:
+  pinyin: ZhúYèGīng
+綠寶石:
+  pinyin: LǜBǎoShí
+頂谷大方:
+  pinyin: DǐngGǔDàFāng
+珠茶:
+  pinyin: ZhūChá
+太平猴魁:
+  pinyin: TàiPíng HóuKuí
+六安瓜片:
+  pinyin: LiùĀn GuāPiàn
+四季春:
+  pinyin: SìJìChūn
+金萱:
+  pinyin: JīnXuān
+坪林包種:
+  pinyin: PíngLín BāoZhǒng
+高山茶:
+  pinyin: GāoShānChá
+木柵鐵觀音:
+  pinyin: MùShān TiěGuānYīn
+凍頂烏龍:
+  pinyin: DòngDǐng WūLóng
+東方美人:
+  pinyin: DōngFāngMěiRén
+大紅袍:
+  pinyin: DàHóngPáo
+武夷水仙:
+  pinyin: WǔYí ShuǐXiān
+肉桂:
+  pinyin: RòuGuì
+鳳凰單叢:
+  pinyin: FèngHuáng DānCóng
+安溪鐵觀音:
+  pinyin: AnXī TiěGuānYīn
+本山茶:
+  pinyin: BěnShānChá
+毛蟹茶:
+  pinyin: MáoXièChá
+黃金桂:
+  pinyin: HuángJīnGuì
+白毫銀針:
+  pinyin: BáiHáo YínZhēn
+白牡丹:
+  pinyin: BáiMǔDān
+月光白:
+  pinyin: YuèGuāngBái
+貢眉:
+  pinyin: Gòng Méi
+壽眉:
+  pinyin: Shòu Méi
+雲南白茶磚:
+  pinyin: YúnNán BáiChá Zhuān
+正山小種:
+  pinyin: ZhèngShānXiǎoZhǒng
+外山小種:
+  pinyin: WàiShānXiǎoZhǒng
+祁門紅茶:
+  pinyin: QíMén HóngChá
+白琳紅茶:
+  pinyin: BáiLín HóngChá
+坦洋紅茶:
+  pinyin: TǎnYáng HóngChá

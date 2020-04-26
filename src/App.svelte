@@ -7,18 +7,6 @@
     }
     h1 {
         color: #2bed0a;
-        text-transform: uppercase;
-        font-size: 4em;
-        font-weight: 100;
-        margin: 0;
-    }
-
-    .tea-search {
-        margin: 3em;
-    }
-
-    blockquote {
-        text-align: justify;
     }
 
     @media (min-width: 640px) {
@@ -29,45 +17,12 @@
 </style>
 
 <script>
-    import { type, criteria, brewStyle } from './stores.js'
-    import tea from './teaData.js'
-    import SelectType from './SelectType.svelte'
-    import SelectCriteria from './SelectCriteria.svelte'
-    import SelectBrewType from './SelectBrewStyle.svelte'
-    import DisplayBrew from './DisplayBrew.svelte'
-
-    const { typeData, brewStyleData, brewData } = tea
+    import DisplayTeas from './DisplayTeas.svelte'
 </script>
 
 <main>
     <h1>Guide d'infusion</h1>
     <p>pour apprendre à infuser les thés de Chine</p>
-    <div class="tea-search">
-        <SelectType {typeData} />
-        {#if $type}
-            <SelectCriteria {brewData} />
-        {/if}
-        {#if $criteria}
-            <SelectBrewType {brewData} {brewStyleData} />
-        {/if}
-    </div>
-    {#if $brewStyle}
-        <DisplayBrew />
-    {:else}
-        <img src="assets/logo.jpg" alt="tasse de thé" width="100px" />
-        <blockquote>
-            Broutille est un outil d'apprentissage pour aborder en douceur la
-            complexité de l'infusion. Ce n'est pas une table de loi, l'infusion
-            des thés est un art au service de la complexité des thés et de la
-            diversité des personnes qui tentent de les apprivoiser.
-        </blockquote>
-        <blockquote>
-            Si vous découvrez le monde des thés authentiques, les indications
-            prodiguées vous permettront de découvrir une porte d'entrée. Vous
-            comprendrez peu à peu que chaque thé, chaque instant de dégustation
-            et chaque personne étant différents ces indications utiles au départ
-            se révéleront pauvres au regard de vos intuitions.
-        </blockquote>
-    {/if}
-
+    <img src="assets/logo.jpg" alt="tasse de thé" width="100px" />
+    <DisplayTeas />
 </main>
