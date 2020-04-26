@@ -1,55 +1,92 @@
+<style>
+    h3 {
+        text-align: left;
+    }
+
+    .pinyin {
+        font-size: 0.8em;
+        color: #999;
+        display: block;
+    }
+</style>
+
 <script>
     import { onMount } from 'svelte'
+    import Pinyin from './Pinyin.svelte'
     import yaml from 'js-yaml'
 
     let teas = []
-    let teaTranslate = []
 
     onMount(async () => {
         const responseTeas = await fetch('./teas.yaml')
-        const responseTeaTranslate = await fetch('./teaTranslate.yaml')
 
-        if (responseTeas.ok && responseTeaTranslate.ok) {
+        if (responseTeas.ok) {
             teas = yaml.safeLoad(await responseTeas.text())
-            teaTranslate = yaml.safeLoad(await responseTeaTranslate.text())
         } else {
             throw new Error(text)
         }
     })
+
+    const getTeaTypes = teas => [...new Set(teas.map(tea => tea.type))]
+    const getTeasByType = (type, teas) => teas.filter(tea => tea.type === type)
 </script>
 
 <h2>Liste des thés</h2>
-
 <div class="teas">
-    <table>
-        <thead>
-            <tr>
-                <th>nom chinois</th>
-                <th>type</th>
-                <th>famille</th>
-                <th>récolte</th>
-                <th>cultivar</th>
-                <th>origine</th>
-                <th>ceuillette</th>
-                <th>altitude</th>
-            </tr>
-        </thead>
-        <tbody>
-            {#each teas as tea}
+    {#each getTeaTypes(teas) as type}
+        <hr />
+        <h3>
+            <Pinyin text="{type}" />
+        </h3>
+        <table>
+            <thead>
                 <tr>
-                    <td>{tea.zh}</td>
-                    <td>{tea.type}</td>
-                    <td>{tea.family || '-'}</td>
-                    <td>{tea.harvest || '-'}</td>
-                    <td>{tea.cultivar || '-'}</td>
-                    <td>{tea.origin || '-'}</td>
-                    <td>{tea.picking || '-'}</td>
-                    <td>{tea.elevation || '-'}</td>
+                    <th>nom</th>
+                    <th>famille</th>
+                    <th>récolte</th>
+                    <th>cultivar</th>
+                    <th>origine</th>
+                    <th>ceuillette</th>
+                    <th>altitude</th>
                 </tr>
-            {:else}
-                <!-- this block renders when photos.length === 0 -->
-                <p>loading...</p>
-            {/each}
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                {#each getTeasByType(type, teas) as tea}
+                    <tr>
+                        <td>
+                            <Pinyin text="{tea.zh}" />
+                        </td>
+                        <td>
+                            {#if tea.family}
+                                <Pinyin text="{tea.family}" />
+                            {:else}-{/if}
+                        </td>
+                        <td>{tea.harvest || '-'}</td>
+                        <td>
+                            {#if tea.cultivar}
+                                <Pinyin text="{tea.cultivar}" />
+                            {:else}-{/if}
+                        </td>
+                        <td>
+                            {#if tea.province}
+                                <Pinyin text="{tea.province}" />
+                            {:else}-{/if}
+                            {#if tea.town}
+                                <Pinyin text="{tea.town}" />
+                            {:else}-{/if}
+                        </td>
+                        <td>
+                            {#if tea.picking}
+                                <Pinyin text="{tea.picking}" />
+                            {:else}-{/if}
+                        </td>
+                        <td>{tea.elevation || '-'}</td>
+                    </tr>
+                {/each}
+            </tbody>
+        </table>
+    {:else}
+        <!-- this block renders when teas.length === 0 -->
+        <p>chargement des thés...</p>
+    {/each}
 </div>
