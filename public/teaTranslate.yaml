@@ -68,11 +68,16 @@
 
 # Origin
 
+福建
+  pinyin: Fújiàn
 臺灣:
   pinyin: TáiWān
 安溪:
   pinyin: ĀnXī
-江蘇: pinyin:JiāngSū
+江蘇:
+  pinyin: JiāngSū
+河南:
+  pinyin: Hénán
 
 # Cultivar
 
