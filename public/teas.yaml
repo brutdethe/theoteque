@@ -90,7 +90,7 @@
     - type: 蓋碗泡法
       quantity: 1:30
       duration: [25, 30, 45]
-      times: 2 fois ou plus
+      times: [2, 5]
     - type: 茶杯泡法
       quantity: 1:50
 
@@ -102,7 +102,7 @@
     - type: 蓋碗泡法
       quantity: 1:30
       duration: [20, 30, 40, 60]
-      times: 2 fois ou plus
+      times: [2, 5]
     - type: 茶杯泡法
       quantity: 1:50
 
@@ -114,7 +114,7 @@
     - type: 蓋碗泡法
       quantity: 1:30
       duration: [20, 30, 40, 60]
-      times: 2 fois ou plus
+      times: [2, 5]
     - type: 茶杯泡法
       quantity: 1:50
 
@@ -126,7 +126,7 @@
     - type: 蓋碗泡法
       quantity: 1:30
       duration: [20, 30, 40, 60]
-      times: 2 fois ou plus
+      times: [2, 5]
     - type: 茶杯泡法
       quantity: 1:50
 
@@ -164,7 +164,7 @@
     - type: 蓋碗泡法
       quantity: 1:30
       duration: [20, 30, 40, 60]
-      times: 2 fois ou plus
+      times: [2, 5]
     - type: 茶杯泡法
       quantity: 1:50
 
@@ -176,7 +176,7 @@
     - type: 蓋碗泡法
       quantity: 1:30
       duration: [20, 30, 40, 60]
-      times: 2 fois ou plus
+      times: [2, 5]
     - type: 茶杯泡法
       quantity: 1:50
 
@@ -188,7 +188,7 @@
     - type: 蓋碗泡法
       quantity: 1:30
       duration: [20, 30, 40, 60]
-      times: 2 fois ou plus
+      times: [2, 5]
     - type: 茶杯泡法
       quantity: 1:50
 
@@ -200,7 +200,7 @@
     - type: 蓋碗泡法
       quantity: 1:30
       duration: [20, 30, 40, 60]
-      times: 2 fois ou plus
+      times: [2, 5]
     - type: 茶杯泡法
       quantity: 1:50
 
@@ -212,7 +212,7 @@
     - type: 蓋碗泡法
       quantity: 1:30
       duration: [20, 30, 40, 60]
-      times: 2 fois ou plus
+      times: [2, 5]
     - type: 茶杯泡法
       quantity: 1:50
 
@@ -224,7 +224,7 @@
     - type: 蓋碗泡法
       quantity: 1:30
       duration: [20, 30, 40, 60]
-      times: 2 fois ou plus
+      times: [2, 5]
     - type: 茶杯泡法
       quantity: 1:50
 
@@ -236,7 +236,7 @@
     - type: 蓋碗泡法
       quantity: 1:30
       duration: [20, 30, 40, 60]
-      times: 2 fois ou plus
+      times: [2, 5]
     - type: 茶杯泡法
       quantity: 1:50
 
@@ -251,15 +251,15 @@
     - type: 蓋碗泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
     - type: 小壺泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
     - type: 茶盅泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
 
 - zh: 金萱
   type: 青茶
@@ -272,15 +272,15 @@
     - type: 蓋碗泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
     - type: 小壺泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
     - type: 茶盅泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
 
 - zh: 坪林包種
   type: 青茶
@@ -293,15 +293,15 @@
     - type: 蓋碗泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
     - type: 小壺泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
     - type: 茶盅泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
 
 - zh: 高山茶
   type: 青茶
@@ -314,15 +314,15 @@
     - type: 蓋碗泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
     - type: 小壺泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
     - type: 茶盅泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
 
 - zh: 木柵鐵觀音
   type: 青茶
@@ -335,15 +335,15 @@
     - type: 蓋碗泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
     - type: 小壺泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
     - type: 茶盅泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
 
 - zh: 凍頂烏龍
   type: 青茶
@@ -356,15 +356,15 @@
     - type: 蓋碗泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
     - type: 小壺泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
     - type: 茶盅泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
 
 - zh: 東方美人
   type: 青茶
@@ -377,15 +377,15 @@
     - type: 蓋碗泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
     - type: 小壺泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
     - type: 茶盅泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
 
 - zh: 大紅袍
   type: 青茶
@@ -395,7 +395,7 @@
     - type: 蓋碗泡法
       quantity: 1:20
       duration: [15, 15, 15, 20, 25]
-      times: 5 fois ou plus
+      times: [5, 10]
 
 - zh: 武夷水仙
   type: 青茶
@@ -405,7 +405,7 @@
     - type: 蓋碗泡法
       quantity: 1:20
       duration: [15, 15, 15, 20, 25]
-      times: 5 fois ou plus
+      times: [5, 10]
 
 - zh: 肉桂
   type: 青茶
@@ -415,7 +415,7 @@
     - type: 蓋碗泡法
       quantity: 1:20
       duration: [15, 15, 15, 20, 25]
-      times: 5 fois ou plus
+      times: [5, 10]
 
 - zh: 鳳凰單叢
   type: 青茶
@@ -425,7 +425,7 @@
     - type: 蓋碗泡法
       quantity: 1:20
       duration: [15, 15, 15, 20, 25]
-      times: 5 fois ou plus
+      times: [5, 10]
 
 - zh: 安溪鐵觀音
   type: 青茶
@@ -442,11 +442,11 @@
     - type: 蓋碗泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
     - type: 小壺泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
 
 - zh: 本山茶
   type: 青茶
@@ -456,11 +456,11 @@
     - type: 蓋碗泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
     - type: 小壺泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
 
 - zh: 毛蟹茶
   type: 青茶
@@ -470,11 +470,11 @@
     - type: 蓋碗泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
     - type: 小壺泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
 
 - zh: 黃金桂
   type: 青茶
@@ -484,11 +484,11 @@
     - type: 蓋碗泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
     - type: 小壺泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35]
-      times: 4 fois ou plus
+      times: [4, 8]
 
 - zh: 白毫銀針
   type: 白茶,白茶
@@ -498,7 +498,7 @@
     - type: 蓋碗泡法
       quantity: 1:20
       duration: [30, 40, 50, 60, 70, 90]
-      times: 5 fois ou plus
+      times: [5, 10]
 
 - zh: 白牡丹
   type: 白茶
@@ -508,7 +508,7 @@
     - type: 蓋碗泡法
       quantity: 1:30
       duration: [30, 40, 50, 60, 70]
-      times: 4 fois ou plus
+      times: [4, 8]
 
 - zh: 月光白
   type: 白茶
@@ -518,7 +518,7 @@
     - type: 蓋碗泡法
       quantity: 1:30
       duration: [30, 40, 50, 60, 70]
-      times: 4 fois ou plus
+      times: [4, 8]
 
 - zh: 貢眉
   type: 白茶
@@ -528,7 +528,7 @@
     - type: 蓋碗泡法
       quantity: 1:30
       duration: [50, 60, 80, 100]
-      times: 4 fois ou plus
+      times: [4, 8]
 
 - zh: 壽眉
   type: 白茶
@@ -538,7 +538,7 @@
     - type: 蓋碗泡法
       quantity: 1:30
       duration: [50, 60, 80, 100]
-      times: 4 fois ou plus
+      times: [4, 8]
 
 - zh: 雲南白茶磚
   type: 白茶
@@ -548,7 +548,7 @@
     - type: 蓋碗泡法
       quantity: 1:30
       duration: [50, 60, 80, 100]
-      times: 4 fois ou plus
+      times: [4, 8]
 
 - zh: 正山小種
   type: 紅茶
@@ -558,7 +558,7 @@
     - type: 蓋碗泡法
       quantity: 1:20
       duration: [25, 25, 30, 40]
-      times: 3 ou 4 fois
+      times: [3, 4]
 
 - zh: 外山小種
   type: 紅茶
@@ -568,7 +568,7 @@
     - type: 蓋碗泡法
       quantity: 1:20
       duration: [25, 25, 30, 40]
-      times: 3 ou 4 fois
+      times: [3, 4]
 
 - zh: 祁門紅茶
   type: 紅茶
@@ -579,7 +579,7 @@
     - type: 蓋碗泡法
       quantity: 1:20
       duration: [25, 25, 30, 40]
-      times: 3 ou 4 fois
+      times: [3, 4]
 
 - zh: 白琳
   type: 紅茶
@@ -590,7 +590,7 @@
     - type: 蓋碗泡法
       quantity: 1:20
       duration: [25, 25, 30, 40]
-      times: 3 ou 4 fois
+      times: [3, 4]
 
 - zh: 坦洋
   type: 坦洋
@@ -601,7 +601,7 @@
     - type: 蓋碗泡法
       quantity: 1:20
       duration: [25, 25, 30, 40]
-      times: 3 ou 4 fois
+      times: [3, 4]
 
 - zh: 紅碎茶
   type: 坦洋
@@ -611,6 +611,6 @@
     - type: 蓋碗泡法
       quantity: 1:20
       duration: [25, 25, 30, 40]
-      times: 3 ou 4 fois
+      times: [3, 4]
     - type: 蓋碗泡法
       quantity: 1:50
