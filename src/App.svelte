@@ -31,14 +31,30 @@
 <script>
     import yaml from 'js-yaml'
 
-    function loadTeas(file) {
-        return fetch(file).then(response => response.text())
-    }
+    let promise = loadTeas('./teas.yaml')
 
-    loadTeas('./teas.yaml').then(text => console.log(yaml.safeLoad(text)))
+    async function loadTeas(file) {
+        const response = await fetch(file)
+        const text = await response.text()
+
+        if (response.ok) {
+            return yaml.safeLoad(text)
+        } else {
+            throw new Error(text)
+        }
+    }
 </script>
 
 <main>
+
+    {#await promise}
+        <p>...waiting</p>
+    {:then teas}
+        <p>The teas is {teas}</p>
+    {:catch error}
+        <p style="color: red">{error.message}</p>
+    {/await}
+
     <h1>Guide d'infusion</h1>
     <p>pour apprendre à infuser les thés de Chine</p>
     <div class="tea-search"></div>
