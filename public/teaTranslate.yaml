@@ -72,8 +72,7 @@
   pinyin: TáiWān
 安溪:
   pinyin: ĀnXī
-江蘇:
-  pinyin:JiāngSū
+江蘇: pinyin:JiāngSū
 
 # Cultivar
 
@@ -100,12 +99,16 @@
 
 # Tea
 
+坦洋:
+  pinyin: Tǎn Yáng
+白琳:
+  pinyin: Bái Lín
+平陽黃湯:
+  pinyin: PíngYáng HuángTāng
 北港毛尖:
   pinyin: BěiGǎng MáoJiān
 溈山毛尖:
   pinyin: WéiShān MáoJiān
-霍山黃芽:
-  pinyin: HuoShan HuangYa
 廣東大葉青:
   pinyin: GuǎngDōng DàyèQīng
 霍山黃大茶:
@@ -123,7 +126,7 @@
 黄山毛峰:
   pinyin: HuángShān MáoFēng
 龍井茶:
-  pinyin: LóngJǐng 
+  pinyin: LóngJǐng
 都勻毛尖:
   pinyin: DūYún MáoJiān
 信阳毛尖:

@@ -25,5 +25,4 @@
     <p>pour apprendre à infuser les thés de Chine</p>
     <img src="assets/logo.jpg" alt="tasse de thé" width="100px" />
     <DisplayTeas />
-
 </main>

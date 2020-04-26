@@ -491,7 +491,7 @@
 - zh: 白牡丹
   type: 白茶
   picking: [一芽, 一二葉]
-  temperature: [95]
+  temperature: 95
   brew:
     - type: 蓋碗泡法
       quantity: 1:30
