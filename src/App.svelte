@@ -7,18 +7,6 @@
     }
     h1 {
         color: #2bed0a;
-        text-transform: uppercase;
-        font-size: 4em;
-        font-weight: 100;
-        margin: 0;
-    }
-
-    .tea-search {
-        margin: 3em;
-    }
-
-    blockquote {
-        text-align: justify;
     }
 
     @media (min-width: 640px) {
@@ -35,8 +23,7 @@
 <main>
     <h1>Guide d'infusion</h1>
     <p>pour apprendre à infuser les thés de Chine</p>
-    <div class="tea-search"></div>
     <img src="assets/logo.jpg" alt="tasse de thé" width="100px" />
-
     <DisplayTeas />
+
 </main>
