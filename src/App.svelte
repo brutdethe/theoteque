@@ -32,8 +32,10 @@
     import yaml from 'js-yaml'
 
     function loadTeas(file) {
-        fetch(file).then(response => response.text())
+        return fetch(file).then(response => response.text())
     }
+
+    loadTeas('./teas.yaml').then(text => console.log(yaml.safeLoad(text)))
 </script>
 
 <main>
@@ -42,10 +44,10 @@
     <div class="tea-search"></div>
     <img src="assets/logo.jpg" alt="tasse de thé" width="100px" />
     <blockquote>
-        il d'apprentissage pour aborder en douceur la complexité de l'infusion.
-        Ce n'est pas une table de loi, l'infusion des thés est un art au service
-        de la complexité des thés et de la diversité des personnes qui tentent
-        de les apprivoiser.
+        Broutille est un outil d'apprentissage pour aborder en douceur la
+        complexité de l'infusion. Ce n'est pas une table de loi, l'infusion des
+        thés est un art au service de la complexité des thés et de la diversité
+        des personnes qui tentent de les apprivoiser.
     </blockquote>
     <blockquote>
         Si vous découvrez le monde des thés authentiques, les indications
