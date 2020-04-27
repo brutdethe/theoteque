@@ -560,6 +560,8 @@
 - zh: 正山小種
   type: 紅茶
   family: 小種紅茶
+  province: 福建
+  family: 小種紅茶
   temperature: [95, 100]
   brewing:
     - type: 蓋碗泡法
@@ -569,6 +571,7 @@
 
 - zh: 外山小種
   type: 紅茶
+  province：福建
   family: 小種紅茶
   temperature: [95, 100]
   brewing:
@@ -581,6 +584,7 @@
   type: 紅茶
   family: 工夫紅茶
   picking: [一芽二葉, 一芽三葉]
+  province：安徽
   temperature: [95, 100]
   brewing:
     - type: 蓋碗泡法
@@ -588,10 +592,11 @@
       duration: [25, 25, 30, 40]
       times: [3, 4]
 
-- zh: 白琳
+- zh: 白琳工夫
   type: 紅茶
   family: 工夫紅茶
   picking: [一芽二葉, 一芽三葉]
+  province：福建
   temperature: [95, 100]
   brewing:
     - type: 蓋碗泡法
@@ -599,10 +604,11 @@
       duration: [25, 25, 30, 40]
       times: [3, 4]
 
-- zh: 坦洋
+- zh: 坦洋工夫
   type: 紅茶
   family: 工夫紅茶
   picking: [一芽二葉, 一芽三葉]
+  province：福建
   temperature: [95, 100]
   brewing:
     - type: 蓋碗泡法
@@ -613,6 +619,7 @@
 - zh: 紅碎茶
   type: 紅茶
   family: 紅碎茶
+  province：云南
   temperature: [85, 90]
   brewing:
     - type: 蓋碗泡法
