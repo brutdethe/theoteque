@@ -526,7 +526,7 @@
 - zh: 月光白
   type: 白茶
   picking: [一芽, 一二葉]
-  province: 云南
+  province: 雲南
   temperature: [95, 100]
   brewing:
     - type: 蓋碗泡法
@@ -548,7 +548,7 @@
 - zh: 雲南白茶磚
   type: 白茶
   picking: [一芽二， 三葉]
-  province: 云南
+  province: 雲南
   temperature: [100]
   brewing:
     - type: 蓋碗泡法
@@ -617,7 +617,7 @@
 - zh: 紅碎茶
   type: 紅茶
   family: 紅碎茶
-  province: 云南
+  province: 雲南
   temperature: [85, 90]
   brewing:
     - type: 蓋碗泡法
