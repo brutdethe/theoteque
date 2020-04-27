@@ -84,6 +84,7 @@
 - zh: 湄潭翠芽
   type: 綠茶
   picking: 芽葉
+  province: 贵州
   temperature: 80
   brewing:
     - type: 蓋碗泡法
@@ -96,6 +97,7 @@
 - zh: 黄山毛峰
   type: 綠茶
   picking: 一芽一葉
+  province： 安徽
   temperature: [80, 90]
   brewing:
     - type: 蓋碗泡法
@@ -108,6 +110,7 @@
 - zh: 龍井茶
   type: 綠茶
   picking: 一芽一葉
+  province： 浙江
   temperature: 85
   brewing:
     - type: 蓋碗泡法
@@ -120,6 +123,7 @@
 - zh: 都勻毛尖
   type: 綠茶
   picking: 一芽一葉
+  province：贵州
   temperature: 80
   brewing:
     - type: 蓋碗泡法
@@ -145,6 +149,7 @@
 - zh: 竹葉青
   type: 綠茶
   picking: 一芽一葉
+  province： 四川
   temperature: 85
   brewing:
     - type: 蓋碗泡法
@@ -157,6 +162,7 @@
 - zh: 綠寶石
   type: 綠茶
   picking: 一芽二葉
+  province：贵州
   temperature: [80, 85]
   brewing:
     - type: 蓋碗泡法
@@ -169,6 +175,7 @@
 - zh: 頂谷大方
   type: 綠茶
   picking: 一芽二葉
+  province：安徽
   temperature: 80
   brewing:
     - type: 蓋碗泡法
@@ -181,6 +188,7 @@
 - zh: 珠茶
   type: 綠茶
   picking: 一芽二葉
+  province： 浙江
   temperature: 90
   brewing:
     - type: 蓋碗泡法
@@ -193,6 +201,7 @@
 - zh: 太平猴魁
   type: 綠茶
   picking: 一芽三葉
+  province：安徽
   temperature: [80, 90]
   brewing:
     - type: 蓋碗泡法
@@ -205,6 +214,7 @@
 - zh: 綠寶石
   type: 綠茶
   picking: 一芽三葉
+  province：贵州
   temperature: [80, 85]
   brewing:
     - type: 蓋碗泡法
@@ -217,6 +227,7 @@
 - zh: 珠茶
   type: 綠茶
   picking: 一芽三葉
+  province：浙江
   temperature: 90
   brewing:
     - type: 蓋碗泡法
@@ -227,6 +238,9 @@
       quantity: 1:50
 
 - zh: 六安瓜片
+  type: 綠茶
+  picking：單壯葉
+  province: 安徽
   type: 綠茶
   family: 單壯葉
   temperature: 85
