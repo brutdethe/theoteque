@@ -504,6 +504,7 @@
 - zh: 白毫銀針
   type: 白茶
   picking: 一芽一葉
+  province: 福建
   temperature: 90
   brewing:
     - type: 蓋碗泡法
@@ -513,6 +514,8 @@
 
 - zh: 白牡丹
   type: 白茶
+  picking: [一芽, 一二葉]
+  province: 福建
   picking: [一芽, 一二葉]
   temperature: 95
   brewing:
@@ -524,6 +527,7 @@
 - zh: 月光白
   type: 白茶
   picking: [一芽, 一二葉]
+  province：云南
   temperature: [95, 100]
   brewing:
     - type: 蓋碗泡法
@@ -534,16 +538,7 @@
 - zh: 貢眉
   type: 白茶
   picking: [一芽二， 三葉]
-  temperature: [100]
-  brewing:
-    - type: 蓋碗泡法
-      quantity: 1:30
-      duration: [50, 60, 80, 100]
-      times: [4, 8]
-
-- zh: 壽眉
-  type: 白茶
-  picking: [一芽二， 三葉]
+  province：福建
   temperature: [100]
   brewing:
     - type: 蓋碗泡法
@@ -554,6 +549,7 @@
 - zh: 雲南白茶磚
   type: 白茶
   picking: [一芽二， 三葉]
+  province：云南
   temperature: [100]
   brewing:
     - type: 蓋碗泡法
