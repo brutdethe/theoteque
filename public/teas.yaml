@@ -1,6 +1,7 @@
 - zh: 平陽黃湯
   type: 黃茶
   picking: 一芽二葉
+  province: 浙江
   family: 黃小茶
   temperature: [80, 85]
   brewing:
@@ -10,6 +11,7 @@
 - zh: 北港毛尖
   type: 黃茶
   picking: 一芽二葉
+  province：湖南
   family: 黃小茶
   temperature: [80, 85]
   brewing:
@@ -19,6 +21,7 @@
 - zh: 溈山毛尖
   type: 黃茶
   picking: 一芽二葉
+  province：湖南
   family: 黃小茶
   temperature: [80, 85]
   brewing:
@@ -28,6 +31,7 @@
 - zh: 霍山黃芽
   type: 黃茶
   picking: [一芽, 一芽一葉]
+  province：安徽
   family: 黃芽茶
   temperature: 75
   brewing:
@@ -37,6 +41,7 @@
 - zh: 君山銀針
   type: 黃茶
   family: 黃芽茶
+  province：湖南
   picking: [一芽一葉, 一芽二葉]
   temperature: [70, 75]
   brewing:
@@ -46,6 +51,7 @@
 - zh: 蒙頂黃芽
   type: 黃茶
   family: 黃芽茶
+  province：四川
   picking: [一芽一葉, 一芽二葉]
   temperature: 75
   brewing:
@@ -55,6 +61,7 @@
 - zh: 廣東大葉青
   type: 黃茶
   picking: 一芽三葉
+  province：广东
   family: 黃大茶
   temperature: [85, 90]
   brewing:
@@ -64,6 +71,7 @@
 - zh: 霍山黃大茶
   type: 黃茶
   picking: 一芽三葉
+  province：安徽
   family: 黃大茶
   temperature: [85, 90]
   brewing:
