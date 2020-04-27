@@ -46,7 +46,23 @@
   pinyin: Dān Zhuàng Yè
   fr: feuille robuste
 
+# harvest
+
+春天:
+  pinyin: ChūnTiān
+  fr: printemps
+夏天:
+  pinyin: XiàTiān
+  fr: été
+跌倒:
+  pinyin: DiéDǎo
+  fr: automne
+冬天:
+  pinyin: DōngTiān
+  fr: hivers
+
 # Family
+
 廣東烏龍:
   pinyin: Guǎngdōng WūLóng
 閩南烏龍:
@@ -70,12 +86,14 @@
 
 # Origin
 
+## province
+
 福建:
   pinyin: FúJiàn
 臺灣:
   pinyin: TáiWān
-安溪:
-  pinyin: ĀnXī
+臺灣臺北:
+  pinyin: TáiWān TáiBěi
 江蘇:
   pinyin: JiāngSū
 河南:
@@ -84,11 +102,40 @@
   pinyin: YúnNán
 浙江:
   pinyin: ZhèJiāng
+湖南:
+  pinyin: HúNán
+安徽:
+  pinyin: ĀnHuī
+四川:
+  pinyin: SìChuān
+廣東:
+  pinyin: GuǎngDōng
+貴州:
+  pinyin: GuìZhōu
+
+## Town
+
+木柵:
+  pinyin: MùShān
+安溪:
+  pinyin: ĀnXī
+文山區:
+  pinyin: WénShān Qū
+武夷山市:
+  pinyin: WǔYíShān Shì
+武夷市:
+  pinyin: WǔYí Shì
+潮州市:
+  pinyin: CháoZhōu Shì
 
 # Cultivar
 
 鐵觀音:
   pinyin: TiěGuānYīn
+鳳凰水仙:
+  pinyin: FèngHuáng ShuǐXiān
+青心烏龍:
+  pinyin: QīngXīn WūLóng
 
 # Brewing
 
