@@ -2,17 +2,11 @@
     h3 {
         text-align: left;
     }
-
-    .pinyin {
-        font-size: 0.8em;
-        color: #999;
-        display: block;
-    }
 </style>
 
 <script>
     import { onMount } from 'svelte'
-    import Pinyin from './Pinyin.svelte'
+    import Pinyin from '../components/Pinyin.svelte'
     import yaml from 'js-yaml'
 
     let teas = []
@@ -31,10 +25,11 @@
     const getTeasByType = (type, teas) => teas.filter(tea => tea.type === type)
 </script>
 
-<h2>Liste des thés</h2>
+<svelte:head>
+    <title>Liste des thés</title>
+</svelte:head>
 <div class="teas">
     {#each getTeaTypes(teas) as type}
-        <hr />
         <h3>
             <Pinyin text="{type}" />
         </h3>

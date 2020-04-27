@@ -2,13 +2,13 @@ language: node_js
 node_js:
     - 11
 script:
-    - npm run build
+    - npm run export
 deploy:
     provider: pages
     skip_cleanup: true
     github_token: $GH_TOKEN # Set in the settings page of your repository, as a secure variable
     keep_history: true
-    local_dir: public
+    local_dir: __sapper__/export
     on:
         branch: master
 
