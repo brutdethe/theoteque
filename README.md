@@ -1,4 +1,4 @@
-# Broutille, guide d'infusion pour thés Chinois
+# Broutille, guide d'infusion pour les thés Chinois
 
 ## Thé authentique
 
