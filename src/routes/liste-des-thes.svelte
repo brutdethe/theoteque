@@ -5,21 +5,9 @@
 </style>
 
 <script>
-    import { onMount } from 'svelte'
     import Pinyin from '../components/Pinyin.svelte'
-    import yaml from 'js-yaml'
-
-    let teas = []
-
-    onMount(async () => {
-        const responseTeas = await fetch('./teas.yaml')
-
-        if (responseTeas.ok) {
-            teas = yaml.safeLoad(await responseTeas.text())
-        } else {
-            throw new Error(text)
-        }
-    })
+    import IconTeaType from '../components/IconTeaType.svelte'
+    import { teas } from '../stores.js'
 
     const getTeaTypes = teas => [...new Set(teas.map(tea => tea.type))]
     const getTeasByType = (type, teas) => teas.filter(tea => tea.type === type)
@@ -29,9 +17,10 @@
     <title>Liste des thés</title>
 </svelte:head>
 <div class="teas">
-    {#each getTeaTypes(teas) as type}
+    {#each getTeaTypes($teas) as type}
         <h3>
             <Pinyin text="{type}" />
+            <IconTeaType {type} />
         </h3>
         <table>
             <thead>
@@ -46,7 +35,7 @@
                 </tr>
             </thead>
             <tbody>
-                {#each getTeasByType(type, teas) as tea}
+                {#each getTeasByType(type, $teas) as tea}
                     <tr>
                         <td>
                             <Pinyin text="{tea.zh}" />

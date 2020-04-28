@@ -1,28 +1,15 @@
 <style>
     .pinyin {
         font-size: 0.8em;
-        color: #999;
+        color: #888;
         display: block;
     }
 </style>
 
 <script>
-    import { onMount } from 'svelte'
-    import yaml from 'js-yaml'
+    import { i18n } from '../stores.js'
 
     export let text
-
-    let i18n = []
-
-    onMount(async () => {
-        const responsei18n = await fetch('./teaTranslate.yaml')
-
-        if (responsei18n.ok) {
-            i18n = yaml.safeLoad(await responsei18n.text())
-        } else {
-            throw new Error(text)
-        }
-    })
 
     function getPinyin(text, i18n) {
         if (i18n[text]) {
@@ -32,4 +19,4 @@
 </script>
 
 {text}
-<span class="pinyin">{getPinyin(text, i18n)}</span>
+<span class="pinyin">{getPinyin(text, $i18n)}</span>
