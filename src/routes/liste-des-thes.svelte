@@ -7,7 +7,7 @@
 <script>
     import Pinyin from '../components/Pinyin.svelte'
     import IconTeaType from '../components/IconTeaType.svelte'
-    import { teas } from '../stores.js'
+    import { teas, i18n } from '../stores.js'
 
     const getTeaTypes = teas => [...new Set(teas.map(tea => tea.type))]
     const getTeasByType = (type, teas) => teas.filter(tea => tea.type === type)
@@ -38,7 +38,7 @@
                 {#each getTeasByType(type, $teas) as tea}
                     <tr>
                         <td>
-                            <a href="fiche-the">
+                            <a href="fiche-{tea.zh}">
                                 <Pinyin text="{tea.zh}" />
                             </a>
                         </td>
