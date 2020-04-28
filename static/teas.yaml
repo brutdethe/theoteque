@@ -265,6 +265,7 @@
   province: 臺灣
   cultivar: 四季春
   picking: 一芽 二葉
+  harvest: [春季， 夏季， 秋季]
   fermentation: [20, 25]
   temperature: 90
   brewing:
@@ -283,6 +284,7 @@
   province: 臺灣
   cultivar: 金萱
   picking: 一芽 二葉
+  harvest: [春季， 夏季， 秋季]
   fermentation: [20, 25]
   temperature: 90
   brewing:
@@ -303,6 +305,7 @@
   elevation: [400, 600]
   cultivar: [青心烏龍, 金萱, 翠玉, 四季春]
   picking: 一芽 二葉
+  harvest: [春季， 夏季， 秋季]
   fermentation: [12, 15]
   temperature: 90
   brewing:
@@ -322,6 +325,7 @@
   elevation: 1000
   Cultivar: [青心烏龍, 金萱]
   picking: 一芽 二葉
+  harvest: [春季， 夏季， 秋季]
   fermentation: [15, 20]
   temperature: [95, 100]
   brewing:
@@ -342,6 +346,7 @@
   elevation: [200, 500]
   cultivar: [鐵觀音, 硬枝紅心烏龍, 金萱]
   picking: 一芽 二葉
+  harvest: [春季， 夏季， 秋季]
   fermentation: 40
   temperature: [90, 95]
   brewing:
@@ -362,6 +367,7 @@
   elevation: [600, 800]
   cultivar: 青心烏龍
   picking: 一芽 二葉
+  harvest: [春季， 夏季， 秋季]
   fermentation: [25, 30]
   temperature: [90, 95]
   brewing:
@@ -382,6 +388,7 @@
   elevation: [300, 500]
   cultivar: [青心大某，青心乌龙，白毛猴]
   picking: 一芽 一葉
+  harvest: 夏季
   fermentation: [60, 75]
   temperature: [85, 90]
   brewing:
@@ -400,8 +407,9 @@
   province: 福建
   town: 武夷山市
   elevation: [200, 300]
-  cultivar: [北斗, 奇丹, 雀舌拼配]
+  cultivar: [奇丹, 其他拼配]
   picking: 一芽 三四葉
+  harvest: 春季
   fermentation: 70
   temperature: [95, 100]
   brewing:
@@ -418,6 +426,7 @@
   elevation: [200, 300]
   cultivar: 武夷水仙
   picking: 一芽 三四葉
+  harvest: 春季
   fermentation: [35, 45]
   temperature: [95, 100]
   brewing:
@@ -432,8 +441,9 @@
   province: 福建
   town: 武夷市
   elevation: [200, 300]
-  cultivar: 肉桂
+  cultivar: 武夷肉桂
   picking: 一芽 三四葉
+  harvest: 春季
   fermentation: [35, 45]
   temperature: [95, 100]
   brewing:
