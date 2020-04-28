@@ -83,6 +83,7 @@
   picking: 芽葉
   province: 中國江蘇
   temperature: [80, 85]
+  image: true
   brewing:
     - type: 蓋碗泡法
       quantity: 1:30
@@ -107,6 +108,7 @@
   picking: 一芽一葉
   province: 中國安徽
   temperature: [80, 90]
+  image: true
   brewing:
     - type: 蓋碗泡法
       quantity: 1:30
@@ -120,6 +122,7 @@
   picking: 一芽一葉
   province: 中國浙江
   temperature: 85
+  image: true
   brewing:
     - type: 蓋碗泡法
       quantity: 1:30
@@ -146,6 +149,7 @@
   picking: 一芽一葉
   province: 中國河南
   temperature: 80
+  image: true
   brewing:
     - type: 蓋碗泡法
       quantity: 1:30
@@ -167,19 +171,6 @@
     - type: 茶杯泡法
       quantity: 1:50
 
-- zh: 綠寶石
-  type: 綠茶
-  picking: 一芽二葉
-  province: 中國貴州
-  temperature: [80, 85]
-  brewing:
-    - type: 蓋碗泡法
-      quantity: 1:30
-      duration: [20, 30, 40, 60]
-      times: [2, 5]
-    - type: 茶杯泡法
-      quantity: 1:50
-
 - zh: 頂谷大方
   type: 綠茶
   picking: 一芽二葉
@@ -193,24 +184,12 @@
     - type: 茶杯泡法
       quantity: 1:50
 
-- zh: 珠茶
-  type: 綠茶
-  picking: 一芽二葉
-  province: 中國浙江
-  temperature: 90
-  brewing:
-    - type: 蓋碗泡法
-      quantity: 1:30
-      duration: [20, 30, 40, 60]
-      times: [2, 5]
-    - type: 茶杯泡法
-      quantity: 1:50
-
 - zh: 太平猴魁
   type: 綠茶
   picking: 一芽三葉
   province: 中國安徽
   temperature: [80, 90]
+  image: true
   brewing:
     - type: 蓋碗泡法
       quantity: 1:30
@@ -221,7 +200,7 @@
 
 - zh: 綠寶石
   type: 綠茶
-  picking: 一芽三葉
+  picking: [一芽二葉, 一芽三葉]
   province: 中國貴州
   temperature: [80, 85]
   brewing:
@@ -234,7 +213,7 @@
 
 - zh: 珠茶
   type: 綠茶
-  picking: 一芽三葉
+  picking: [一芽二葉, 一芽三葉]
   province: 中國浙江
   temperature: 90
   brewing:
@@ -251,6 +230,7 @@
   province: 中國安徽
   family: 單壯葉
   temperature: 85
+  image: true
   brewing:
     - type: 蓋碗泡法
       quantity: 1:30
@@ -384,6 +364,7 @@
   picking: 一芽 一葉
   fermentation: [60, 75]
   temperature: [85, 90]
+  image: true
   brewing:
     - type: 蓋碗泡法
       quantity: 1:20
@@ -404,6 +385,7 @@
   picking: 一芽 三四葉
   fermentation: 70
   temperature: [95, 100]
+  image: true
   brewing:
     - type: 蓋碗泡法
       quantity: 1:20
@@ -547,6 +529,7 @@
   picking: 一芽一葉
   province: 中國福建
   temperature: 90
+  image: true
   brewing:
     - type: 蓋碗泡法
       quantity: 1:20
@@ -558,6 +541,7 @@
   picking: [一芽, 一二葉]
   province: 中國福建
   temperature: 95
+  image: true
   brewing:
     - type: 蓋碗泡法
       quantity: 1:30
@@ -602,6 +586,7 @@
   family: 小種紅茶
   province: 中國福建
   temperature: [95, 100]
+  image: true
   brewing:
     - type: 蓋碗泡法
       quantity: 1:20
@@ -625,6 +610,7 @@
   picking: [一芽二葉, 一芽三葉]
   province: 中國安徽
   temperature: [95, 100]
+  image: true
   brewing:
     - type: 蓋碗泡法
       quantity: 1:20
@@ -637,6 +623,20 @@
   picking: [一芽二葉, 一芽三葉]
   province: 中國福建
   temperature: [95, 100]
+  brewing:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [25, 25, 30, 40]
+      times: [3, 4]
+
+- zh: 金駿眉
+  type: 紅茶
+  family: 小種紅茶
+  picking: [一芽二葉, 一芽三葉]
+  province: 中國福建
+  town: 武夷山市
+  temperature: [95, 100]
+  image: true
   brewing:
     - type: 蓋碗泡法
       quantity: 1:20

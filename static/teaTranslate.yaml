@@ -42,6 +42,12 @@
 一芽三葉:
   pinyin: YīYá SānYè
   fr: un bourgeon et trois feuilles
+一芽 二三葉:
+  pinyin: YīYá ÈrSānYè
+  fr: un bourgeon et deux ou trois feuilles
+一芽 三四葉:
+  pinyin: YīYá SānSìYè
+  fr: un bourgeon et trois ou quatre feuilles
 三葉:
   pinyin: Sān Yè
   fr: trois feuilles
@@ -207,6 +213,9 @@
   pinyin: TàiPíng HóuKuí
 六安瓜片:
   pinyin: LiùĀn GuāPiàn
+
+## QingCha
+
 四季春:
   pinyin: SìJìChūn
 金萱:
@@ -261,3 +270,5 @@
   pinyin: BáiLín HóngChá
 坦洋紅茶:
   pinyin: TǎnYáng HóngChá
+金駿眉:
+  pinyin: JīnJùnMéi
