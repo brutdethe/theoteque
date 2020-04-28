@@ -4,12 +4,29 @@
     }
 </style>
 
+<script context="module">
+    export function preload(page) {
+        return { typeParam: page.params.type }
+    }
+</script>
+
 <script>
     import Pinyin from '../components/Pinyin.svelte'
     import IconTeaType from '../components/IconTeaType.svelte'
     import { teas } from '../stores.js'
 
-    const getTeaTypes = teas => [...new Set(teas.map(tea => tea.type))]
+    export let typeParam
+
+    function getTeaTypes(type, teas) {
+        const types = [...new Set(teas.map(tea => tea.type))]
+        console.log('type', type)
+        console.log('types', types)
+        if (types.includes(type)) {
+            return [type]
+        } else {
+            return types
+        }
+    }
     const getTeasByType = (type, teas) => teas.filter(tea => tea.type === type)
 </script>
 
@@ -17,7 +34,7 @@
     <title>Liste des thés</title>
 </svelte:head>
 <div class="teas">
-    {#each getTeaTypes($teas) as type}
+    {#each getTeaTypes(typeParam, $teas) as type}
         <h3 id="{type}">
             <Pinyin text="{type}" />
             <IconTeaType {type} />

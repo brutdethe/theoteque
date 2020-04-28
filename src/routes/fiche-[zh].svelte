@@ -81,7 +81,7 @@
                             <tr>
                                 <td>Type :</td>
                                 <td>
-                                    <a href="/liste-des-thes#{tea.type}">
+                                    <a href="/liste-des-thes-{tea.type}">
                                         <Pinyin text="{tea.type}" />
                                     </a>
                                 </td>
