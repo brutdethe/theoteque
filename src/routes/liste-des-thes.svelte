@@ -68,11 +68,14 @@
                         </td>
                         <td>{tea.elevation || '-'}</td>
                     </tr>
+                {:else}
+                    <!-- this block renders when teas.length === 0 -->
+                    <p>chargement des thés...</p>
                 {/each}
             </tbody>
         </table>
     {:else}
         <!-- this block renders when teas.length === 0 -->
-        <p>chargement des thés...</p>
+        <p>chargement des types thés...</p>
     {/each}
 </div>
