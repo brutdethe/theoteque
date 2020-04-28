@@ -32,6 +32,7 @@
                     <th>origine</th>
                     <th>ceuillette</th>
                     <th>altitude</th>
+                    <th>image</th>
                 </tr>
             </thead>
             <tbody>
@@ -62,11 +63,13 @@
                             {:else}-{/if}
                         </td>
                         <td>
+                            <!-- 🌱 ☀️ 🍂 ❄️ -->
                             {#if tea.picking}
                                 <Pinyin text="{tea.picking}" />
                             {:else}-{/if}
                         </td>
                         <td>{tea.elevation || '-'}</td>
+                        <td>{tea.image ? '📷' : '-'}</td>
                     </tr>
                 {:else}
                     <!-- this block renders when teas.length === 0 -->

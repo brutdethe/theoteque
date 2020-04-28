@@ -469,6 +469,7 @@
   harvest: [春季, 秋季]
   fermentation: [20, 50]
   temperature: [95, 100]
+  image: true
   brewing:
     - type: 蓋碗泡法
       quantity: 1:20
