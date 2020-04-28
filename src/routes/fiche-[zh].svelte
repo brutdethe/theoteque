@@ -13,6 +13,10 @@
         text-align: left;
         width: 10%;
     }
+
+    span {
+        display: inline;
+    }
 </style>
 
 <script context="module">
@@ -33,14 +37,14 @@
     const display = {
         elevation: elevation => {
             if (+elevation) {
-                return `à partir de ${elevation} m`
+                return `à partir de ${elevation} mètres`
             } else if (elevation.length == 2 && Array.isArray([elevation])) {
                 return `entre ${elevation[0]} et ${elevation[1]} mètres`
             }
         },
         fermentation: fermentation => {
             if (+fermentation) {
-                return `à partir de ${fermentation} m`
+                return `à partir de ${fermentation}%`
             } else if (
                 fermentation.length == 2 &&
                 Array.isArray(fermentation)
@@ -50,7 +54,7 @@
         },
         temperature: temperature => {
             if (+temperature) {
-                return `à partir de ${elevation} m`
+                return `à partir de ${temperature}°`
             } else if (temperature.length == 2 && Array.isArray(temperature)) {
                 return `entre ${temperature[0]}° et ${temperature[1]}°`
             }
@@ -77,7 +81,17 @@
                             <tr>
                                 <td>Type :</td>
                                 <td>
-                                    <Pinyin text="{tea.type}" />
+                                    <a href="/liste-des-thes#{tea.type}">
+                                        <Pinyin text="{tea.type}" />
+                                    </a>
+                                </td>
+                            </tr>
+                        {/if}
+                        {#if tea['family']}
+                            <tr>
+                                <td>Famille :</td>
+                                <td>
+                                    <Pinyin text="{tea.family}" />
                                 </td>
                             </tr>
                         {/if}
@@ -117,7 +131,7 @@
                             <tr>
                                 <td>Récolte :</td>
                                 <td>
-                                    {#if +tea['harvest']}
+                                    {#if tea['harvest'] instanceof String}
                                         <img
                                             class="icons"
                                             src="/assets/icons/{tea['harvest']}.svg"
@@ -132,7 +146,6 @@
                                             />
                                         {/each}
                                     {/if}
-
                                 </td>
                             </tr>
                         {/if}
@@ -140,7 +153,17 @@
                             <tr>
                                 <td>Ceuillette :</td>
                                 <td>
-                                    <Pinyin text="{tea.picking}" />
+                                    {#if typeof tea['picking'] === 'string'}
+                                        <Pinyin text="{tea.picking}" />
+                                    {:else}
+                                        <div class="row">
+                                            {#each tea['picking'] as pick}
+                                                <div class="column">
+                                                    <Pinyin text="{pick}" />
+                                                </div>
+                                            {/each}
+                                        </div>
+                                    {/if}
                                 </td>
                             </tr>
                         {/if}

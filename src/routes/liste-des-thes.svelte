@@ -18,7 +18,7 @@
 </svelte:head>
 <div class="teas">
     {#each getTeaTypes($teas) as type}
-        <h3>
+        <h3 id="{type}">
             <Pinyin text="{type}" />
             <IconTeaType {type} />
         </h3>
