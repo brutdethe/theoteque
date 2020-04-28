@@ -687,12 +687,12 @@
       times: [3, 4]
     - type: 蓋碗泡法
       quantity: 1:50
-      
  
 - zh: 點紅
   type: 紅茶
   family: 功夫紅茶
   province: 雲南
+  picking: 一芽二葉
   temperature: [100]
   brewing:
     - type: 茶壺泡法
@@ -700,3 +700,14 @@
       duration: [3, 5, 7, 10]
       times: [15, 20]
     
+ - zh: 正山小種
+  type: 紅茶
+  family: 小種紅茶
+  province: 福建
+  picking: 一芽三葉
+  temperature: [90, 95]
+  brewing:
+    - type: 茶壺泡法
+      quantity: 1:20
+      duration: [8, 10, 12, 15]
+      times: [15, 20]
