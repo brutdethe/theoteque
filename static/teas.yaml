@@ -406,7 +406,7 @@
   family: 閩北烏龍
   province: 福建
   town: 武夷山市
-  elevation: [200, 300]
+  elevation: [150, 400]
   cultivar: [奇丹, 其他拼配]
   picking: 一芽 三四葉
   harvest: 春季
@@ -423,7 +423,7 @@
   family: 閩北烏龍
   province: 福建
   town: 武夷市
-  elevation: [200, 300]
+  elevation: [150, 400]
   cultivar: 武夷水仙
   picking: 一芽 三四葉
   harvest: 春季
@@ -440,7 +440,7 @@
   family: 閩北烏龍
   province: 福建
   town: 武夷市
-  elevation: [200, 300]
+  elevation: [150, 400]
   cultivar: 武夷肉桂
   picking: 一芽 三四葉
   harvest: 春季
