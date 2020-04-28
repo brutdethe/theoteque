@@ -38,7 +38,9 @@
                 {#each getTeasByType(type, $teas) as tea}
                     <tr>
                         <td>
-                            <Pinyin text="{tea.zh}" />
+                            <a href="fiche-the">
+                                <Pinyin text="{tea.zh}" />
+                            </a>
                         </td>
                         <td>
                             {#if tea.family}
