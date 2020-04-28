@@ -82,6 +82,7 @@
   type: 綠茶
   picking: 芽葉
   province: 江蘇
+  family: 炒青绿茶
   temperature: [80, 85]
   brewing:
     - type: 蓋碗泡法
@@ -93,6 +94,7 @@
   type: 綠茶
   picking: 芽葉
   province: 貴州
+  family: 炒青绿茶
   temperature: 80
   brewing:
     - type: 蓋碗泡法
@@ -106,6 +108,7 @@
   type: 綠茶
   picking: 一芽一葉
   province: 安徽
+  family: 烘青绿茶
   temperature: [80, 90]
   brewing:
     - type: 蓋碗泡法
@@ -119,6 +122,7 @@
   type: 綠茶
   picking: 一芽一葉
   province: 浙江
+  family: 炒青绿茶
   temperature: 85
   brewing:
     - type: 蓋碗泡法
@@ -158,6 +162,7 @@
   type: 綠茶
   picking: 一芽一葉
   province: 四川
+  family: 炒青绿茶
   temperature: 85
   brewing:
     - type: 蓋碗泡法
@@ -184,6 +189,7 @@
   type: 綠茶
   picking: 一芽二葉
   province: 安徽
+  family: 炒青绿茶
   temperature: 80
   brewing:
     - type: 蓋碗泡法
@@ -197,6 +203,7 @@
   type: 綠茶
   picking: 一芽二葉
   province: 浙江
+  family: 炒青绿茶
   temperature: 90
   brewing:
     - type: 蓋碗泡法
@@ -209,6 +216,8 @@
 - zh: 太平猴魁
   type: 綠茶
   picking: 一芽三葉
+  province: 安徽
+  family: 烘青绿茶
   province: 安徽
   temperature: [80, 90]
   brewing:
@@ -236,6 +245,7 @@
   type: 綠茶
   picking: 一芽三葉
   province: 浙江
+  family: 炒青绿茶
   temperature: 90
   brewing:
     - type: 蓋碗泡法
@@ -249,6 +259,7 @@
   type: 綠茶
   picking: 單壯葉
   province: 安徽
+  family: 烘青绿茶
   family: 單壯葉
   temperature: 85
   brewing:
@@ -322,7 +333,7 @@
   type: 青茶
   family: 臺灣烏龍
   province: 臺灣
-  elevation: [1000, 2500]
+  elevation: 1000
   Cultivar: [青心烏龍, 金萱]
   picking: 一芽 二葉
   harvest: [春季， 夏季， 秋季]
@@ -406,7 +417,7 @@
   family: 閩北烏龍
   province: 福建
   town: 武夷山市
-  elevation: [150, 400]
+  elevation: [200, 300]
   cultivar: [奇丹, 其他拼配]
   picking: 一芽 三四葉
   harvest: 春季
@@ -423,7 +434,7 @@
   family: 閩北烏龍
   province: 福建
   town: 武夷市
-  elevation: [150, 400]
+  elevation: [200, 300]
   cultivar: 武夷水仙
   picking: 一芽 三四葉
   harvest: 春季
@@ -440,7 +451,7 @@
   family: 閩北烏龍
   province: 福建
   town: 武夷市
-  elevation: [150, 400]
+  elevation: [200, 300]
   cultivar: 武夷肉桂
   picking: 一芽 三四葉
   harvest: 春季
@@ -457,7 +468,7 @@
   family: 廣東烏龍
   province: 廣東
   town: 潮州市
-  elevation: [200, 1000]
+  elevation: [500, 1100]
   cultivar: 鳳凰水仙
   picking: 一芽 二三葉
   fermentation: [70, 80]
@@ -676,3 +687,16 @@
       times: [3, 4]
     - type: 蓋碗泡法
       quantity: 1:50
+      
+ 
+- zh: 點紅
+  type: 紅茶
+  family: 功夫紅茶
+  province: 雲南
+  temperature: [100]
+  brewing:
+    - type: 茶壺泡法
+      quantity: 1:12
+      duration: [3, 5, 7, 10]
+      times: [15, 20]
+    
