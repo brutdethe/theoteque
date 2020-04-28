@@ -7,7 +7,7 @@
 <script>
     import Pinyin from '../components/Pinyin.svelte'
     import IconTeaType from '../components/IconTeaType.svelte'
-    import { teas, i18n } from '../stores.js'
+    import { teas } from '../stores.js'
 
     const getTeaTypes = teas => [...new Set(teas.map(tea => tea.type))]
     const getTeasByType = (type, teas) => teas.filter(tea => tea.type === type)
