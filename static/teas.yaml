@@ -470,7 +470,7 @@
   fermentation: [20, 50]
   temperature: [95, 100]
   brewing:
-  - type: 蓋碗泡法
+    - type: 蓋碗泡法
       quantity: 1:20
       duration: [25, 20, 25, 30, 40, 50, 70, 90]
       times: [4, 8]
@@ -490,7 +490,7 @@
   fermentation: [20, 50]
   temperature: [90, 95]
   brewing:
-  - type: 蓋碗泡法
+    - type: 蓋碗泡法
       quantity: 1:20
       duration: [30, 25, 30, 35, 45, 60]
       times: [4, 6]
@@ -498,7 +498,6 @@
       quantity: 1:20
       duration: [30, 25, 30, 35, 45, 60]
       times: [4, 6]
-  
 
 - zh: 毛蟹茶
   type: 青茶
@@ -512,7 +511,7 @@
   fermentation: [20, 50]
   temperature: [90, 95]
   brewing:
-  - type: 蓋碗泡法
+    - type: 蓋碗泡法
       quantity: 1:20
       duration: [30, 25, 30, 35, 45, 60]
       times: [4, 6]
@@ -520,8 +519,7 @@
       quantity: 1:20
       duration: [30, 25, 30, 35, 45, 60]
       times: [4, 6]
-      
-      
+
 - zh: 黃金桂
   type: 青茶
   family: 閩南烏龍
@@ -534,7 +532,7 @@
   fermentation: [20, 50]
   temperature: [90, 95]
   brewing:
-  - type: 蓋碗泡法
+    - type: 蓋碗泡法
       quantity: 1:20
       duration: [30, 25, 30, 35, 45, 60]
       times: [4, 6]
@@ -542,7 +540,7 @@
       quantity: 1:20
       duration: [30, 25, 30, 35, 45, 60]
       times: [4, 6]
-  
+
 - zh: 白毫銀針
   type: 白茶
   picking: 一芽一葉
