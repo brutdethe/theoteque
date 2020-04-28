@@ -473,7 +473,7 @@
   family: 閩南烏龍
   province: 中國福建
   town: 安溪
-  elevation: [500, 1000]
+  elevation: [300, 1600]
   cultivar: 鐵觀音
   picking: [一芽 二三葉, 一芽 三四葉]
   harvest: [春季, 秋季]
@@ -493,7 +493,7 @@
   type: 青茶
   province: 中國福建
   town: 安溪
-  elevation: [500, 1000]
+  elevation: [300, 1600]
   cultivar: 本山
   picking: [一芽 二三葉, 一芽 三四葉]
   harvest: [春季, 秋季]
@@ -514,7 +514,7 @@
   family: 閩南烏龍
   province: 中國福建
   town: 安溪
-  elevation: [500, 1000]
+  elevation: [300, 1600]
   cultivar: 毛蟹
   picking: [一芽 二三葉, 一芽 三四葉]
   harvest: [春季, 秋季]
@@ -535,7 +535,7 @@
   family: 閩南烏龍
   province: 中國福建
   town: 安溪
-  elevation: [500, 1000]
+  elevation: [300, 1600]
   cultivar: 黃旦
   picking: [一芽 二三葉, 一芽 三四葉]
   harvest: [春季, 秋季]
