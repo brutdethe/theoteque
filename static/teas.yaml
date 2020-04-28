@@ -461,65 +461,88 @@
 - zh: 安溪鐵觀音
   type: 青茶
   family: 閩南烏龍
-  harvest: [春天, 跌倒]
-  cultivar: 鐵觀音
-  province: 福建
+  province: 中國福建
   town: 安溪
-  picking: 一芽三葉
-  elevation: [600, 2000]
-  temperature: [90, 95]
+  elevation: [500, 1000]
+  cultivar: 鐵觀音
+  picking: [一芽 二三葉, 一芽 三四葉]
+  harvest: [春季, 秋季]
+  fermentation: [20, 50]
+  temperature: [95, 100]
   brewing:
-    - type: 蓋碗泡法
+  - type: 蓋碗泡法
       quantity: 1:20
-      duration: [20, 15, 20, 25, 35]
+      duration: [25, 20, 25, 30, 40, 50, 70, 90]
       times: [4, 8]
     - type: 小壺泡法
       quantity: 1:20
-      duration: [20, 15, 20, 25, 35]
+      duration: [25, 20, 25, 30, 40, 50, 70, 90]
       times: [4, 8]
 
 - zh: 本山茶
   type: 青茶
-  family: 閩南烏龍
+  province: 中國福建
+  town: 安溪
+  elevation: [500, 1000]
+  cultivar: 本山
+  picking: [一芽 二三葉, 一芽 三四葉]
+  harvest: [春季, 秋季]
+  fermentation: [20, 50]
   temperature: [90, 95]
   brewing:
-    - type: 蓋碗泡法
+  - type: 蓋碗泡法
       quantity: 1:20
-      duration: [20, 15, 20, 25, 35]
-      times: [4, 8]
+      duration: [30, 25, 30, 35, 45, 60]
+      times: [4, 6]
     - type: 小壺泡法
       quantity: 1:20
-      duration: [20, 15, 20, 25, 35]
-      times: [4, 8]
+      duration: [30, 25, 30, 35, 45, 60]
+      times: [4, 6]
+  
 
 - zh: 毛蟹茶
   type: 青茶
   family: 閩南烏龍
+  province: 中國福建
+  town: 安溪
+  elevation: [500, 1000]
+  cultivar: 毛蟹
+  picking: [一芽 二三葉, 一芽 三四葉]
+  harvest: [春季, 秋季]
+  fermentation: [20, 50]
   temperature: [90, 95]
   brewing:
-    - type: 蓋碗泡法
+  - type: 蓋碗泡法
       quantity: 1:20
-      duration: [20, 15, 20, 25, 35]
-      times: [4, 8]
+      duration: [30, 25, 30, 35, 45, 60]
+      times: [4, 6]
     - type: 小壺泡法
       quantity: 1:20
-      duration: [20, 15, 20, 25, 35]
-      times: [4, 8]
-
+      duration: [30, 25, 30, 35, 45, 60]
+      times: [4, 6]
+      
+      
 - zh: 黃金桂
   type: 青茶
   family: 閩南烏龍
+  province: 中國福建
+  town: 安溪
+  elevation: [500, 1000]
+  cultivar: 黃旦
+  picking: [一芽 二三葉, 一芽 三四葉]
+  harvest: [春季, 秋季]
+  fermentation: [20, 50]
   temperature: [90, 95]
   brewing:
-    - type: 蓋碗泡法
+  - type: 蓋碗泡法
       quantity: 1:20
-      duration: [20, 15, 20, 25, 35]
-      times: [4, 8]
+      duration: [30, 25, 30, 35, 45, 60]
+      times: [4, 6]
     - type: 小壺泡法
       quantity: 1:20
-      duration: [20, 15, 20, 25, 35]
-      times: [4, 8]
-
+      duration: [30, 25, 30, 35, 45, 60]
+      times: [4, 6]
+  
 - zh: 白毫銀針
   type: 白茶
   picking: 一芽一葉
