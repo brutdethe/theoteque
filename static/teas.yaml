@@ -198,7 +198,6 @@
   temperature: [80, 90]
   image: true
   brewing:
-    
 
 - zh: 綠寶石
   type: 綠茶
@@ -548,18 +547,18 @@
   fermentation: [5, 10]
   temperature: 90
   brewing:
-    -type: 蓋碗泡法
+    - type: 蓋碗泡法
       quantity: 1:30
       duration: [15, 20, 25, 35, 45, 60]
       times: [5, 10]
     - type: 茶杯泡法
       quantity: 1:50
-      duration:[180, 300, 480]
+      duration: [180, 300, 480]
       times: [2, 3]
 
 - zh: 白牡丹
   type: 白茶
- province: 中國福建
+  province: 中國福建
   town: [政和， 福鼎， 建陽， 松溪]
   elevation: [500, 800]
   cultivar: [福鼎大白茶， 福鼎大毫茶]
@@ -567,18 +566,16 @@
   harvest: 春季
   fermentation: [5, 10]
   temperature: 95
+  image: true
   brewing:
-    -type: 蓋碗泡法
+    - type: 蓋碗泡法
       quantity: 1:30
       duration: [15, 20, 25, 35, 45, 60]
       times: [5, 10]
     - type: 茶杯泡法
       quantity: 1:50
-      duration:[180, 300, 480]
-      times: [2, 3] 
-  image: true
-  brewing:
-    
+      duration: [180, 300, 480]
+      times: [2, 3]
 
 - zh: 月光白
   type: 白茶
@@ -593,7 +590,7 @@
 
 - zh: 壽眉
   type: 白茶
-   province: 中國福建
+  province: 中國福建
   town: [政和， 福鼎， 建陽， 松溪]
   elevation: [500, 800]
   cultivar: [福鼎大白茶， 福鼎大毫茶]
@@ -602,15 +599,15 @@
   fermentation: [5, 10]
   temperature: 100
   brewing:
-    -type: 蓋碗泡法
+    - type: 蓋碗泡法
       quantity: 1:30
       duration: [50, 60, 80, 100]
       times: [4, 8]
     - type: 茶杯泡法
       quantity: 1:50
-      duration:[180, 300, 480]
-      times: [2, 3] 
-  
+      duration: [180, 300, 480]
+      times: [2, 3]
+
 - zh: 雲南白茶磚
   type: 白茶
   picking: [一芽二， 三葉]

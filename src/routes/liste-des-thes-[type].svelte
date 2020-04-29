@@ -19,8 +19,6 @@
 
     function getTeaTypes(type, teas) {
         const types = [...new Set(teas.map(tea => tea.type))]
-        console.log('type', type)
-        console.log('types', types)
         if (types.includes(type)) {
             return [type]
         } else {
