@@ -13,10 +13,6 @@
         text-align: left;
         width: 10%;
     }
-
-    span {
-        display: inline;
-    }
 </style>
 
 <script context="module">
