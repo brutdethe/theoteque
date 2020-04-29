@@ -244,7 +244,7 @@
 - zh: 四季春
   type: 青茶
   family: 臺灣烏龍
-  province: 臺灣臺北
+  province: 臺灣
   cultivar: 四季春
   picking: 一芽 二葉
   harvest: [春季, 夏季, 秋季]
@@ -263,7 +263,7 @@
 - zh: 金萱
   type: 青茶
   family: 臺灣烏龍
-  province: 臺灣臺北
+  province: 臺灣
   cultivar: 金萱
   picking: 一芽 二葉
   harvest: [春季, 夏季, 秋季]
@@ -303,7 +303,7 @@
 - zh: 高山茶
   type: 青茶
   family: 臺灣烏龍
-  province: 臺灣臺北
+  province: 臺灣
   elevation: 1000
   Cultivar: [青心烏龍, 金萱]
   picking: 一芽 二葉
@@ -578,15 +578,24 @@
       times: [2, 3]
 
 - zh: 月光白
-  type: 白茶
-  picking: [一芽, 一二葉]
+  type: 白茶 
   province: 中國雲南
-  temperature: [95, 100]
+  town: 思茅地區
+  elevation: 1600
+  cultivar: 景谷大白茶
+  picking: [一芽 二葉]
+  harvest: [春季, 夏季，秋季]
+  fermentation: [5, 10]
+  temperature: 100
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:30
-      duration: [30, 40, 50, 60, 70]
-      times: [4, 8]
+      quantity: 1:40
+      duration: [10, 10, 10, 20, 30]
+      times: [5, -]
+    - type: 小壺泡法
+      quantity: 1:40
+      duration: [10, 10, 10, 20， 30]
+      times: [5, -]
 
 - zh: 壽眉
   type: 白茶
