@@ -104,7 +104,11 @@
                             <tr>
                                 <td>Ville :</td>
                                 <td>
-                                    <Pinyin text="{tea.town}" />
+                                    <a
+                                        href="https://www.openstreetmap.org/search?query={tea['town']}"
+                                    >
+                                        <Pinyin text="{tea.town}" />
+                                    </a>
                                 </td>
                             </tr>
                         {/if}
@@ -112,7 +116,11 @@
                             <tr>
                                 <td>Province :</td>
                                 <td>
-                                    <Pinyin text="{tea.province}" />
+                                    <a
+                                        href="https://www.openstreetmap.org/search?query={tea['province']}"
+                                    >
+                                        <Pinyin text="{tea.province}" />
+                                    </a>
                                 </td>
 
                             </tr>
