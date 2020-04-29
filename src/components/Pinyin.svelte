@@ -1,7 +1,7 @@
 <style>
     .pinyin {
-        font-size: 0.8em;
-        color: #888;
+        font-size: 0.7em;
+        color: #999;
         display: block;
     }
 </style>

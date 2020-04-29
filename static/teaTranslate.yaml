@@ -1,3 +1,9 @@
+# Words
+
+都:
+  pinyin: Dōu
+  fr: tous
+
 # Types
 
 綠茶:
@@ -42,6 +48,12 @@
 一芽三葉:
   pinyin: YīYá SānYè
   fr: un bourgeon et trois feuilles
+一芽 二三葉:
+  pinyin: YīYá ÈrSānYè
+  fr: un bourgeon et deux ou trois feuilles
+一芽 三四葉:
+  pinyin: YīYá SānSìYè
+  fr: un bourgeon et trois ou quatre feuilles
 三葉:
   pinyin: Sān Yè
   fr: trois feuilles
@@ -54,17 +66,17 @@
 
 # harvest
 
-春天:
-  pinyin: ChūnTiān
+春季:
+  pinyin: ChūnJì
   fr: printemps
-夏天:
-  pinyin: XiàTiān
+夏季:
+  pinyin: XiàJì
   fr: été
-跌倒:
-  pinyin: DiéDǎo
+秋季:
+  pinyin: QiūJì
   fr: automne
-冬天:
-  pinyin: DōngTiān
+冬季:
+  pinyin: DōngJì
   fr: hivers
 
 # Family
@@ -89,35 +101,39 @@
   pinyin: HuángXiǎoChá
 黃大茶:
   pinyin: HuángDàChá
+炒青绿茶:
+  pinyin: Chǎo Qīng LǜChá
+烘青绿茶:
+  pinyin: Hōng Qīng Lǜchá
 
 # Origin
 
 ## province
 
-福建:
-  pinyin: FúJiàn
-臺灣:
-  pinyin: TáiWān
+中國福建:
+  pinyin: ZhōngGuó FúJiàn
 臺灣臺北:
   pinyin: TáiWān TáiBěi
-江蘇:
-  pinyin: JiāngSū
-河南:
-  pinyin: HéNán
-雲南:
-  pinyin: YúnNán
-浙江:
-  pinyin: ZhèJiāng
-湖南:
-  pinyin: HúNán
-安徽:
-  pinyin: ĀnHuī
-四川:
-  pinyin: SìChuān
-廣東:
-  pinyin: GuǎngDōng
-貴州:
-  pinyin: GuìZhōu
+臺灣南投:
+  pinyin: TáiWān NánTóu
+中國江蘇:
+  pinyin: ZhōngGuó JiāngSū
+中國河南:
+  pinyin: ZhōngGuó HéNán
+中國雲南:
+  pinyin: ZhōngGuó YúnNán
+中國浙江:
+  pinyin: ZhōngGuó ZhèJiāng
+中國湖南:
+  pinyin: ZhōngGuó HúNán
+中國安徽:
+  pinyin: ZhōngGuó ĀnHuī
+中國四川:
+  pinyin: ZhōngGuó SìChuān
+中國廣東:
+  pinyin: ZhōngGuó GuǎngDōng
+中國貴州:
+  pinyin: ZhōngGuó GuìZhōu
 
 ## Town
 
@@ -207,6 +223,9 @@
   pinyin: TàiPíng HóuKuí
 六安瓜片:
   pinyin: LiùĀn GuāPiàn
+
+## QingCha
+
 四季春:
   pinyin: SìJìChūn
 金萱:
@@ -219,6 +238,8 @@
   pinyin: MùShān TiěGuānYīn
 凍頂烏龍:
   pinyin: DòngDǐng WūLóng
+文山包種:
+  pinyin: WénShān BāoZhǒng
 東方美人:
   pinyin: DōngFāngMěiRén
 大紅袍:
@@ -259,7 +280,7 @@
   pinyin: BáiLín HóngChá
 坦洋紅茶:
   pinyin: TǎnYáng HóngChá
-正山小種: 
-  pinyin: Zhèng shān xiǎo zhǒng
+金駿眉:
+  pinyin: JīnJùnMéi
 點紅:
-  pinyin: Diǎn hóng
+  pinyin: Diǎn Hóng

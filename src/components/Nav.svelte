@@ -60,8 +60,8 @@
         </li>
         <li>
             <a
-                aria-current="{segment === 'liste-des-thes' ? 'page' : undefined}"
-                href="liste-des-thes"
+                aria-current="{segment === 'liste-des-thes-都' ? 'page' : undefined}"
+                href="liste-des-thes-都"
             >
                 liste des thés
             </a>
