@@ -253,7 +253,7 @@
   province: 臺灣臺北
   cultivar: 四季春
   picking: 一芽 二葉
-  harvest: [春季， 夏季， 秋季]
+  harvest: [春季, 夏季, 秋季]
   fermentation: [20, 25]
   temperature: 90
   brewing:
@@ -272,7 +272,7 @@
   province: 臺灣臺北
   cultivar: 金萱
   picking: 一芽 二葉
-  harvest: [春季， 夏季， 秋季]
+  harvest: [春季, 夏季, 秋季]
   fermentation: [20, 25]
   temperature: 90
   brewing:
@@ -293,7 +293,7 @@
   elevation: [400, 600]
   cultivar: [青心烏龍, 金萱, 翠玉, 四季春]
   picking: 一芽 二葉
-  harvest: [春季， 夏季， 秋季]
+  harvest: [春季, 夏季, 秋季]
   fermentation: [12, 15]
   temperature: 90
   brewing:
@@ -313,7 +313,7 @@
   elevation: 1000
   Cultivar: [青心烏龍, 金萱]
   picking: 一芽 二葉
-  harvest: [春季， 夏季， 秋季]
+  harvest: [春季, 夏季, 秋季]
   fermentation: [15, 20]
   temperature: [95, 100]
   brewing:
@@ -334,7 +334,7 @@
   elevation: [200, 500]
   cultivar: [鐵觀音, 硬枝紅心烏龍, 金萱]
   picking: 一芽 二葉
-  harvest: [春季， 夏季， 秋季]
+  harvest: [春季, 夏季, 秋季]
   fermentation: 40
   temperature: [90, 95]
   brewing:
@@ -355,7 +355,7 @@
   elevation: [600, 800]
   cultivar: 青心烏龍
   picking: 一芽 二葉
-  harvest: [春季， 夏季， 秋季]
+  harvest: [春季, 夏季, 秋季]
   fermentation: [25, 30]
   temperature: [90, 95]
   brewing:
@@ -689,7 +689,7 @@
 - zh: 點紅
   type: 紅茶
   family: 功夫紅茶
-  province: 雲南
+  province: 中國雲南
   picking: 一芽二葉
   temperature: [100]
   brewing:
@@ -701,7 +701,7 @@
 - zh: 正山小種
   type: 紅茶
   family: 小種紅茶
-  province: 福建
+  province: 中國福建
   picking: 一芽三葉
   temperature: [90, 95]
   brewing:

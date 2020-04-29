@@ -131,7 +131,7 @@
                             <tr>
                                 <td>Récolte :</td>
                                 <td>
-                                    {#if tea['harvest'] instanceof String}
+                                    {#if typeof tea['harvest'] === 'string'}
                                         <img
                                             class="icons"
                                             src="/assets/icons/{tea['harvest']}.svg"
