@@ -578,7 +578,7 @@
       times: [2, 3]
 
 - zh: 月光白
-  type: 白茶 
+  type: 白茶
   province: 中國雲南
   town: 思茅地區
   elevation: 1600
@@ -591,11 +591,11 @@
     - type: 蓋碗泡法
       quantity: 1:40
       duration: [10, 10, 10, 20, 30]
-      times: [5, -]
+      times: [5, 10]
     - type: 小壺泡法
       quantity: 1:40
       duration: [10, 10, 10, 20， 30]
-      times: [5, -]
+      times: [5, 10]
 
 - zh: 壽眉
   type: 白茶
