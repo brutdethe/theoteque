@@ -1,8 +1,14 @@
 <style>
+    div {
+        display: inline-block;
+    }
     .pinyin {
         font-size: 0.7em;
         color: #999;
-        display: block;
+    }
+    p {
+        margin: 0;
+        padding: 0;
     }
 </style>
 
@@ -18,5 +24,7 @@
     }
 </script>
 
-{text}
-<span class="pinyin">{getPinyin(text, $i18n)}</span>
+<div>
+    <p>{text}</p>
+    <p class="pinyin">{getPinyin(text, $i18n)}</p>
+</div>

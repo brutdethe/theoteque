@@ -9,7 +9,7 @@
 綠茶:
   pinyin: LǜChá
   fr: thé vert
-  color: green
+  color: "#58D68D"
 白茶:
   pinyin: BáiChá
   fr: thé blanc
@@ -17,15 +17,15 @@
 黃茶:
   pinyin: HuángChá
   fr: thé jaune
-  color: yellow
+  color: "#F4D03F"
 青茶:
   pinyin: QīngChá
   fr: thé bleu
-  color: blue
+  color: "#3498DB"
 紅茶:
   pinyin: HóngChá
   fr: thé rouge
-  color: red
+  color: "#C0392B"
 黑茶:
   pinyin: HēiChá
   fr: thé noir
