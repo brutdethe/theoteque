@@ -621,7 +621,7 @@
   type: 白茶
   province: 中國雲南
   cultivar: 雲南大白茶
-   picking: [一芽二， 三葉]
+  picking: [一芽二， 三葉]
   fermentation: [5, 10]
   temperature: [90, 95]
   brewing:
@@ -638,7 +638,7 @@
   elevation: [1200, 1500]
   cultivar: 正山小種
   picking:
-  harvest: 
+  harvest:
   fermentation: [80, 95]
   temperature: 90
   brewing:
@@ -646,7 +646,6 @@
       quantity: 1:20
       duration: [10, 10, 15, 25, 40, 60]
       times: [4, 6]
-
 
 - zh: 祁門紅茶
   type: 紅茶
