@@ -25,6 +25,7 @@
     import { onMount } from 'svelte'
     import { teas, i18n } from '../stores.js'
     import Pinyin from '../components/Pinyin.svelte'
+    import IconTeaType from '../components/IconTeaType.svelte'
 
     export let zh
 
@@ -73,17 +74,17 @@
                 <table>
                     <thead></thead>
                     <tbody>
-                        {#if tea['type']}
+                        {#if tea.type}
                             <tr>
-                                <td>Type :</td>
                                 <td>
                                     <a href="/liste-des-thes-{tea.type}">
                                         <Pinyin text="{tea.type}" />
                                     </a>
+                                    <IconTeaType type="{tea.type}" />
                                 </td>
                             </tr>
                         {/if}
-                        {#if tea['family']}
+                        {#if tea.family}
                             <tr>
                                 <td>Famille :</td>
                                 <td>
@@ -91,7 +92,7 @@
                                 </td>
                             </tr>
                         {/if}
-                        {#if tea['cultivar']}
+                        {#if tea.cultivar}
                             <tr>
                                 <td>Cultivar :</td>
 
@@ -100,7 +101,7 @@
                                 </td>
                             </tr>
                         {/if}
-                        {#if tea['town']}
+                        {#if tea.town}
                             <tr>
                                 <td>Ville :</td>
                                 <td>
@@ -112,7 +113,7 @@
                                 </td>
                             </tr>
                         {/if}
-                        {#if tea['province']}
+                        {#if tea.province}
                             <tr>
                                 <td>Province :</td>
                                 <td>
@@ -125,24 +126,24 @@
 
                             </tr>
                         {/if}
-                        {#if tea['elevation']}
+                        {#if tea.elevation}
                             <tr>
                                 <td>Altitude :</td>
-                                <td>{display.elevation(tea['elevation'])}</td>
+                                <td>{display.elevation(tea.elevation)}</td>
                             </tr>
                         {/if}
-                        {#if tea['harvest']}
+                        {#if tea.harvest}
                             <tr>
                                 <td>Récolte :</td>
                                 <td>
-                                    {#if typeof tea['harvest'] === 'string'}
+                                    {#if typeof tea.harvest === 'string'}
                                         <img
                                             class="icons"
-                                            src="/assets/icons/{tea['harvest']}.svg"
-                                            alt="{tea['harvest']}"
+                                            src="/assets/icons/{tea.harvest}.svg"
+                                            alt="{tea.harvest}"
                                         />
                                     {:else}
-                                        {#each tea['harvest'] as season}
+                                        {#each tea.harvest as season}
                                             <img
                                                 class="icons"
                                                 src="/assets/icons/{season}.svg"
@@ -153,15 +154,15 @@
                                 </td>
                             </tr>
                         {/if}
-                        {#if tea['picking']}
+                        {#if tea.picking}
                             <tr>
                                 <td>Ceuillette :</td>
                                 <td>
-                                    {#if typeof tea['picking'] === 'string'}
+                                    {#if typeof tea.picking === 'string'}
                                         <Pinyin text="{tea.picking}" />
                                     {:else}
                                         <div class="row">
-                                            {#each tea['picking'] as pick}
+                                            {#each tea.picking as pick}
                                                 <div class="column">
                                                     <Pinyin text="{pick}" />
                                                 </div>
@@ -171,20 +172,18 @@
                                 </td>
                             </tr>
                         {/if}
-                        {#if tea['fermentation']}
+                        {#if tea.fermentation}
                             <tr>
                                 <td>Fermentation :</td>
                                 <td>
-                                    {display.fermentation(tea['fermentation'])}
+                                    {display.fermentation(tea.fermentation)}
                                 </td>
                             </tr>
                         {/if}
-                        {#if tea['temperature']}
+                        {#if tea.temperature}
                             <tr>
                                 <td>Température :</td>
-                                <td>
-                                    {display.temperature(tea['temperature'])}
-                                </td>
+                                <td>{display.temperature(tea.temperature)}</td>
                             </tr>
                         {/if}
                     </tbody>
@@ -192,7 +191,7 @@
 
             </div>
             <div class="column">
-                {#if tea['image']}
+                {#if tea.image}
                     <img
                         src="/assets/thes/{tea.zh}.jpg"
                         alt="{tea.zh}"

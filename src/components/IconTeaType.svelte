@@ -1,10 +1,10 @@
 <style>
-    span {
-        display: block;
+    div {
+        display: inline-block;
         border: 1px solid black;
-        width: 1em;
-        height: 1em;
-        margin-top: 0.5em;
+        width: 2em;
+        height: 2em;
+        margin: 0 0.5em;
     }
 </style>
 
@@ -12,7 +12,7 @@
     import { i18n } from '../stores.js'
 
     export let type
-
+    console.log('type', type)
     function getColor(type, i18n) {
         if (i18n.hasOwnProperty(type)) {
             return i18n[type].color
@@ -21,4 +21,4 @@
     }
 </script>
 
-<span style="background: {getColor(type, $i18n)}"></span>
+<div style="background: {getColor(type, $i18n)}"></div>
