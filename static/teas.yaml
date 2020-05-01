@@ -714,15 +714,18 @@
 - zh: 紅碎茶
   type: 紅茶
   family: 紅碎茶
-  province: 中國雲南
-  temperature: [85, 90]
+  province: [中國雲南, 廣東， 海南， 廣西]
+  temperature: [90, 100]
   brewing:
+    - type: 大壺泡法
+      quantity: 1:60
+      duration: [180]
+      times: 1
     - type: 蓋碗泡法
-      quantity: 1:20
-      duration: [25, 25, 30, 40]
-      times: [3, 4]
-    - type: 蓋碗泡法
-      quantity: 1:50
+      quantity: 1:30
+      duration: [10, 30]
+      times: 2
+    
 
 - zh: 滇紅
   type: 紅茶
