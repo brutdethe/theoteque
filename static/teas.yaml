@@ -255,7 +255,7 @@
       quantity: 1:20
       duration: [25, 20, 25, 30, 40, 60]
       times: [4, 6]
-    - type: 茶壺泡法
+    - type: 小壺泡法
       quantity: 1:20
       duration: [25, 20, 25, 30, 40，60]
       times: [4, 6]
@@ -274,7 +274,7 @@
       quantity: 1:20
       duration: [25, 20, 25, 30, 40, 60]
       times: [4, 6]
-    - type: 茶壺泡法
+    - type: 小壺泡法
       quantity: 1:20
       duration: [25, 20, 25, 30, 40, 60]
       times: [4, 6]
@@ -295,7 +295,7 @@
       quantity: 1:20
       duration: [25, 20, 25, 30, 40, 60]
       times: [4, 6]
-    - type: 茶壺泡法
+    - type: 小壺泡法
       quantity: 1:20
       duration: [25, 20, 25, 30, 40, 60]
       times: [4, 6]
@@ -315,7 +315,7 @@
       quantity: 1:20
       duration: [20, 15, 20, 25, 35, 45, 60, 90]
       times: [4, 8]
-    - type: 茶壺泡法
+    - type: 小壺泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35, 45, 60, 90]
       times: [4, 8]
@@ -336,7 +336,7 @@
       quantity: 1:20
       duration: [25, 20, 25, 30, 40, 50, 70, 90]
       times: [4, 8]
-    - type: 茶壺泡法
+    - type: 小壺泡法
       quantity: 1:20
       duration: [25, 20, 25, 30, 40, 50, 70, 90]
       times: [4, 8]
@@ -357,7 +357,7 @@
       quantity: 1:20
       duration: [25, 20, 25, 30, 40, 50, 70, 90]
       times: [4, 8]
-    - type: 茶壺泡法
+    - type: 小壺泡法
       quantity: 1:20
       duration: [25, 20, 25, 30, 40, 50, 70, 90]
       times: [4, 8]
@@ -379,7 +379,7 @@
       quantity: 1:20
       duration: [20, 15, 20, 25, 35, 50, 70, 100]
       times: [4, 8]
-    - type: 茶壺泡法
+    - type: 小壺泡法
       quantity: 1:20
       duration: [20, 15, 20, 25, 35, 50, 70, 100]
       times: [4, 8]
@@ -451,6 +451,10 @@
       quantity: 1:20
       duration: [3, 5, 7, 10, 13, 20]
       times: [5, 20]
+    - type: 小壺泡法
+      quantity: 1:20
+      duration: [3, 5, 7, 10, 13, 20]
+      times: [5, 20]
 
 - zh: 安溪鐵觀音
   type: 青茶
@@ -469,7 +473,7 @@
       quantity: 1:20
       duration: [25, 20, 25, 30, 40, 50, 70, 90]
       times: [4, 8]
-    - type: 茶壺泡法
+    - type: 小壺泡法
       quantity: 1:20
       duration: [25, 20, 25, 30, 40, 50, 70, 90]
       times: [4, 8]
@@ -489,7 +493,7 @@
       quantity: 1:20
       duration: [30, 25, 30, 35, 45, 60]
       times: [4, 6]
-    - type: 茶壺泡法
+    - type: 小壺泡法
       quantity: 1:20
       duration: [30, 25, 30, 35, 45, 60]
       times: [4, 6]
@@ -510,7 +514,7 @@
       quantity: 1:20
       duration: [30, 25, 30, 35, 45, 60]
       times: [4, 6]
-    - type: 茶壺泡法
+    - type: 小壺泡法
       quantity: 1:20
       duration: [30, 25, 30, 35, 45, 60]
       times: [4, 6]
@@ -531,7 +535,7 @@
       quantity: 1:20
       duration: [30, 25, 30, 35, 45, 60]
       times: [4, 6]
-    - type: 茶壺泡法
+    - type: 小壺泡法
       quantity: 1:20
       duration: [30, 25, 30, 35, 45, 60]
       times: [4, 6]
@@ -562,7 +566,7 @@
   town: [政和， 福鼎， 建陽， 松溪]
   elevation: [500, 800]
   cultivar: [福鼎大白茶， 福鼎大毫茶]
-  picking: [一芽 一二葉]
+  picking: 一芽 一二葉
   harvest: 春季
   fermentation: [5, 10]
   temperature: 95
@@ -583,7 +587,7 @@
   town: 思茅地區
   elevation: 1600
   cultivar: 景谷大白茶
-  picking: [一芽 二葉]
+  picking: 一芽 二葉
   harvest: [春季, 夏季，秋季]
   fermentation: [5, 10]
   temperature: 100
@@ -603,7 +607,7 @@
   town: [政和， 福鼎， 建陽， 松溪]
   elevation: [500, 800]
   cultivar: [福鼎大白茶， 福鼎大毫茶]
-  picking: [一芽 二三葉]
+  picking: 一芽 二三葉
   harvest: [春季, 夏季，秋季]
   fermentation: [5, 10]
   temperature: 100
@@ -621,7 +625,7 @@
   type: 白茶
   province: 中國雲南
   cultivar: 雲南大白茶
-  picking: [一芽二， 三葉]
+  picking: 一芽 二三葉
   fermentation: [5, 10]
   temperature: [90, 95]
   brewing:
@@ -635,10 +639,10 @@
   family: 小種紅茶
   province: 中國福建
   town: 武夷山市星村桐木關
-  elevation: [1200, 1500]
-  cultivar: 正山小種
-  picking:
-  harvest:
+  elevation: 1100
+  cultivar: 小菜茶羣體種
+  picking:一芽 二三葉
+  harvest: [春季， 夏季]
   fermentation: [80, 95]
   temperature: 90
   brewing:
@@ -650,53 +654,64 @@
 - zh: 祁門紅茶
   type: 紅茶
   family: 工夫紅茶
-  picking: [一芽二葉, 一芽三葉]
   province: 中國安徽
-  temperature: [95, 100]
-  image: true
+  town: 祁門
+  elevation: [100, 350]
+  cultivar: 祁門種
+  picking:一芽 二三葉
+  harvest: [春季， 夏季]
+  fermentation: [80, 95]
+  temperature: [90, 95]
   brewing:
     - type: 蓋碗泡法
       quantity: 1:20
-      duration: [25, 25, 30, 40]
+      duration: [30, 45, 75, 120]
       times: [3, 4]
-
-- zh: 白琳
-  type: 紅茶
-  family: 工夫紅茶
-  picking: [一芽二葉, 一芽三葉]
-  province: 中國福建
-  temperature: [95, 100]
-  brewing:
-    - type: 蓋碗泡法
-      quantity: 1:20
-      duration: [25, 25, 30, 40]
-      times: [3, 4]
-
-- zh: 金駿眉
-  type: 紅茶
-  family: 小種紅茶
-  picking: [一芽二葉, 一芽三葉]
-  province: 中國福建
-  town: 武夷山市
-  temperature: [95, 100]
-  image: true
-  brewing:
-    - type: 蓋碗泡法
-      quantity: 1:20
-      duration: [25, 25, 30, 40]
-      times: [3, 4]
+    - type: 茶杯泡法
+      quantity: 1:50
+      duration: [120, 180]
+      times: [1, 2]
 
 - zh: 坦洋
   type: 紅茶
   family: 工夫紅茶
-  picking: [一芽二葉, 一芽三葉]
   province: 中國福建
-  temperature: [95, 100]
+  town: 福安
+  elevation: [300, 1000]
+  cultivar: [福安大白茶，福鼎大毫茶]
+  picking:一芽 一二葉
+  harvest: [春季， 夏季]
+  fermentation: [80, 95]
+  temperature: [90, 95]
   brewing:
     - type: 蓋碗泡法
       quantity: 1:20
-      duration: [25, 25, 30, 40]
+      duration: [30, 45, 75, 120]
       times: [3, 4]
+    - type: 茶杯泡法
+      quantity: 1:50
+      duration: [120, 180]
+      times: [1, 2]
+  
+
+- zh: 金駿眉
+  type: 紅茶
+  family: 小種紅茶
+  province: 中國福建
+  town: 武夷山市星村桐木關
+  elevation: [1000, 1200]
+  cultivar: 武夷野生奇種
+  picking: 芽葉
+  harvest: 春季
+  fermentation: [80, 95]
+  temperature: [80, 90]
+  image: true
+  brewing:
+    - type: 蓋碗泡法
+      quantity: 1:20
+      duration: [15, 25, 35, 45, 60, 70, 80, 90, 120, 150]
+      times: [10, 12]
+  
 
 - zh: 紅碎茶
   type: 紅茶
@@ -711,26 +726,22 @@
     - type: 蓋碗泡法
       quantity: 1:50
 
-- zh: 點紅
+- zh: 滇紅
   type: 紅茶
   family: 功夫紅茶
   province: 中國雲南
-  picking: 一芽二葉
-  temperature: [100]
+  town: 臨滄鳳慶
+  elevation: [1000, -]
+  cultivar: 雲南大葉種拼配
+  picking: [芽葉， 一芽一葉，一芽二三葉]
+  harvest: [春季， 夏季, 秋季]
+  fermentation: [80, 90]
+  temperature: [80, 85]
   brewing:
-    - type: 茶壺泡法
-      quantity: 1:12
-      duration: [3, 5, 7, 10]
-      times: [15, 20]
+    - type: 蓋碗泡法
+      quantity: 1:30
+      duration: [1, 1, 1, 3, 5, 8, 12, 17, 23, 30]
+      times: [10, -]
+  
 
-- zh: 正山小種
-  type: 紅茶
-  family: 小種紅茶
-  province: 中國福建
-  picking: 一芽三葉
-  temperature: [90, 95]
-  brewing:
-    - type: 茶壺泡法
-      quantity: 1:20
-      duration: [8, 10, 12, 15]
-      times: [15, 20]
+
