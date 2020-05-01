@@ -12,7 +12,7 @@
     import { i18n } from '../stores.js'
 
     export let type
-    console.log('type', type)
+
     function getColor(type, i18n) {
         if (i18n.hasOwnProperty(type)) {
             return i18n[type].color

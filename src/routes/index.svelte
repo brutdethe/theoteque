@@ -7,21 +7,6 @@
     }
 </style>
 
-<script context="module">
-    export async function preload() {
-        const res = await this.fetch(`./teas.json`)
-        const teas = await res.json()
-
-        return { teas }
-    }
-</script>
-
-<script>
-    export let teas
-</script>
-
-<h1>{console.log(teas)}</h1>
-
 <svelte:head>
     <title>Broutille</title>
 </svelte:head>
