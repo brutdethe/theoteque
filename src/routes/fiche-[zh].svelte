@@ -24,6 +24,7 @@
 <script>
     import { onMount } from 'svelte'
     import { teas, i18n } from '../stores.js'
+    import Brewing from '../components/Brewing.svelte'
     import Pinyin from '../components/Pinyin.svelte'
     import IconTeaType from '../components/IconTeaType.svelte'
 
@@ -200,6 +201,11 @@
                     />
                 {/if}
             </div>
+        </div>
+        <div class="row">
+            {#if Array.isArray(tea.brewing)}
+                <Brewing brew="{tea.brewing[0]}" />
+            {/if}
         </div>
     </div>
 {/if}
