@@ -1,7 +1,19 @@
 - zh: 平陽黃湯
-  type: 黃茶
+  type: 黃茶 
+  family: 黃小茶
+  province: 中國浙江
+  town: [平陽， 泰順， 瑞安]
+  elevation: [300, 1200]
+  cultivar: 平陽特皁茶
+  picking: [一芽一葉, 一芽二葉] 
+  harvest: 春季
+  fermentation: [10, 20]
+  temperature: [80, 85]
+  brewing:
+  
   picking: 一芽二葉
   province: 中國浙江
+  town: 
   family: 黃小茶
   temperature: [80, 85]
   brewing:
