@@ -5,7 +5,7 @@
   town: [平陽， 泰順， 瑞安]
   elevation: [300, 1200]
   cultivar: 平陽特皁茶
-  picking: [一芽一葉, 一芽二葉]
+  picking: [一芽 一葉, 一芽 二葉]
   harvest: 春季
   fermentation: [10, 20]
   brewing:
@@ -15,7 +15,7 @@
 
 - zh: 北港毛尖
   type: 黃茶
-  picking: 一芽二葉
+  picking: 一芽 二葉
   province: 中國湖南
   family: 黃小茶
   brewing:
@@ -25,7 +25,7 @@
 
 - zh: 溈山毛尖
   type: 黃茶
-  picking: 一芽二葉
+  picking: 一芽 二葉
   province: 中國湖南
   family: 黃小茶
   brewing:
@@ -35,7 +35,7 @@
 
 - zh: 霍山黃芽
   type: 黃茶
-  picking: [一芽, 一芽一葉]
+  picking: [一芽, 一芽 一葉]
   province: 中國安徽
   family: 黃芽茶
   image: true
@@ -48,7 +48,7 @@
   type: 黃茶
   family: 黃芽茶
   province: 中國湖南
-  picking: [一芽一葉, 一芽二葉]
+  picking: [一芽 一葉, 一芽 二葉]
   brewing:
     - type: 茶杯泡法
       temperature: [70, 75]
@@ -58,7 +58,7 @@
   type: 黃茶
   family: 黃芽茶
   province: 中國四川
-  picking: [一芽一葉, 一芽二葉]
+  picking: [一芽 一葉, 一芽 二葉]
   brewing:
     - type: 茶杯泡法
       temperature: 75
@@ -115,7 +115,7 @@
 
 - zh: 黄山毛峰
   type: 綠茶
-  picking: 一芽一葉
+  picking: 一芽 一葉
   province: 中國安徽
   family: 烘青绿茶
   image: true
@@ -131,7 +131,7 @@
 
 - zh: 龍井茶
   type: 綠茶
-  picking: 一芽一葉
+  picking: 一芽 一葉
   province: 中國浙江
   family: 炒青绿茶
   image: true
@@ -147,7 +147,7 @@
 
 - zh: 都勻毛尖
   type: 綠茶
-  picking: 一芽一葉
+  picking: 一芽 一葉
   province: 中國貴州
   brewing:
     - type: 蓋碗泡法
@@ -161,7 +161,7 @@
 
 - zh: 信阳毛尖
   type: 綠茶
-  picking: 一芽一葉
+  picking: 一芽 一葉
   province: 中國河南
   image: true
   brewing:
@@ -176,7 +176,7 @@
 
 - zh: 竹葉青
   type: 綠茶
-  picking: 一芽一葉
+  picking: 一芽 一葉
   province: 中國四川
   family: 炒青绿茶
   brewing:
@@ -191,7 +191,7 @@
 
 - zh: 頂谷大方
   type: 綠茶
-  picking: 一芽二葉
+  picking: 一芽 二葉
   province: 中國安徽
   family: 炒青绿茶
   image: true
@@ -224,7 +224,7 @@
 
 - zh: 綠寶石
   type: 綠茶
-  picking: [一芽二葉, 一芽三葉]
+  picking: [一芽 二葉, 一芽三葉]
   province: 中國貴州
   brewing:
     - type: 蓋碗泡法
@@ -238,7 +238,7 @@
 
 - zh: 珠茶
   type: 綠茶
-  picking: [一芽二葉, 一芽三葉]
+  picking: [一芽 二葉, 一芽三葉]
   province: 中國浙江
   family: 炒青绿茶
   brewing:

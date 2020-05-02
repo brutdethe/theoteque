@@ -33,15 +33,23 @@
 一二葉:
   pinyin: Yi Èr Yè
   fr: une ou deux feuilles
-一芽一葉:
+嫩芽:
+  pinyin: Nèn Yá
+一芽 一葉:
   pinyin: YīYá YīYè
   fr: un bourgeon et une feuille
-一芽二葉:
-  pinyin: YīYá ÈYè
+一芽 二葉:
+  pinyin: YīYá ÈrYè
   fr: un bourgeon et deux feuilles
+一芽 一二葉:
+  pinyin: Yī Yá YīÈr Yè
+  fr: un bourgeon, deux feuilles
 一芽三葉:
   pinyin: YīYá SānYè
   fr: un bourgeon et trois feuilles
+一芽 一二葉嫩芽:
+  pinyin: Yī yá yī'èr yè nèn yá
+  fr: un bourgeon et une ou deux feuilles
 一芽 二三葉:
   pinyin: YīYá ÈrSānYè
   fr: un bourgeon et deux ou trois feuilles
@@ -158,6 +166,50 @@
   pinyin: QīngXīn WūLóng
 桂青:
   pinyin: Guì Qīng
+景谷大白茶:
+  pinyin: JǐngGǔ Dà BáiChá
+雲南大白茶:
+  pinyin: Yúnnán Dà BáiChá
+福鼎大毫茶:
+  pinyin: Fú Dǐng Dà HáoChá
+政和大白茶:
+  pinyin: ZhèngHé Dà BáiChá
+平陽特皁茶:
+  pinyin: PíngYáng Tè ZàoChá
+武夷肉桂:
+  pinyin: WǔYí RòuGuì
+本山:
+  pinyin: BěnShān
+毛蟹:
+  pinyin: MáoXiè
+黃旦:
+  pinyin: Huáng Dàn
+小菜茶羣體種:
+  pinyin: XiǎoCài Chá Qún Tǐ Zhǒng
+祁門種:
+  pinyin: Qímén Zhǒng
+武夷野生奇種:
+  pinyin: WǔYí YěShēng Qí Zhǒng
+雲南大葉種拼配:
+  pinyin: YúnNán DàYè Zhòng Pīn Pèi
+福安大白茶:
+  pinyin: FúĀn Dà BáiChá
+其他拼配:
+  pinyin: QíTā Pīn Pèi
+奇丹:
+  pinyin: Qí Dān
+白毛猴:
+  pinyin: Bái Máo Hóu
+青心大某:
+  pinyin: Qīng Xīn Dà Mǒu
+金萱:
+  pinyin: Jīn Xuān
+硬枝紅心烏龍:
+  pinyin: Yìng Zhī HóngXīn WūLóng
+四季春:
+  pinyin: SìJìChūn
+翠玉:
+  pinyin: CuìYù
 
 # Brewing
 
@@ -226,10 +278,6 @@
 
 ## QingCha
 
-四季春:
-  pinyin: SìJìChūn
-金萱:
-  pinyin: JīnXuān
 坪林包種:
   pinyin: PíngLín BāoZhǒng
 高山茶:
