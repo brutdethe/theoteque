@@ -635,7 +635,7 @@
   elevation: 1600
   cultivar: 景谷大白茶
   picking: 一芽 二葉
-  harvest: [春季, 夏季，秋季]
+  harvest: [春季, 夏季, 秋季]
   fermentation: [5, 10]
   image: true
   brewing:
@@ -653,11 +653,11 @@
 - zh: 壽眉
   type: 白茶
   province: 中國福建
-  town: [政和， 福鼎， 建陽， 松溪]
+  town: [政和, 福鼎, 建陽, 松溪]
   elevation: [500, 800]
   cultivar: [福鼎大白茶， 福鼎大毫茶]
   picking: 一芽 二三葉
-  harvest: [春季, 夏季，秋季]
+  harvest: [春季, 夏季, 秋季]
   fermentation: [5, 10]
   brewing:
     - type: 蓋碗泡法
@@ -693,7 +693,7 @@
   elevation: 1100
   cultivar: 小菜茶羣體種
   picking: 一芽 二三葉
-  harvest: [春季， 夏季]
+  harvest: [春季, 夏季]
   fermentation: [80, 95]
   image: true
   brewing:
@@ -711,7 +711,7 @@
   elevation: [100, 350]
   cultivar: 祁門種
   picking: 一芽 二三葉
-  harvest: [春季， 夏季]
+  harvest: [春季, 夏季]
   fermentation: [80, 95]
   image: true
   brewing:
@@ -732,9 +732,9 @@
   province: 中國福建
   town: 福安
   elevation: [300, 1000]
-  cultivar: [福安大白茶，福鼎大毫茶]
+  cultivar: [福安大白茶, 福鼎大毫茶]
   picking: 一芽 一二葉
-  harvest: [春季， 夏季]
+  harvest: [春季, 夏季]
   fermentation: [80, 95]
   brewing:
     - type: 蓋碗泡法
@@ -789,8 +789,8 @@
   town: 臨滄鳳慶
   elevation: 1000
   cultivar: 雲南大葉種拼配
-  picking: [芽葉， 一芽一葉，一芽二三葉]
-  harvest: [春季， 夏季, 秋季]
+  picking: [芽葉, 一芽一葉, 一芽二三葉]
+  harvest: [春季, 夏季, 秋季]
   fermentation: [80, 90]
   image: true
   brewing:
