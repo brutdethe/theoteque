@@ -4,7 +4,7 @@
   province: 中國浙江
   town: [平陽， 泰順， 瑞安]
   elevation: [300, 1200]
-  cultivar: 平陽特皁茶
+  cultivar: 平陽特色羣體品種
   picking: [一芽 一葉, 一芽 二葉]
   harvest: 春季
   fermentation: [10, 20]
@@ -12,57 +12,120 @@
     - type: 茶杯泡法
       temperature: [80, 85]
       quantity: "1:50"
+      duration: [90, 120, 180]
+      times: [2, 3]
+    - type: 蓋碗泡法
+      temperature: [85, 90]
+      quantity: "1:30"
+      duration: [30, 60, 120]
+      times: [3, 4]
 
 - zh: 北港毛尖
   type: 黃茶
-  picking: 一芽 二葉
-  province: 中國湖南
   family: 黃小茶
+  province: 中國湖南
+  town: 岳陽
+  elevation: 
+  cultivar: 當地特色羣體品種
+  picking: [一芽 一葉, 一芽 二葉]
+  harvest: 春季
+  fermentation: [10, 20]
   brewing:
     - type: 茶杯泡法
       temperature: [80, 85]
       quantity: "1:50"
+      duration: [90, 120, 180]
+      times: [2, 3]
+    - type: 蓋碗泡法
+      temperature: [85, 90]
+      quantity: "1:30"
+      duration: [30, 60, 120]
+      times: [3, 4]
+   
 
 - zh: 溈山毛尖
   type: 黃茶
-  picking: 一芽 二葉
-  province: 中國湖南
   family: 黃小茶
+  province: 中國湖南
+  town: 寧鄉縣
+  elevation: [400, 900]
+  cultivar: 當地特色羣體品種
+  picking: [一芽 一葉, 一芽 二三葉]
+  harvest: 春季
+  fermentation: [10, 20]
   brewing:
     - type: 茶杯泡法
       temperature: [80, 85]
       quantity: "1:50"
+      duration: [90, 120, 180]
+      times: [2, 3]
+    - type: 蓋碗泡法
+      temperature: [85, 90]
+      quantity: "1:30"
+      duration: [30, 60, 120]
+      times: [3, 4]
+  
 
 - zh: 霍山黃芽
   type: 黃茶
-  picking: [一芽, 一芽 一葉]
-  province: 中國安徽
   family: 黃芽茶
+  province: 中國安徽
+  town: 霍山
+  elevation: [300, 700]
+  cultivar: 霍山金雞種
+  picking: [一芽 一葉, 一芽 二葉]
+  harvest: 春季
+  fermentation: 10
   image: true
   brewing:
     - type: 茶杯泡法
-      temperature: 75
+      temperature: [75, 80]
       quantity: "1:50"
+      duration: [90, 120, 180]
+      times: [2, 3]
+    - type: 蓋碗泡法
+      temperature: [80, 85]
+      quantity: "1:30"
+      duration: [30, 60, 120]
+      times: [3, 4]
+  
 
 - zh: 君山銀針
   type: 黃茶
   family: 黃芽茶
   province: 中國湖南
-  picking: [一芽 一葉, 一芽 二葉]
+  town: 岳陽洞庭湖君山
+  elevation: [50, 63]
+  cultivar: 當地品種
+  picking: 芽頭
+  harvest: 春季
+  fermentation: [10, 20]
   brewing:
     - type: 茶杯泡法
-      temperature: [70, 75]
+      temperature: [75, 80]
       quantity: "1:50"
+      duration: [90, 120, 180]
+      times: [2, 3]
+    
 
 - zh: 蒙頂黃芽
   type: 黃茶
   family: 黃芽茶
   province: 中國四川
-  picking: [一芽 一葉, 一芽 二葉]
+  town: 雅安蒙山
+  elevation: [1000, 1400]
+  cultivar: 當地品種
+  picking: [芽，芽頭]
+  harvest: 春季
+  fermentation: [10, 20]
   brewing:
     - type: 茶杯泡法
-      temperature: 75
+      temperature: [75, 80]
       quantity: "1:50"
+      duration: [90, 120, 180]
+      times: [2, 3]
+    
+  
 
 - zh: 廣東大葉青
   type: 黃茶
