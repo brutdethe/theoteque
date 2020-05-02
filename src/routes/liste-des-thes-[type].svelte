@@ -1,6 +1,7 @@
 <style>
     h3 {
         text-align: left;
+        margin-top: 2em;
     }
 </style>
 
@@ -16,15 +17,11 @@
     import { teas } from '../stores.js'
 
     export let typeParam
+    console.log('colors', typeParam)
+    const types = ['綠茶', '白茶', '黃茶', '青茶', '紅茶', '黑茶']
 
-    function getTeaTypes(type, teas) {
-        const types = [...new Set(teas.map(tea => tea.type))]
-        if (types.includes(type)) {
-            return [type]
-        } else {
-            return types
-        }
-    }
+    const typeToDisplay = types.includes(typeParam) ? [typeParam] : types
+
     const getTeasByType = (type, teas) => teas.filter(tea => tea.type === type)
 </script>
 
@@ -32,7 +29,7 @@
     <title>Liste des thés</title>
 </svelte:head>
 <div class="teas">
-    {#each getTeaTypes(typeParam, $teas) as type}
+    {#each typeToDisplay as type}
         <h3 id="{type}">
             <Pinyin text="{type}" />
             <IconTeaType {type} />

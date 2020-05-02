@@ -14,7 +14,7 @@
     export let type
 
     function getColor(type, i18n) {
-        if (i18n.hasOwnProperty(type)) {
+        if (type in i18n) {
             return i18n[type].color
         }
         return 'white'

@@ -1,17 +1,30 @@
 <style>
     .container {
         margin: 2em 0;
+        text-align: left;
     }
-
-    .photo {
+    .photo-zoom {
+        padding: 0;
         border: 1px solid #73d56b;
         border-radius: 4px;
-        transition: all 0.2s ease-in-out;
+        height: 350px; /* [1.1] Set it as per your need */
+        width: 350px;
+        overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+    }
+
+    .photo-zoom img {
+        transform-origin: 65% 75%;
+        transition: transform 1s, filter 0.5s ease-out;
+    }
+
+    .photo-zoom:hover img {
+        cursor: zoom-in;
+        transform: scale(4);
     }
 
     .icons {
         text-align: left;
-        width: 10%;
+        width: 20%;
     }
 </style>
 
@@ -42,19 +55,12 @@
         },
         fermentation: fermentation => {
             if (+fermentation) {
-                return `à partir de ${fermentation}%`
+                return `à partir de ${fermentation}% de fermentation`
             } else if (
                 fermentation.length == 2 &&
                 Array.isArray(fermentation)
             ) {
-                return `entre ${fermentation[0]}% et ${fermentation[1]}%`
-            }
-        },
-        temperature: temperature => {
-            if (+temperature) {
-                return `à partir de ${temperature}°`
-            } else if (temperature.length == 2 && Array.isArray(temperature)) {
-                return `entre ${temperature[0]}° et ${temperature[1]}°`
+                return `entre ${fermentation[0]}% et ${fermentation[1]}% de fermentation`
             }
         }
     }
@@ -65,34 +71,35 @@
 </svelte:head>
 
 {#if tea && i18n}
-    <h2>
-        <Pinyin text="{tea.zh}" />
-    </h2>
-
     <div class="container">
+        <h2>
+            <Pinyin text="{tea.zh}" />
+        </h2>
+        <hr />
         <div class="row">
             <div class="column column-66">
                 <table>
                     <thead></thead>
                     <tbody>
-                        {#if tea.type}
-                            <tr>
-                                <td>
-                                    <a href="/liste-des-thes-{tea.type}">
-                                        <Pinyin text="{tea.type}" />
-                                    </a>
-                                    <IconTeaType type="{tea.type}" />
-                                </td>
-                            </tr>
-                        {/if}
-                        {#if tea.family}
-                            <tr>
+                        <tr>
+                            <td>
+                                <a href="/liste-des-thes-{tea.type}">
+                                    <Pinyin text="{tea.type}" />
+                                </a>
+                                <IconTeaType type="{tea.type}" />
+                            </td>
+                        </tr>
+                        <tr>
+                            {#if tea.family}
                                 <td>Famille :</td>
                                 <td>
                                     <Pinyin text="{tea.family}" />
                                 </td>
-                            </tr>
-                        {/if}
+                            {/if}
+                            {#if tea.elevation}
+                                <td>{display.elevation(tea.elevation)}</td>
+                            {/if}
+                        </tr>
                         {#if tea.cultivar}
                             <tr>
                                 <td>Cultivar :</td>
@@ -102,9 +109,16 @@
                                 </td>
                             </tr>
                         {/if}
-                        {#if tea.town}
-                            <tr>
-                                <td>Ville :</td>
+                        <tr>
+                            <td>Localisation :</td>
+                            <td>
+                                <a
+                                    href="https://www.openstreetmap.org/search?query={tea['province']}"
+                                >
+                                    <Pinyin text="{tea.province}" />
+                                </a>
+                            </td>
+                            {#if tea.town}
                                 <td>
                                     <a
                                         href="https://www.openstreetmap.org/search?query={tea['town']}"
@@ -112,29 +126,10 @@
                                         <Pinyin text="{tea.town}" />
                                     </a>
                                 </td>
-                            </tr>
-                        {/if}
-                        {#if tea.province}
-                            <tr>
-                                <td>Province :</td>
-                                <td>
-                                    <a
-                                        href="https://www.openstreetmap.org/search?query={tea['province']}"
-                                    >
-                                        <Pinyin text="{tea.province}" />
-                                    </a>
-                                </td>
-
-                            </tr>
-                        {/if}
-                        {#if tea.elevation}
-                            <tr>
-                                <td>Altitude :</td>
-                                <td>{display.elevation(tea.elevation)}</td>
-                            </tr>
-                        {/if}
-                        {#if tea.harvest}
-                            <tr>
+                            {/if}
+                        </tr>
+                        <tr>
+                            {#if tea.harvest}
                                 <td>Récolte :</td>
                                 <td>
                                     {#if typeof tea.harvest === 'string'}
@@ -153,8 +148,13 @@
                                         {/each}
                                     {/if}
                                 </td>
-                            </tr>
-                        {/if}
+                            {/if}
+                            {#if tea.fermentation}
+                                <td>
+                                    {display.fermentation(tea.fermentation)}
+                                </td>
+                            {/if}
+                        </tr>
                         {#if tea.picking}
                             <tr>
                                 <td>Ceuillette :</td>
@@ -173,38 +173,25 @@
                                 </td>
                             </tr>
                         {/if}
-                        {#if tea.fermentation}
-                            <tr>
-                                <td>Fermentation :</td>
-                                <td>
-                                    {display.fermentation(tea.fermentation)}
-                                </td>
-                            </tr>
-                        {/if}
-                        {#if tea.temperature}
-                            <tr>
-                                <td>Température :</td>
-                                <td>{display.temperature(tea.temperature)}</td>
-                            </tr>
-                        {/if}
                     </tbody>
                 </table>
-
             </div>
-            <div class="column">
-                {#if tea.image}
-                    <img
-                        src="/assets/thes/{tea.zh}.jpg"
-                        alt="{tea.zh}"
-                        title="{tea.zh}"
-                        class="photo"
-                    />
-                {/if}
+            <div class="column photo-zoom">
+                <img
+                    src="/assets/thes/{tea.zh}.jpg"
+                    alt="{tea.zh}"
+                    title="{tea.zh}"
+                    class="photo"
+                />
             </div>
         </div>
+        <hr />
+        <h3>Conseil d'infusion</h3>
         <div class="row">
             {#if Array.isArray(tea.brewing)}
-                <Brewing brew="{tea.brewing[0]}" />
+                {#each tea.brewing as brew}
+                    <Brewing {brew} />
+                {/each}
             {/if}
         </div>
     </div>

@@ -1,105 +1,100 @@
 - zh: 平陽黃湯
-  type: 黃茶 
+  type: 黃茶
   family: 黃小茶
   province: 中國浙江
   town: [平陽， 泰順， 瑞安]
   elevation: [300, 1200]
   cultivar: 平陽特皁茶
-  picking: [一芽一葉, 一芽二葉] 
+  picking: [一芽一葉, 一芽二葉]
   harvest: 春季
   fermentation: [10, 20]
-  temperature: [80, 85]
-  brewing:
-  
-  picking: 一芽二葉
-  province: 中國浙江
-  town: 
-  family: 黃小茶
-  temperature: [80, 85]
   brewing:
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: [80, 85]
+      quantity: "1:50"
 
 - zh: 北港毛尖
   type: 黃茶
   picking: 一芽二葉
   province: 中國湖南
   family: 黃小茶
-  temperature: [80, 85]
   brewing:
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: [80, 85]
+      quantity: "1:50"
 
 - zh: 溈山毛尖
   type: 黃茶
   picking: 一芽二葉
   province: 中國湖南
   family: 黃小茶
-  temperature: [80, 85]
   brewing:
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: [80, 85]
+      quantity: "1:50"
 
 - zh: 霍山黃芽
   type: 黃茶
   picking: [一芽, 一芽一葉]
   province: 中國安徽
   family: 黃芽茶
-  temperature: 75
+  image: true
   brewing:
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: 75
+      quantity: "1:50"
 
 - zh: 君山銀針
   type: 黃茶
   family: 黃芽茶
   province: 中國湖南
   picking: [一芽一葉, 一芽二葉]
-  temperature: [70, 75]
   brewing:
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: [70, 75]
+      quantity: "1:50"
 
 - zh: 蒙頂黃芽
   type: 黃茶
   family: 黃芽茶
   province: 中國四川
   picking: [一芽一葉, 一芽二葉]
-  temperature: 75
   brewing:
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: 75
+      quantity: "1:50"
 
 - zh: 廣東大葉青
   type: 黃茶
   picking: 一芽三葉
   province: 中國廣東
   family: 黃大茶
-  temperature: [85, 90]
   brewing:
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: [85, 90]
+      quantity: "1:50"
 
 - zh: 霍山黃大茶
   type: 黃茶
   picking: 一芽三葉
   province: 中國安徽
   family: 黃大茶
-  temperature: [85, 90]
+  image: true
   brewing:
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: [85, 90]
+      quantity: "1:50"
 
 - zh: 碧螺春
   type: 綠茶
   picking: 芽葉
   province: 中國江蘇
   family: 炒青绿茶
-  temperature: [80, 85]
   image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:30
+      temperature: [80, 85]
+      quantity: "1:30"
       duration: [25, 30, 45]
       times: [2, 5]
 
@@ -108,99 +103,107 @@
   picking: 芽葉
   province: 中國貴州
   family: 炒青绿茶
-  temperature: 80
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:30
+      temperature: 80
+      quantity: "1:30"
       duration: [25, 30, 45]
       times: [2, 5]
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: 80
+      quantity: "1:50"
 
 - zh: 黄山毛峰
   type: 綠茶
   picking: 一芽一葉
   province: 中國安徽
   family: 烘青绿茶
-  temperature: [80, 90]
   image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:30
+      temperature: [80, 90]
+      quantity: "1:30"
       duration: [20, 30, 40, 60]
       times: [2, 5]
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: [80, 90]
+      quantity: "1:50"
 
 - zh: 龍井茶
   type: 綠茶
   picking: 一芽一葉
   province: 中國浙江
   family: 炒青绿茶
-  temperature: 85
   image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:30
+      temperature: 85
+      quantity: "1:30"
       duration: [20, 30, 40, 60]
       times: [2, 5]
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: 85
+      quantity: "1:50"
 
 - zh: 都勻毛尖
   type: 綠茶
   picking: 一芽一葉
   province: 中國貴州
-  temperature: 80
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:30
+      temperature: 80
+      quantity: "1:30"
       duration: [20, 30, 40, 60]
       times: [2, 5]
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: 80
+      quantity: "1:50"
 
 - zh: 信阳毛尖
   type: 綠茶
   picking: 一芽一葉
   province: 中國河南
-  temperature: 80
   image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:30
+      temperature: 80
+      quantity: "1:30"
       duration: [20, 30, 40, 60]
       times: [2, 5]
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: 80
+      quantity: "1:50"
 
 - zh: 竹葉青
   type: 綠茶
   picking: 一芽一葉
   province: 中國四川
   family: 炒青绿茶
-  temperature: 85
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:30
+      temperature: 85
+      quantity: "1:30"
       duration: [20, 30, 40, 60]
       times: [2, 5]
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: 85
+      quantity: "1:50"
 
 - zh: 頂谷大方
   type: 綠茶
   picking: 一芽二葉
   province: 中國安徽
   family: 炒青绿茶
-  temperature: 80
+  image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:30
+      temperature: 80
+      quantity: "1:30"
       duration: [20, 30, 40, 60]
       times: [2, 5]
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: 80
+      quantity: "1:50"
 
 - zh: 太平猴魁
   type: 綠茶
@@ -210,48 +213,59 @@
   temperature: [80, 90]
   image: true
   brewing:
+    - type: 蓋碗泡法
+      temperature: [80, 90]
+      quantity: "1:30"
+      duration: [20, 30, 40, 60]
+      times: [2, 5]
+    - type: 茶杯泡法
+      temperature: [80, 90]
+      quantity: "1:50"
 
 - zh: 綠寶石
   type: 綠茶
   picking: [一芽二葉, 一芽三葉]
   province: 中國貴州
-  temperature: [80, 85]
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:30
+      temperature: [80, 85]
+      quantity: "1:30"
       duration: [20, 30, 40, 60]
       times: [2, 5]
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: [80, 85]
+      quantity: "1:50"
 
 - zh: 珠茶
   type: 綠茶
   picking: [一芽二葉, 一芽三葉]
   province: 中國浙江
   family: 炒青绿茶
-  temperature: 90
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:30
+      temperature: 90
+      quantity: "1:30"
       duration: [20, 30, 40, 60]
       times: [2, 5]
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: 90
+      quantity: "1:50"
 
 - zh: 六安瓜片
   type: 綠茶
   picking: 單壯葉
   province: 中國安徽
   family: 烘青绿茶
-  temperature: 85
   image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:30
+      temperature: 85
+      quantity: "1:30"
       duration: [20, 30, 40, 60]
       times: [2, 5]
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: 85
+      quantity: "1:50"
 
 - zh: 四季春
   type: 青茶
@@ -261,14 +275,15 @@
   picking: 一芽 二葉
   harvest: [春季, 夏季, 秋季]
   fermentation: [20, 25]
-  temperature: 90
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:20
+      temperature: 90
+      quantity: "1:20"
       duration: [25, 20, 25, 30, 40, 60]
       times: [4, 6]
     - type: 小壺泡法
-      quantity: 1:20
+      temperature: 90
+      quantity: "1:20"
       duration: [25, 20, 25, 30, 40，60]
       times: [4, 6]
 
@@ -280,14 +295,15 @@
   picking: 一芽 二葉
   harvest: [春季, 夏季, 秋季]
   fermentation: [20, 25]
-  temperature: 90
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:20
+      temperature: 90
+      quantity: "1:20"
       duration: [25, 20, 25, 30, 40, 60]
       times: [4, 6]
     - type: 小壺泡法
-      quantity: 1:20
+      temperature: 90
+      quantity: "1:20"
       duration: [25, 20, 25, 30, 40, 60]
       times: [4, 6]
 
@@ -301,14 +317,15 @@
   picking: 一芽 二葉
   harvest: [春季, 夏季, 秋季]
   fermentation: [12, 15]
-  temperature: 90
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:20
+      temperature: 90
+      quantity: "1:20"
       duration: [25, 20, 25, 30, 40, 60]
       times: [4, 6]
     - type: 小壺泡法
-      quantity: 1:20
+      temperature: 90
+      quantity: "1:20"
       duration: [25, 20, 25, 30, 40, 60]
       times: [4, 6]
 
@@ -321,14 +338,15 @@
   picking: 一芽 二葉
   harvest: [春季, 夏季, 秋季]
   fermentation: [15, 20]
-  temperature: [95, 100]
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:20
+      temperature: [95, 100]
+      quantity: "1:20"
       duration: [20, 15, 20, 25, 35, 45, 60, 90]
       times: [4, 8]
     - type: 小壺泡法
-      quantity: 1:20
+      temperature: [95, 100]
+      quantity: "1:20"
       duration: [20, 15, 20, 25, 35, 45, 60, 90]
       times: [4, 8]
 
@@ -342,14 +360,15 @@
   picking: 一芽 二葉
   harvest: [春季, 夏季, 秋季]
   fermentation: 40
-  temperature: [90, 95]
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:20
+      temperature: [90, 95]
+      quantity: "1:20"
       duration: [25, 20, 25, 30, 40, 50, 70, 90]
       times: [4, 8]
     - type: 小壺泡法
-      quantity: 1:20
+      temperature: [90, 95]
+      quantity: "1:20"
       duration: [25, 20, 25, 30, 40, 50, 70, 90]
       times: [4, 8]
 
@@ -363,14 +382,15 @@
   picking: 一芽 二葉
   harvest: [春季, 夏季, 秋季]
   fermentation: [25, 30]
-  temperature: [90, 95]
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:20
+      temperature: [90, 95]
+      quantity: "1:20"
       duration: [25, 20, 25, 30, 40, 50, 70, 90]
       times: [4, 8]
     - type: 小壺泡法
-      quantity: 1:20
+      temperature: [90, 95]
+      quantity: "1:20"
       duration: [25, 20, 25, 30, 40, 50, 70, 90]
       times: [4, 8]
 
@@ -384,15 +404,16 @@
   picking: 一芽 一葉
   harvest: 夏季
   fermentation: [60, 75]
-  temperature: [85, 90]
   image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:20
+      temperature: [85, 90]
+      quantity: "1:20"
       duration: [20, 15, 20, 25, 35, 50, 70, 100]
       times: [4, 8]
     - type: 小壺泡法
-      quantity: 1:20
+      temperature: [85, 90]
+      quantity: "1:20"
       duration: [20, 15, 20, 25, 35, 50, 70, 100]
       times: [4, 8]
 
@@ -406,11 +427,11 @@
   picking: 一芽 三四葉
   harvest: 春季
   fermentation: 70
-  temperature: [95, 100]
   image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:20
+      temperature: [95, 100]
+      quantity: "1:20"
       duration: [5, 8, 10, 12, 15, 18, 20]
       times: [15, 20]
 
@@ -424,10 +445,11 @@
   picking: 一芽 三四葉
   harvest: 春季
   fermentation: [35, 45]
-  temperature: [95, 100]
+  image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:20
+      temperature: [95, 100]
+      quantity: "1:20"
       duration: [5, 8, 10, 12, 15, 18, 20]
       times: [15, 20]
 
@@ -441,10 +463,11 @@
   picking: 一芽 三四葉
   harvest: 春季
   fermentation: [35, 45]
-  temperature: [95, 100]
+  image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:20
+      temperature: [95, 100]
+      quantity: "1:20"
       duration: [5, 8, 10, 12, 15, 18, 20]
       times: [15, 20]
 
@@ -457,14 +480,16 @@
   cultivar: 鳳凰水仙
   picking: 一芽 二三葉
   fermentation: [70, 80]
-  temperature: [95, 100]
+  image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:20
+      temperature: [95, 100]
+      quantity: "1:20"
       duration: [3, 5, 7, 10, 13, 20]
       times: [5, 20]
     - type: 小壺泡法
-      quantity: 1:20
+      temperature: [95, 100]
+      quantity: "1:20"
       duration: [3, 5, 7, 10, 13, 20]
       times: [5, 20]
 
@@ -478,15 +503,16 @@
   picking: [一芽 二三葉, 一芽 三四葉]
   harvest: [春季, 秋季]
   fermentation: [20, 50]
-  temperature: [95, 100]
   image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:20
+      temperature: [95, 100]
+      quantity: "1:20"
       duration: [25, 20, 25, 30, 40, 50, 70, 90]
       times: [4, 8]
     - type: 小壺泡法
-      quantity: 1:20
+      temperature: [95, 100]
+      quantity: "1:20"
       duration: [25, 20, 25, 30, 40, 50, 70, 90]
       times: [4, 8]
 
@@ -499,14 +525,16 @@
   picking: [一芽 二三葉, 一芽 三四葉]
   harvest: [春季, 秋季]
   fermentation: [20, 50]
-  temperature: [90, 95]
+  image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:20
+      temperature: [90, 95]
+      quantity: "1:20"
       duration: [30, 25, 30, 35, 45, 60]
       times: [4, 6]
     - type: 小壺泡法
-      quantity: 1:20
+      temperature: [90, 95]
+      quantity: "1:20"
       duration: [30, 25, 30, 35, 45, 60]
       times: [4, 6]
 
@@ -520,14 +548,16 @@
   picking: [一芽 二三葉, 一芽 三四葉]
   harvest: [春季, 秋季]
   fermentation: [20, 50]
-  temperature: [90, 95]
+  image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:20
+      temperature: [90, 95]
+      quantity: "1:20"
       duration: [30, 25, 30, 35, 45, 60]
       times: [4, 6]
     - type: 小壺泡法
-      quantity: 1:20
+      temperature: [90, 95]
+      quantity: "1:20"
       duration: [30, 25, 30, 35, 45, 60]
       times: [4, 6]
 
@@ -541,14 +571,16 @@
   picking: [一芽 二三葉, 一芽 三四葉]
   harvest: [春季, 秋季]
   fermentation: [20, 50]
-  temperature: [90, 95]
+  image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:20
+      temperature: [90, 95]
+      quantity: "1:20"
       duration: [30, 25, 30, 35, 45, 60]
       times: [4, 6]
     - type: 小壺泡法
-      quantity: 1:20
+      temperature: [90, 95]
+      quantity: "1:20"
       duration: [30, 25, 30, 35, 45, 60]
       times: [4, 6]
 
@@ -561,14 +593,16 @@
   picking: 嫩芽
   harvest: 春季
   fermentation: [5, 10]
-  temperature: 90
+  image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:30
+      temperature: 90
+      quantity: "1:30"
       duration: [15, 20, 25, 35, 45, 60]
       times: [5, 10]
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: 90
+      quantity: "1:50"
       duration: [180, 300, 480]
       times: [2, 3]
 
@@ -581,15 +615,16 @@
   picking: 一芽 一二葉
   harvest: 春季
   fermentation: [5, 10]
-  temperature: 95
   image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:30
+      temperature: 95
+      quantity: "1:30"
       duration: [15, 20, 25, 35, 45, 60]
       times: [5, 10]
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: 95
+      quantity: "1:50"
       duration: [180, 300, 480]
       times: [2, 3]
 
@@ -602,14 +637,16 @@
   picking: 一芽 二葉
   harvest: [春季, 夏季，秋季]
   fermentation: [5, 10]
-  temperature: 100
+  image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:40
+      temperature: 100
+      quantity: "1:40"
       duration: [10, 10, 10, 20, 30]
       times: [5, 10]
     - type: 小壺泡法
-      quantity: 1:40
+      temperature: 100
+      quantity: "1:40"
       duration: [10, 10, 10, 20， 30]
       times: [5, 10]
 
@@ -622,14 +659,15 @@
   picking: 一芽 二三葉
   harvest: [春季, 夏季，秋季]
   fermentation: [5, 10]
-  temperature: 100
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:30
+      temperature: 100
+      quantity: "1:30"
       duration: [50, 60, 80, 100]
       times: [4, 5]
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: 100
+      quantity: "1:50"
       duration: [180, 300, 480]
       times: [2, 3]
 
@@ -639,10 +677,11 @@
   cultivar: 雲南大白茶
   picking: 一芽 二三葉
   fermentation: [5, 10]
-  temperature: [90, 95]
+  image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:30
+      temperature: [90, 95]
+      quantity: "1:30"
       duration: [10, 30, 30, 50]
       times: [4, 8]
 
@@ -656,10 +695,11 @@
   picking: 一芽 二三葉
   harvest: [春季， 夏季]
   fermentation: [80, 95]
-  temperature: 90
+  image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:20
+      temperature: 90
+      quantity: "1:20"
       duration: [10, 10, 15, 25, 40, 60]
       times: [4, 6]
 
@@ -673,14 +713,16 @@
   picking: 一芽 二三葉
   harvest: [春季， 夏季]
   fermentation: [80, 95]
-  temperature: [90, 95]
+  image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:20
+      temperature: [90, 95]
+      quantity: "1:20"
       duration: [30, 45, 75, 120]
       times: [3, 4]
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: [90, 95]
+      quantity: "1:50"
       duration: [120, 180]
       times: [1, 2]
 
@@ -694,14 +736,15 @@
   picking: 一芽 一二葉
   harvest: [春季， 夏季]
   fermentation: [80, 95]
-  temperature: [90, 95]
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:20
+      temperature: [90, 95]
+      quantity: "1:20"
       duration: [30, 45, 75, 120]
       times: [3, 4]
     - type: 茶杯泡法
-      quantity: 1:50
+      temperature: [90, 95]
+      quantity: "1:50"
       duration: [120, 180]
       times: [1, 2]
 
@@ -715,11 +758,11 @@
   picking: 芽葉
   harvest: 春季
   fermentation: [80, 95]
-  temperature: [80, 90]
   image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:20
+      temperature: [80, 90]
+      quantity: "1:20"
       duration: [15, 25, 35, 45, 60, 70, 80, 90, 120, 150]
       times: [10, 12]
 
@@ -727,17 +770,17 @@
   type: 紅茶
   family: 紅碎茶
   province: [中國雲南, 廣東， 海南， 廣西]
-  temperature: [90, 100]
   brewing:
     - type: 大壺泡法
-      quantity: 1:60
+      temperature: [90, 100]
+      quantity: "1:60"
       duration: [180]
       times: 1
     - type: 蓋碗泡法
-      quantity: 1:30
+      temperature: [90, 100]
+      quantity: "1:30"
       duration: [10, 30]
       times: 2
-    
 
 - zh: 滇紅
   type: 紅茶
@@ -749,9 +792,27 @@
   picking: [芽葉， 一芽一葉，一芽二三葉]
   harvest: [春季， 夏季, 秋季]
   fermentation: [80, 90]
-  temperature: [80, 85]
+  image: true
   brewing:
     - type: 蓋碗泡法
-      quantity: 1:30
+      temperature: [80, 85]
+      quantity: "1:30"
       duration: [1, 1, 1, 3, 5, 8, 12, 17, 23, 30]
       times: 10
+
+# Hei Cha
+
+- zh: 六堡黑茶
+  type: 黑茶
+  province: 中國廣西
+  elevation: [1000, 1500]
+  cultivar: 桂青
+  picking: [一芽 二三葉, 一芽 三四葉]
+  fermentation: 99
+  image: true
+  brewing:
+    - type: 煮泡法
+      temperature: [95, 99]
+      quantity: "1:100"
+      duration: 300
+      times: 1
