@@ -1,7 +1,9 @@
 {
-  "name": "TODO",
-  "description": "TODO",
-  "version": "0.0.1",
+  "name": "broutille",
+  "version": "0.1.0",
+  "description": "Pour découvrir le monde des thés chinois",
+  "author": "pntbr - stephane.langlois@scopyleft.fr ",
+  "license": "CC0-1.0",
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
