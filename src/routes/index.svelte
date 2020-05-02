@@ -1,15 +1,28 @@
 <style>
     @media (min-width: 480px) {
     }
-
+    h1 {
+        color: #2bed0a;
+        margin: 0;
+    }
     p {
         text-align: left;
+    }
+
+    .baseline {
+        text-align: center;
     }
 </style>
 
 <svelte:head>
     <title>Broutille</title>
 </svelte:head>
+
+<h1>Guide d'infusion</h1>
+<p class="baseline">pour apprendre à infuser les thés de Chine</p>
+<img src="/assets/logo.jpg" alt="tasse de thé" width="100px" />
+<hr />
+
 <p>
     Broutille est un outil d'apprentissage pour aborder en douceur la complexité
     de l'infusion. Ce n'est pas une table de loi, l'infusion des thés est un art
