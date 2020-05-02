@@ -1,87 +1,81 @@
 <style>
-
+    input {
+        width: 6em;
+        heigth: 2em;
+        border-color: #ddd;
+        font-size: 0.9em;
+        color: grey;
+    }
+    .mini {
+        font-size: 0.8em;
+        color: grey;
+    }
 </style>
 
 <script>
     import Pinyin from '../components/Pinyin.svelte'
     export let brew
 
+    let ml = 100
+
+    $: weight = (ml / +brew.quantity.split(':')[1]).toFixed(1)
+
+    const durations = +brew.duration ? [brew.duration] : brew.duration
+
     const display = {
         times: times => {
             if (+times) {
-                return `${times} fois`
+                return `${times} infusions`
             } else if (times.length == 2 && Array.isArray([times])) {
-                return `entre ${times[0]} et ${times[1]} fois`
+                return `${times[0]} à ${times[1]} infusions`
+            }
+        },
+        temperature: temperature => {
+            if (+temperature) {
+                return `à partir de ${temperature}°`
+            } else if (temperature.length == 2 && Array.isArray(temperature)) {
+                return `entre ${temperature[0]}° et ${temperature[1]}°`
             }
         }
     }
 </script>
 
-<table class="column" column-20>
-    <thead>
+<table class="column column-50">
+    <tr>
+        <Pinyin text="{brew.type}" />
+    </tr>
+    <tr>
+        <td>{display.temperature(brew.temperature)}</td>
+    </tr>
+    {#if brew.times}
         <tr>
-            <td>Conseil d'infusion</td>
+            <td>{display.times(brew.times)}</td>
         </tr>
-    </thead>
-    <tbody>
+    {/if}
+    {#if durations}
         <tr>
-            {#if brew.type}
-                <tr>
-                    <Pinyin text="{brew.type}" />
-                </tr>
-            {/if}
+            <td>
+                <table>
+                    <tr>
+                        {#each durations as duration, index}
+                            <td>{index + 1}</td>
+                        {/each}
+                    </tr>
+                    <tr>
+                        {#each durations as duration}
+                            <td>{duration} sec</td>
+                        {/each}
+                    </tr>
+                </table>
+            </td>
         </tr>
-        <!--
-        <tr>
-            {#if brew.temperature}
-                <tr>
-                    <td>Température :</td>
-                    <td>{display.temperature(brew.temperature)}</td>
-                </tr>
-            {/if}
-        </tr>
-        -->
-        <tr>
-            {#if brew.quantity}
-                <tr>
-                    <td>Quantité :</td>
-                    <td>{brew.quantity}</td>
-                </tr>
-            {/if}
-        </tr>
-        <tr>
-            {#if brew.duration}
-                <tr>
-                    <td>Duration :</td>
-                    <td>
-                        <table>
-                            <thead>
-                                <tr>
-                                    {#each brew.duration as duration, index}
-                                        <td>{index + 1}</td>
-                                    {/each}
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    {#each brew.duration as duration}
-                                        <td>{duration} sec</td>
-                                    {/each}
-                                </tr>
-                            </tbody>
-                        </table>
-                    </td>
-                </tr>
-            {/if}
-        </tr>
-        <tr>
-            {#if brew.times}
-                <tr>
-                    <td>Nombre d'infusion :</td>
-                    <td>{display.times(brew.times)}</td>
-                </tr>
-            {/if}
-        </tr>
-    </tbody>
-
+    {/if}
+    <td>
+        Vous pouvez tester avec
+        <strong>{weight} g</strong>
+        pour
+        <input type="number" step="20" bind:value="{ml}" />
+        ml -
+        <span class="mini">(ratio: {brew.quantity})</span>
+    </td>
 </table>
