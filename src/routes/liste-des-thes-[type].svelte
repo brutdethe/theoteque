@@ -16,7 +16,10 @@
     import Pinyin from '../components/Pinyin.svelte'
     import IconTeaType from '../components/IconTeaType.svelte'
 
+    export let typeParam
+
     let teas = []
+    let types = []
 
     onMount(async () => {
         const res = await fetch('https://api-tea.herokuapp.com/api/v1/teas')
@@ -26,13 +29,18 @@
         } else {
             throw new Error(text)
         }
+
+        const res1 = await fetch('https://api-tea.herokuapp.com/api/v1/types')
+
+        if (res1.ok) {
+            types = (await res1.json()).api.map(type => type.zh)
+        } else {
+            throw new Error(text)
+        }
     })
-    export let typeParam
 
-    // types avec l'api
-    const types = ['綠茶', '白茶', '黃茶', '青茶', '紅茶', '黑茶']
-
-    const typeToDisplay = types.includes(typeParam) ? [typeParam] : types
+    const typeToDisplay = () =>
+        types.includes(typeParam) ? [typeParam] : types
     const getTeasByType = (type, teas) => teas.filter(tea => tea.type === type)
 </script>
 
@@ -40,7 +48,7 @@
     <title>Liste des thés</title>
 </svelte:head>
 <div class="teas">
-    {#each typeToDisplay as type}
+    {#each typeToDisplay(typeParam, types) as type}
         <h3 id="{type}">
             <Pinyin text="{type}" />
             <IconTeaType {type} />
@@ -55,7 +63,6 @@
                     <th>origine</th>
                     <th>ceuillette</th>
                     <th>altitude</th>
-                    <th>image</th>
                 </tr>
             </thead>
             <tbody>
@@ -92,7 +99,6 @@
                             {:else}-{/if}
                         </td>
                         <td>{tea.elevation || '-'}</td>
-                        <td>{tea.image ? '📷' : '-'}</td>
                     </tr>
                 {:else}
                     <!-- this block renders when teas.length === 0 -->
