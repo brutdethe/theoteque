@@ -12,12 +12,24 @@
 </script>
 
 <script>
+    import { onMount } from 'svelte'
     import Pinyin from '../components/Pinyin.svelte'
     import IconTeaType from '../components/IconTeaType.svelte'
-    import { teas } from '../stores.js'
 
+    let teas = []
+
+    onMount(async () => {
+        const res = await fetch('https://api-tea.herokuapp.com/api/v1/teas')
+
+        if (res.ok) {
+            teas = (await res.json()).api
+        } else {
+            throw new Error(text)
+        }
+    })
     export let typeParam
 
+    // types avec l'api
     const types = ['綠茶', '白茶', '黃茶', '青茶', '紅茶', '黑茶']
 
     const typeToDisplay = types.includes(typeParam) ? [typeParam] : types
@@ -47,7 +59,7 @@
                 </tr>
             </thead>
             <tbody>
-                {#each getTeasByType(type, $teas) as tea}
+                {#each getTeasByType(type, teas) as tea}
                     <tr>
                         <td>
                             <a href="fiche-{tea.zh}">
