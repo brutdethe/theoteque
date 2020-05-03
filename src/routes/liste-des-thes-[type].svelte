@@ -12,15 +12,35 @@
 </script>
 
 <script>
+    import { onMount } from 'svelte'
     import Pinyin from '../components/Pinyin.svelte'
     import IconTeaType from '../components/IconTeaType.svelte'
-    import { teas } from '../stores.js'
 
     export let typeParam
 
-    const types = ['綠茶', '白茶', '黃茶', '青茶', '紅茶', '黑茶']
+    let teas = []
+    let types = []
 
-    const typeToDisplay = types.includes(typeParam) ? [typeParam] : types
+    onMount(async () => {
+        const res = await fetch('https://api-tea.herokuapp.com/api/v1/teas')
+
+        if (res.ok) {
+            teas = (await res.json()).api
+        } else {
+            throw new Error(text)
+        }
+
+        const res1 = await fetch('https://api-tea.herokuapp.com/api/v1/types')
+
+        if (res1.ok) {
+            types = (await res1.json()).api.map(type => type.zh)
+        } else {
+            throw new Error(text)
+        }
+    })
+
+    const typeToDisplay = () =>
+        types.includes(typeParam) ? [typeParam] : types
     const getTeasByType = (type, teas) => teas.filter(tea => tea.type === type)
 </script>
 
@@ -28,7 +48,7 @@
     <title>Liste des thés</title>
 </svelte:head>
 <div class="teas">
-    {#each typeToDisplay as type}
+    {#each typeToDisplay(typeParam, types) as type}
         <h3 id="{type}">
             <Pinyin text="{type}" />
             <IconTeaType {type} />
@@ -43,11 +63,10 @@
                     <th>origine</th>
                     <th>ceuillette</th>
                     <th>altitude</th>
-                    <th>image</th>
                 </tr>
             </thead>
             <tbody>
-                {#each getTeasByType(type, $teas) as tea}
+                {#each getTeasByType(type, teas) as tea}
                     <tr>
                         <td>
                             <a href="fiche-{tea.zh}">
@@ -80,7 +99,6 @@
                             {:else}-{/if}
                         </td>
                         <td>{tea.elevation || '-'}</td>
-                        <td>{tea.image ? '📷' : '-'}</td>
                     </tr>
                 {:else}
                     <!-- this block renders when teas.length === 0 -->

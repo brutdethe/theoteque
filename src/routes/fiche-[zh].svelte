@@ -36,14 +36,26 @@
 
 <script>
     import { onMount } from 'svelte'
-    import { teas, i18n } from '../stores.js'
     import Brewing from '../components/Brewing.svelte'
     import Pinyin from '../components/Pinyin.svelte'
     import IconTeaType from '../components/IconTeaType.svelte'
 
     export let zh
 
-    $: tea = $teas.filter(t => t.zh === zh)[0]
+    let tea = {}
+
+    onMount(async () => {
+        const res = await fetch(
+            `https://api-tea.herokuapp.com/api/v1/tea/${zh}`
+        )
+
+        if (res.ok) {
+            tea = (await res.json()).api
+        } else {
+            // 404
+            throw new Error(text)
+        }
+    })
 
     const display = {
         elevation: elevation => {
@@ -70,129 +82,125 @@
     <title>Fiche de thé</title>
 </svelte:head>
 
-{#if tea && i18n}
-    <div class="container">
-        <h2>
-            <Pinyin text="{tea.zh}" />
-        </h2>
-        <hr />
-        <div class="row">
-            <div class="column column-66">
-                <table>
-                    <thead></thead>
-                    <tbody>
-                        <tr>
+<div class="container">
+    <h2>
+        <Pinyin text="{tea.zh}" />
+    </h2>
+    <hr />
+    <div class="row">
+        <div class="column column-66">
+            <table>
+                <thead></thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="/liste-des-thes-{tea.type}">
+                                <Pinyin text="{tea.type}" />
+                            </a>
+                            <IconTeaType type="{tea.type}" />
+                        </td>
+                    </tr>
+                    <tr>
+                        {#if tea.family}
+                            <td>Famille :</td>
                             <td>
-                                <a href="/liste-des-thes-{tea.type}">
-                                    <Pinyin text="{tea.type}" />
-                                </a>
-                                <IconTeaType type="{tea.type}" />
+                                <Pinyin text="{tea.family}" />
+                            </td>
+                        {/if}
+                        {#if tea.elevation}
+                            <td>{display.elevation(tea.elevation)}</td>
+                        {/if}
+                    </tr>
+                    {#if tea.cultivar}
+                        <tr>
+                            <td>Cultivar :</td>
+
+                            <td>
+                                <Pinyin text="{tea.cultivar}" />
                             </td>
                         </tr>
-                        <tr>
-                            {#if tea.family}
-                                <td>Famille :</td>
-                                <td>
-                                    <Pinyin text="{tea.family}" />
-                                </td>
-                            {/if}
-                            {#if tea.elevation}
-                                <td>{display.elevation(tea.elevation)}</td>
-                            {/if}
-                        </tr>
-                        {#if tea.cultivar}
-                            <tr>
-                                <td>Cultivar :</td>
-
-                                <td>
-                                    <Pinyin text="{tea.cultivar}" />
-                                </td>
-                            </tr>
-                        {/if}
-                        <tr>
-                            <td>Localisation :</td>
+                    {/if}
+                    <tr>
+                        <td>Localisation :</td>
+                        <td>
+                            <a
+                                href="https://www.openstreetmap.org/search?query={tea['province']}"
+                            >
+                                <Pinyin text="{tea.province}" />
+                            </a>
+                        </td>
+                        {#if tea.town}
                             <td>
                                 <a
-                                    href="https://www.openstreetmap.org/search?query={tea['province']}"
+                                    href="https://www.openstreetmap.org/search?query={tea['town']}"
                                 >
-                                    <Pinyin text="{tea.province}" />
+                                    <Pinyin text="{tea.town}" />
                                 </a>
                             </td>
-                            {#if tea.town}
-                                <td>
-                                    <a
-                                        href="https://www.openstreetmap.org/search?query={tea['town']}"
-                                    >
-                                        <Pinyin text="{tea.town}" />
-                                    </a>
-                                </td>
-                            {/if}
-                        </tr>
-                        <tr>
-                            {#if tea.harvest}
-                                <td>Récolte :</td>
-                                <td>
-                                    {#if typeof tea.harvest === 'string'}
+                        {/if}
+                    </tr>
+                    <tr>
+                        {#if tea.harvest}
+                            <td>Récolte :</td>
+                            <td>
+                                {#if typeof tea.harvest === 'string'}
+                                    <img
+                                        class="icons"
+                                        src="/assets/icons/{tea.harvest}.svg"
+                                        alt="{tea.harvest}"
+                                    />
+                                {:else}
+                                    {#each tea.harvest as season}
                                         <img
                                             class="icons"
-                                            src="/assets/icons/{tea.harvest}.svg"
-                                            alt="{tea.harvest}"
+                                            src="/assets/icons/{season}.svg"
+                                            alt="{season}"
                                         />
-                                    {:else}
-                                        {#each tea.harvest as season}
-                                            <img
-                                                class="icons"
-                                                src="/assets/icons/{season}.svg"
-                                                alt="{season}"
-                                            />
-                                        {/each}
-                                    {/if}
-                                </td>
-                            {/if}
-                            {#if tea.fermentation}
-                                <td>
-                                    {display.fermentation(tea.fermentation)}
-                                </td>
-                            {/if}
-                        </tr>
-                        {#if tea.picking}
-                            <tr>
-                                <td>Ceuillette :</td>
-                                <td>
-                                    {#if typeof tea.picking === 'string'}
-                                        <Pinyin text="{tea.picking}" />
-                                    {:else}
-                                        <div class="row">
-                                            {#each tea.picking as pick}
-                                                <div class="column">
-                                                    <Pinyin text="{pick}" />
-                                                </div>
-                                            {/each}
-                                        </div>
-                                    {/if}
-                                </td>
-                            </tr>
+                                    {/each}
+                                {/if}
+                            </td>
                         {/if}
-                    </tbody>
-                </table>
-            </div>
-            <div class="column photo-zoom">
-                <img
-                    src="/assets/thes/{tea.zh}.jpg"
-                    alt="{tea.zh}"
-                    title="{tea.zh}"
-                    class="photo"
-                />
-            </div>
+                        {#if tea.fermentation}
+                            <td>{display.fermentation(tea.fermentation)}</td>
+                        {/if}
+                    </tr>
+                    {#if tea.picking}
+                        <tr>
+                            <td>Ceuillette :</td>
+                            <td>
+                                {#if typeof tea.picking === 'string'}
+                                    <Pinyin text="{tea.picking}" />
+                                {:else}
+                                    <div class="row">
+                                        {#each tea.picking as pick}
+                                            <div class="column">
+                                                <Pinyin text="{pick}" />
+                                            </div>
+                                        {/each}
+                                    </div>
+                                {/if}
+                            </td>
+                        </tr>
+                    {/if}
+                </tbody>
+            </table>
         </div>
-        <hr />
-        <h3>Conseil d'infusion</h3>
-        <div class="row">
-            {#if Array.isArray(tea.brewing)}
-                {#each tea.brewing as brew}
-                    <Brewing {brew} />
-                {/each}
-            {/if}
+        <div class="column photo-zoom">
+            <img
+                src="/assets/thes/{tea.zh}.jpg"
+                alt="{tea.zh}"
+                title="{tea.zh}"
+                class="photo"
+            />
         </div>
     </div>
-{/if}
+    <hr />
+    <h3>Conseil d'infusion</h3>
+    <div class="row">
+        {#if Array.isArray(tea.brewing)}
+            {#each tea.brewing as brew}
+                <Brewing {brew} />
+            {/each}
+        {/if}
+    </div>
+</div>
