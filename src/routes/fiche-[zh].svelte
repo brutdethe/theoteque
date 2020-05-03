@@ -124,7 +124,8 @@
                         <td>Localisation :</td>
                         <td>
                             <a
-                                href="https://www.openstreetmap.org/search?query={tea['province']}"
+                                href="https://map.baidu.com/search/?querytype=s&wd={tea['province']}"
+                                target="_blank"
                             >
                                 <Pinyin text="{tea.province}" />
                             </a>
@@ -132,7 +133,8 @@
                         {#if tea.town}
                             <td>
                                 <a
-                                    href="https://www.openstreetmap.org/search?query={tea['town']}"
+                                    href="https://map.baidu.com/search/?querytype=s&wd={tea['town']}"
+                                    target="_blank"
                                 >
                                     <Pinyin text="{tea.town}" />
                                 </a>
