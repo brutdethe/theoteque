@@ -17,11 +17,10 @@
     import { teas } from '../stores.js'
 
     export let typeParam
-    console.log('colors', typeParam)
+
     const types = ['綠茶', '白茶', '黃茶', '青茶', '紅茶', '黑茶']
 
     const typeToDisplay = types.includes(typeParam) ? [typeParam] : types
-
     const getTeasByType = (type, teas) => teas.filter(tea => tea.type === type)
 </script>
 
