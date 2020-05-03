@@ -17,6 +17,12 @@ L’art du thé s’adresse à tous, on peut aussi bien le pratiquer comme une f
 
 > C’est ma fille qui en me poussant à rentrer dans une boutique du boulevard Saint-Germain a créé le déclic. M. [Messavant](https://lelephant-larevue.fr/thematiques/chine-produit-6-grandes-familles-de-the/), le propriétaire, a attisé ma curiosité en me faisant découvrir les thés de Chine et la culture associée. En ce moment, j'aime faire des trucs autour du thé authentique.
 
+## Data
+
+Les données concernant les thés proviennent d'API-tea :
+- https://api-tea.herokuapp.com
+- https://github.com/oisiflorus/api-tea
+
 ## Licence
 
 [CC0-1.0](https://github.com/oisiflorus/broutille/blob/master/LICENSE)
