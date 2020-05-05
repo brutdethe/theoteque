@@ -44,6 +44,12 @@
     const getTeasByType = (type, teas) => teas.filter(tea => tea.type === type)
 </script>
 
+<h2>Liste des thés par type</h2>
+<p>
+    Cette liste regroupe l'ensemble des thés proposés sur le site. Pour voir le
+    détail d'un thé suivez le lien sur son nom.
+</p>
+
 <svelte:head>
     <title>Liste des thés</title>
 </svelte:head>

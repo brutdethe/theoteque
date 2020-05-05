@@ -66,5 +66,10 @@
                 liste des thés
             </a>
         </li>
+        <li>
+            <a href="termes" aria="{segment === 'termes' ? 'page' : undefined}">
+                termes
+            </a>
+        </li>
     </ul>
 </nav>
