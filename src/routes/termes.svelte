@@ -33,7 +33,6 @@
     })
 
     function getPinyinByThemes(pinyins, theme) {
-        console.log(pinyins)
         return pinyins.filter(pinyin => pinyin.theme === theme.en)
     }
 </script>
