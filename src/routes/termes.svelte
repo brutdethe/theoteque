@@ -49,23 +49,24 @@
     <h3>
         <Pinyin text="{theme.zh}" />
     </h3>
-    <table>
-        <thead>
-            <tr>
-                <td>Chinois traditionnel</td>
-                <td>Pinyin</td>
-                <td>Themes</td>
-            </tr>
-        </thead>
-        {#each getPinyinByThemes(terms, theme) as term}
-            <tr>
-                <td>{term.zh}</td>
-                <td>{term.pinyin}</td>
-            </tr>
-        {:else}
-            <p>chargement des termes...</p>
-        {/each}
-    </table>
+    <div class="row">
+        <table class="column column-66">
+            <thead>
+                <tr>
+                    <td>Chinois traditionnel</td>
+                    <td>Pinyin</td>
+                </tr>
+            </thead>
+            {#each getPinyinByThemes(terms, theme) as term}
+                <tr>
+                    <td>{term.zh}</td>
+                    <td>{term.pinyin}</td>
+                </tr>
+            {:else}
+                <p>chargement des termes...</p>
+            {/each}
+        </table>
+    </div>
 {:else}
     <p>chargement des thèmes...</p>
 {/each}

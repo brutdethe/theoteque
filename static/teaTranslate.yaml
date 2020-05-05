@@ -1,3 +1,24 @@
+#Thèmes
+
+茶:
+  pinyin: Chá
+茶類型:
+  pinyin: Chá LèiXíng
+茶族:
+  pinyin: Chá Zú
+茶叶收获:
+  pinyin: CháYè ShōuHuò
+省:
+  pinyin: Shěng
+市:
+  pinyin: Shì
+品種茶:
+  pinyin: PǐnZhǒng Chá
+採茶:
+  pinyin: Cǎi Chá
+泡法:
+  pinyin: PàoFǎ
+
 # Types
 
 綠茶:
@@ -338,29 +359,3 @@
   pinyin: BáiLín HóngChá
 坦洋紅茶:
   pinyin: TǎnYáng HóngChá
-
-# Hei Cha
-黑茶:
-piyin: LiùBǎoHēiChá
-
-#Thèmes
-
-茶:
-  pinyin: Chá
-茶類型:
-  pinyin: Chá LèiXíng
-茶族:
-  pinyin: Chá Zú
-茶叶收获:
-  pinyin: CháYè ShōuHuò
-省:
-  pinyin: Shěng
-市:
-  pinyin: Shì
-品種茶:
-  pinyin: PǐnZhǒng Chá
-採茶:
-  pinyin: Cǎi Chá
-泡法:
-  pinyin: PàoFǎ
-
