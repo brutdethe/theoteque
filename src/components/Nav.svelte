@@ -60,6 +60,7 @@
         </li>
         <li>
             <a
+                rel="prefetch"
                 aria-current="{segment === 'liste-des-thes-tous' ? 'page' : undefined}"
                 href="liste-des-thes-tous"
             >
@@ -67,7 +68,11 @@
             </a>
         </li>
         <li>
-            <a href="termes" aria="{segment === 'termes' ? 'page' : undefined}">
+            <a
+                rel="prefetch"
+                href="termes"
+                aria="{segment === 'termes' ? 'page' : undefined}"
+            >
                 termes
             </a>
         </li>
