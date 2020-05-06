@@ -3,6 +3,12 @@
         text-align: left;
         margin-top: 2em;
     }
+
+    .pinyin {
+        display: block;
+        font-size: 0.7em;
+        color: #999;
+    }
 </style>
 
 <script>
@@ -46,7 +52,8 @@
 </p>
 {#each themes as theme}
     <h3>
-        <Pinyin text="{theme.zh}" />
+        {theme.zh}
+        <span class="pinyin">{theme.pinyin}</span>
     </h3>
     <div class="row">
         <table class="column column-66">
