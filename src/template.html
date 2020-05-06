@@ -10,6 +10,8 @@
 
 	%sapper.base%
 
+	<script src="https://getinsights.io/static/js/insights.js"></script>
+
 	<link rel='manifest' href='manifest.json' crossorigin='use-credentials'>
 	<link rel="icon" type="image/ico" href="/assets/favicon.ico" />
 	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
@@ -25,6 +27,10 @@
 	<!-- This contains the contents of the <svelte:head> component, if
 			the current page has one -->
 	%sapper.head%
+	<script>
+		insights.init('RROe9fEhyGUBP5NL')
+		insights.trackPages()
+	</script>
 </head>
 
 <body>
