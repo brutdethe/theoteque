@@ -70,6 +70,15 @@
         <li>
             <a
                 rel="prefetch"
+                href="documentation"
+                aria="{segment === 'documentation' ? 'page' : undefined}"
+            >
+                documentation
+            </a>
+        </li>
+        <li>
+            <a
+                rel="prefetch"
                 href="termes"
                 aria="{segment === 'termes' ? 'page' : undefined}"
             >
