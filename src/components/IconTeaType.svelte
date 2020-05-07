@@ -9,16 +9,27 @@
 </style>
 
 <script>
-    import { i18n } from '../stores.js'
+    import { onMount } from 'svelte'
 
     export let type
 
-    function getColor(type, i18n) {
-        if (type in i18n) {
-            return i18n[type].color
+    let types = []
+
+    onMount(async () => {
+        const res = await fetch(`https://api-tea.herokuapp.com/api/v1/types`)
+
+        if (res.ok) {
+            types = (await res.json()).api
+        } else {
+            // 404
+            throw new Error(text)
         }
-        return 'white'
+    })
+
+    function getColor(typeParam, types) {
+        const typeFind = types.filter(type => type.zh === typeParam) || {}
+        return 'color' in typeFind ? typeFind.color : 'white'
     }
 </script>
 
-<div style="background: {getColor(type, $i18n)}"></div>
+<div style="background: {getColor(type, types)}"></div>

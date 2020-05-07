@@ -13,18 +13,30 @@
 </style>
 
 <script>
-    import { i18n } from '../stores.js'
+    import { onMount } from 'svelte'
 
     export let text
 
-    function getPinyin(text, i18n) {
-        if (i18n[text]) {
-            return i18n[text].pinyin
+    let i18n = []
+
+    onMount(async () => {
+        const res = await fetch(`https://api-tea.herokuapp.com/api/v1/pinyin`)
+
+        if (res.ok) {
+            i18n = (await res.json()).api
+        } else {
+            // 404
+            throw new Error(text)
         }
+    })
+
+    function getPinyin(text, i18n) {
+        const term = i18n.filter(term => term.zh === text)[0] || {}
+        return 'pinyin' in term ? term.pinyin : '-'
     }
 </script>
 
 <div>
     <p>{text}</p>
-    <p class="pinyin">{getPinyin(text, $i18n)}</p>
+    <p class="pinyin">{getPinyin(text, i18n)}</p>
 </div>
