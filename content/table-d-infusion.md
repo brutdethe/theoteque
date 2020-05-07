@@ -1,5 +1,5 @@
 ---
-slug: sample-blog
+slug: table-d-infusion
 title: table d'infusion
 description: table d'infusion par type de thé avec l'approche - gong fu cha
 par: pointbar
