@@ -46,7 +46,7 @@
 
     onMount(async () => {
         const res = await fetch(
-            `https://api-tea.herokuapp.com/api/v1/tea/${zh}`
+            `http://api-tea.oisiflorus.com/api/v1/tea/${zh}`
         )
 
         if (res.ok) {
