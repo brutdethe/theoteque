@@ -20,7 +20,7 @@
     let i18n = []
 
     onMount(async () => {
-        const res = await fetch(`http://api-tea.oisiflorus.com/api/v1/pinyin`)
+        const res = await fetch(`https://api-tea.oisiflorus.com/api/v1/pinyin`)
 
         if (res.ok) {
             i18n = (await res.json()).api

@@ -20,7 +20,7 @@ L’art du thé s’adresse à tous, on peut aussi bien le pratiquer comme une f
 ## Data
 
 Les données concernant les thés proviennent d'API-tea :
-- http://api-tea.oisiflorus.com
+- https://api-tea.oisiflorus.com
 - https://github.com/oisiflorus/api-tea
 
 ## Licence

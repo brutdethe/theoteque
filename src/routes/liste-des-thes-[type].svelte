@@ -22,7 +22,7 @@
     let types = []
 
     onMount(async () => {
-        const res = await fetch('http://api-tea.oisiflorus.com/api/v1/teas')
+        const res = await fetch('https://api-tea.oisiflorus.com/api/v1/teas')
 
         if (res.ok) {
             teas = (await res.json()).api
@@ -30,7 +30,7 @@
             throw new Error(text)
         }
 
-        const res1 = await fetch('http://api-tea.oisiflorus.com/api/v1/types')
+        const res1 = await fetch('https://api-tea.oisiflorus.com/api/v1/types')
 
         if (res1.ok) {
             types = (await res1.json()).api.map(type => type.zh)

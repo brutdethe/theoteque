@@ -46,7 +46,7 @@
 
     onMount(async () => {
         const res = await fetch(
-            `http://api-tea.oisiflorus.com/api/v1/tea/${zh}`
+            `https://api-tea.oisiflorus.com/api/v1/tea/${zh}`
         )
 
         if (res.ok) {

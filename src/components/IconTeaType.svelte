@@ -16,7 +16,7 @@
     let types = []
 
     onMount(async () => {
-        const res = await fetch(`http://api-tea.oisiflorus.com/api/v1/types`)
+        const res = await fetch(`https://api-tea.oisiflorus.com/api/v1/types`)
 
         if (res.ok) {
             types = (await res.json()).api
