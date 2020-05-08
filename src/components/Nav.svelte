@@ -38,6 +38,7 @@
     }
 
     a {
+        font-size: 1.2em;
         text-decoration: none;
         padding: 1em 0.5em;
         display: block;
@@ -71,7 +72,7 @@
             <a
                 rel="prefetch"
                 href="documentation"
-                aria="{segment === 'documentation' ? 'page' : undefined}"
+                aria-current="{segment === 'documentation' ? 'page' : undefined}"
             >
                 documentation
             </a>
@@ -80,10 +81,11 @@
             <a
                 rel="prefetch"
                 href="termes"
-                aria="{segment === 'termes' ? 'page' : undefined}"
+                aria-current="{segment === 'termes' ? 'page' : undefined}"
             >
                 termes
             </a>
         </li>
+
     </ul>
 </nav>

@@ -10,11 +10,46 @@
         font-size: 0.8em;
         color: grey;
     }
+    .pinyin {
+        font-size: 0.7em;
+        color: #999;
+        font-weight: normal;
+    }
+    p {
+        margin: 0;
+        padding: 0;
+    }
+    .zh {
+        font-weight: normal;
+        font-size: 1.5em;
+    }
+
+    .brew td {
+        font-size: 0.8em;
+        border: 1px solid #ccc;
+    }
 </style>
 
 <script>
-    import Pinyin from '../components/Pinyin.svelte'
+    import { onMount } from 'svelte'
     export let brew
+
+    let i18n = []
+
+    onMount(async () => {
+        const res = await fetch(`https://api-tea.oisiflorus.com/api/v1/pinyin`)
+
+        if (res.ok) {
+            i18n = (await res.json()).api
+        } else {
+            // 404
+            throw new Error(text)
+        }
+    })
+    function getPinyin(text, i18n) {
+        const term = i18n.filter(term => term.zh === text)[0] || {}
+        return 'pinyin' in term ? term.pinyin : '-'
+    }
 
     let ml = 100
 
@@ -40,9 +75,12 @@
     }
 </script>
 
-<table class="column column-50">
+<table class="brew">
     <tr>
-        <Pinyin text="{brew.type}" />
+        <div>
+            <p class="zh">{brew.type}</p>
+            <p class="pinyin">{getPinyin(brew.type, i18n)}</p>
+        </div>
     </tr>
     <tr>
         <td>{display.temperature(brew.temperature)}</td>
