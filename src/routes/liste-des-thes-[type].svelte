@@ -2,6 +2,34 @@
     h3 {
         text-align: left;
         margin-top: 2em;
+        font-weight: normal;
+        font-size: 2em;
+    }
+    .zh-pinyin {
+        display: inline-block;
+    }
+    .pinyin {
+        font-size: 0.7em;
+        color: #999;
+        font-weight: normal;
+    }
+    p {
+        margin: 0;
+        padding: 0;
+    }
+    .zh {
+        font-weight: normal;
+        font-size: 1em;
+    }
+    .teas td,
+    .teas th {
+        font-size: 0.8em;
+        border: 1px solid #ccc;
+    }
+
+    .teas td:first-child .zh {
+        color: #999;
+        font-size: 1.8em;
     }
 </style>
 
@@ -13,13 +41,13 @@
 
 <script>
     import { onMount } from 'svelte'
-    import Pinyin from '../components/Pinyin.svelte'
     import IconTeaType from '../components/IconTeaType.svelte'
 
     export let typeParam
 
     let teas = []
     let types = []
+    let i18n = []
 
     onMount(async () => {
         const res = await fetch('https://api-tea.oisiflorus.com/api/v1/teas')
@@ -37,11 +65,25 @@
         } else {
             throw new Error(text)
         }
+
+        const res2 = await fetch(`https://api-tea.oisiflorus.com/api/v1/pinyin`)
+
+        if (res2.ok) {
+            i18n = (await res2.json()).api
+        } else {
+            // 404
+            throw new Error(text)
+        }
     })
 
     const typeToDisplay = () =>
         types.includes(typeParam) ? [typeParam] : types
     const getTeasByType = (type, teas) => teas.filter(tea => tea.type === type)
+
+    function getPinyin(text, i18n) {
+        const term = i18n.filter(term => term.zh === text)[0] || {}
+        return 'pinyin' in term ? term.pinyin : '-'
+    }
 </script>
 
 <h2>Liste des thés par type</h2>
@@ -56,7 +98,10 @@
 <div class="teas">
     {#each typeToDisplay(typeParam, types) as type}
         <h3 id="{type}">
-            <Pinyin text="{type}" />
+            <div class="zh-pinyin">
+                <p class="zh">{type}</p>
+                <p class="pinyin">{getPinyin(type, i18n)}</p>
+            </div>
             <IconTeaType {type} />
         </h3>
         <table>
@@ -76,32 +121,62 @@
                     <tr>
                         <td>
                             <a href="fiche-{tea.zh}">
-                                <Pinyin text="{tea.zh}" />
+                                <div>
+                                    <p class="zh">{tea.zh}</p>
+                                    <p class="pinyin">
+                                        {getPinyin(tea.zh, i18n)}
+                                    </p>
+                                </div>
                             </a>
                         </td>
                         <td>
                             {#if tea.family}
-                                <Pinyin text="{tea.family}" />
+                                <div>
+                                    <p class="zh">{tea.family}</p>
+                                    <p class="pinyin">
+                                        {getPinyin(tea.family, i18n)}
+                                    </p>
+                                </div>
                             {:else}-{/if}
                         </td>
                         <td>{tea.harvest || '-'}</td>
                         <td>
                             {#if tea.cultivar}
-                                <Pinyin text="{tea.cultivar}" />
+                                <div>
+                                    <p class="zh">{tea.cultivar}</p>
+                                    <p class="pinyin">
+                                        {getPinyin(tea.cultivar, i18n)}
+                                    </p>
+                                </div>
                             {:else}-{/if}
                         </td>
                         <td>
                             {#if tea.province}
-                                <Pinyin text="{tea.province}" />
+                                <div>
+                                    <p class="zh">{tea.province}</p>
+                                    <p class="pinyin">
+                                        {getPinyin(tea.province, i18n)}
+                                    </p>
+                                </div>
                             {:else}-{/if}
                             {#if tea.town}
-                                <Pinyin text="{tea.town}" />
+                                <div>
+                                    <p class="zh">{tea.town}</p>
+                                    <p class="pinyin">
+                                        {getPinyin(tea.town, i18n)}
+                                    </p>
+                                </div>
                             {:else}-{/if}
                         </td>
                         <td>
                             <!-- 🌱 ☀️ 🍂 ❄️ -->
                             {#if tea.picking}
-                                <Pinyin text="{tea.picking}" />
+                                <div>
+                                    <p class="zh">{tea.picking}</p>
+                                    <p class="pinyin">
+                                        {getPinyin(tea.picking, i18n)}
+                                    </p>
+                                </div>
                             {:else}-{/if}
                         </td>
                         <td>{tea.elevation || '-'}</td>

@@ -1,6 +1,6 @@
 {
-	"background_color": "#ffffff",
-	"theme_color": "#333333",
+	"background_color": "rgb(252, 249, 255)",
+	"theme_color": "rgb(252, 249, 255)",
 	"name": "Broutille",
 	"short_name": "Broutille",
 	"display": "minimal-ui",

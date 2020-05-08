@@ -13,7 +13,6 @@
 
 <script>
     import { onMount } from 'svelte'
-    import Pinyin from '../components/Pinyin.svelte'
 
     let terms = []
     let themes = []

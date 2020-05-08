@@ -1,22 +1,12 @@
-<style>
-    main {
-        position: relative;
-
-        background-color: white;
-        padding: 2em;
-        margin: 0 auto;
-        box-sizing: border-box;
-    }
-</style>
-
 <script>
     import Nav from '../components/Nav.svelte'
 
     export let segment
 </script>
 
-<Nav {segment} />
-
-<main>
-    <slot />
+<main class="container">
+    <Nav {segment} />
+    <article class="blobContent" data-title="content">
+        <slot />
+    </article>
 </main>

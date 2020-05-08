@@ -5,6 +5,9 @@
         width: 2em;
         height: 2em;
         margin: 0 0.5em;
+        -webkit-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
+        -moz-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
+        box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
     }
 </style>
 
@@ -27,7 +30,7 @@
     })
 
     function getColor(typeParam, types) {
-        const typeFind = types.filter(type => type.zh === typeParam) || {}
+        const typeFind = types.filter(type => type.zh === typeParam)[0] || {}
         return 'color' in typeFind ? typeFind.color : 'white'
     }
 </script>

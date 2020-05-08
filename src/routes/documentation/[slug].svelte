@@ -50,14 +50,20 @@
 </script>
 
 <script>
+    import { onMount } from 'svelte'
+    onMount(async () => {
+        ;[...document.querySelectorAll('a[href^="#"]')].map(
+            x => (x.href = document.location + new URL(x.href).hash)
+        )
+    })
     export let post
 </script>
 
 <svelte:head>
-    <title>{post.title}</title>
+    <title>{post.titre}</title>
 </svelte:head>
 
-<h1>{post.title}</h1>
+<h1>{post.titre}</h1>
 
 <div class="content">
     {@html post.html}
