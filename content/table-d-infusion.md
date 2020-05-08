@@ -1,6 +1,6 @@
 ---
-slug: table-d-infusion
-title: table d'infusion
+lien: table-d-infusion
+titre: table d'infusion
 description: table d'infusion par type de thé avec l'approche - gong fu cha
 par: pointbar
 ---
