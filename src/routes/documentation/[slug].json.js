@@ -1,8 +1,8 @@
 import path from "path";
 import fs from "fs";
 import grayMatter from "gray-matter";
-import marked from "marked";
-import hljs from "highlight.js";
+
+const md = require('markdown-it')().use(require('markdown-it-footnote'));
 
 const getPost = fileName =>
 	fs.readFileSync(path.resolve("content", `${fileName}.md`), "utf-8");
@@ -13,21 +13,11 @@ export function get(req, res, next) {
 	// get the markdown text
 	const post = getPost(slug);
 
-	// function that expose helpful callbacks
-	// to manipulate the data before convert it into html
-	const renderer = new marked.Renderer();
-
-	// use hljs to highlight our blocks codes
-	renderer.code = (source, lang) => {
-		const { value: highlighted } = hljs.highlight(lang, source);
-		return `<pre class='language-javascriptreact'><code>${highlighted}</code></pre>`;
-	};
-
 	// parse the md to get front matter
 	// and the content without escaping characters
 	const { data, content } = grayMatter(post);
 
-	const html = marked(content, { renderer });
+	const html = md.render(content);
 
 	if (html) {
 		res.writeHead(200, {
