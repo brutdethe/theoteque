@@ -17,7 +17,7 @@ La description des étapes proposée ici est très réductrice, elle généralis
 
 ### Les différentes étapes
 
-![types de thés](./media/types-de-the.svg) [^2]
+![types de thés](assets/media/types-de-the.svg) [^2]
 
 - **Cueillette** [^3] : Dans les jardins de thé, les bourgeons et/ou deux (ou quelques) jeunes feuilles sont cueillies sur les buissons de _Camellia Sinensis_ principalement au printemps et début de l'été et plus rarement en automne
 
