@@ -1,18 +1,39 @@
+---
+lien: aide-memoire
+titre: Aide mémoire pour les contributeurs et contributrices
+description: > 
+  Permet de retrouver facilement les liens vers les différentes ressources
+---
+
+
 # Aide mémoire pour contribuer
 
-## Pour contribuer à Broutille
+## Les liens
 
-📍
 - Le site Web  
-📎 [broutille.oisiflorus.com](http://broutille.oisiflorus.com/)  
+📎 [broutille.oisiflorus.com](https://broutille.oisiflorus.com/)  
+
+- Pour suivre le travail effectué et les choses qu'on aimerait faire :
+📎 [Liste des tâches](https://github.com/oisiflorus/broutille/projects/1?fullscreen=true)
+
+- Le site De l'API-tea  
+📎 [API-tea.oisiflorus.com](https://api-tea.oisiflorus.com/)  
   
-- L'adresse du dépôt Github (où se trouve le code source)  
+### Liens pour contribuer
+
+- Broutille : L'adresse du dépôt Github (où se trouve le code source) et le contenu des articles :
 📎 [github.com/oisiflorus/broutille](https://github.com/oisiflorus/broutille)  
 
-- Pour s'organiser, je vais ajouter des idées d'articles :
-📎 [Liste des tâches](https://github.com/oisiflorus/broutille/projects/1)
+- Broutille : Le contenu des articles de la documentation :
+📎 [github.com/oisiflorus/articles](https://github.com/oisiflorus/broutille/tree/master/content)  
 
-### Comment corriger une erreur ou modifier un thé ?
+- API-tea : L'adresse du dépôt Github où se trouve les _data_ sur les thés :
+📎 [github.com/oisiflorus/api-tea](https://github.com/oisiflorus/api-tea)  
+
+- API-tea : L'adresse des fichiers pour contribuer sur les thés :
+📎 [github.com/oisiflorus/api-tea/data/yaml](https://github.com/oisiflorus/api-tea/tree/master/data/yaml)  
+
+## Comment corriger une erreur ou modifier un thé ?
 
 Par exemple, pour modifier une _origine_ ou un _cultivar_ qui ne correspond pas
 
@@ -26,16 +47,8 @@ On fait les modifications et en bas de la page on renseigne un message de _commi
 > ajoute la ville et la province pour le _Anxi TieGuanYin_
 
 Puis on clique sur le bouton vert : _Commit Change_
----
-lien: aide-memoire
-titre: Aide Mémoire
-description: >
-  un petit guide pour Thais et Ya-lin
----
 
-
-
-### Ajouter un nouveau thé ?
+## Ajouter un nouveau thé ?
 
 Il faut rejoindre le fichier qui contient les thés :  
 📎 [oisiflorus/api-tea - /data/yaml/teas.yaml](https://github.com/oisiflorus/api-tea/blob/master/data/yaml/teas.yaml)
@@ -62,3 +75,16 @@ Pour mieux comprendre, chaque thé comporte des rubriques qui sont formatées co
 ```
 
 Les espaces utilisés pour formater sont important, c'est eux qui structurent les données.
+
+## Pour écrire un article
+
+```yaml
+---
+lien: <l'adresse URL>
+titre: <le titre>
+description: >
+  <une petite description>
+---
+
+L'article commence ici
+```
