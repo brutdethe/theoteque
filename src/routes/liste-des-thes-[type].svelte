@@ -28,8 +28,9 @@
     }
 
     .teas td:first-child .zh {
-        color: #999;
-        font-size: 1.8em;
+        font-size: 1.2em;
+        text-decoration: underline;
+        width: 90px;
     }
     ul {
         font-size: 0.8em;
