@@ -80,7 +80,7 @@
             {#each getPinyinByThemes(terms, theme) as term}
                 <tr>
                     <td>
-                        {term.zh}
+                        <span class="tooltip" title="français">{term.zh}</span>
                         <audio id="{term.zh}">
                             <source
                                 src="assets/audio/{term.zh}.mp3"
