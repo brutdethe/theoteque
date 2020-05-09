@@ -13,8 +13,7 @@
         background: url(/assets/danslajungle.png) center center no-repeat;
     }
 
-    .banner h1,
-    .banner p {
+    .banner h1 {
         margin: 0;
     }
 
