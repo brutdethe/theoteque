@@ -13,7 +13,7 @@ description: >
 - Le site Web  
 📎 [broutille.oisiflorus.com](https://broutille.oisiflorus.com/)  
 
-- Pour suivre le travail effectué et les choses qu'on aimerait faire :
+- Pour suivre le travail effectué et les choses qu'on aimerait faire :  
 📎 [Liste des tâches](https://github.com/oisiflorus/broutille/projects/1?fullscreen=true)
 
 - Le site De l'API-tea  
@@ -21,16 +21,16 @@ description: >
   
 ### Liens pour contribuer
 
-- Broutille : L'adresse du dépôt Github (où se trouve le code source) et le contenu des articles :
+- Broutille : L'adresse du dépôt Github (où se trouve le code source) et le contenu des articles :  
 📎 [github.com/oisiflorus/broutille](https://github.com/oisiflorus/broutille)  
 
-- Broutille : Le contenu des articles de la documentation :
+- Broutille : Le contenu des articles de la documentation :  
 📎 [github.com/oisiflorus/articles](https://github.com/oisiflorus/broutille/tree/master/content)  
 
-- API-tea : L'adresse du dépôt Github où se trouve les _data_ sur les thés :
+- API-tea : L'adresse du dépôt Github où se trouve les _data_ sur les thés :  
 📎 [github.com/oisiflorus/api-tea](https://github.com/oisiflorus/api-tea)  
 
-- API-tea : L'adresse des fichiers pour contribuer sur les thés :
+- API-tea : L'adresse des fichiers pour contribuer sur les thés :  
 📎 [github.com/oisiflorus/api-tea/data/yaml](https://github.com/oisiflorus/api-tea/tree/master/data/yaml)  
 
 ## Comment corriger une erreur ou modifier un thé ?
