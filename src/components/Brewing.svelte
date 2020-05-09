@@ -114,6 +114,7 @@
         pour
         <input type="number" step="20" bind:value="{ml}" />
         ml -
+        <!-- <input type=range bind:value={b} min=0 max=10> -->
         <span class="mini">(ratio: {brew.quantity})</span>
     </td>
 </table>
