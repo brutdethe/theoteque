@@ -7,7 +7,7 @@ par: pointbar, thais, ya-lin
 
 ## Les 7 types de thés
 
-Tous les thés sont un produit de la plante _camellia sinensis_.  
+Tous les thés sont le produit de la plante _camellia sinensis_.  
 
 Catégoriser des thés qui partagent des caractéristiques communes ; j'imagine que c'est un premier pas pour réduire la complexité en dépassant les spécificités au profit de la généralité.  
   
@@ -15,7 +15,7 @@ Malgré la disparité des thés, les sources semblent s'accorder sur 6 types de 
   
 Pour établir un classement on pourrait se servir de la couleur des feuilles après traitement, du pourcentage de fermentation ou de la robe de la _liqueur_ mais ça ne permet pas de classer tous les styles. La classification selon les étapes de fabrication semble être une meilleure piste [^2].
 
-> on m'a appris à me souvenir du feu de circulation et du panda. C'est-à-dire le rouge, le jaune, le vert et le noir et blanc pour couvrir tout les thés chinois [^10]
+> on m'a appris à me souvenir du feu de circulation et du panda. C'est-à-dire le rouge, le jaune, le vert et le noir et blanc pour couvrir tous les thés chinois [^10]
 
 ![types de thés](assets/media/types-de-the.svg)
 
