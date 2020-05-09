@@ -1,6 +1,6 @@
 ---
 lien: aide-memoire
-titre: Aide mémoire pour les contributeurs et contributrices
+titre: Aide mémoire pour contribuer
 description: > 
   Permet de retrouver facilement les liens vers les différentes ressources
 ---
