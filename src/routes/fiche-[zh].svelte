@@ -121,14 +121,11 @@
                 return `entre ${elevation[0]} et ${elevation[1]} mètres`
             }
         },
-        fermentation: fermentation => {
-            if (+fermentation) {
-                return `à partir de ${fermentation}% de fermentation`
-            } else if (
-                fermentation.length == 2 &&
-                Array.isArray(fermentation)
-            ) {
-                return `entre ${fermentation[0]}% et ${fermentation[1]}% de fermentation`
+        oxidation: oxidation => {
+            if (+oxidation) {
+                return `à partir de ${oxidation}% de oxidation`
+            } else if (oxidation.length == 2 && Array.isArray(oxidation)) {
+                return `entre ${oxidation[0]}% et ${oxidation[1]}% d'oxydation`
             }
         }
     }
@@ -245,8 +242,8 @@
                             {/if}
                         </td>
                     {/if}
-                    {#if tea.fermentation}
-                        <td>{display.fermentation(tea.fermentation)}</td>
+                    {#if tea.oxidation}
+                        <td>{display.oxidation(tea.oxidation)}</td>
                     {/if}
                 </tr>
                 {#if tea.picking}
