@@ -31,6 +31,12 @@
         color: #999;
         font-size: 1.8em;
     }
+    ul {
+        font-size: 0.8em;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
 </style>
 
 <script context="module">
@@ -111,9 +117,11 @@
                     <th>famille</th>
                     <th>récolte</th>
                     <th>cultivar</th>
-                    <th>origine</th>
+                    <th>province</th>
+                    <th>ville</th>
                     <th>ceuillette</th>
                     <th>altitude</th>
+                    <th>oxydation</th>
                 </tr>
             </thead>
             <tbody>
@@ -142,44 +150,86 @@
                         <td>{tea.harvest || '-'}</td>
                         <td>
                             {#if tea.cultivar}
-                                <div>
-                                    <p class="zh">{tea.cultivar}</p>
-                                    <p class="pinyin">
-                                        {getPinyin(tea.cultivar, i18n)}
-                                    </p>
-                                </div>
+                                {#if typeof tea.cultivar === 'string'}
+                                    <div>
+                                        <p class="zh">{tea.cultivar}</p>
+                                        <p class="pinyin">
+                                            {getPinyin(tea.cultivar, i18n)}
+                                        </p>
+                                    </div>
+                                {:else}
+                                    <ul>
+                                        {#each tea.cultivar as cultivar}
+                                            <li>
+                                                {cultivar} - {getPinyin(cultivar, i18n)}
+                                            </li>
+                                        {/each}
+                                    </ul>
+                                {/if}
                             {:else}-{/if}
                         </td>
                         <td>
                             {#if tea.province}
-                                <div>
-                                    <p class="zh">{tea.province}</p>
-                                    <p class="pinyin">
-                                        {getPinyin(tea.province, i18n)}
-                                    </p>
-                                </div>
-                            {:else}-{/if}
-                            {#if tea.town}
-                                <div>
-                                    <p class="zh">{tea.town}</p>
-                                    <p class="pinyin">
-                                        {getPinyin(tea.town, i18n)}
-                                    </p>
-                                </div>
+                                {#if typeof tea.province === 'string'}
+                                    <div>
+                                        <p class="zh">{tea.province}</p>
+                                        <p class="pinyin">
+                                            {getPinyin(tea.province, i18n)}
+                                        </p>
+                                    </div>
+                                {:else}
+                                    <ul>
+                                        {#each tea.province as province}
+                                            <li>
+                                                {province} - {getPinyin(province, i18n)}
+                                            </li>
+                                        {/each}
+                                    </ul>
+                                {/if}
                             {:else}-{/if}
                         </td>
                         <td>
-                            <!-- 🌱 ☀️ 🍂 ❄️ -->
+                            {#if tea.town}
+                                {#if typeof tea.town === 'string'}
+                                    <div>
+                                        <p class="zh">{tea.town}</p>
+                                        <p class="pinyin">
+                                            {getPinyin(tea.town, i18n)}
+                                        </p>
+                                    </div>
+                                {:else}
+                                    <ul>
+                                        {#each tea.town as town}
+                                            <li>
+                                                {town} - {getPinyin(town, i18n)}
+                                            </li>
+                                        {/each}
+                                    </ul>
+                                {/if}
+                            {:else}-{/if}
+                        </td>
+                        <td>
                             {#if tea.picking}
-                                <div>
-                                    <p class="zh">{tea.picking}</p>
-                                    <p class="pinyin">
-                                        {getPinyin(tea.picking, i18n)}
-                                    </p>
-                                </div>
+                                {#if typeof tea.picking === 'string'}
+                                    <div>
+                                        <p class="zh">{tea.picking}</p>
+                                        <p class="pinyin">
+                                            {getPinyin(tea.picking, i18n)}
+                                        </p>
+                                    </div>
+                                {:else}
+                                    <ul>
+                                        {#each tea.picking as pick}
+                                            <li>
+                                                {pick} - {getPinyin(pick, i18n)}
+                                            </li>
+                                        {/each}
+                                    </ul>
+                                {/if}
                             {:else}-{/if}
                         </td>
                         <td>{tea.elevation || '-'}</td>
+                        <td>{tea.oxidation || '-'}</td>
                     </tr>
                 {:else}
                     <!-- this block renders when teas.length === 0 -->
