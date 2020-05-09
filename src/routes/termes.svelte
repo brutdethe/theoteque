@@ -9,6 +9,17 @@
         font-size: 0.7em;
         color: #999;
     }
+    img {
+        padding: 0;
+        margin: 0;
+        vertical-align: -0.4em;
+        display: inline;
+        width: 5%;
+        border: none;
+        background: transparent;
+        fill: #ccc;
+        cursor: pointer;
+    }
 </style>
 
 <script>
@@ -40,6 +51,10 @@
     function getPinyinByThemes(pinyins, theme) {
         return pinyins.filter(pinyin => pinyin.theme === theme.en)
     }
+
+    function playAudio(ideogram) {
+        document.querySelector(`#${ideogram}`).play()
+    }
 </script>
 
 <h2>Termes utilisés</h2>
@@ -64,7 +79,21 @@
             </thead>
             {#each getPinyinByThemes(terms, theme) as term}
                 <tr>
-                    <td>{term.zh}</td>
+                    <td>
+                        {term.zh}
+                        <audio id="{term.zh}">
+                            <source
+                                src="assets/audio/{term.zh}.mp3"
+                                type="audio/mpeg"
+                            />
+                        </audio>
+                        <img
+                            class="icons"
+                            src="/assets/icons/sound.svg"
+                            alt="sound"
+                            on:click="{playAudio(term.zh)}"
+                        />
+                    </td>
                     <td>{term.pinyin}</td>
                 </tr>
             {:else}
