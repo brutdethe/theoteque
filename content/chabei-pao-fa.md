@@ -1,6 +1,6 @@
 ---
 lien: chabei-pao-fa
-titre: chabei Pao Fa
+titre: Chabei Pao Fa
 description: >
   L'infusion au verre ...
 ---
