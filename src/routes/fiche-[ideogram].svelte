@@ -166,10 +166,12 @@
         {#if tea.families}
             Famille :
             <ul class="ideogram-pinyin">
-                <li class="ideogram">
-                    {tea.families}
-                    <p class="pinyin">{getPinyin(tea.families, i18n)}</p>
-                </li>
+                {#each tea.families as family}
+                    <li class="ideogram">
+                        {family}
+                        <p class="pinyin">{getPinyin(family, i18n)}</p>
+                    </li>
+                {/each}
             </ul>
         {/if}
         {#if tea.cultivars}

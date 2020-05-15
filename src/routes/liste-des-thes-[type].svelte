@@ -140,12 +140,14 @@
                         </td>
                         <td>
                             {#if tea.families}
-                                <div>
-                                    <p class="ideogram">{tea.families}</p>
-                                    <p class="pinyin">
-                                        {getPinyin(tea.families, i18n)}
-                                    </p>
-                                </div>
+                                {#each tea.families as family}
+                                    <div>
+                                        <p class="ideogram">{family}</p>
+                                        <p class="pinyin">
+                                            {getPinyin(family, i18n)}
+                                        </p>
+                                    </div>
+                                {/each}
                             {:else}-{/if}
                         </td>
                         <td>{tea.harvest || '-'}</td>
