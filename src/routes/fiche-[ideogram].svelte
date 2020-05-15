@@ -42,7 +42,7 @@
         text-align: left;
         width: 40%;
     }
-    .zh-pinyin {
+    .ideogram-pinyin {
         display: inline-block;
     }
     .pinyin {
@@ -54,7 +54,7 @@
         margin: 0;
         padding: 0;
     }
-    .zh {
+    .ideogram {
         font-weight: normal;
         font-size: 1em;
     }
@@ -73,23 +73,23 @@
 
 <script context="module">
     export function preload(page) {
-        return { zh: page.params.zh }
+        return { ideogram: page.params.ideogram }
     }
 </script>
 
 <script>
     import { onMount } from 'svelte'
-    import Brewing from '../components/Brewing.svelte'
+    import Brews from '../components/Brews.svelte'
     import IconTeaType from '../components/IconTeaType.svelte'
 
-    export let zh
+    export let ideogram
 
     let tea = {}
     let i18n = []
 
     onMount(async () => {
         const res = await fetch(
-            `https://api-tea.oisiflorus.com/api/v1/tea/${zh}`
+            `https://api-tea.oisiflorus.com/api/v1/tea/${ideogram}`
         )
 
         if (res.ok) {
@@ -108,24 +108,25 @@
             throw new Error(text)
         }
     })
+
     function getPinyin(text, i18n) {
-        const term = i18n.filter(term => term.zh === text)[0] || {}
+        const term = i18n.filter(term => term.ideogram === text)[0] || {}
         return 'pinyin' in term ? term.pinyin : '-'
     }
 
     const display = {
-        elevation: elevation => {
-            if (+elevation) {
-                return `à partir de ${elevation} mètres`
-            } else if (elevation.length == 2 && Array.isArray([elevation])) {
-                return `entre ${elevation[0]} et ${elevation[1]} mètres`
+        elevations: elevations => {
+            if (+elevations) {
+                return `à partir de ${elevations} mètres`
+            } else if (elevations.length == 2 && Array.isArray([elevations])) {
+                return `entre ${elevations[0]} et ${elevations[1]} mètres`
             }
         },
-        oxidation: oxidation => {
-            if (+oxidation) {
-                return `à partir de ${oxidation}% de oxidation`
-            } else if (oxidation.length == 2 && Array.isArray(oxidation)) {
-                return `entre ${oxidation[0]}% et ${oxidation[1]}% d'oxydation`
+        oxidations: oxidations => {
+            if (+oxidations) {
+                return `à partir de ${oxidations}% de oxidations`
+            } else if (oxidations.length == 2 && Array.isArray(oxidations)) {
+                return `entre ${oxidations[0]}% et ${oxidations[1]}% d'oxydation`
             }
         }
     }
@@ -135,46 +136,49 @@
     <title>Fiche de thé</title>
 </svelte:head>
 <h2>
-    <div class="zh-pinyin">
-        <p class="zh">{tea.zh}</p>
-        <p class="pinyin">{getPinyin(tea.zh, i18n)}</p>
+    <div class="ideogram-pinyin">
+        <p class="ideogram">{tea.ideogram}</p>
+        <p class="pinyin">{getPinyin(tea.ideogram, i18n)}</p>
     </div>
 </h2>
 <div class="wrapper">
     <div class="box photo-zoom">
         <img
-            src="/assets/thes/{tea.zh}.jpg"
-            alt="{tea.zh}"
-            title="{tea.zh}"
+            src="/assets/thes/{tea.ideogram}.jpg"
+            alt="{tea.ideogram}"
+            title="{tea.ideogram}"
             class="photo"
         />
     </div>
     <div class="box">
         <a href="/liste-des-thes-{tea.type}">
-            <div class="zh-pinyin">
-                <p class="zh">{tea.type}</p>
+            <div class="ideogram-pinyin">
+                <p class="ideogram">{tea.type}</p>
                 <p class="pinyin">{getPinyin(tea.type, i18n)}</p>
             </div>
         </a>
         <IconTeaType type="{tea.type}" />
+        {#if tea.oxidations}
+            <td>{display.oxidations(tea.oxidations)}</td>
+        {/if}
     </div>
     <div class="box">
-        {#if tea.family}
+        {#if tea.families}
             Famille :
-            <ul class="zh-pinyin">
-                <li class="zh">
-                    {tea.family}
-                    <p class="pinyin">{getPinyin(tea.family, i18n)}</p>
+            <ul class="ideogram-pinyin">
+                <li class="ideogram">
+                    {tea.families}
+                    <p class="pinyin">{getPinyin(tea.families, i18n)}</p>
                 </li>
             </ul>
         {/if}
-        {#if tea.cultivar}
+        {#if tea.cultivars}
             Cultivars :
-            <ul class="zh-pinyin">
-                {#each tea.cultivar as cultivar}
-                    <li class="zh">
-                        {cultivar}
-                        <p class="pinyin">{getPinyin(cultivar, i18n)}</p>
+            <ul class="ideogram-pinyin">
+                {#each tea.cultivars as cultivars}
+                    <li class="ideogram">
+                        {cultivars}
+                        <p class="pinyin">{getPinyin(cultivars, i18n)}</p>
                     </li>
                 {/each}
             </ul>
@@ -182,22 +186,10 @@
     </div>
     <div class="box">
         <tr>
-            {#if tea.elevation}
-                <td>{display.elevation(tea.elevation)}</td>
+            {#if tea.elevations}
+                <td>{display.elevations(tea.elevations)}</td>
             {/if}
         </tr>
-        {#if tea.cultivar}
-            <tr>
-                <td>Cultivar :</td>
-
-                <td>
-                    <div class="zh-pinyin">
-                        <p class="zh">{tea.cultivar}</p>
-                        <p class="pinyin">{getPinyin(tea.cultivar, i18n)}</p>
-                    </div>
-                </td>
-            </tr>
-        {/if}
         <tr>
             <td>Localisation :</td>
             <td>
@@ -205,38 +197,38 @@
                     href="https://map.baidu.com/search/?querytype=s&wd={tea['province']}"
                     target="_blank"
                 >
-                    <div class="zh-pinyin">
-                        <p class="zh">{tea.province}</p>
-                        <p class="pinyin">{getPinyin(tea.province, i18n)}</p>
+                    <div class="ideogram-pinyin">
+                        <p class="ideogram">{tea.provinces}</p>
+                        <p class="pinyin">{getPinyin(tea.provinces, i18n)}</p>
                     </div>
                 </a>
             </td>
-            {#if tea.town}
+            {#if tea.towns}
                 <td>
                     <a
-                        href="https://map.baidu.com/search/?querytype=s&wd={tea['town']}"
+                        href="https://map.baidu.com/search/?querytype=s&wd={tea['towns']}"
                         target="_blank"
                     >
-                        <div class="zh-pinyin">
-                            <p class="zh">{tea.town}</p>
-                            <p class="pinyin">{getPinyin(tea.town, i18n)}</p>
+                        <div class="ideogram-pinyin">
+                            <p class="ideogram">{tea.towns}</p>
+                            <p class="pinyin">{getPinyin(tea.towns, i18n)}</p>
                         </div>
                     </a>
                 </td>
             {/if}
         </tr>
         <tr>
-            {#if tea.harvest}
+            {#if tea.harvests}
                 <td>Récolte :</td>
                 <td>
-                    {#if typeof tea.harvest === 'string'}
+                    {#if typeof tea.harvests === 'string'}
                         <img
                             class="icons"
-                            src="/assets/icons/{tea.harvest}.svg"
-                            alt="{tea.harvest}"
+                            src="/assets/icons/{tea.harvests}.svg"
+                            alt="{tea.harvests}"
                         />
                     {:else}
-                        {#each tea.harvest as season}
+                        {#each tea.harvests as season}
                             <img
                                 class="icons"
                                 src="/assets/icons/{season}.svg"
@@ -246,27 +238,26 @@
                     {/if}
                 </td>
             {/if}
-            {#if tea.oxidation}
-                <td>{display.oxidation(tea.oxidation)}</td>
-            {/if}
         </tr>
-        {#if tea.picking}
+        {#if tea.pickings}
             <tr>
                 <td>Ceuillette :</td>
                 <td>
-                    {#if typeof tea.picking === 'string'}
-                        <div class="zh-pinyin">
-                            <p class="zh">{tea.picking}</p>
-                            <p class="pinyin">{getPinyin(tea.picking, i18n)}</p>
+                    {#if typeof tea.pickings === 'string'}
+                        <div class="ideogram-pinyin">
+                            <p class="ideogram">{tea.pickings}</p>
+                            <p class="pinyin">
+                                {getPinyin(tea.pickings, i18n)}
+                            </p>
                         </div>
                     {:else}
                         <div class="row">
-                            {#each tea.picking as pick}
+                            {#each tea.pickings as pick}
                                 <div class="column">
-                                    <div class="zh-pinyin">
-                                        <p class="zh">{tea.picking}</p>
+                                    <div class="ideogram-pinyin">
+                                        <p class="ideogram">{tea.pickings}</p>
                                         <p class="pinyin">
-                                            {getPinyin(tea.picking, i18n)}
+                                            {getPinyin(tea.pickings, i18n)}
                                         </p>
                                     </div>
                                 </div>
@@ -281,9 +272,9 @@
 <hr />
 <h3>Conseil d'infusion</h3>
 <div class="row">
-    {#if Array.isArray(tea.brewing)}
-        {#each tea.brewing as brew}
-            <Brewing {brew} />
+    {#if Array.isArray(tea.brews)}
+        {#each tea.brews as brew}
+            <Brews {brew} />
         {/each}
     {/if}
 </div>

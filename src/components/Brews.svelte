@@ -19,7 +19,7 @@
         margin: 0;
         padding: 0;
     }
-    .zh {
+    .ideogram {
         font-weight: normal;
         font-size: 1.5em;
     }
@@ -47,7 +47,7 @@
         }
     })
     function getPinyin(text, i18n) {
-        const term = i18n.filter(term => term.zh === text)[0] || {}
+        const term = i18n.filter(term => term.ideogram === text)[0] || {}
         return 'pinyin' in term ? term.pinyin : '-'
     }
 
@@ -55,7 +55,7 @@
 
     $: weight = (ml / +brew.quantity.split(':')[1]).toFixed(1)
 
-    const durations = +brew.duration ? [brew.duration] : brew.duration
+    const durations = +brew.durations ? [brew.durations] : brew.durations
 
     const display = {
         times: times => {
@@ -65,11 +65,14 @@
                 return `${times[0]} à ${times[1]} infusions`
             }
         },
-        temperature: temperature => {
-            if (+temperature) {
-                return `à partir de ${temperature}°`
-            } else if (temperature.length == 2 && Array.isArray(temperature)) {
-                return `entre ${temperature[0]}° et ${temperature[1]}°`
+        temperatures: temperatures => {
+            if (+temperatures) {
+                return `à partir de ${temperatures}°`
+            } else if (
+                temperatures.length == 2 &&
+                Array.isArray(temperatures)
+            ) {
+                return `entre ${temperatures[0]}° et ${temperatures[1]}°`
             }
         }
     }
@@ -78,12 +81,12 @@
 <table class="brew">
     <tr>
         <div>
-            <p class="zh">{brew.type}</p>
+            <p class="ideogram">{brew.type}</p>
             <p class="pinyin">{getPinyin(brew.type, i18n)}</p>
         </div>
     </tr>
     <tr>
-        <td>{display.temperature(brew.temperature)}</td>
+        <td>{display.temperatures(brew.temperatures)}</td>
     </tr>
     {#if brew.times}
         <tr>

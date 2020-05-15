@@ -5,7 +5,7 @@
         font-weight: normal;
         font-size: 2em;
     }
-    .zh-pinyin {
+    .ideogram-pinyin {
         display: inline-block;
     }
     .pinyin {
@@ -17,7 +17,7 @@
         margin: 0;
         padding: 0;
     }
-    .zh {
+    .ideogram {
         font-weight: normal;
         font-size: 1em;
     }
@@ -27,7 +27,7 @@
         border: 1px solid #ccc;
     }
 
-    .teas td:first-child .zh {
+    .teas td:first-child .ideogram {
         font-size: 1.2em;
         text-decoration: underline;
         width: 90px;
@@ -65,10 +65,10 @@
             throw new Error(text)
         }
 
-        const res1 = await fetch('https://api-tea.oisiflorus.com/api/v1/types')
+        const res1 = await fetch('https://api-tea.oisiflorus.com/api/v1/type')
 
         if (res1.ok) {
-            types = (await res1.json()).api.map(type => type.zh)
+            types = (await res1.json()).api.map(type => type.ideogram)
         } else {
             throw new Error(text)
         }
@@ -88,7 +88,7 @@
     const getTeasByType = (type, teas) => teas.filter(tea => tea.type === type)
 
     function getPinyin(text, i18n) {
-        const term = i18n.filter(term => term.zh === text)[0] || {}
+        const term = i18n.filter(term => term.ideogram === text)[0] || {}
         return 'pinyin' in term ? term.pinyin : '-'
     }
 </script>
@@ -105,8 +105,8 @@
 <div class="teas">
     {#each typeToDisplay(typeParam, types) as type}
         <h3 id="{type}">
-            <div class="zh-pinyin">
-                <p class="zh">{type}</p>
+            <div class="ideogram-pinyin">
+                <p class="ideogram">{type}</p>
                 <p class="pinyin">{getPinyin(type, i18n)}</p>
             </div>
             <IconTeaType {type} />
@@ -115,54 +115,54 @@
             <thead>
                 <tr>
                     <th>nom</th>
-                    <th>famille</th>
-                    <th>récolte</th>
-                    <th>cultivar</th>
-                    <th>province</th>
-                    <th>ville</th>
-                    <th>ceuillette</th>
-                    <th>altitude</th>
-                    <th>oxydation</th>
+                    <th>familles</th>
+                    <th>récoltes</th>
+                    <th>cultivarss</th>
+                    <th>provinces</th>
+                    <th>villes</th>
+                    <th>ceuillettes</th>
+                    <th>altitudes</th>
+                    <th>oxydations</th>
                 </tr>
             </thead>
             <tbody>
                 {#each getTeasByType(type, teas) as tea}
                     <tr>
                         <td>
-                            <a href="fiche-{tea.zh}">
+                            <a href="fiche-{tea.ideogram}">
                                 <div>
-                                    <p class="zh">{tea.zh}</p>
+                                    <p class="ideogram">{tea.ideogram}</p>
                                     <p class="pinyin">
-                                        {getPinyin(tea.zh, i18n)}
+                                        {getPinyin(tea.ideogram, i18n)}
                                     </p>
                                 </div>
                             </a>
                         </td>
                         <td>
-                            {#if tea.family}
+                            {#if tea.families}
                                 <div>
-                                    <p class="zh">{tea.family}</p>
+                                    <p class="ideogram">{tea.families}</p>
                                     <p class="pinyin">
-                                        {getPinyin(tea.family, i18n)}
+                                        {getPinyin(tea.families, i18n)}
                                     </p>
                                 </div>
                             {:else}-{/if}
                         </td>
                         <td>{tea.harvest || '-'}</td>
                         <td>
-                            {#if tea.cultivar}
-                                {#if typeof tea.cultivar === 'string'}
+                            {#if tea.cultivars}
+                                {#if typeof tea.cultivars === 'string'}
                                     <div>
-                                        <p class="zh">{tea.cultivar}</p>
+                                        <p class="ideogram">{tea.cultivars}</p>
                                         <p class="pinyin">
-                                            {getPinyin(tea.cultivar, i18n)}
+                                            {getPinyin(tea.cultivars, i18n)}
                                         </p>
                                     </div>
                                 {:else}
                                     <ul>
-                                        {#each tea.cultivar as cultivar}
+                                        {#each tea.cultivars as cultivars}
                                             <li>
-                                                {cultivar} - {getPinyin(cultivar, i18n)}
+                                                {cultivars} - {getPinyin(cultivars, i18n)}
                                             </li>
                                         {/each}
                                     </ul>
@@ -170,19 +170,19 @@
                             {:else}-{/if}
                         </td>
                         <td>
-                            {#if tea.province}
-                                {#if typeof tea.province === 'string'}
+                            {#if tea.provinces}
+                                {#if typeof tea.provinces === 'string'}
                                     <div>
-                                        <p class="zh">{tea.province}</p>
+                                        <p class="ideogram">{tea.provinces}</p>
                                         <p class="pinyin">
-                                            {getPinyin(tea.province, i18n)}
+                                            {getPinyin(tea.provinces, i18n)}
                                         </p>
                                     </div>
                                 {:else}
                                     <ul>
-                                        {#each tea.province as province}
+                                        {#each tea.provinces as provinces}
                                             <li>
-                                                {province} - {getPinyin(province, i18n)}
+                                                {provinces} - {getPinyin(provinces, i18n)}
                                             </li>
                                         {/each}
                                     </ul>
@@ -190,19 +190,19 @@
                             {:else}-{/if}
                         </td>
                         <td>
-                            {#if tea.town}
-                                {#if typeof tea.town === 'string'}
+                            {#if tea.towns}
+                                {#if typeof tea.towns === 'string'}
                                     <div>
-                                        <p class="zh">{tea.town}</p>
+                                        <p class="ideogram">{tea.towns}</p>
                                         <p class="pinyin">
-                                            {getPinyin(tea.town, i18n)}
+                                            {getPinyin(tea.towns, i18n)}
                                         </p>
                                     </div>
                                 {:else}
                                     <ul>
-                                        {#each tea.town as town}
+                                        {#each tea.towns as towns}
                                             <li>
-                                                {town} - {getPinyin(town, i18n)}
+                                                {towns} - {getPinyin(towns, i18n)}
                                             </li>
                                         {/each}
                                     </ul>
@@ -210,17 +210,17 @@
                             {:else}-{/if}
                         </td>
                         <td>
-                            {#if tea.picking}
-                                {#if typeof tea.picking === 'string'}
+                            {#if tea.pickings}
+                                {#if typeof tea.pickings === 'string'}
                                     <div>
-                                        <p class="zh">{tea.picking}</p>
+                                        <p class="ideogram">{tea.pickings}</p>
                                         <p class="pinyin">
-                                            {getPinyin(tea.picking, i18n)}
+                                            {getPinyin(tea.pickings, i18n)}
                                         </p>
                                     </div>
                                 {:else}
                                     <ul>
-                                        {#each tea.picking as pick}
+                                        {#each tea.pickings as pick}
                                             <li>
                                                 {pick} - {getPinyin(pick, i18n)}
                                             </li>
@@ -229,8 +229,8 @@
                                 {/if}
                             {:else}-{/if}
                         </td>
-                        <td>{tea.elevation || '-'}</td>
-                        <td>{tea.oxidation || '-'}</td>
+                        <td>{tea.elevations || '-'}</td>
+                        <td>{tea.oxidations || '-'}</td>
                     </tr>
                 {:else}
                     <!-- this block renders when teas.length === 0 -->
