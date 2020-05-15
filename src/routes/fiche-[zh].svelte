@@ -1,7 +1,7 @@
 <style>
     .wrapper {
         display: grid;
-        grid-template-columns: 55% 10%;
+        grid-template-columns: 350px 2fr 2fr;
         grid-gap: 1em;
         color: #444;
         font-size: 1.2em;
@@ -141,142 +141,6 @@
     </div>
 </h2>
 <div class="wrapper">
-    <div class="box">
-
-        <hr />
-        <table>
-            <thead></thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <a href="/liste-des-thes-{tea.type}">
-                            <div class="zh-pinyin">
-                                <p class="zh">{tea.type}</p>
-                                <p class="pinyin">
-                                    {getPinyin(tea.type, i18n)}
-                                </p>
-                            </div>
-                        </a>
-                        <IconTeaType type="{tea.type}" />
-                    </td>
-                </tr>
-                <tr>
-                    {#if tea.family}
-                        <td>Famille :</td>
-                        <td>
-                            <div class="zh-pinyin">
-                                <p class="zh">{tea.family}</p>
-                                <p class="pinyin">
-                                    {getPinyin(tea.family, i18n)}
-                                </p>
-                            </div>
-                        </td>
-                    {/if}
-                    {#if tea.elevation}
-                        <td>{display.elevation(tea.elevation)}</td>
-                    {/if}
-                </tr>
-                {#if tea.cultivar}
-                    <tr>
-                        <td>Cultivar :</td>
-
-                        <td>
-                            <div class="zh-pinyin">
-                                <p class="zh">{tea.cultivar}</p>
-                                <p class="pinyin">
-                                    {getPinyin(tea.cultivar, i18n)}
-                                </p>
-                            </div>
-                        </td>
-                    </tr>
-                {/if}
-                <tr>
-                    <td>Localisation :</td>
-                    <td>
-                        <a
-                            href="https://map.baidu.com/search/?querytype=s&wd={tea['province']}"
-                            target="_blank"
-                        >
-                            <div class="zh-pinyin">
-                                <p class="zh">{tea.province}</p>
-                                <p class="pinyin">
-                                    {getPinyin(tea.province, i18n)}
-                                </p>
-                            </div>
-                        </a>
-                    </td>
-                    {#if tea.town}
-                        <td>
-                            <a
-                                href="https://map.baidu.com/search/?querytype=s&wd={tea['town']}"
-                                target="_blank"
-                            >
-                                <div class="zh-pinyin">
-                                    <p class="zh">{tea.town}</p>
-                                    <p class="pinyin">
-                                        {getPinyin(tea.town, i18n)}
-                                    </p>
-                                </div>
-                            </a>
-                        </td>
-                    {/if}
-                </tr>
-                <tr>
-                    {#if tea.harvest}
-                        <td>Récolte :</td>
-                        <td>
-                            {#if typeof tea.harvest === 'string'}
-                                <img
-                                    class="icons"
-                                    src="/assets/icons/{tea.harvest}.svg"
-                                    alt="{tea.harvest}"
-                                />
-                            {:else}
-                                {#each tea.harvest as season}
-                                    <img
-                                        class="icons"
-                                        src="/assets/icons/{season}.svg"
-                                        alt="{season}"
-                                    />
-                                {/each}
-                            {/if}
-                        </td>
-                    {/if}
-                    {#if tea.oxidation}
-                        <td>{display.oxidation(tea.oxidation)}</td>
-                    {/if}
-                </tr>
-                {#if tea.picking}
-                    <tr>
-                        <td>Ceuillette :</td>
-                        <td>
-                            {#if typeof tea.picking === 'string'}
-                                <div class="zh-pinyin">
-                                    <p class="zh">{tea.picking}</p>
-                                    <p class="pinyin">
-                                        {getPinyin(tea.picking, i18n)}
-                                    </p>
-                                </div>
-                            {:else}
-                                <div class="row">
-                                    {#each tea.picking as pick}
-                                        <div class="column">
-                                            <div class="zh-pinyin">
-                                                <p class="zh">{tea.picking}</p>
-                                                <p class="pinyin">
-                                                    {getPinyin(tea.picking, i18n)}
-                                                </p>
-                                            </div>
-                                        </div>
-                                    {/each}
-                                </div>
-                            {/if}
-                        </td>
-                    </tr>
-                {/if}
-            </tbody>
-        </table>
-    </div>
     <div class="box photo-zoom">
         <img
             src="/assets/thes/{tea.zh}.jpg"
@@ -284,6 +148,134 @@
             title="{tea.zh}"
             class="photo"
         />
+    </div>
+    <div class="box">
+        <a href="/liste-des-thes-{tea.type}">
+            <div class="zh-pinyin">
+                <p class="zh">{tea.type}</p>
+                <p class="pinyin">{getPinyin(tea.type, i18n)}</p>
+            </div>
+        </a>
+        <IconTeaType type="{tea.type}" />
+    </div>
+    <div class="box">
+        {#if tea.family}
+            Famille :
+            <ul class="zh-pinyin">
+                <li class="zh">
+                    {tea.family}
+                    <p class="pinyin">{getPinyin(tea.family, i18n)}</p>
+                </li>
+            </ul>
+        {/if}
+        {#if tea.cultivar}
+            Cultivars :
+            <ul class="zh-pinyin">
+                {#each tea.cultivar as cultivar}
+                    <li class="zh">
+                        {cultivar}
+                        <p class="pinyin">{getPinyin(cultivar, i18n)}</p>
+                    </li>
+                {/each}
+            </ul>
+        {/if}
+    </div>
+    <div class="box">
+        <tr>
+            {#if tea.elevation}
+                <td>{display.elevation(tea.elevation)}</td>
+            {/if}
+        </tr>
+        {#if tea.cultivar}
+            <tr>
+                <td>Cultivar :</td>
+
+                <td>
+                    <div class="zh-pinyin">
+                        <p class="zh">{tea.cultivar}</p>
+                        <p class="pinyin">{getPinyin(tea.cultivar, i18n)}</p>
+                    </div>
+                </td>
+            </tr>
+        {/if}
+        <tr>
+            <td>Localisation :</td>
+            <td>
+                <a
+                    href="https://map.baidu.com/search/?querytype=s&wd={tea['province']}"
+                    target="_blank"
+                >
+                    <div class="zh-pinyin">
+                        <p class="zh">{tea.province}</p>
+                        <p class="pinyin">{getPinyin(tea.province, i18n)}</p>
+                    </div>
+                </a>
+            </td>
+            {#if tea.town}
+                <td>
+                    <a
+                        href="https://map.baidu.com/search/?querytype=s&wd={tea['town']}"
+                        target="_blank"
+                    >
+                        <div class="zh-pinyin">
+                            <p class="zh">{tea.town}</p>
+                            <p class="pinyin">{getPinyin(tea.town, i18n)}</p>
+                        </div>
+                    </a>
+                </td>
+            {/if}
+        </tr>
+        <tr>
+            {#if tea.harvest}
+                <td>Récolte :</td>
+                <td>
+                    {#if typeof tea.harvest === 'string'}
+                        <img
+                            class="icons"
+                            src="/assets/icons/{tea.harvest}.svg"
+                            alt="{tea.harvest}"
+                        />
+                    {:else}
+                        {#each tea.harvest as season}
+                            <img
+                                class="icons"
+                                src="/assets/icons/{season}.svg"
+                                alt="{season}"
+                            />
+                        {/each}
+                    {/if}
+                </td>
+            {/if}
+            {#if tea.oxidation}
+                <td>{display.oxidation(tea.oxidation)}</td>
+            {/if}
+        </tr>
+        {#if tea.picking}
+            <tr>
+                <td>Ceuillette :</td>
+                <td>
+                    {#if typeof tea.picking === 'string'}
+                        <div class="zh-pinyin">
+                            <p class="zh">{tea.picking}</p>
+                            <p class="pinyin">{getPinyin(tea.picking, i18n)}</p>
+                        </div>
+                    {:else}
+                        <div class="row">
+                            {#each tea.picking as pick}
+                                <div class="column">
+                                    <div class="zh-pinyin">
+                                        <p class="zh">{tea.picking}</p>
+                                        <p class="pinyin">
+                                            {getPinyin(tea.picking, i18n)}
+                                        </p>
+                                    </div>
+                                </div>
+                            {/each}
+                        </div>
+                    {/if}
+                </td>
+            </tr>
+        {/if}
     </div>
 </div>
 <hr />
