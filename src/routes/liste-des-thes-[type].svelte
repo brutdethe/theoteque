@@ -150,7 +150,7 @@
                                 {/each}
                             {:else}-{/if}
                         </td>
-                        <td>{tea.harvest || '-'}</td>
+                        <td>{tea.harvests || '-'}</td>
                         <td>
                             {#if tea.cultivars}
                                 {#if typeof tea.cultivars === 'string'}
