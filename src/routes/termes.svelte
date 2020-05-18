@@ -66,7 +66,7 @@
 </p>
 {#each themes as theme}
     <h3>
-        {theme.zh}
+        {theme.ideogram}
         <span class="pinyin">{theme.pinyin}</span>
     </h3>
     <div class="row">
@@ -80,10 +80,12 @@
             {#each getPinyinByThemes(terms, theme) as term}
                 <tr>
                     <td>
-                        <span class="tooltip" title="français">{term.zh}</span>
-                        <audio id="{term.zh}">
+                        <span class="tooltip" title="français">
+                            {term.ideogram}
+                        </span>
+                        <audio id="{term.ideogram}">
                             <source
-                                src="assets/audio/{term.zh}.mp3"
+                                src="assets/audio/{term.ideogram}.mp3"
                                 type="audio/mpeg"
                             />
                         </audio>
@@ -91,7 +93,7 @@
                             class="icons"
                             src="/assets/icons/sound.svg"
                             alt="sound"
-                            on:click="{playAudio(term.zh)}"
+                            on:click="{playAudio(term.ideogram)}"
                         />
                     </td>
                     <td>{term.pinyin}</td>

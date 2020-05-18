@@ -19,7 +19,7 @@
     let types = []
 
     onMount(async () => {
-        const res = await fetch(`https://api-tea.oisiflorus.com/api/v1/types`)
+        const res = await fetch(`https://api-tea.oisiflorus.com/api/v1/type`)
 
         if (res.ok) {
             types = (await res.json()).api
@@ -30,7 +30,8 @@
     })
 
     function getColor(typeParam, types) {
-        const typeFind = types.filter(type => type.zh === typeParam)[0] || {}
+        const typeFind =
+            types.filter(type => type.ideogram === typeParam)[0] || {}
         return 'color' in typeFind ? typeFind.color : 'white'
     }
 </script>
