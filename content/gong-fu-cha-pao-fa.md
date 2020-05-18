@@ -31,5 +31,5 @@ Comment préparer un Gong Fu Cha ?
 - Remplir la théière avec de l’eau chaude, fermer le couvercle et laisser infuser quelque instant ( voir le tableau), verser complètement l’infusion dans le ChaHai.
 - Verser le thé dans les tasses à 70 % à l’aide du ChaHai. 
 - Déguster.
-- 
+
 L’opération peut se refaire plusieurs fois. Le nombre des infusions selon la qualité du thé.
