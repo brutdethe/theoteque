@@ -42,7 +42,10 @@
     }
 
     .property-icon {
-        margin-top: 1.5em;
+        margin: 0;
+        margin-top: 1em;
+        font-size: 0.8em;
+        line-height: 2.9em;
     }
 
     .property-value > ul {
@@ -61,6 +64,7 @@
         display: inline-block;
         text-align: left;
         width: 18%;
+        line-height: 3em;
     }
     .ideogram-pinyin {
         display: inline-block;
@@ -78,16 +82,9 @@
         font-weight: normal;
         font-size: 1em;
     }
-    .box td {
-        font-size: 0.8em;
-        border: none;
-    }
 
-    .box td:first-child {
-        width: 30%;
-        color: #999;
-        font-size: 0.7em;
-        font-weight: normal;
+    .mountain {
+        vertical-align: top;
     }
 </style>
 
@@ -202,19 +199,16 @@
                     </dd>
                 {/if}
                 {#if tea.elevations.length}
-                    <dt class="property-icon">
+                    <dd class="property-icon">
                         <img
                             class="icons mountain"
                             src="/assets/icons/mountain.svg"
                             alt="altitude"
                         />
-                    </dt>
-                    <dd class="property-value">
                         {display.elevations(tea.elevations)}
                     </dd>
                 {/if}
                 {#if tea.harvests.length}
-                    <dt class="property-title">Récolte :</dt>
                     <dd class="property-value">
                         {#each tea.harvests as season}
                             <img
@@ -225,84 +219,81 @@
                         {/each}
                     </dd>
                 {/if}
+                {#if tea.pickings.length}
+                    <dt class="property-title">Ceuillette :</dt>
+                    <dd class="property-value">
+                        <ul class="ideogram-pinyin">
+                            {#each tea.pickings as pick}
+                                <li class="ideogram">
+                                    {pick}
+                                    <p class="pinyin">
+                                        {getPinyin(pick, i18n)}
+                                    </p>
+                                </li>
+                            {/each}
+                        </ul>
+                    </dd>
+                {/if}
             </dl>
         </div>
         <div class="box">
-            {#if tea.families.length}
-                Cultivars :
-                <ul class="ideogram-pinyin">
-                    {#each tea.cultivars as cultivars}
-                        <li class="ideogram">
-                            {cultivars}
-                            <p class="pinyin">{getPinyin(cultivars, i18n)}</p>
-                        </li>
-                    {/each}
-                </ul>
+            {#if tea.provinces.length}
+                <dt class="property-title">Provinces :</dt>
+                <dd class="property-value">
+                    <ul class="ideogram-pinyin">
+                        {#each tea.provinces as provinces}
+                            <li class="ideogram">
+                                <a
+                                    href="https://map.baidu.com/search/?querytype=s&wd={tea.provinces}"
+                                    target="_blank"
+                                >
+                                    {provinces}
+                                    <p class="pinyin">
+                                        {getPinyin(provinces, i18n)}
+                                    </p>
+                                </a>
+                            </li>
+                        {/each}
+                    </ul>
+                </dd>
+            {/if}
+            {#if tea.towns.length}
+                <dt class="property-title">Villes :</dt>
+                <dd class="property-value">
+                    <ul class="ideogram-pinyin">
+                        {#each tea.towns as towns}
+                            <li class="ideogram">
+                                <a
+                                    href="https://map.baidu.com/search/?querytype=s&wd={tea.towns}"
+                                    target="_blank"
+                                >
+                                    {towns}
+                                    <p class="pinyin">
+                                        {getPinyin(towns, i18n)}
+                                    </p>
+                                </a>
+                            </li>
+                        {/each}
+                    </ul>
+                </dd>
+            {/if}
+            {#if tea.cultivars.length}
+                <dt class="property-title">Cultivars :</dt>
+                <dd class="property-value">
+                    <ul class="ideogram-pinyin">
+                        {#each tea.cultivars as cultivars}
+                            <li class="ideogram">
+                                {cultivars}
+                                <p class="pinyin">
+                                    {getPinyin(cultivars, i18n)}
+                                </p>
+                            </li>
+                        {/each}
+                    </ul>
+                </dd>
             {/if}
         </div>
-        <div class="box">
-            <tr>
-                <td>Localisation :</td>
-                <td>
-                    <a
-                        href="https://map.baidu.com/search/?querytype=s&wd={tea['province']}"
-                        target="_blank"
-                    >
-                        <div class="ideogram-pinyin">
-                            <p class="ideogram">{tea.provinces}</p>
-                            <p class="pinyin">
-                                {getPinyin(tea.provinces, i18n)}
-                            </p>
-                        </div>
-                    </a>
-                </td>
-                {#if tea.towns}
-                    <td>
-                        <a
-                            href="https://map.baidu.com/search/?querytype=s&wd={tea['towns']}"
-                            target="_blank"
-                        >
-                            <div class="ideogram-pinyin">
-                                <p class="ideogram">{tea.towns}</p>
-                                <p class="pinyin">
-                                    {getPinyin(tea.towns, i18n)}
-                                </p>
-                            </div>
-                        </a>
-                    </td>
-                {/if}
-            </tr>
-            {#if tea.families.length}
-                <tr>
-                    <td>Ceuillette :</td>
-                    <td>
-                        {#if typeof tea.pickings === 'string'}
-                            <div class="ideogram-pinyin">
-                                <p class="ideogram">{tea.pickings}</p>
-                                <p class="pinyin">
-                                    {getPinyin(tea.pickings, i18n)}
-                                </p>
-                            </div>
-                        {:else}
-                            <div class="row">
-                                {#each tea.pickings as pick}
-                                    <div class="column">
-                                        <div class="ideogram-pinyin">
-                                            <p class="ideogram">
-                                                {tea.pickings}
-                                            </p>
-                                            <p class="pinyin">
-                                                {getPinyin(tea.pickings, i18n)}
-                                            </p>
-                                        </div>
-                                    </div>
-                                {/each}
-                            </div>
-                        {/if}
-                    </td>
-                </tr>
-            {/if}
-        </div>
+        <div class="box"></div>
     </div>
     <hr />
     <h3>Conseil d'infusion</h3>
