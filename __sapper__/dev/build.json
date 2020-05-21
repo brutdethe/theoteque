@@ -1,0 +1,41 @@
+{
+  "bundler": "rollup",
+  "shimport": "1.0.1",
+  "assets": {
+    "main": "client.8aab8974.js"
+  },
+  "css": {
+    "main": "main.1159123340.css",
+    "chunks": {
+      "index.svelte": [
+        "index.82f86feb.css",
+        "client.8aab8974.css"
+      ],
+      "liste-des-thes-[type].svelte": [
+        "liste-des-thes-[type].9026281b.css",
+        "client.8aab8974.css",
+        "IconTeaType.2251e829.css"
+      ],
+      "nous-contacter.svelte": [
+        "client.8aab8974.css"
+      ],
+      "documentation/index.svelte": [
+        "index.a3d63fe1.css",
+        "client.8aab8974.css"
+      ],
+      "documentation/[slug].svelte": [
+        "[slug].51e4d574.css",
+        "client.8aab8974.css"
+      ],
+      "fiche-[ideogram].svelte": [
+        "fiche-[ideogram].093dda2c.css",
+        "client.8aab8974.css",
+        "IconTeaType.2251e829.css"
+      ],
+      "termes.svelte": [
+        "termes.22b68a82.css",
+        "client.8aab8974.css"
+      ]
+    }
+  }
+}
