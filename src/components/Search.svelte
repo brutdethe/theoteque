@@ -45,7 +45,7 @@
         groupBy="{tea => tea.group}"
         noOptionsMessage="aucun thé trouvé"
         on:select="{tea => {
-            goto(`/fiche-${tea.detail.value}`)
+            window.location.replace(`/fiche-${tea.detail.value}`)
         }}"
         inputStyles="cursor: text;"
     />
