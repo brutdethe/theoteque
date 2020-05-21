@@ -23,6 +23,10 @@ Les données concernant les thés proviennent d'API-tea :
 - https://api-tea.oisiflorus.com
 - https://github.com/oisiflorus/api-tea
 
+## déploiement
+
+- netlify
+
 ## Licence
 
 [CC0-1.0](https://github.com/oisiflorus/broutille/blob/master/LICENSE)
