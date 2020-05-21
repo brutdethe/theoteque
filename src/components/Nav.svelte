@@ -46,6 +46,7 @@
 </style>
 
 <script>
+    import Search from '../components/Search.svelte'
     export let segment
 </script>
 
@@ -85,6 +86,9 @@
             >
                 termes
             </a>
+        </li>
+        <li>
+            <Search />
         </li>
 
     </ul>
