@@ -21,22 +21,17 @@
         font-weight: normal;
         font-size: 1em;
     }
-    .teas td,
-    .teas th {
-        font-size: 0.8em;
-        border: 1px solid #ccc;
-    }
-
-    .teas td:first-child .ideogram {
-        font-size: 1.2em;
-        text-decoration: underline;
-        width: 90px;
-    }
-    ul {
-        font-size: 0.8em;
-        list-style: none;
+    img {
         padding: 0;
-        margin: 0;
+        width: 200px;
+        overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+        -webkit-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
+        -moz-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
+        box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 250px 250px 250px;
     }
 </style>
 
@@ -111,135 +106,28 @@
             </div>
             <IconTeaType {type} />
         </h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>nom</th>
-                    <th>familles</th>
-                    <th>récoltes</th>
-                    <th>cultivarss</th>
-                    <th>provinces</th>
-                    <th>villes</th>
-                    <th>ceuillettes</th>
-                    <th>altitudes</th>
-                    <th>oxydations</th>
-                </tr>
-            </thead>
-            <tbody>
-                {#each getTeasByType(type, teas) as tea}
-                    <tr>
-                        <td>
-                            <a href="fiche-{tea.ideogram}">
-                                <div>
-                                    <p class="ideogram">{tea.ideogram}</p>
-                                    <p class="pinyin">
-                                        {getPinyin(tea.ideogram, i18n)}
-                                    </p>
-                                </div>
-                            </a>
-                        </td>
-                        <td>
-                            {#if tea.families}
-                                {#each tea.families as family}
-                                    <div>
-                                        <p class="ideogram">{family}</p>
-                                        <p class="pinyin">
-                                            {getPinyin(family, i18n)}
-                                        </p>
-                                    </div>
-                                {/each}
-                            {:else}-{/if}
-                        </td>
-                        <td>{tea.harvests || '-'}</td>
-                        <td>
-                            {#if tea.cultivars}
-                                {#if typeof tea.cultivars === 'string'}
-                                    <div>
-                                        <p class="ideogram">{tea.cultivars}</p>
-                                        <p class="pinyin">
-                                            {getPinyin(tea.cultivars, i18n)}
-                                        </p>
-                                    </div>
-                                {:else}
-                                    <ul>
-                                        {#each tea.cultivars as cultivars}
-                                            <li>
-                                                {cultivars} - {getPinyin(cultivars, i18n)}
-                                            </li>
-                                        {/each}
-                                    </ul>
-                                {/if}
-                            {:else}-{/if}
-                        </td>
-                        <td>
-                            {#if tea.provinces}
-                                {#if typeof tea.provinces === 'string'}
-                                    <div>
-                                        <p class="ideogram">{tea.provinces}</p>
-                                        <p class="pinyin">
-                                            {getPinyin(tea.provinces, i18n)}
-                                        </p>
-                                    </div>
-                                {:else}
-                                    <ul>
-                                        {#each tea.provinces as provinces}
-                                            <li>
-                                                {provinces} - {getPinyin(provinces, i18n)}
-                                            </li>
-                                        {/each}
-                                    </ul>
-                                {/if}
-                            {:else}-{/if}
-                        </td>
-                        <td>
-                            {#if tea.towns}
-                                {#if typeof tea.towns === 'string'}
-                                    <div>
-                                        <p class="ideogram">{tea.towns}</p>
-                                        <p class="pinyin">
-                                            {getPinyin(tea.towns, i18n)}
-                                        </p>
-                                    </div>
-                                {:else}
-                                    <ul>
-                                        {#each tea.towns as towns}
-                                            <li>
-                                                {towns} - {getPinyin(towns, i18n)}
-                                            </li>
-                                        {/each}
-                                    </ul>
-                                {/if}
-                            {:else}-{/if}
-                        </td>
-                        <td>
-                            {#if tea.pickings}
-                                {#if typeof tea.pickings === 'string'}
-                                    <div>
-                                        <p class="ideogram">{tea.pickings}</p>
-                                        <p class="pinyin">
-                                            {getPinyin(tea.pickings, i18n)}
-                                        </p>
-                                    </div>
-                                {:else}
-                                    <ul>
-                                        {#each tea.pickings as pick}
-                                            <li>
-                                                {pick} - {getPinyin(pick, i18n)}
-                                            </li>
-                                        {/each}
-                                    </ul>
-                                {/if}
-                            {:else}-{/if}
-                        </td>
-                        <td>{tea.elevations || '-'}</td>
-                        <td>{tea.oxidations || '-'}</td>
-                    </tr>
-                {:else}
-                    <!-- this block renders when teas.length === 0 -->
-                    <p>chargement des thés...</p>
-                {/each}
-            </tbody>
-        </table>
+        <div class="container">
+            {#each getTeasByType(type, teas) as tea}
+                <div class="item">
+                    <a href="fiche-{tea.ideogram}">
+                        <img
+                            src="../assets/thes/{tea.ideogram}.jpg"
+                            alt="{tea.pinyin}"
+                        />
+
+                        <div>
+                            <p class="ideogram">{tea.ideogram}</p>
+                            <p class="pinyin">
+                                {getPinyin(tea.ideogram, i18n)}
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            {:else}
+                <!-- this block renders when teas.length === 0 -->
+                <p>chargement des thés...</p>
+            {/each}
+        </div>
     {:else}
         <!-- this block renders when teas.length === 0 -->
         <p>chargement des types thés...</p>
