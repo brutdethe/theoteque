@@ -1,6 +1,6 @@
 ---
 lien: chabei-pao-fa
-titre: Chabei Pao Fa
+titre: Chabei Paofa 茶杯泡法
 description: >
   L'infusion au verre ...
 ---
