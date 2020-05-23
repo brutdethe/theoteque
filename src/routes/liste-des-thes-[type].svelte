@@ -24,10 +24,14 @@
     img {
         padding: 0;
         width: 200px;
+        opacity: 70%;
         overflow: hidden; /* [1.2] Hide the overflowing of child elements */
         -webkit-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
         -moz-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
         box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
+    }
+    img:hover {
+        opacity: 100%;
     }
     .container {
         display: grid;
