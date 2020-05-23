@@ -1,6 +1,6 @@
 ---
 lien: gong-fu-cha-pao-fa
-titre: Gong Fu Cha
+titre: Gong Fu Cha Pao Fa 工夫茶泡法
 description: >
   L'infusion au Gong Fu Cha ...
 par: Ya-Lin
