@@ -6,13 +6,12 @@
 
     .type {
         display: grid;
-        grid-template-columns: 4em 4em;
+        grid-template-columns: 3.3em 4em;
     }
     .color {
         border: 1px solid black;
         width: 2.5em;
         height: 2.5em;
-        margin: 0 0.5em;
         -webkit-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
         -moz-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
         box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);

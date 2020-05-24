@@ -5,16 +5,13 @@
     }
     .gallery {
         display: grid;
-        grid-template-columns: 250px 250px 250px;
+        grid-template-columns: 280px 280px 280px;
     }
     img {
         padding: 0;
         width: 200px;
         opacity: 70%;
         overflow: hidden; /* [1.2] Hide the overflowing of child elements */
-        -webkit-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
-        -moz-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
-        box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
     }
     img:hover {
         opacity: 100%;
@@ -24,8 +21,19 @@
         font-size: 1em;
     }
     .pinyin {
+        display: block;
         font-size: 0.7em;
         color: #999;
+    }
+    .item {
+        padding: 1em;
+        margin: 1em 0;
+        text-align: center;
+        background: white;
+        width: 230px;
+        -webkit-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
+        -moz-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
+        box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
     }
 </style>
 
