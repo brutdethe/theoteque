@@ -169,13 +169,10 @@
             />
         </div>
         <div class="box">
-            <a href="/liste-des-thes-{tea.type}">
-                <div class="ideogram-pinyin">
-                    <p class="ideogram">{tea.type}</p>
-                    <p class="pinyin">{getPinyin(tea.type, i18n)}</p>
-                </div>
-            </a>
-            <IconTeaType type="{tea.type}" />
+            <IconTeaType
+                ideogram="{tea.type}"
+                pinyin="{getPinyin(tea.ideogram, i18n)}"
+            />
             <dl>
                 {#if tea.families.length}
                     <dt class="property-title">Famille :</dt>

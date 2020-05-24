@@ -1,25 +1,11 @@
 <style>
-    h3 {
-        text-align: left;
-        margin-top: 2em;
-        font-weight: normal;
-        font-size: 2em;
+    .gallery-teas {
+        padding: 1em;
+        border-top: 1px solid #ccc;
     }
-    .ideogram-pinyin {
-        display: inline-block;
-    }
-    .pinyin {
-        font-size: 0.7em;
-        color: #999;
-        font-weight: normal;
-    }
-    p {
-        margin: 0;
-        padding: 0;
-    }
-    .ideogram {
-        font-weight: normal;
-        font-size: 1em;
+    .gallery {
+        display: grid;
+        grid-template-columns: 250px 250px 250px;
     }
     img {
         padding: 0;
@@ -33,9 +19,13 @@
     img:hover {
         opacity: 100%;
     }
-    .container {
-        display: grid;
-        grid-template-columns: 250px 250px 250px;
+    .ideogram {
+        font-weight: normal;
+        font-size: 1em;
+    }
+    .pinyin {
+        font-size: 0.7em;
+        color: #999;
     }
 </style>
 
@@ -101,39 +91,34 @@
 <svelte:head>
     <title>Liste des thés</title>
 </svelte:head>
-<div class="teas">
-    {#each typeToDisplay(typeParam, types) as type}
-        <h3 id="{type}">
-            <div class="ideogram-pinyin">
-                <p class="ideogram">{type}</p>
-                <p class="pinyin">{getPinyin(type, i18n)}</p>
-            </div>
-            <IconTeaType {type} />
-        </h3>
-        <div class="container">
+
+{#each typeToDisplay(typeParam, types) as type}
+    <section class="gallery-teas {type}">
+        <IconTeaType ideogram="{type}" pinyin="{getPinyin(type, i18n)}" />
+        <div class="gallery">
             {#each getTeasByType(type, teas) as tea}
-                <div class="item">
+                <figure class="item">
                     <a href="fiche-{tea.ideogram}">
                         <img
                             src="../assets/thes/{tea.ideogram}.jpg"
                             alt="{tea.pinyin}"
                         />
-
-                        <div>
-                            <p class="ideogram">{tea.ideogram}</p>
-                            <p class="pinyin">
-                                {getPinyin(tea.ideogram, i18n)}
-                            </p>
-                        </div>
                     </a>
-                </div>
+                    <figcaption class="ideogram">
+                        {tea.ideogram}
+                        <span class="pinyin">
+                            {getPinyin(tea.ideogram, i18n)}
+                        </span>
+                    </figcaption>
+
+                </figure>
             {:else}
                 <!-- this block renders when teas.length === 0 -->
                 <p>chargement des thés...</p>
             {/each}
         </div>
-    {:else}
-        <!-- this block renders when teas.length === 0 -->
-        <p>chargement des types thés...</p>
-    {/each}
-</div>
+    </section>
+{:else}
+    <!-- this block renders when teas.length === 0 -->
+    <p>chargement des types thés...</p>
+{/each}

@@ -1,39 +1,48 @@
 <style>
-    div {
-        display: inline-block;
+    a,
+    a:hover {
+        border: none;
+    }
+
+    .type {
+        display: grid;
+        grid-template-columns: 4em 4em;
+    }
+    .color {
         border: 1px solid black;
-        width: 2em;
-        height: 2em;
+        width: 2.5em;
+        height: 2.5em;
         margin: 0 0.5em;
         -webkit-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
         -moz-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
         box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
+    }
+    .pinyin {
+        font-size: 0.7em;
+        color: #999;
+        border-bottom: 1px solid #002920;
     }
 </style>
 
 <script>
     import { onMount } from 'svelte'
 
-    export let type
+    export let ideogram, pinyin
 
-    let types = []
-
-    onMount(async () => {
-        const res = await fetch(`https://api-tea.oisiflorus.com/api/v1/type`)
-
-        if (res.ok) {
-            types = (await res.json()).api
-        } else {
-            // 404
-            throw new Error(text)
-        }
-    })
-
-    function getColor(typeParam, types) {
-        const typeFind =
-            types.filter(type => type.ideogram === typeParam)[0] || {}
-        return 'color' in typeFind ? typeFind.color : 'white'
+    const colors = {
+        綠茶: '#58D68D',
+        白茶: 'white',
+        黃茶: '#F4D03F',
+        青茶: '#002fa7',
+        紅茶: '#C0392B',
+        黑茶: 'black'
     }
 </script>
 
-<div style="background: {getColor(type, types)}"></div>
+<aside class="type">
+    <span class="color" style="background: {colors[ideogram]}"></span>
+    <a class="text" href="/liste-des-thes-{ideogram}">
+        <span class="ideogram">{ideogram}</span>
+        <span class="pinyin">{pinyin}</span>
+    </a>
+</aside>
