@@ -1,32 +1,51 @@
 <style>
+    .ideogram {
+        font-weight: normal;
+        font-size: 1.5em;
+    }
+    .pinyin {
+        font-size: 1em;
+        color: #999;
+        font-weight: normal;
+    }
+    .icons {
+        margin: 0;
+        padding: 0;
+        border: none;
+        background: transparent;
+        display: inline-block;
+        text-align: left;
+        width: 1.5em;
+        line-height: 3em;
+    }
+    .brew-title {
+        display: grid;
+        grid-template-columns: 3rem auto;
+    }
+    .brew-title .icons {
+        margin: 0.5em 0;
+        width: 2.5em;
+    }
+    .brew-title .ideogram {
+        display: block;
+    }
+    .brew-details {
+        margin: 1.5em 0;
+    }
+    .brew-details td {
+        font-size: 1em;
+        border: 1px solid #ccc;
+    }
     input {
         width: 6em;
         heigth: 2em;
         border-color: #ddd;
-        font-size: 0.9em;
+        font-size: 1em;
         color: grey;
     }
     .mini {
         font-size: 0.8em;
         color: grey;
-    }
-    .pinyin {
-        font-size: 0.7em;
-        color: #999;
-        font-weight: normal;
-    }
-    p {
-        margin: 0;
-        padding: 0;
-    }
-    .ideogram {
-        font-weight: normal;
-        font-size: 1.5em;
-    }
-
-    .brew td {
-        font-size: 0.8em;
-        border: 1px solid #ccc;
     }
 </style>
 
@@ -78,24 +97,36 @@
     }
 </script>
 
-<table class="brew">
+<aside class="brew-title">
+    <img
+        class="icons brew-style"
+        src="/assets/icons/{brew.type}.svg"
+        alt="type d'infusion"
+    />
+    <div class="brew-title-text">
+        <span class="ideogram">{brew.type}</span>
+        <span class="pinyin">{getPinyin(brew.type, i18n)}</span>
+    </div>
+</aside>
+
+<table class="brew-details">
     <tr>
-        <div>
-            <p class="ideogram">{brew.type}</p>
-            <p class="pinyin">{getPinyin(brew.type, i18n)}</p>
-        </div>
-    </tr>
-    <tr>
-        <td>{display.temperatures(brew.temperatures)}</td>
-    </tr>
-    {#if brew.times}
-        <tr>
+        <td>
+            <img
+                class="icons thermometer"
+                src="/assets/icons/temperature.svg"
+                alt="temperature"
+            />
+            {display.temperatures(brew.temperatures)}
+        </td>
+
+        {#if brew.times}
             <td>{display.times(brew.times)}</td>
-        </tr>
-    {/if}
+        {/if}
+    </tr>
     {#if durations}
         <tr>
-            <td>
+            <td colspan="2">
                 <table>
                     <tr>
                         {#each durations as duration, index}
@@ -111,7 +142,7 @@
             </td>
         </tr>
     {/if}
-    <td>
+    <td colspan="2">
         Vous pouvez tester avec
         <strong>{weight} g</strong>
         pour

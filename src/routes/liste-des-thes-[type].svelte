@@ -92,8 +92,9 @@
 
 <h2>Liste des thés par type</h2>
 <p>
-    Cette liste regroupe l'ensemble des thés proposés sur le site. Pour voir le
-    détail d'un thé suivez le lien sur son nom.
+    Cette liste regroupe une sélection de thés que l'on imagine assez faciles à
+    trouver. Pour voir le détail d'un thé suivez le lien en cliquant sur sa
+    photo.
 </p>
 
 <svelte:head>

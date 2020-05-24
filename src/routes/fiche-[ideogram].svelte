@@ -1,21 +1,26 @@
 <style>
     .wrapper {
         display: grid;
-        grid-template-columns: 350px 2fr 2fr;
+        grid-template-columns: 300px 2fr 2fr;
         grid-gap: 1em;
         color: #444;
         font-size: 1.2em;
     }
 
+    .brew {
+        padding: 1em;
+        border-top: 1px solid #ccc;
+    }
+
     .box {
         color: #444;
-        padding-left: 1em;
+        padding-left: 0.5em;
     }
 
     .photo-zoom {
         padding: 0;
-        height: 350px; /* [1.1] Set it as per your need */
-        width: 350px;
+        height: 300px; /* [1.1] Set it as per your need */
+        width: 300px;
         overflow: hidden; /* [1.2] Hide the overflowing of child elements */
         -webkit-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
         -moz-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
@@ -57,14 +62,11 @@
         font-size: 0.8em;
     }
     .icons {
-        margin: 0;
-        padding: 0;
+        margin: -0.3em;
         border: none;
         background: transparent;
         display: inline-block;
-        text-align: left;
-        width: 18%;
-        line-height: 3em;
+        width: 20%;
     }
     .ideogram-pinyin {
         display: inline-block;
@@ -171,7 +173,7 @@
         <div class="box">
             <IconTeaType
                 ideogram="{tea.type}"
-                pinyin="{getPinyin(tea.ideogram, i18n)}"
+                pinyin="{getPinyin(tea.type, i18n)}"
             />
             <dl>
                 {#if tea.families.length}
@@ -292,13 +294,14 @@
         </div>
         <div class="box"></div>
     </div>
-    <hr />
-    <h3>Conseil d'infusion</h3>
-    <div class="row">
-        {#if Array.isArray(tea.brews)}
-            {#each tea.brews as brew}
-                <Brews {brew} />
-            {/each}
-        {/if}
-    </div>
+    <section class="brew">
+        <h3>Conseils d'infusion</h3>
+        <div class="row">
+            {#if Array.isArray(tea.brews)}
+                {#each tea.brews as brew}
+                    <Brews {brew} />
+                {/each}
+            {/if}
+        </div>
+    </section>
 {/if}

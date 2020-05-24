@@ -6,18 +6,22 @@
 
     .type {
         display: grid;
-        grid-template-columns: 3.3em 4em;
+        grid-template-columns: 2.5rem 5rem;
+    }
+    .text {
+        margin: 0 0.8rem;
+        line-height: 1.2rem;
     }
     .color {
         border: 1px solid black;
-        width: 2.5em;
-        height: 2.5em;
+        width: 2.5rem;
+        height: 2.5rem;
         -webkit-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
         -moz-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
         box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
     }
     .pinyin {
-        font-size: 0.7em;
+        font-size: 0.7rem;
         color: #999;
         border-bottom: 1px solid #002920;
     }
