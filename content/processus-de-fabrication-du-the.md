@@ -19,22 +19,22 @@ La description des étapes proposée ici est très réductrice, elle généralis
 
 ![types de thés](assets/media/types-de-the.svg) [^2]
 
-- **Cueillette** [^3] : Dans les jardins de thé, les bourgeons et/ou deux (ou quelques) jeunes feuilles sont cueillies sur les buissons de _Camellia Sinensis_ principalement au printemps et début de l'été et plus rarement en automne
+- **Cueillette**{#picking} [^3] : Dans les jardins de thé, les bourgeons et/ou deux (ou quelques) jeunes feuilles sont cueillies sur les buissons de _Camellia Sinensis_ principalement au printemps et début de l'été et plus rarement en automne
+{:.foo}
+- **Flétrissage**{#withered} [^4] : Les feuilles de thé commencent à se flétrir peu après la cueillette, avec un début progressif d'oxydation enzymatique. Le flétrissage est utilisé pour éliminer l'excès d'eau des feuilles et permet une très légère oxydation. Les feuilles peuvent être soit mises au soleil, soit laissées dans une pièce fraîche et brillante
 
-- **Flétrissage** [^4] : Les feuilles de thé commencent à se flétrir peu après la cueillette, avec un début progressif d'oxydation enzymatique. Le flétrissage est utilisé pour éliminer l'excès d'eau des feuilles et permet une très légère oxydation. Les feuilles peuvent être soit mises au soleil, soit laissées dans une pièce fraîche et brillante
+- **Oxydation**{#oxidation} [^5] : Les feuilles sont parfois cassées pour favoriser l'oxydation. Elles peuvent être simplement secouées ou bien elles sont abîmées en les pétrissant ou en les roulant par exemple [^6]. Elles sont ensuite laissées dans une pièce climatisée où elles deviennent progressivement plus foncées. Dans ce processus, la chlorophylle des feuilles est décomposée par les enzymes et ses tannins sont libérés ou transformés. Ce processus est parfois appelé à tort fermentation dans l'industrie du thé. [en savoir plus](./oxydation-vs-fermentation)
 
-- **Oxydation** [^5] : Les feuilles sont parfois cassées pour favoriser l'oxydation. Elles peuvent être simplement secouées ou bien elles sont abîmées en les pétrissant ou en les roulant par exemple [^6]. Elles sont ensuite laissées dans une pièce climatisée où elles deviennent progressivement plus foncées. Dans ce processus, la chlorophylle des feuilles est décomposée par les enzymes et ses tannins sont libérés ou transformés. Ce processus est parfois appelé à tort fermentation dans l'industrie du thé.    [en savoir plus](./oxydation-vs-fermentation)
+- **Fixation**{#fixation} [^7] : La fixation ( 殺青 - _ShāQīng_ [^8]) est effectuée pour arrêter l'oxydation (brunissement enzymatique [^9]) des feuilles de thé à un niveau souhaité. Ce processus est accompli en chauffant les feuilles de thé à environ 65° ce qui désactive leurs enzymes oxydantes et élimine les odeurs indésirables dans les feuilles, sans endommager la saveur du thé. Les cuissons lentes favorisent la _réaction de Maillard_ [^10] (brunissement non-enzymatique) qui augmente la palette aromatique. Par exemple, les _Lǜ Chá_ qui sont cuits à la vapeur ont un aspect vert brillant et végétal caractéristiques et n'auront pas les notes grillés et la palette d'arômes des thés cuient au wok.
 
-- **Fixation** [^7] : La fixation est effectuée pour arrêter l'oxydation des feuilles de thé à un niveau souhaité. Ce processus est accompli en chauffant modérément les feuilles de thé, ce qui désactive leurs enzymes oxydantes et élimine les odeurs indésirables dans les feuilles, sans endommager la saveur du thé. Traditionnellement, les feuilles de thé sont cuites à la poêle dans un wok ou à la vapeur et plus récemment dans un tambour à rouler
+- **Étouffage**{#wrapped} [^11] : Les feuilles chaudes et humides sont enveloppées dans du tissu ou du papier ou entassées dans un panier en bambou recouvert d'un tissu et sont laissées pendant quelques heures ou quelques jours, ce qui démarre un léger processus de fermentation. En étant étouffés les acides aminés et les polyphénols des feuilles de thé transformées subissent des modifications chimiques ce qui provoque le jaunissement des feuilles
 
-- **Étouffage** [^8] : Les feuilles chaudes et humides sont enveloppées dans du tissu ou du papier ou entassées dans un panier en bambou recouvert d'un tissu et sont laissées pendant quelques heures ou quelques jours, ce qui démarre un léger processus de fermentation. En étant étouffés les acides aminés et les polyphénols des feuilles de thé transformées subissent des modifications chimiques ce qui provoque le jaunissement des feuilles
-
-- **Roulage** [^9] : Les feuilles de thé humides sont ensuite roulées à la main ou à l'aide d'une machine à rouler qui fait s'enrouler le thé sur lui-même. Ce roulage fait également suinter une partie de la sève, des huiles essentielles et des jus contenus dans les feuilles, ce qui rehausse le goût. Les feuilles peuvent ensuite être façonnées en d'autres formes, par exemple roulées en perles et autres formes élaborées. Le thé peut également être pressé à l'aide de pierres lourdes ou de presses
+- **Roulage**{#rolling} [^12] : Les feuilles de thé humides sont ensuite roulées à la main ou à l'aide d'une machine à rouler qui fait s'enrouler le thé sur lui-même. Ce roulage fait également suinter une partie de la sève, des huiles essentielles et des jus contenus dans les feuilles, ce qui rehausse le goût. Les feuilles peuvent ensuite être façonnées en d'autres formes, par exemple roulées en perles et autres formes élaborées. Le thé peut également être pressé à l'aide de pierres lourdes ou de presses
   
-- **Séchage** [^10] : Tous les thés doivent passer par cette étape pour être considérés comme stables. Le séchage permet de réduire le niveau d'humidité dans les feuilles de thé à 4-5%. Ce faisant, les feuilles sont stables et le processus d'oxydation des feuilles est presque entièrement stoppé. Un séchage trop lent du thé entraîne une détérioration des arômes et un séchage trop rapide fait que l'extérieur des feuilles sèche beaucoup plus vite que l'intérieur.  
-La torréfaction, quand il y en a une, pourra se faire en une ou en plusieurs fois et viendra rehausser les saveurs. Les feuilles de thé sont par exemple cuites à très basse température pendant plusieurs heures, généralement dans un four ou dans des paniers en bambou peu profonds sur des charbons chauds. [^11]
+- **Séchage**[dried] [^13] : Tous les thés doivent passer par cette étape pour être considérés comme stables. Le séchage permet de réduire le niveau d'humidité dans les feuilles de thé à 4-5%. Ce faisant, les feuilles sont stables et le processus d'oxydation des feuilles est presque entièrement stoppé. Un séchage trop lent du thé entraîne une détérioration des arômes et un séchage trop rapide fait que l'extérieur des feuilles sèche beaucoup plus vite que l'intérieur.  
+La torréfaction, quand il y en a une, pourra se faire en une ou en plusieurs fois et viendra rehausser les saveurs. Les feuilles de thé sont par exemple cuites à très basse température pendant plusieurs heures, généralement dans un four ou dans des paniers en bambou peu profonds sur des charbons chauds. [^14]
 
-- **Fermentation** [^12] : Le thé est vieilli pendant des périodes variables afin de favoriser la fermentation naturelle. Traditionnellement, ces thés fermentaient lorsqu'ils étaient exposés à des micro-organismes sur la route de la soie (sous la selle des chevaux). Aujourd'hui, les producteurs de thé inoculent des organismes bactériens : _aspergillus_, _blastobotrys_,  _streptomyces_, etc.  
+- **Fermentation**[fermented] [^15] : Le thé est vieilli pendant des périodes variables afin de favoriser la fermentation naturelle. Traditionnellement, ces thés fermentaient lorsqu'ils étaient exposés à des micro-organismes sur la route de la soie (sous la selle des chevaux). Aujourd'hui, les producteurs de thé inoculent des organismes bactériens : _aspergillus_, _blastobotrys_,  _streptomyces_, etc.  
 Dans une certaine mesure, la qualité et la saveur du thé s'améliorent avec l'âge.  
 La fermentation accélérée vise à raccourcir le processus de vieillissement, elle est produite de la même manière avec une étape supplémentaire appelée "fermentation en tas".
 
@@ -58,21 +58,27 @@ La fermentation accélérée vise à raccourcir le processus de vieillissement, 
 
 [^7]: [green tea fixation](https://invidio.us/_KxwUpEEq64?t=614)
 
-[^8]: [sweltering](https://invidio.us/PhaeOHivt6s?t=342)
+[^8]: [Long Jing tea reportage](https://invidio.us/watch?v=7DmnpLY-V68)
+
+[^9]: [Brunissement enzymatique](https://fr.wikipedia.org/wiki/Brunissement_enzymatique)
+
+[^10]: . [Réaction de Maillard](https://fr.wikipedia.org/wiki/R%C3%A9action_de_Maillard)
+
+[^11]: . [sweltering](https://invidio.us/PhaeOHivt6s?t=342)
   
-[^9]: vidéos de façonnage :
+[^12]: . vidéos de façonnage :
 
     \- [wulong tea rolling](https://invidio.us/CS-KCBmY2pA?t=745)  
     \- [pu'er tea cake](https://invidio.us/syDZMKuU1tY?t=22)
 
-[^10]:  . vidéos de séchage :
+[^13]: . vidéos de séchage :
 
     \- [white tea drying](https://invidio.us/GtDSfYq4sPg?t=1981)  
     \- [four de séchage industriel](https://invidio.us/ftMU1J-4Jvg)
 
-[^11]: . [wulong roasting](https://invidio.us/CS-KCBmY2pA?t=1711)
+[^14]: . [wulong roasting](https://invidio.us/CS-KCBmY2pA?t=1711)
 
-[^12]: . vidéos sur la fermentation
+[^15]: . vidéos sur la fermentation
 
     \- [sheng cha fermentation](https://invidio.us/d2BekCvAZqM?t=448)  
     \- [shu cha fermentation](https://invidio.us/oI4yDyH1oUM)
