@@ -29,15 +29,15 @@ Malgré la disparité des thés, en utilisant les "principales" étapes de fabri
   
 ### Pourquoi 7 types
 
-En utilisant le système de répartition en 6 couleurs on reste consistant et en accord avec la tradition de la culture Chinoise du thé. Très modestement, il nous a paru intéressant d'ajouter une famille qui a pris beaucoup d'importance ces 50 dernières années et qui se démarque des autres thés. Il s'agit des : 普洱生茶 _Pǔ'ěr Shēng Chá_.
+En utilisant le système de répartition en 6 couleurs on reste consistant et en accord avec la tradition de la culture Chinoise du thé. Très modestement, il nous a paru intéressant d'ajouter une famille, il s'agit des : 普洱生茶 _Pǔ'ěr Shēng Chá_. Ces thés existent depuis longtemps mais étaient considérés et consommés comme des produits de moindre qualité, ce n'est qu'aux alentours des années 1960 qu'un tournant s'est produit élevant les _Shēng Chá_ sur le devant de la scène. Cette période marque la naissance de manufactures de renom et de recettes qui ont contribué à augmenter l'attention et la qualité de cette famille. Aujourd'hui, les _Pǔ'ěr Shēng Chá_ continuent traditionnellement à être classés dans le type des thés _HēiChá_ (noirs ou sombres en français).
 
-Avec cette 7ème catégorie on obtient le tableau ci-dessous :
+Avec cette 7ème catégorie ajouté on obtient le tableau ci-dessous :
 
 ![types de thés](assets/media/types-de-the.svg)
 
 ### 绿茶 - Lǜ Chá - thé vert
 
-Le _Lǜ Chá_ est créé à partir des jeunes feuilles et des jeunes bourgeons. Dès que l'on cueille les feuilles la réaction d'oxydation (_brunissement enzymatique_) démarre. Pour ce type de thé le producteur stoppe le processus (  [^殺青 - _ShāQīng_ [^4] ) afin d'obtenir un thé très peu oxydé, entre 0% et 5%. Cette étape de _[fixation]_ consiste à chauffer les feuilles pour altérer les enzymes responsables : la _polyphénol oxydase_ et la _peroxydase_.
+Le _Lǜ Chá_ est créé à partir des jeunes feuilles et des jeunes bourgeons. Dès que l'on cueille les feuilles la réaction d'oxydation (_brunissement enzymatique_) démarre. Pour ce type de thé le producteur stoppe le processus (  殺青 - _ShāQīng_ [^4] ) afin d'obtenir un thé très peu oxydé, entre 0% et 5%. Cette étape de _[fixation](./documentation/processus-de-fabrication-du-the#fixed)_ consiste à chauffer les feuilles pour altérer les enzymes responsables : la _polyphénol oxydase_ et la _peroxydase_.
 
  est la forme de thé la plus populaire en Chine et à Taïwan. Pour une oxydation minimale les feuilles sont généralement séchées (fixation) dans un wok sec. 
 
@@ -132,7 +132,7 @@ Quelques _Hóng Chá_ connus :
 
 #### Fermentation accélérée
 
-Fabriqué selon une méthode traditionnelle depuis des siècles, cette famille occupent une place importante dans l'histoire des spécialités régionales de thé en Chine. Les feuilles de thé oxydées subissent un processus de fermentation - 渥堆 - _wò duī_ (en tas humide). Dans le passé, ces thés étaient appelés 边销茶 - _Bian Xiao Cha_ (thé de la frontière). Leur nom vient de la couleur des feuilles de thé séchées qui résulte de l'utilisation de vieilles matières premières grossières et d'une longue _fermentation en tas_. Il ne s'agit pas de feuilles de thé de printemps élégantes, ni de techniques habiles de roulage à la main. C'est pourtant un thé élégant simple et sobre. À l'époque, c'était le seul thé accessible à tou·te·s.  
+Fabriqué selon une méthode traditionnelle depuis des siècles, cette famille occupent une place importante dans l'histoire des spécialités régionales de thé en Chine. Les feuilles de thé oxydées subissent un processus de fermentation - 渥堆 - _Wò Duī_ (en tas humide). Dans le passé, ces thés étaient appelés 边销茶 - _Bian Xiao Cha_ (thé de la frontière). Leur nom vient de la couleur des feuilles de thé séchées qui résulte de l'utilisation de vieilles matières premières grossières et d'une longue _fermentation en tas_. Il ne s'agit pas de feuilles de thé de printemps élégantes, ni de techniques habiles de roulage à la main. C'est pourtant un thé élégant simple et sobre. À l'époque, c'était le seul thé accessible à tou·te·s.  
 Ces dix dernières années, ce type de thé a gagné en popularité dans les provinces chinoises de Canton, du Yunnan, du Sichuan et du Guangxi.
 
 Quelques _Hēi Chá_ connus :
