@@ -2,7 +2,7 @@ import path from "path";
 import fs from "fs";
 import grayMatter from "gray-matter";
 
-const md = require('markdown-it')().use(require('markdown-it-footnote'));
+const md = require('markdown-it')().use(require('markdown-it-footnote')).use(require('markdown-it-attrs'));
 
 const getPost = fileName =>
 	fs.readFileSync(path.resolve("content", `${fileName}.md`), "utf-8");
