@@ -10,9 +10,9 @@ par: pntbr, ya-lin, thais
 Catégoriser les thés qui partagent des caractéristiques communes permet de réduire la complexité en dépassant les spécificités au profit de la généralité.  
   
 Tous les thés sont le produit d'une même plante le théier ou _Camellia Sinensis_.  
-Cette définition à l'avantage d'exclure des plantes qui pourraient sembler voisines. Les Rooibos surnommés en France "thés rouges" sont par exemple totalement distinct.  
+Cette définition à l'avantage d'exclure des plantes qui pourraient sembler voisines. Les rooibos surnommés en France "thés rouges" sont par exemple totalement distinct.  
 
-En Chine et à Taïwan, les thés sont traditionnellement classés en 6 types :   
+En Chine et à TáiWān, les thés sont traditionnellement classés en 6 types :   
 
 - 綠茶 - _LǜChá_ - thé vert
 - 白茶 - _BáiChá_ - thé blanc
@@ -39,7 +39,7 @@ Avec cette 7ème catégorie ajouté on obtient le tableau ci-dessous :
 
 Le _Lǜ Chá_ est la forme la plus ancienne et la plus populaire dans les types de thé. Il est fabriqué à partir des jeunes feuilles et des jeunes bourgeons. Dès que l'on cueille les feuilles la réaction d'oxydation (_brunissement enzymatique_) démarre. Pour ce type de thé le producteur stoppe le processus (  殺青 - _ShāQīng_ [^4] ) afin d'obtenir un thé très peu oxydé, entre 0% et 5%. Cette étape de _[fixation](./documentation/processus-de-fabrication-du-the#fixed)_ consiste à chauffer les feuilles pour altérer les enzymes responsables : la _polyphénol oxydase_ et la _peroxydase_.
 
-Les principales provinces qui produisent se situent à 浙江 ZhèJiāng, 海南 HǎiNán, 安徽 ĀnHuī et 江蘇 JiāngSū.
+Les principales provinces qui produisent se situent à 浙江 _ZhèJiāng_, 海南 _HǎiNán_, 安徽 _ĀnHuī_ et 江蘇 _JiāngSū_.
 
 Quelques _Lǜ Chá_ connus [^5] :
 - 
