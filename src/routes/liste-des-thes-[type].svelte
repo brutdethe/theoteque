@@ -5,7 +5,7 @@
     }
     .gallery {
         display: grid;
-        grid-template-columns: 280px 280px 280px;
+        grid-template-columns: 260px 260px 260px 260px;
     }
     img {
         padding: 0;

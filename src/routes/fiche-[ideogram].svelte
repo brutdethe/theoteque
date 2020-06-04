@@ -1,7 +1,7 @@
 <style>
     .wrapper {
         display: grid;
-        grid-template-columns: 300px 2fr 2fr;
+        grid-template-columns: 400px 2fr 2fr;
         grid-gap: 1em;
         color: #444;
         font-size: 1.2em;
@@ -19,8 +19,8 @@
 
     .photo-zoom {
         padding: 0;
-        height: 300px; /* [1.1] Set it as per your need */
-        width: 300px;
+        height: 400px; /* [1.1] Set it as per your need */
+        width: 400px;
         overflow: hidden; /* [1.2] Hide the overflowing of child elements */
         -webkit-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
         -moz-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);

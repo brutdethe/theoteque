@@ -85,7 +85,7 @@ Quelques exemples :
 - 廣東大葉青 - _GuǎngDōng DàyèQīng_
 - 霍山黃大茶 - _HuòShān HuángDàChá_
 
-### 乌龙茶 - Qīng Chá - thé wulong
+### 乌龙茶 - Qīng Chá - thé bleu-vert
 
 Les _Qīng Chá_ [^8] sont des thés semi-oxydés. Cela signifie que pendant la production, l'oxydation est initiée, contrôlée et arrêtée à un moment donné avant que les feuilles ne soient considérées comme complètement oxydées. C'est pourquoi vous entendrez souvent dire que le _Qīng Chá_ se situe entre le _Lǜ Chá_ et le _Hóng Chá_.
 

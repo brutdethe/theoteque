@@ -57,7 +57,7 @@
                 aria-current="{segment === undefined ? 'page' : undefined}"
                 href="."
             >
-                accueil
+                Accueil
             </a>
         </li>
         <li>
@@ -66,7 +66,7 @@
                 aria-current="{segment === 'liste-des-thes-tous' ? 'page' : undefined}"
                 href="liste-des-thes-tous"
             >
-                liste des thés
+                Liste des thés
             </a>
         </li>
         <li>
@@ -75,7 +75,7 @@
                 href="documentation"
                 aria-current="{segment === 'documentation' ? 'page' : undefined}"
             >
-                documentation
+                Documentation
             </a>
         </li>
         <li>
@@ -84,7 +84,7 @@
                 href="termes"
                 aria-current="{segment === 'termes' ? 'page' : undefined}"
             >
-                termes
+                Termes
             </a>
         </li>
         <li>
