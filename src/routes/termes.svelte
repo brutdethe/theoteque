@@ -3,12 +3,6 @@
         text-align: left;
         margin-top: 2em;
     }
-
-    .pinyin {
-        display: block;
-        font-size: 0.7em;
-        color: #999;
-    }
     img {
         padding: 0;
         margin: 0;
@@ -18,6 +12,14 @@
         border: none;
         background: transparent;
         fill: #ccc;
+        cursor: pointer;
+    }
+    .pinyin {
+        display: block;
+        font-size: 0.7em;
+        color: #999;
+    }
+    .voice {
         cursor: pointer;
     }
 </style>
@@ -80,21 +82,19 @@
             {#each getPinyinByThemes(terms, theme) as term}
                 <tr>
                     <td>
-                        <span class="tooltip" title="français">
-                            {term.ideogram}
-                        </span>
                         <audio id="{term.ideogram}">
                             <source
                                 src="assets/audio/{term.ideogram}.mp3"
                                 type="audio/mpeg"
                             />
                         </audio>
-                        <img
-                            class="icons"
-                            src="/assets/icons/sound.svg"
-                            alt="sound"
+                        <span
+                            class="voice"
+                            title="voix"
                             on:click="{playAudio(term.ideogram)}"
-                        />
+                        >
+                            {term.ideogram}
+                        </span>
                     </td>
                     <td>{term.pinyin}</td>
                 </tr>
