@@ -2,7 +2,7 @@
 lien: table-d-infusion
 titre: table d'infusion
 description: table d'infusion par type de thé avec l'approche - gong fu cha
-par: pointbar
+par: pntbr
 ---
 
 ## Table d'infusion pour _gong fu cha_

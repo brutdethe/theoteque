@@ -2,7 +2,7 @@
 lien: les-types-de-thes
 titre: Les types de thé
 description: description des 7 différents type de thé
-par: pointbar, thais, ya-lin
+par: pntbr, ya-lin, thais
 ---
 
 ## Les 6 ou 7 types de thés ?
