@@ -37,9 +37,9 @@ Avec cette 7ème catégorie ajouté on obtient le tableau ci-dessous :
 
 ### 绿茶 - Lǜ Chá - thé vert
 
-Le _Lǜ Chá_ est créé à partir des jeunes feuilles et des jeunes bourgeons. Dès que l'on cueille les feuilles la réaction d'oxydation (_brunissement enzymatique_) démarre. Pour ce type de thé le producteur stoppe le processus (  殺青 - _ShāQīng_ [^4] ) afin d'obtenir un thé très peu oxydé, entre 0% et 5%. Cette étape de _[fixation](./documentation/processus-de-fabrication-du-the#fixed)_ consiste à chauffer les feuilles pour altérer les enzymes responsables : la _polyphénol oxydase_ et la _peroxydase_.
+Le _Lǜ Chá_ est la forme la plus ancienne et la plus populaire dans les types de thé. Il est fabriqué à partir des jeunes feuilles et des jeunes bourgeons. Dès que l'on cueille les feuilles la réaction d'oxydation (_brunissement enzymatique_) démarre. Pour ce type de thé le producteur stoppe le processus (  殺青 - _ShāQīng_ [^4] ) afin d'obtenir un thé très peu oxydé, entre 0% et 5%. Cette étape de _[fixation](./documentation/processus-de-fabrication-du-the#fixed)_ consiste à chauffer les feuilles pour altérer les enzymes responsables : la _polyphénol oxydase_ et la _peroxydase_.
 
- est la forme de thé la plus populaire en Chine et à Taïwan. Pour une oxydation minimale les feuilles sont généralement séchées (fixation) dans un wok sec. 
+Les principales provinces qui produisent se situent à 浙江 ZhèJiāng, 海南 HǎiNán, 安徽 ĀnHuī et 江蘇 JiāngSū.
 
 Quelques _Lǜ Chá_ connus [^5] :
 - 
@@ -58,14 +58,9 @@ Quelques _Lǜ Chá_ connus [^5] :
 
 ### 白茶 - Bái Chá - thé blanc
 
-Le _Bái Chá_ [^6], sa transformation n'implique aucune sorte de chaleur ou de cuisson. On laisse le thé se _flétrir_, c'est-à-dire qu'on le laisse sécher à l'air libre. Ce processus requiert beaucoup d'habileté et de discernement, un thé mal traité peut moisir et toute une récolte peut être perdue. L'oxydation recherchée se situe entre 20%-30%.  
+Le _Bái Chá_ [^6] est le thé qui demande le moins d'étape de fabrication et qui ne comporte pas de cuisson. On laisse le thé se _flétrir_, c'est-à-dire qu'on le laisse sécher à l'air libre. Ce processus requiert beaucoup d'habileté et de discernement. L'oxydation recherchée se situe entre 5% à 10%. Les _Bái Chá_ que nous connaissons aujourd'hui ont été inventés fin 18ème à 福鼎 _FúDǐng_ et dans le district de 政和 _ZhènGhé_. Suivant la famille de thé la cueillette peut ne concerner que les bourgeons ou bien des bourgeons et des feuilles.  
 
-Comme le suggère un adage populaire dans la tradition Chinoise :
-> 一年茶，三年藥，七年寶
-> 1 an thé, 3 ans médicament, 7 ans trésors
-
-Le _Bái Chá_ fait parti des thés de garde pouvant se bonifier avec le temps.
-On peut le retrouver sous la forme de _galettes_ compressées.
+Parce qu'il n'y a pas de cuisson, les _enzymes_ présentent dans les _Bái Chá_ restent très légèrement actives ce qui en fait un thé pouvant évoluer avec l'age, un thé de garde [^7]. On peut le retrouver sous la forme de _galettes_ compressées.
 
 Quelques _Bái Chá_ connus :
 
@@ -77,7 +72,7 @@ Quelques _Bái Chá_ connus :
 
 ### 黄茶 - Huáng Chá - thé jaune
 
-C'est un thé moins courant dont la fabrication est similaire à celle au _Lǜ Chá_, mais avec une étape supplémentaire _d'étoufage_. Cela permet au thé de s'oxyder à un rythme lent pendant une brève période avant que le thé ne soit chauffé complètement pour dénaturer les enzymes oxydantes, produisant un goût beaucoup plus doux que celui que l'on trouve dans la plupart des _Lǜ Chá_ ; cela donne également aux feuilles une coloration légèrement jaune. Certains _Lǜ Chá_ de grande qualité sont parfois aussi appelés _Huáng Chá_.  
+C'est un thé moins courant dont la fabrication est similaire à celle au _Lǜ Chá_, mais avec une étape spécifique appelé 悶黃 _Mèn Huáng_ _l'étoufage_ de petites portions de feuilles de thé sont enveloppés dans du tissu. Cela permet au thé de s'oxyder à un rythme lent avant que le thé ne soit chauffé complètement pour dénaturer les enzymes oxydantes, produisant un goût beaucoup plus doux que celui que l'on trouve dans la plupart des _Lǜ Chá_ ; cela donne également aux feuilles une coloration légèrement jaune. Certains _Lǜ Chá_ de grande qualité sont parfois aussi appelés _Huáng Chá_.  
   
 Quelques exemples :
 
@@ -92,9 +87,9 @@ Quelques exemples :
 
 ### 乌龙茶 - Qīng Chá - thé wulong
 
-Les _Qīng Chá_ [^7] sont des thés semi-oxydés. Cela signifie que pendant la production, l'oxydation est initiée, contrôlée et arrêtée à un moment donné avant que les feuilles ne soient considérées comme complètement oxydées. C'est pourquoi vous entendrez souvent dire que le _Qīng Chá_ se situe entre le _Lǜ Chá_ et le _Hóng Chá_.
+Les _Qīng Chá_ [^8] sont des thés semi-oxydés. Cela signifie que pendant la production, l'oxydation est initiée, contrôlée et arrêtée à un moment donné avant que les feuilles ne soient considérées comme complètement oxydées. C'est pourquoi vous entendrez souvent dire que le _Qīng Chá_ se situe entre le _Lǜ Chá_ et le _Hóng Chá_.
 
-Quelques thés _Qīng Chá_ [^8] connus :
+Quelques thés _Qīng Chá_ [^9] connus :
 
 - 四季春 - _SìJìChūn_
 - 金萱 - _Jīn Xuān_
@@ -114,7 +109,7 @@ Quelques thés _Qīng Chá_ [^8] connus :
 
 ### 红茶 - Hóng Chá - thé rouge
 
-Les _Hóng Chá_[^9] ([thé noir en occident](./le-rouge-ou-le-noir)) est un thé presque oxydé à 100%. Il était à l'origine uniquement destiné à l'exportation vers les marchés étrangers. Au XXème, cette famille était considérée comme de moindre qualité et n'était pas consommée en Chine.  
+Les _Hóng Chá_[^10] ([thé noir en occident](./le-rouge-ou-le-noir)) est un thé presque oxydé à 100%. Il était à l'origine uniquement destiné à l'exportation vers les marchés étrangers. Au XXème, cette famille était considérée comme de moindre qualité et était peu consommée en Chine.  
 
 Depuis la fin de la Seconde Guerre mondiale, la popularité des _Hóng Chá_ n'a cessé de croître et au cours des vingt dernières années, une série de cultivars hybrides ont été créés qui ont grandement amélioré la diversité et le goût de cette famille. Les feuilles de _Hóng Chá_ proviennent souvent de la sous-variété _Assam_ : le _Camellia Sinensis Assamica_ ou de nouveaux hybrides.
 
@@ -132,8 +127,9 @@ Quelques _Hóng Chá_ connus :
 
 #### Fermentation accélérée
 
-Fabriqué selon une méthode traditionnelle depuis des siècles, cette famille occupent une place importante dans l'histoire des spécialités régionales de thé en Chine. Les feuilles de thé oxydées subissent un processus de fermentation - 渥堆 - _Wò Duī_ (en tas humide). Dans le passé, ces thés étaient appelés 边销茶 - _Bian Xiao Cha_ (thé de la frontière). Leur nom vient de la couleur des feuilles de thé séchées qui résulte de l'utilisation de vieilles matières premières grossières et d'une longue _fermentation en tas_. Il ne s'agit pas de feuilles de thé de printemps élégantes, ni de techniques habiles de roulage à la main. C'est pourtant un thé élégant simple et sobre. À l'époque, c'était le seul thé accessible à tou·te·s.  
-Ces dix dernières années, ce type de thé a gagné en popularité dans les provinces chinoises de Canton, du Yunnan, du Sichuan et du Guangxi.
+Fabriqué selon une méthode traditionnelle depuis des siècles, cette famille occupent une place importante dans l'histoire des spécialités régionales de thé en Chine. Les feuilles de thé oxydées subissent un processus de fermentation - 渥堆 - _Wò Duī_ (en tas humide). Dans le passé, ces thés étaient appelés 边销茶 - _BianXiao Cha_ (thé de la frontière). Il ne s'agit pas de feuilles de thé de printemps élégantes, ni de techniques habiles de roulage à la main. C'est pourtant un thé élégant simple et sobre. À l'époque, c'était le seul thé accessible à tou·te·s.  
+Ces dix dernières années, ce type de thé a gagné en popularité dans les provinces chinoises de 廣州
+_GuǎngZhōu_, du 雲南 _YúnNán_, du 四川 _SìChuān_ et du 廣西 _GuǎngXī_.
 
 Quelques _Hēi Chá_ connus :
 
@@ -146,7 +142,7 @@ Quelques _Hēi Chá_ connus :
 
 #### Post-Fermentation 
 
-Dans cette famille on trouve les _Pǔ'ěr Shēng Chá_ [^10] qui est un type de thé fabriqué à partir de feuilles d'une variété de théier nommé _Camellia sinensis assamica_ poussant dans le _Yunnan_. Le thé _pu'er_ est une _appellation contrôlée_ qui ne peut être produit qu'à partir de feuilles récoltées sur des théiers à grandes feuilles _大葉 Dàyè_ poussant dans le Yunnan, séchées au soleil et ayant subi une fermentation.
+Dans cette famille on trouve les _Pǔ'ěr Shēng Chá_ [^11] qui sont un type de thé fabriqué à partir de feuilles d'une variété de théier nommé _Camellia sinensis assamica_ poussant dans le 雲南 _YúnNán_. Le thé 普洱 _Pǔ'ěr_ est une _appellation contrôlée_ qui ne peut être produit qu'à partir de feuilles récoltées sur des théiers à grandes feuilles _大葉 DàYè_, séchées au soleil et ayant subi une fermentation.
 
 Conditionné sous forme compressée (galette, nid, champignon, etc.) et stocké dans de bonnes conditions, le _Pǔ'ěr_ est un produit vivant qui peut se bonifier avec le temps. Durant ce vieillissement s'opère une fermentation.  
 
@@ -168,13 +164,15 @@ Conditionné sous forme compressée (galette, nid, champignon, etc.) et stocké 
 
 [^6]: [White tea reportage](https://invidio.us/watch?v=GtDSfYq4sPg)
 
-[^7]: [Wulong guide](https://teaepicure.com/oolong-tea-guide)
+[^7]: 一年茶，三年藥，七年寶 est un adage Chinois pour le thé blanc : 1 an thé, 3 ans médicament, 7 ans trésors
 
-[^8]: vidéos reportage
+[^8]: [Wulong guide](https://teaepicure.com/oolong-tea-guide)
+
+[^9]: vidéos reportage
 
     \- [Tie Guan Yin](https://invidio.us/watch?v=CS-KCBmY2pA)  
     \- [Dan Cong](https://invidio.us/watch?v=jXYFbWHHRXs)
 
-[^9]: [Keemun reportage](https://invidio.us/watch?v=kk7fA1-t7YA)
+[^10]: [Keemun reportage](https://invidio.us/watch?v=kk7fA1-t7YA)
 
-[^10]: [Making pu'er tea](https://invidio.us/d2BekCvAZqM)
+[^11]: [Making pu'er tea](https://invidio.us/d2BekCvAZqM)
