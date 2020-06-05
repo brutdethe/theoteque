@@ -1,12 +1,12 @@
 ---
 lien: thes-verts
-titre: Les thés verts 
+titre: 绿茶 - LǜChá Les thés verts 
 description: >
   Tout sur les thés vert de Chine ...
 ---
 
 Le thé vert est l'un des incontournables du monde du thé. Excellent pour la santé et plus rapide à fabriquer que les autres thés, il est consommé partout dans le monde, nature ou quelquefois aromatisé. 
-Nous ne nous pencherons pas ici sur son procédé de farication, que vous trouverez ici (mettre le lien vers procédé de fabrication du thé), ni sur leur infusion (que vous trouverez dans chaque fiche thé de l'application Broutille). 
+Nous ne nous pencherons pas ici sur son procédé de fabrication, que vous trouverez ici (mettre le lien vers procédé de fabrication du thé), ni sur leur infusion (que vous trouverez dans chaque fiche thé de l'application Broutille). 
 
 # Généralités
 
@@ -15,7 +15,7 @@ En Chine, on le retrouve dans toutes les provinces productrices de thé. La plus
 
 # Les types de thés verts
 
-On distingue 4 sortes de thés verts en Chine: 炒青绿茶 （Chǎo qīng lǜchá）, 烘青绿茶 （Hōng qīng lǜchá）, 晒青绿茶 （Shài qīng lǜchá）
+On distingue 4 sortes de thés verts en Chine : 炒青绿茶 （Chǎo qīng lǜchá）, 烘青绿茶 （Hōng qīng lǜchá）, 晒青绿茶 （Shài qīng lǜchá）
  et 蒸青绿茶 （Zhēng qīng lǜchá）. Leur distinction se fait en fonction de leur procédé de fabrication.
 
 Les 炒青绿茶 （Chǎo qīng lǜchá）: ce sont les thés verts dont le 杀青 （Shāqīng) a lieu dans un grand "wok", à la main ou à l'aide de marchines. 
