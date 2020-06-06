@@ -247,6 +247,7 @@
                     </dd>
                 {/if}
                 {#if tea.harvests.length}
+                    <dt class="property-title">Récolte :</dt>
                     <dd class="property-value">
                         {#each tea.harvests as season}
                             <img
@@ -258,7 +259,7 @@
                     </dd>
                 {/if}
                 {#if tea.pickings.length}
-                    <dt class="property-title">Ceuillette :</dt>
+                    <dt class="property-title">Cueillette :</dt>
                     <dd class="property-value">
                         <ul class="ideogram-pinyin">
                             {#each tea.pickings as pick}
