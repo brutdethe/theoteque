@@ -44,7 +44,7 @@
     }
 
     function playAudio(ideogram) {
-        document.querySelector(`#${ideogram}`).play()
+        document.querySelector(`#${ideogram.replace(/\s/g, '')}`).play()
     }
 </script>
 
@@ -57,8 +57,19 @@
 </p>
 {#each themes as theme}
     <h3>
-        {theme.ideogram}
-        <span class="pinyin">{theme.pinyin}</span>
+        <audio id="{theme.ideogram}">
+            <source src="assets/audio/{theme.ideogram}.mp3" type="audio/mpeg" />
+        </audio>
+        <span class="voice" title="voix" on:click="{playAudio(theme.ideogram)}">
+            {theme.ideogram}
+        </span>
+        <span
+            class="pinyin voice"
+            title="voix"
+            on:click="{playAudio(theme.ideogram)}"
+        >
+            {theme.pinyin}
+        </span>
     </h3>
     <div class="row">
         <table class="column column-66">
@@ -71,7 +82,7 @@
             {#each getPinyinByThemes(terms, theme) as term}
                 <tr>
                     <td>
-                        <audio id="{term.ideogram}">
+                        <audio id="{term.ideogram.replace(/\s/g, '')}">
                             <source
                                 src="assets/audio/{term.ideogram}.mp3"
                                 type="audio/mpeg"

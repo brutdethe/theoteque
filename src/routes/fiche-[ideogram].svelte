@@ -152,7 +152,7 @@
         }
     }
     function playAudio(ideogram) {
-        document.querySelector(`#${ideogram}`).play()
+        document.querySelector(`#${ideogram.replace(/\s/g, '')}`).play()
     }
 </script>
 
@@ -263,7 +263,7 @@
                         <ul class="ideogram-pinyin">
                             {#each tea.pickings as pick}
                                 <li class="ideogram">
-                                    <audio id="{pick}">
+                                    <audio id="{pick.replace(/\s/g, '')}">
                                         <source
                                             src="assets/audio/{pick}.mp3"
                                             type="audio/mpeg"
