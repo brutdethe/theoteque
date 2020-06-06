@@ -3,17 +3,6 @@
         text-align: left;
         margin-top: 2em;
     }
-    img {
-        padding: 0;
-        margin: 0;
-        vertical-align: -0.4em;
-        display: inline;
-        width: 5%;
-        border: none;
-        background: transparent;
-        fill: #ccc;
-        cursor: pointer;
-    }
     .pinyin {
         display: block;
         font-size: 0.7em;
