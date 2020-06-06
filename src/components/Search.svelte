@@ -1,14 +1,14 @@
 <style>
     :global(input.autocomplete-input) {
-        margin: 0.9em;
+        margin: 0;
         padding: 0;
     }
     .search {
-        width: 18em;
-        margin: 0.6em;
+        width: 22em;
+        margin: 1em;
+        --height: 2em;
         --placeholderColor: #73d56b;
-        --borderRadius: 4px;
-        --cursor: pointer;
+        --cursor: text;
     }
 </style>
 
