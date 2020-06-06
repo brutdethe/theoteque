@@ -35,6 +35,9 @@
         -moz-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
         box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
     }
+    .voice {
+        cursor: pointer;
+    }
 </style>
 
 <script context="module">
@@ -88,6 +91,10 @@
         const term = i18n.filter(term => term.ideogram === text)[0] || {}
         return 'pinyin' in term ? term.pinyin : '-'
     }
+
+    function playAudio(ideogram) {
+        document.querySelector(`#${ideogram}`).play()
+    }
 </script>
 
 <h2>Liste des thés par type</h2>
@@ -114,8 +121,24 @@
                         />
                     </a>
                     <figcaption class="ideogram">
-                        {tea.ideogram}
-                        <span class="pinyin">
+                        <audio id="{tea.ideogram}">
+                            <source
+                                src="assets/audio/{tea.ideogram}.mp3"
+                                type="audio/mpeg"
+                            />
+                        </audio>
+                        <span
+                            class="voice"
+                            title="voix"
+                            on:click="{playAudio(tea.ideogram)}"
+                        >
+                            {tea.ideogram}
+                        </span>
+                        <span
+                            class="pinyin voice"
+                            title="voix"
+                            on:click="{playAudio(tea.ideogram)}"
+                        >
                             {getPinyin(tea.ideogram, i18n)}
                         </span>
                     </figcaption>
@@ -128,6 +151,6 @@
         </div>
     </section>
 {:else}
-    <!-- this block renders when teas.length === 0 -->
+    <!-- this block renders when teas.length =黄山毛峰 HuángShān== 0 -->
     <p>chargement des types thés...</p>
 {/each}
