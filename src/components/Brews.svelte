@@ -47,6 +47,9 @@
         font-size: 0.8em;
         color: grey;
     }
+    .voice {
+        cursor: pointer;
+    }
 </style>
 
 <script>
@@ -68,6 +71,9 @@
     function getPinyin(text, i18n) {
         const term = i18n.filter(term => term.ideogram === text)[0] || {}
         return 'pinyin' in term ? term.pinyin : '-'
+    }
+    function playAudio(ideogram) {
+        document.querySelector(`#${ideogram}`).play()
     }
 
     let ml = 100
@@ -104,8 +110,23 @@
         alt="type d'infusion"
     />
     <div class="brew-title-text">
-        <span class="ideogram">{brew.type}</span>
-        <span class="pinyin">{getPinyin(brew.type, i18n)}</span>
+        <audio id="{brew.type}">
+            <source src="assets/audio/{brew.type}.mp3" type="audio/mpeg" />
+        </audio>
+        <span
+            class="ideogram voice"
+            title="voix"
+            on:click="{playAudio(brew.type)}"
+        >
+            {brew.type}
+        </span>
+        <span
+            class="pinyin voice"
+            title="voix"
+            on:click="{playAudio(brew.type)}"
+        >
+            {getPinyin(brew.type, i18n)}
+        </span>
     </div>
 </aside>
 

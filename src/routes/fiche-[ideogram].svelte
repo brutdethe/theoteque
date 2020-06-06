@@ -84,9 +84,11 @@
         font-weight: normal;
         font-size: 1em;
     }
-
     .mountain {
         vertical-align: top;
+    }
+    .voice {
+        cursor: pointer;
     }
 </style>
 
@@ -149,6 +151,9 @@
             }
         }
     }
+    function playAudio(ideogram) {
+        document.querySelector(`#${ideogram}`).play()
+    }
 </script>
 
 <svelte:head>
@@ -157,8 +162,26 @@
 {#if tea.ideogram}
     <h2>
         <div class="ideogram-pinyin">
-            <p class="ideogram">{tea.ideogram}</p>
-            <p class="pinyin">{getPinyin(tea.ideogram, i18n)}</p>
+            <audio id="{tea.ideogram}">
+                <source
+                    src="assets/audio/{tea.ideogram}.mp3"
+                    type="audio/mpeg"
+                />
+            </audio>
+            <p
+                class="ideogram voice"
+                title="voix"
+                on:click="{playAudio(tea.ideogram)}"
+            >
+                {tea.ideogram}
+            </p>
+            <p
+                class="pinyin voice"
+                title="voix"
+                on:click="{playAudio(tea.ideogram)}"
+            >
+                {getPinyin(tea.ideogram, i18n)}
+            </p>
         </div>
     </h2>
     <div class="wrapper">
@@ -182,8 +205,24 @@
                         <ul class="ideogram-pinyin">
                             {#each tea.families as family}
                                 <li class="ideogram">
-                                    {family}
-                                    <p class="pinyin">
+                                    <audio id="{family}">
+                                        <source
+                                            src="assets/audio/{family}.mp3"
+                                            type="audio/mpeg"
+                                        />
+                                    </audio>
+                                    <span
+                                        class="voice"
+                                        title="voix"
+                                        on:click="{playAudio(family)}"
+                                    >
+                                        {family}
+                                    </span>
+                                    <p
+                                        class="pinyin voice"
+                                        title="voix"
+                                        on:click="{playAudio(family)}"
+                                    >
                                         {getPinyin(family, i18n)}
                                     </p>
                                 </li>
@@ -224,8 +263,24 @@
                         <ul class="ideogram-pinyin">
                             {#each tea.pickings as pick}
                                 <li class="ideogram">
-                                    {pick}
-                                    <p class="pinyin">
+                                    <audio id="{pick}">
+                                        <source
+                                            src="assets/audio/{pick}.mp3"
+                                            type="audio/mpeg"
+                                        />
+                                    </audio>
+                                    <span
+                                        class="voice"
+                                        title="voix"
+                                        on:click="{playAudio(pick)}"
+                                    >
+                                        {pick}
+                                    </span>
+                                    <p
+                                        class="pinyin voice"
+                                        title="voix"
+                                        on:click="{playAudio(pick)}"
+                                    >
                                         {getPinyin(pick, i18n)}
                                     </p>
                                 </li>
@@ -243,14 +298,31 @@
                         {#each tea.provinces as provinces}
                             <li class="ideogram">
                                 <a
-                                    href="https://map.baidu.com/search/?querytype=s&wd={tea.provinces}"
+                                    href="https://map.baidu.com/search/?querytype=s&wd={provinces}"
                                     target="_blank"
                                 >
-                                    {provinces}
-                                    <p class="pinyin">
-                                        {getPinyin(provinces, i18n)}
-                                    </p>
+                                    <audio id="{provinces}">
+                                        <source
+                                            src="assets/audio/{provinces}.mp3"
+                                            type="audio/mpeg"
+                                        />
+                                    </audio>
+                                    <span
+                                        class="voice"
+                                        title="voix"
+                                        on:click="{playAudio(provinces)}"
+                                    >
+                                        {provinces}
+                                    </span>
                                 </a>
+                                <p
+                                    class="pinyin voice"
+                                    title="voix"
+                                    on:click="{playAudio(provinces)}"
+                                >
+                                    {getPinyin(provinces, i18n)}
+                                </p>
+
                             </li>
                         {/each}
                     </ul>
@@ -263,14 +335,30 @@
                         {#each tea.towns as towns}
                             <li class="ideogram">
                                 <a
-                                    href="https://map.baidu.com/search/?querytype=s&wd={tea.towns}"
+                                    href="https://map.baidu.com/search/?querytype=s&wd={towns}"
                                     target="_blank"
                                 >
-                                    {towns}
-                                    <p class="pinyin">
-                                        {getPinyin(towns, i18n)}
-                                    </p>
+                                    <audio id="{towns}">
+                                        <source
+                                            src="assets/audio/{towns}.mp3"
+                                            type="audio/mpeg"
+                                        />
+                                    </audio>
+                                    <span
+                                        class="voice"
+                                        title="voix"
+                                        on:click="{playAudio(towns)}"
+                                    >
+                                        {towns}
+                                    </span>
                                 </a>
+                                <p
+                                    class="pinyin voice"
+                                    title="voix"
+                                    on:click="{playAudio(towns)}"
+                                >
+                                    {getPinyin(towns, i18n)}
+                                </p>
                             </li>
                         {/each}
                     </ul>
@@ -282,8 +370,24 @@
                     <ul class="ideogram-pinyin">
                         {#each tea.cultivars as cultivars}
                             <li class="ideogram">
-                                {cultivars}
-                                <p class="pinyin">
+                                <audio id="{cultivars}">
+                                    <source
+                                        src="assets/audio/{cultivars}.mp3"
+                                        type="audio/mpeg"
+                                    />
+                                </audio>
+                                <span
+                                    class="voice"
+                                    title="voix"
+                                    on:click="{playAudio(cultivars)}"
+                                >
+                                    {cultivars}
+                                </span>
+                                <p
+                                    class="pinyin voice"
+                                    title="voix"
+                                    on:click="{playAudio(cultivars)}"
+                                >
                                     {getPinyin(cultivars, i18n)}
                                 </p>
                             </li>

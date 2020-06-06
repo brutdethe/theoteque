@@ -25,6 +25,9 @@
         color: #999;
         border-bottom: 1px solid #002920;
     }
+    .voice {
+        cursor: pointer;
+    }
 </style>
 
 <script>
@@ -40,12 +43,31 @@
         紅茶: '#C0392B',
         黑茶: 'black'
     }
+
+    function playAudio(ideogram) {
+        document.querySelector(`#${ideogram}`).play()
+    }
 </script>
 
 <aside class="type">
     <span class="color" style="background: {colors[ideogram]}"></span>
     <a class="text" href="/liste-des-thes-{ideogram}">
-        <span class="ideogram">{ideogram}</span>
-        <span class="pinyin">{pinyin}</span>
+        <audio id="{ideogram}">
+            <source src="assets/audio/{ideogram}.mp3" type="audio/mpeg" />
+        </audio>
+        <span
+            class="ideogram voice"
+            title="voix"
+            on:click="{playAudio(ideogram)}"
+        >
+            {ideogram}
+        </span>
+        <span
+            class="pinyin voice"
+            title="voix"
+            on:click="{playAudio(ideogram)}"
+        >
+            {pinyin}
+        </span>
     </a>
 </aside>
