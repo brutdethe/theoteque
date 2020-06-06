@@ -64,3 +64,12 @@ En Chine, certains thés verts sont plus connus que d'autres. Voici une liste no
 
 /photo molihuacha/
 
+La tradition chinoise veut qu'on boive le thé pur, sans apport extérieur autre que la feuille de thé elle même. 
+Cette règle est compensée par une exception: les 花茶 Huāchá (littéralement "thés aux fleurs").
+
+Les "thés aux fleurs" en effet sont des thés généralement verts (on retrouve aussi des thés aromatisés noirs) aromatisés à l'aide de fleurs le plus souvent. Le plus connu est surement le thé au jasmin 茉莉花茶 Mòlìhuā chá.
+
+Il existe deux type de 花茶: les 熏花茶  ping
+
+
+
