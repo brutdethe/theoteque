@@ -96,7 +96,15 @@
                             {term.ideogram}
                         </span>
                     </td>
-                    <td>{term.pinyin}</td>
+                    <td>
+                        <span
+                            class="voice"
+                            title="voix"
+                            on:click="{playAudio(term.ideogram)}"
+                        >
+                            {term.pinyin}
+                        </span>
+                    </td>
                 </tr>
             {:else}
                 <p>chargement des termes...</p>
