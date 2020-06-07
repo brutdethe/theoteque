@@ -25,4 +25,4 @@ Petit jeu pour faire disjoncter un traducteur automatique :
 [^1]: une entreprise qui nous rappelle d'où vient la culture du thé en france
 
     \- [la compagnie coloniale](https://compagnie-coloniale.com)  
-    \- [affiche](assets/media/compagnie-coloniale.jpg)
+    \- [affiche](https://compagnie-coloniale.com/img/cms/hist-5.jpg)

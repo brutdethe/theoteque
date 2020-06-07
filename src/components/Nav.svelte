@@ -39,7 +39,7 @@
     a {
         font-size: 1.2em;
         text-decoration: none;
-        padding: 1em 1em 0 0;
+        padding: 1em 1em 0.5em 0;
         display: block;
     }
 </style>

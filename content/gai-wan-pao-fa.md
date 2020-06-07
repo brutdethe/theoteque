@@ -1,38 +1,37 @@
 ---
 lien: gai-wan-pao-fa
-titre: Gai Wan Pao Fa 蓋碗泡法
+titre: 蓋碗泡法 - _GàiWǎn_ Pào Fǎ
 description: >
-  L'infusion au Gaiwan ...
+  L'infusion au _GàiWǎn_ ...
 ---
 
-# Le GaiWan
-
-/Photo Gaiwan/
+![Gaiwan JingdeZhen](/assets/media/gaiwan-paofa-jingdezhen.jpg)
 
 Le GaiWan est un outil permettant d'infuser du thé de façon traditionnelle en Chine.
 Il se compose en trois parties:
-- Le 杯盖 (Bei Gai), correspondant au couvercle.
-- Le 杯身 (BeiShen), correpondant au récipient. C'est le corps du GaiWan).
-- Le 杯头 (BeiTou) ou 杯地 (BeiDi), correpondant au socle. C'est la soucoupe de l'outil.
 
-On dit que ces trois parties réunissent le "Tian Di Ren": Le ciel la terre et l'homme, concept culturel redondant dans la culture artistique, philosophique, religieuse et littéraire chinoise. 
+- Le 杯蓋 _Bēi gài_, correspondant au couvercle.
+- Le 杯身 _Bēi Shēn_, correspondant au récipient, c'est le corps du _GàiWǎn_.
+- Le 杯頭 _Bēi Tóu_ ou 杯地 _Bēi De_, correspondant au socle, c'est la soucoupe de l'outil.
 
-# La méthode d'utilisation
+On dit que ces trois parties réunissent le 天地人 _Tiān Dì Rén_ : Le ciel, la terre et l'homme, concept culturel redondant dans la culture artistique, philosophique, religieuse et littéraire chinoise. 
 
-l'utilisation du gaian est simple, mais demande de la pratique pour bien la maitriser. 
+## La méthode d'utilisation
 
-Après avoir versé de l'éau bouillante sur et dans le Gaiwan pour le nettoyer, vider l'eau et ajouter le thé dans le Gaiwan. 
+L'utilisation du _GàiWǎn_ est simple, mais demande de la pratique pour bien la maîtriser. 
 
-Après avoir mis le couvercle, secouez un peu le thé de manière à sentir les premiers aromes (étape optionnelle). En effet la chaleur dégagée par la première eau suffira à libérer les premiers aromes de votre thé. 
+Après avoir versé de l'eau bouillante sur et dans le _GàiWǎn_ pour le nettoyer, vider l'eau et ajouter le thé dans le _GàiWǎn_. 
 
-Verser l'au chaude sur les feuilles directement, ou sur le bord (pour éviter de trop brusquer les feuilles) selon votre goût, et remplir le Gaiwan jusqu'aux 9/10èmes.
+Après avoir mis le couvercle, secouez un peu le thé de manière à sentir les premiers arômes (étape optionnelle). En effet la chaleur dégagée par la première eau suffira à libérer les premiers arômes de votre thé. 
 
-Lorsque vous considèrerez l'infusion terminée (cf table d'infusion), créer un petit espace entre le Couvercle et le Corps du Gaiwan de manière à laisser la "soupe (茶汤）" s'écouler sans les feuilles, et verser dans un 公道杯 （GongDaoBei） (aussi appelé 茶海（Chahai）). 
-Pour se faire, tenez avec seulement votre pouce et votre majeur les BORDS du Gaiwan (pour éviter de vous bruler), et basculezle gaiwan en tenant avec votre index le couvercle.
+Verser l'eau chaude sur les feuilles directement ou sur le bord (pour éviter de trop brusquer les feuilles) selon votre goût, et remplir le _GàiWǎn_ jusqu'aux 9/10èmes.
 
-Pour se faire, tenez avec seulement votre pouce et votre majeur les BORDS du Gaiwan (pour éviter de vous bruler), et basculez le gaiwan en tenant avec votre index le couvercle. N'oubliez pas de bien verser toute la "soupe" du Gaiwan, de manière à éviter un goût potentiellement amer lors de votre prochaine infusion. 
+Lorsque vous considérerez l'infusion terminée (cf table d'infusion), créer un petit espace entre le Couvercle et le Corps du _GàiWǎn_ de manière à laisser la liqueur 茶湯 _Chátāng_ s'écouler sans les feuilles, et verser dans un 公道杯 _GōngDào Bēi_ (aussi appelé 茶海 _Chá Hǎi_). 
+Pour se faire, tenez avec seulement votre pouce et votre majeur les bords du _GàiWǎn_ (pour éviter de vous brûler), et basculez le _GàiWǎn_ en tenant avec votre index le couvercle.
+N'oubliez pas de bien verser toute la liqueur du _GàiWǎn_, de manière à éviter un goût potentiellement amer lors de votre prochaine infusion. 
 
-Conseil: travaillez les premières manipulation le Gaiwan vide, puis avec plus ou moins d'eau à l'intérieur quand vous vous sentez prêt, cela vous évitera d'abimer votre outil par d'éventuelles chutes. 
+> Conseil : 
+> travaillez les premières manipulation le _GàiWǎn_ vide, puis avec plus ou moins d'eau à l'intérieur quand vous vous sentez prêt, cela vous évitera d'abîmer votre outil par d'éventuelles chutes. 
 
 /Vidéo/
 

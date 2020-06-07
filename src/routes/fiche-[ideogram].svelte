@@ -76,6 +76,10 @@
         color: #999;
         font-weight: normal;
     }
+    h1 span {
+        display: block;
+    }
+
     p {
         margin: 0;
         padding: 0;
@@ -160,7 +164,7 @@
     <title>Fiche de thé</title>
 </svelte:head>
 {#if tea.ideogram}
-    <h2>
+    <h1>
         <div class="ideogram-pinyin">
             <audio id="{tea.ideogram}">
                 <source
@@ -168,22 +172,22 @@
                     type="audio/mpeg"
                 />
             </audio>
-            <p
+            <span
                 class="ideogram voice"
                 title="voix"
                 on:click="{playAudio(tea.ideogram)}"
             >
                 {tea.ideogram}
-            </p>
-            <p
+            </span>
+            <span
                 class="pinyin voice"
                 title="voix"
                 on:click="{playAudio(tea.ideogram)}"
             >
                 {getPinyin(tea.ideogram, i18n)}
-            </p>
+            </span>
         </div>
-    </h2>
+    </h1>
     <div class="wrapper">
         <div class="box photo-zoom">
             <img

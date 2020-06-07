@@ -1,10 +1,19 @@
 <style>
+    .ghTreeTitle {
+        margin-top: 1em;
+        line-height: 1;
+    }
     .ghTreeTitle a {
         color: #73d56b;
     }
 
     .ghTreeTitle a:hover {
         color: rgb(56, 153, 47);
+    }
+
+    .ghTreeItem {
+        position: relative;
+        padding: 20px 0;
     }
 </style>
 

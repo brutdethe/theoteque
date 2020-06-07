@@ -1,11 +1,11 @@
 ---
 lien: cha-bei-pao-fa
-titre: Cha Bei Pao Fa 茶杯泡法
+titre: 茶杯泡法 - CháBēi Pào Fǎ
 description: >
   L'infusion au verre ...
 ---
 
-Pour certains thé, on préfèrera choisir une infusion dans un grand verre: c'est la ChaBei PaoFa.
+Pour certains thé, on préférera choisir une infusion dans un grand verre: c'est la 茶杯泡法 _CháBēi Pào Fǎ_.
 
 # Les verres à thés
 
@@ -20,7 +20,7 @@ Le verre à thé vert basique est beaucoup plus grand que les tasses à thé. Il
 
 Après avoir versé de l'eau bouillante dans le verre afin de stériliser le verre, vider l'eau et mettre les feuilles directement dans le verre. 
 Verser l'eau chaude à température désirée (cf température de l'eau) soit directement sur les feuilles soit sur les bords du verre. 
-Laisser infuser le temps qu'il faut (cf tabe d'infusion), et déguster sans autre artifice: les feuilles se déposeront naturellement au fond du verre.
+Laisser infuser le temps qu'il faut (cf table d'infusion), et déguster sans autre artifice: les feuilles se déposeront naturellement au fond du verre.
 
 Réitérez l'opération autant de fois que les feuilles vous l'autorise. En général vous verserez au moins trois fois de l'eau chaude sur le même thé.
 
