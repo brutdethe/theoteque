@@ -1,6 +1,6 @@
 ---
 lien: gai-wan-pao-fa
-titre: 蓋碗泡法 - _GàiWǎn_ Pào Fǎ
+titre: 蓋碗泡法 - GàiWǎn Pào Fǎ
 description: >
   L'infusion au _GàiWǎn_ ...
 ---

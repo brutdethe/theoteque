@@ -163,254 +163,256 @@
 <svelte:head>
     <title>Fiche de thé</title>
 </svelte:head>
-{#if tea.ideogram}
-    <h1>
-        <div class="ideogram-pinyin">
-            <audio id="{tea.ideogram}">
-                <source
-                    src="assets/audio/{tea.ideogram}.mp3"
-                    type="audio/mpeg"
+<article class="blobContent" data-title="content">
+    {#if tea.ideogram}
+        <h1>
+            <div class="ideogram-pinyin">
+                <audio id="{tea.ideogram}">
+                    <source
+                        src="assets/audio/{tea.ideogram}.mp3"
+                        type="audio/mpeg"
+                    />
+                </audio>
+                <span
+                    class="ideogram voice"
+                    title="voix"
+                    on:click="{playAudio(tea.ideogram)}"
+                >
+                    {tea.ideogram}
+                </span>
+                <span
+                    class="pinyin voice"
+                    title="voix"
+                    on:click="{playAudio(tea.ideogram)}"
+                >
+                    {getPinyin(tea.ideogram, i18n)}
+                </span>
+            </div>
+        </h1>
+        <div class="wrapper">
+            <div class="box photo-zoom">
+                <img
+                    src="/assets/thes/{tea.ideogram}.jpg"
+                    alt="{tea.ideogram}"
+                    title="{tea.ideogram}"
+                    class="photo"
                 />
-            </audio>
-            <span
-                class="ideogram voice"
-                title="voix"
-                on:click="{playAudio(tea.ideogram)}"
-            >
-                {tea.ideogram}
-            </span>
-            <span
-                class="pinyin voice"
-                title="voix"
-                on:click="{playAudio(tea.ideogram)}"
-            >
-                {getPinyin(tea.ideogram, i18n)}
-            </span>
-        </div>
-    </h1>
-    <div class="wrapper">
-        <div class="box photo-zoom">
-            <img
-                src="/assets/thes/{tea.ideogram}.jpg"
-                alt="{tea.ideogram}"
-                title="{tea.ideogram}"
-                class="photo"
-            />
-        </div>
-        <div class="box">
-            <IconTeaType
-                ideogram="{tea.type}"
-                pinyin="{getPinyin(tea.type, i18n)}"
-            />
-            <dl>
-                {#if tea.families.length}
-                    <dt class="property-title">Famille :</dt>
-                    <dd class="property-value">
-                        <ul class="ideogram-pinyin">
-                            {#each tea.families as family}
-                                <li class="ideogram">
-                                    <audio id="{family}">
-                                        <source
-                                            src="assets/audio/{family}.mp3"
-                                            type="audio/mpeg"
-                                        />
-                                    </audio>
-                                    <span
-                                        class="voice"
-                                        title="voix"
-                                        on:click="{playAudio(family)}"
-                                    >
-                                        {family}
-                                    </span>
-                                    <p
-                                        class="pinyin voice"
-                                        title="voix"
-                                        on:click="{playAudio(family)}"
-                                    >
-                                        {getPinyin(family, i18n)}
-                                    </p>
-                                </li>
-                            {/each}
-                        </ul>
-                    </dd>
-                {/if}
-                {#if tea.oxidations.length}
-                    <dt class="property-title">Oxydation :</dt>
-                    <dd class="property-value">
-                        {display.oxidations(tea.oxidations)}
-                    </dd>
-                {/if}
-                {#if tea.elevations.length}
-                    <dd class="property-icon">
-                        <img
-                            class="icons mountain"
-                            src="/assets/icons/mountain.svg"
-                            alt="altitude"
-                        />
-                        {display.elevations(tea.elevations)}
-                    </dd>
-                {/if}
-                {#if tea.harvests.length}
-                    <dt class="property-title">Récolte :</dt>
-                    <dd class="property-value">
-                        {#each tea.harvests as season}
+            </div>
+            <div class="box">
+                <IconTeaType
+                    ideogram="{tea.type}"
+                    pinyin="{getPinyin(tea.type, i18n)}"
+                />
+                <dl>
+                    {#if tea.families.length}
+                        <dt class="property-title">Famille :</dt>
+                        <dd class="property-value">
+                            <ul class="ideogram-pinyin">
+                                {#each tea.families as family}
+                                    <li class="ideogram">
+                                        <audio id="{family}">
+                                            <source
+                                                src="assets/audio/{family}.mp3"
+                                                type="audio/mpeg"
+                                            />
+                                        </audio>
+                                        <span
+                                            class="voice"
+                                            title="voix"
+                                            on:click="{playAudio(family)}"
+                                        >
+                                            {family}
+                                        </span>
+                                        <p
+                                            class="pinyin voice"
+                                            title="voix"
+                                            on:click="{playAudio(family)}"
+                                        >
+                                            {getPinyin(family, i18n)}
+                                        </p>
+                                    </li>
+                                {/each}
+                            </ul>
+                        </dd>
+                    {/if}
+                    {#if tea.oxidations.length}
+                        <dt class="property-title">Oxydation :</dt>
+                        <dd class="property-value">
+                            {display.oxidations(tea.oxidations)}
+                        </dd>
+                    {/if}
+                    {#if tea.elevations.length}
+                        <dd class="property-icon">
                             <img
-                                class="icons"
-                                src="/assets/icons/{season}.svg"
-                                alt="{season}"
+                                class="icons mountain"
+                                src="/assets/icons/mountain.svg"
+                                alt="altitude"
                             />
-                        {/each}
-                    </dd>
-                {/if}
-                {#if tea.pickings.length}
-                    <dt class="property-title">Cueillette :</dt>
+                            {display.elevations(tea.elevations)}
+                        </dd>
+                    {/if}
+                    {#if tea.harvests.length}
+                        <dt class="property-title">Récolte :</dt>
+                        <dd class="property-value">
+                            {#each tea.harvests as season}
+                                <img
+                                    class="icons"
+                                    src="/assets/icons/{season}.svg"
+                                    alt="{season}"
+                                />
+                            {/each}
+                        </dd>
+                    {/if}
+                    {#if tea.pickings.length}
+                        <dt class="property-title">Cueillette :</dt>
+                        <dd class="property-value">
+                            <ul class="ideogram-pinyin">
+                                {#each tea.pickings as pick}
+                                    <li class="ideogram">
+                                        <audio id="{pick.replace(/\s/g, '')}">
+                                            <source
+                                                src="assets/audio/{pick}.mp3"
+                                                type="audio/mpeg"
+                                            />
+                                        </audio>
+                                        <span
+                                            class="voice"
+                                            title="voix"
+                                            on:click="{playAudio(pick)}"
+                                        >
+                                            {pick}
+                                        </span>
+                                        <p
+                                            class="pinyin voice"
+                                            title="voix"
+                                            on:click="{playAudio(pick)}"
+                                        >
+                                            {getPinyin(pick, i18n)}
+                                        </p>
+                                    </li>
+                                {/each}
+                            </ul>
+                        </dd>
+                    {/if}
+                </dl>
+            </div>
+            <div class="box">
+                {#if tea.provinces.length}
+                    <dt class="property-title">Provinces :</dt>
                     <dd class="property-value">
                         <ul class="ideogram-pinyin">
-                            {#each tea.pickings as pick}
+                            {#each tea.provinces as provinces}
                                 <li class="ideogram">
-                                    <audio id="{pick.replace(/\s/g, '')}">
-                                        <source
-                                            src="assets/audio/{pick}.mp3"
-                                            type="audio/mpeg"
-                                        />
-                                    </audio>
-                                    <span
-                                        class="voice"
-                                        title="voix"
-                                        on:click="{playAudio(pick)}"
+                                    <a
+                                        href="https://map.baidu.com/search/?querytype=s&wd={provinces}"
+                                        target="_blank"
                                     >
-                                        {pick}
-                                    </span>
+                                        <audio id="{provinces}">
+                                            <source
+                                                src="assets/audio/{provinces}.mp3"
+                                                type="audio/mpeg"
+                                            />
+                                        </audio>
+                                        <span
+                                            class="voice"
+                                            title="voix"
+                                            on:click="{playAudio(provinces)}"
+                                        >
+                                            {provinces}
+                                        </span>
+                                    </a>
                                     <p
                                         class="pinyin voice"
-                                        title="voix"
-                                        on:click="{playAudio(pick)}"
-                                    >
-                                        {getPinyin(pick, i18n)}
-                                    </p>
-                                </li>
-                            {/each}
-                        </ul>
-                    </dd>
-                {/if}
-            </dl>
-        </div>
-        <div class="box">
-            {#if tea.provinces.length}
-                <dt class="property-title">Provinces :</dt>
-                <dd class="property-value">
-                    <ul class="ideogram-pinyin">
-                        {#each tea.provinces as provinces}
-                            <li class="ideogram">
-                                <a
-                                    href="https://map.baidu.com/search/?querytype=s&wd={provinces}"
-                                    target="_blank"
-                                >
-                                    <audio id="{provinces}">
-                                        <source
-                                            src="assets/audio/{provinces}.mp3"
-                                            type="audio/mpeg"
-                                        />
-                                    </audio>
-                                    <span
-                                        class="voice"
                                         title="voix"
                                         on:click="{playAudio(provinces)}"
                                     >
-                                        {provinces}
-                                    </span>
-                                </a>
-                                <p
-                                    class="pinyin voice"
-                                    title="voix"
-                                    on:click="{playAudio(provinces)}"
-                                >
-                                    {getPinyin(provinces, i18n)}
-                                </p>
+                                        {getPinyin(provinces, i18n)}
+                                    </p>
 
-                            </li>
-                        {/each}
-                    </ul>
-                </dd>
-            {/if}
-            {#if tea.towns.length}
-                <dt class="property-title">Villes :</dt>
-                <dd class="property-value">
-                    <ul class="ideogram-pinyin">
-                        {#each tea.towns as towns}
-                            <li class="ideogram">
-                                <a
-                                    href="https://map.baidu.com/search/?querytype=s&wd={towns}"
-                                    target="_blank"
-                                >
-                                    <audio id="{towns}">
+                                </li>
+                            {/each}
+                        </ul>
+                    </dd>
+                {/if}
+                {#if tea.towns.length}
+                    <dt class="property-title">Villes :</dt>
+                    <dd class="property-value">
+                        <ul class="ideogram-pinyin">
+                            {#each tea.towns as towns}
+                                <li class="ideogram">
+                                    <a
+                                        href="https://map.baidu.com/search/?querytype=s&wd={towns}"
+                                        target="_blank"
+                                    >
+                                        <audio id="{towns}">
+                                            <source
+                                                src="assets/audio/{towns}.mp3"
+                                                type="audio/mpeg"
+                                            />
+                                        </audio>
+                                        <span
+                                            class="voice"
+                                            title="voix"
+                                            on:click="{playAudio(towns)}"
+                                        >
+                                            {towns}
+                                        </span>
+                                    </a>
+                                    <p
+                                        class="pinyin voice"
+                                        title="voix"
+                                        on:click="{playAudio(towns)}"
+                                    >
+                                        {getPinyin(towns, i18n)}
+                                    </p>
+                                </li>
+                            {/each}
+                        </ul>
+                    </dd>
+                {/if}
+                {#if tea.cultivars.length}
+                    <dt class="property-title">Cultivars :</dt>
+                    <dd class="property-value">
+                        <ul class="ideogram-pinyin">
+                            {#each tea.cultivars as cultivars}
+                                <li class="ideogram">
+                                    <audio id="{cultivars}">
                                         <source
-                                            src="assets/audio/{towns}.mp3"
+                                            src="assets/audio/{cultivars}.mp3"
                                             type="audio/mpeg"
                                         />
                                     </audio>
                                     <span
                                         class="voice"
                                         title="voix"
-                                        on:click="{playAudio(towns)}"
+                                        on:click="{playAudio(cultivars)}"
                                     >
-                                        {towns}
+                                        {cultivars}
                                     </span>
-                                </a>
-                                <p
-                                    class="pinyin voice"
-                                    title="voix"
-                                    on:click="{playAudio(towns)}"
-                                >
-                                    {getPinyin(towns, i18n)}
-                                </p>
-                            </li>
-                        {/each}
-                    </ul>
-                </dd>
-            {/if}
-            {#if tea.cultivars.length}
-                <dt class="property-title">Cultivars :</dt>
-                <dd class="property-value">
-                    <ul class="ideogram-pinyin">
-                        {#each tea.cultivars as cultivars}
-                            <li class="ideogram">
-                                <audio id="{cultivars}">
-                                    <source
-                                        src="assets/audio/{cultivars}.mp3"
-                                        type="audio/mpeg"
-                                    />
-                                </audio>
-                                <span
-                                    class="voice"
-                                    title="voix"
-                                    on:click="{playAudio(cultivars)}"
-                                >
-                                    {cultivars}
-                                </span>
-                                <p
-                                    class="pinyin voice"
-                                    title="voix"
-                                    on:click="{playAudio(cultivars)}"
-                                >
-                                    {getPinyin(cultivars, i18n)}
-                                </p>
-                            </li>
-                        {/each}
-                    </ul>
-                </dd>
-            {/if}
+                                    <p
+                                        class="pinyin voice"
+                                        title="voix"
+                                        on:click="{playAudio(cultivars)}"
+                                    >
+                                        {getPinyin(cultivars, i18n)}
+                                    </p>
+                                </li>
+                            {/each}
+                        </ul>
+                    </dd>
+                {/if}
+            </div>
+            <div class="box"></div>
         </div>
-        <div class="box"></div>
-    </div>
-    <section class="brew">
-        <h3>Conseils d'infusion</h3>
-        <div class="row">
-            {#if Array.isArray(tea.brews)}
-                {#each tea.brews as brew}
-                    <Brews {brew} />
-                {/each}
-            {/if}
-        </div>
-    </section>
-{/if}
+        <section class="brew">
+            <h3>Conseils d'infusion</h3>
+            <div class="row">
+                {#if Array.isArray(tea.brews)}
+                    {#each tea.brews as brew}
+                        <Brews {brew} />
+                    {/each}
+                {/if}
+            </div>
+        </section>
+    {/if}
+</article>
