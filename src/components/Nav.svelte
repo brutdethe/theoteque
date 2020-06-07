@@ -2,7 +2,6 @@
     nav {
         border-bottom: 1px solid rgba(255, 62, 0, 0.1);
         font-weight: 300;
-        padding: 0 1em;
     }
 
     ul {
@@ -40,7 +39,7 @@
     a {
         font-size: 1.2em;
         text-decoration: none;
-        padding: 1em 0.5em;
+        padding: 1em 1em 0 0;
         display: block;
     }
 </style>

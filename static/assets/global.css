@@ -7,13 +7,8 @@
  * Reset just the minimum, improve with time
  */
 
- @font-face {
-	font-family: "Lexend Deca";
-	src: url(/assets/font/LexendDeca-Regular.ttf) format("truetype");
-  }
-  
   body {
-	margin: 0;
+		margin: 0;
   }
   
   /*Titles*/
@@ -22,39 +17,46 @@
   h3,
   h4,
   h5 {
-	margin-top: 0;
-	margin-bottom: 0;
+		margin-top: 0;
+		margin-bottom: 0;
   }
   
   /*Forms*/
   fieldset {
-	padding: 0;
-	margin-right: 0;
-	margin-left: 0;
-	border: none;
+		padding: 0;
+		margin-right: 0;
+		margin-left: 0;
+		border: none;
   }
   
   /*Lists*/
   ul {
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-left: 0;
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-left: 0;
   }
   
   * {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
   }
-  
+	
+	/* global css */
+
+	@font-face {
+		font-family: "Lexend Deca";
+		src: url(/assets/font/LexendDeca-Regular.ttf) format("truetype");
+  }
+
   body {
-	font-family: "Lexend Deca", Arial, sans-serif;
-	font-size: 1rem;
-	line-height: 1.2;
-	color: #002920;
-	-webkit-font-smoothing: antialiased;
-	background: rgb(252, 249, 255);
-	border-top: 3px solid #73d56b;
+		font-family: "Lexend Deca";
+		font-size: 1rem;
+		line-height: 1.2;
+		color: #002920;
+		-webkit-font-smoothing: antialiased;
+		background: rgb(252, 249, 255);
+		border-top: 3px solid #73d56b;
   }
   .container {
 	margin: 0px auto;
@@ -69,59 +71,38 @@
   }
   a {
 	color: #73d56b;
-  }
+	}
+	
+	h1,
   h2,
   h3 {
-	color: #73d56b;
-  }
-  h1 {
-	font-family: "Lexend Deca", Arial, sans-serif;
-	color: #73d56b;
-  }
+		color: #73d56b;
+	}
+	
   h1 a {
-	color: #002920;
-	text-decoration: none;
-  }
+		color: #002920;
+		text-decoration: none;
+	}
+	
   h1 span {
-	color: #73d56b;
+		color: #73d56b;
   }
   header {
-	display: table;
-	width: 100%;
-	padding: 20px 0 30px;
-	margin-bottom: 30px;
-	border-bottom: 1px solid #002920;
+		display: table;
+		width: 100%;
+		padding: 20px 0 30px;
+		border-bottom: 1px solid #002920;
   }
-  /*header with search engine*/
-  header h1,
-  header .search-engine {
-	display: table-cell;
-  }
-  header .search-engine {
-	width: 50%;
-  }
-  header .search-engine input[type="text"] {
-	padding: 5px;
-	width: calc(100% - 105px);
-  }
-  header .search-engine input[type="submit"] {
-	padding: 5px;
-	color: #fff;
-	font-size: 0.8rem;
-	background-color: #29abe2;
-	border: none;
-	cursor: pointer;
-  }
-  
+
   @media (max-width: 768px) {
-	.container {
-	  width: 100%;
-	  padding: 0 20px;
-	}
-	img {
-	  width: 100%;
-	  height: auto;
-	}
+		.container {
+			width: 100%;
+			padding: 0 20px;
+		}
+		img {
+			width: 100%;
+			height: auto;
+		}
   }
   
   /*
@@ -200,13 +181,12 @@
 	text-align: center;
   }
   .blobContent {
-	font-family: "Lexend Deca", Arial, sans-serif;
-	content: "medium";
-	box-sizing: border-box;
-	padding: 0px;
-	margin: 19px 0px;
-	letter-spacing: 0.01rem;
-	color: rgba(0, 0, 0, 0.7);
+		content: "medium";
+		box-sizing: border-box;
+		padding: 0px;
+		margin: 19px 0px;
+		letter-spacing: 0.01rem;
+		color: rgba(0, 0, 0, 0.7);
   }
   .blobContent h1 {
 	font-size: 2.25rem;
@@ -344,7 +324,6 @@
   
   .tags,
   .tags ul {
-	font-family: Verdana, Arial, sans-serif;
 	font-size: 13px;
 	color: rgba(0, 0, 0, 0.44);
 	letter-spacing: 0;
@@ -405,9 +384,7 @@
 	position: relative;
 	padding: 20px 0;
   }
-  .ghTreeItem:not(:last-child) {
-	margin-bottom: 30px;
-  }
+
   .ghTreeItem:not(:last-child):after {
 	content: "";
 	position: absolute;
@@ -421,10 +398,8 @@
 	background: #000;
   }
   .ghTreeTitle {
-	margin-top: 0;
-	margin-bottom: 15px;
-	line-height: 1;
-	/*  text-transform: uppercase;*/
+		margin-top: 0;
+		line-height: 1;
   }
   .ghTreeMeta {
 	margin-bottom: 10px;
@@ -435,17 +410,6 @@
   }
   
   /*list of folder*/
-  .ghTree h2:before {
-	content: "";
-	display: table-cell;
-	width: 20px;
-	height: 20px;
-	padding-right: 10px;
-  }
-  
-  .ghTree h2 a {
-	display: table-cell;
-  }
   
   .ghTreeItem img {
 	margin-bottom: 15px;
@@ -454,12 +418,6 @@
   
   .ghTreeContent {
 	margin-left: 30px;
-  }
-  
-  .ghTypeFile h2:before {
-	background: url('data:image/svg+xml,<svg height="16" width="12" xmlns="http://www.w3.org/2000/svg"><path d="M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z" fill="rgba(41, 171, 226, 1)" /></svg>')
-	  0 0 no-repeat;
-	background-size: 16px;
   }
   
   /*
@@ -481,12 +439,11 @@
   404
   */
   #error-404 {
-	font-family: sans-serif;
-	color: #444;
-	text-align: center;
-	margin: 0px auto;
-	margin-top: 5rem;
-	max-width: 620px;
+		color: #444;
+		text-align: center;
+		margin: 0px auto;
+		margin-top: 5rem;
+		max-width: 620px;
   }
   #error-404 h1,
   #error-404 h2 {
@@ -500,11 +457,6 @@
   #error-404 h2 {
 	font-weight: 100;
 	font-size: 1rem;
-  }
-  
-
-  header .search-engine input[type="submit"] {
-	font-size: 1.1rem;
   }
   
   .blobContent h1 {
@@ -524,9 +476,6 @@
 	font-size: 1.4875rem;
   }
   
-  .ghTypeFile h2:before {
-	background: url('data:image/svg+xml,<svg height="16" width="12" xmlns="http://www.w3.org/2000/svg"><path d="M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z" fill="rgba(115, 213, 107, 1)" /></svg>')
-	  0 0 no-repeat;
-  }
+
   
   
