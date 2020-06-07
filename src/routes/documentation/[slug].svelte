@@ -85,6 +85,17 @@
         padding-top: 10px;
         text-align: center;
     }
+    .content :global(img) {
+        width: auto;
+        margin: auto;
+    }
+    .content :global(iframe) {
+        display: block;
+        margin: 2em auto;
+        -webkit-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
+        -moz-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
+        box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
+    }
 </style>
 
 <script context="module">
@@ -121,18 +132,23 @@
         href="https://github.com/oisiflorus/documentation/blob/master/journees-cogitation/prix-libre-et-dialogue.md"
         title="Voir sur Github"
         class="blobGhLink tooltip"
-    ></a>
+    >
+        &nbsp;
+    </a>
     <a
         href="https://github.com/oisiflorus/documentation/edit/master/journees-cogitation/prix-libre-et-dialogue.md"
         title="Éditer sur Github"
         class="blobGhEdit tooltip"
-    ></a>
+    >
+        &nbsp;
+    </a>
 
-    <a href="#top" class="blobPageTop">Haut de page</a>
+    <!-- <a href="#top" class="blobPageTop">Haut de page</a> -->
 </aside>
+<article class="blobContent" data-title="content">
+    <h1>{post.titre}</h1>
 
-<h1>{post.titre}</h1>
-
-<div class="content">
-    {@html post.html}
-</div>
+    <div class="content">
+        {@html post.html}
+    </div>
+</article>

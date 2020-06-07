@@ -6,7 +6,5 @@
 
 <main class="container">
     <Nav {segment} />
-    <article class="blobContent" data-title="content">
-        <slot />
-    </article>
+    <slot />
 </main>

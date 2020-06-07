@@ -33,6 +33,4 @@ N'oubliez pas de bien verser toute la liqueur du _GàiWǎn_, de manière à évi
 > Conseil : 
 > travaillez les premières manipulation le _GàiWǎn_ vide, puis avec plus ou moins d'eau à l'intérieur quand vous vous sentez prêt, cela vous évitera d'abîmer votre outil par d'éventuelles chutes. 
 
-/Vidéo/
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qOmDIB7o2So" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
