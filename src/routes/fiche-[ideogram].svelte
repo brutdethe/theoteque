@@ -62,11 +62,11 @@
         font-size: 0.8em;
     }
     .icons {
-        margin: -0.3em;
+        margin: -0.45em auto;
         border: none;
         background: transparent;
         display: inline-block;
-        width: 20%;
+        width: 18%;
     }
     .ideogram-pinyin {
         display: inline-block;

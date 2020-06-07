@@ -1,8 +1,9 @@
 ---
 lien: processus-de-fabrication-du-the
-titre: le processus de fabrication du thé
+titre: Le processus de fabrication du thé
 description: Description des différentes étapes de fabrication du thé
 par: pntbr, ya-lin, thais
+categorie: intermediaire
 ---
 
 ## Processus de fabrication du thé

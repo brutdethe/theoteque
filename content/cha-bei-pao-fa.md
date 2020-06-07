@@ -3,6 +3,7 @@ lien: cha-bei-pao-fa
 titre: 茶杯泡法 - CháBēi Pào Fǎ
 description: >
   L'infusion au verre ...
+categorie: intermediaire
 ---
 
 Pour certains thé, on préférera choisir une infusion dans un grand verre: c'est la 茶杯泡法 _CháBēi Pào Fǎ_.

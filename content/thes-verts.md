@@ -1,8 +1,9 @@
 ---
 lien: thes-verts
-titre: 绿茶 - LǜChá Les thés verts 
+titre: 绿茶 - Lǜ Chá - les thés verts 
 description: >
   Tout sur les thés vert de Chine ...
+categorie: base
 ---
 
 Le thé vert est l'un des incontournables du monde du thé. Excellent pour la santé et plus rapide à fabriquer que les autres thés, il est consommé partout dans le monde, nature ou quelquefois aromatisé. 

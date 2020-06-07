@@ -41,6 +41,7 @@
         text-decoration: none;
         padding: 1em 1em 0.5em 0;
         display: block;
+        color: #73d56b;
     }
 </style>
 

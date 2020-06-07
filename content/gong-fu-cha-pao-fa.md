@@ -4,6 +4,7 @@ titre: 工夫茶泡法 - Gōng Fū Chá PàoFǎ
 description: >
   Guide pour infuser avec l'approche Gōng Fū Chá
 par: ya-lin
+categorie: intermediaire
 ---
 
 ## L’équipement de base pour la pratique du _Gōng Fū Chá_ :

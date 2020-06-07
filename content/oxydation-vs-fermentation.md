@@ -1,13 +1,12 @@
 ---
 lien: oxydation-vs-fermentation
-titre: oxydation vs fermentation
+titre: Oxydation vs fermentation
 description: >
-  Différences entre l'oxydation et la fermentation et de la confusion qui entoure ces deux termes dans le monde du thé 
+  Différences entre l'oxydation et la fermentation et de la confusion qui entoure ces deux termes dans le monde du thé
+categorie: expert
 ---
 
-## Oxydation vs fermentation
-
-### Qu'est-ce que l'oxydation ?
+## Qu'est-ce que l'oxydation ?
 
 L'_oxydation_ fait référence à une série de réactions chimiques qui aboutissent au brunissement des feuilles de thé et à la production de composés de saveur et d'arôme. Selon le type de thé, l'oxydation est soit totalement empêchée, soit délibérément initiée, contrôlée et ensuite stoppée.
 

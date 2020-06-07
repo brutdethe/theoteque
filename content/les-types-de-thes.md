@@ -1,9 +1,9 @@
 ---
 lien: les-types-de-thes
 titre: Les types de thé
-description: description des 7 différents type de thé
+description: Description des 7 différents type de thé
 par: pntbr, ya-lin, thais
-categorie: bases
+categorie: base
 ---
 
 ## Les 6 ou 7 types de thés ?

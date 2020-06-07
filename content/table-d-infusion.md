@@ -1,9 +1,9 @@
 ---
 lien: table-d-infusion
-titre: table d'infusion
-description: table d'infusion par type de thé avec l'approche - Gōng Fū Chá
+titre: Table d'infusion
+description: Table d'infusion par type de thé avec l'approche - Gōng Fū Chá
 par: pntbr
-categorie: bases
+categorie: base
 ---
 
 ## Table d'infusion pour _Gōng Fū Chá_ ou _GàiWǎn_

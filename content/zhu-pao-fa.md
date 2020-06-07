@@ -2,8 +2,9 @@
 lien: zhu-pao-fa
 titre: 煮泡法 - Zhǔ PàoFǎ
 description: >
-  la methode pour infuser le thé à la bouilloire
+  La methode pour infuser le thé à la bouilloire
 par: ya lin
+categorie: intermediaire
 ---
 
 En utilisant une bouilloire ou une casserole avec un couvercle.

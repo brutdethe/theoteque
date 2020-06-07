@@ -1,29 +1,20 @@
 <style>
     .banner {
         width: 100vw;
+        padding: 0;
         margin-left: 50%;
         transform: translateX(-50%);
         display: flex;
         align-items: center;
         justify-content: center;
         min-height: 610px;
-        padding: 0;
         color: #002920;
         text-align: center;
         background: url(/assets/danslajungle.png) center center no-repeat;
-    }
-
-    .banner h1 {
-        margin: 0;
-    }
-
-    .banner h1 {
-        margin-right: 0.5em;
-        margin-left: 0.5em;
-        padding: 0;
-        font-size: 3.2em;
-        color: #002920;
+        font-size: 3.5em;
+        font-weight: lighter;
         text-transform: uppercase;
+        border: none;
     }
 </style>
 
@@ -32,12 +23,9 @@
 </svelte:head>
 
 <article class="blobContent" data-title="content">
-    <div class="banner">
-        <h1>broutille</h1>
-    </div>
 
+    <h1 class="banner">broutille</h1>
     <h2 id="pourquoi-">Pourquoi ?</h2>
-
     <p>
         Ce site présente des ressources pour vous inviter à découvrir ou
         approfondir vos connaissances sur les thés de Chine et de Taiwan et à
@@ -91,34 +79,6 @@
                 Montpellier
             </a>
             - 12 février 2020
-        </li>
-    </ul>
-
-    <h2 id="documentation-sur-le-thé">Documentation sur le thé</h2>
-
-    <p>🚧 : Les articles sont encore en phase de construction</p>
-
-    <h3 id="quelques-bases">Quelques bases</h3>
-
-    <ul>
-        <li>
-            <a href="/documentation/les-types-de-thes">Les 7 types de thés</a>
-            : Pour en savoir plus sur le classement des thés. - 🚧
-        </li>
-        <li>
-            <a href="/documentation/processus-de-fabrication-du-the">
-                Les processus de fabrication
-            </a>
-            : Les différentes étapes pour fabriquer chaque type de thé. - 🚧
-        </li>
-    </ul>
-
-    <h3 id="la-boite-à-outils">La boite à outils</h3>
-
-    <ul>
-        <li>
-            <a href="/documentation/table-d-infusion">Table d’infusion</a>
-            - 🚧
         </li>
     </ul>
 

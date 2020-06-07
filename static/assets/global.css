@@ -44,6 +44,18 @@
 	
 	/* global css */
 
+
+  @media (max-width: 768px) {
+		#sapper {
+			width: 100%;
+			padding: 0 20px;
+		}
+		img {
+			width: 100%;
+			height: auto;
+		}
+  }
+
 	@font-face {
 		font-family: "Lexend Deca";
 		src: url(/assets/font/LexendDeca-Regular.ttf) format("truetype");
@@ -57,122 +69,106 @@
 		-webkit-font-smoothing: antialiased;
 		background: rgb(252, 249, 255);
 		border-top: 3px solid #73d56b;
-  }
-  .container {
+	}
+	
+  #sapper {
 		margin: 0px auto;
 		width: 100%;
 		max-width: 1024px;
 		padding-right: 1em;
 		padding-left: 1em;
 	}
-	
-	h1,
-  h2,
-  h3 {
-		color: #73d56b;
-	}
-		
-  p {
-		margin-top: 0;
-		margin-bottom: 10px;
-	}
-	
-  a {
-		color: #73d56b;
-	}
-	
-  header {
-		width: 100%;
-		padding: 20px 0 30px;
-		border-bottom: 1px solid #002920;
-  }
 
-  @media (max-width: 768px) {
-		.container {
-			width: 100%;
-			padding: 0 20px;
-		}
-		img {
-			width: 100%;
-			height: auto;
-		}
-  }
-  
-  /*
-   * BLOB
-   */
-  
-  .blobContent {
-		padding: 0px;
+	.container {
 		margin: 1em 0px;
 		letter-spacing: 0.01rem;
   }
-  .blobContent h1 {
-		font-size: 2.25rem;
-		line-height: 2.5rem;
+
+	.container h1,
+  .container h2,
+  .container h3 {
+		color: #73d56b;
+		font-weight: lighter;
+	}
+		
+	.container p,
+	.container ul,
+	.container ol {
+		margin-top: 1.5rem;
+		margin-bottom: 1.5rem;
+		font-size: 1.188rem;
+		line-height: 1.5;
+	}
+	
+  .container h1 {
+		width: 100%;
+		padding: 20px 0 30px;
 		margin-top: 0;
 		margin-bottom: 1.75rem;
+		border-bottom: 1px solid #002920;
+		font-size: 2.25rem;
+		line-height: 2.5rem;
   }
-  .blobContent h2 {
+  .container h2 {
 		font-size: 1.9375rem;
 		line-height: 1.75rem;
 		margin-top: 3.5rem;
 		margin-bottom: 1.75rem;
-		font-weight: lighter;
+		
   }
-  .blobContent h3 {
+  .container h3 {
 		font-size: 1.1875rem;
 		line-height: 1.75rem;
 		margin-top: 1.75rem;
 		margin-bottom: 1.75rem;
   }
-  .blobContent h4 {
+  .container h4 {
 		font-size: 1.1875rem;
 		line-height: 1.75rem;
 		margin-top: 1.75rem;
 		margin-bottom: 1.75rem;
   }
-  .blobContent p,
-  .blobContent ul,
-  .blobContent ol {
+ 
+  .container ul,
+  .container ol {
 		margin-top: 1.5rem;
 		margin-bottom: 1.5rem;
 		font-size: 1.188rem;
 		line-height: 1.5;
   }
-  .blobContent ul {
+  .container ul {
 		margin-left: 20px;
   }
-  .blobContent ul ul {
+  .container ul ul {
 		margin-top: 0.5rem;
 		margin-bottom: 0.5rem;
 		margin-left: 36px;
   }
-  .blobContent li {
+  .container li {
 		position: relative;
 		margin-bottom: 5px;
 		padding-left: 20px;
 		list-style-type: none;
   }
-  .blobContent li:before {
+  .container li:before {
 		content: ">";
 		position: absolute;
 		left: 0;
 		top: 0;
 		font-weight: bold;
   }
-  .blobContent ol {
+  .container ol {
 		padding-left: 0;
 		counter-reset: section;
 		list-style-type: none;
 		margin-left: 20px;
   }
-  .blobContent ol li:before {
+  .container ol li:before {
 		position: relative;
 		counter-increment: section;
 		content: counters(section, ".") " ";
   }
-  .blobContent img {
+  .container img {
 		width: 100%;
 		height: auto;
 		display: block;
@@ -183,79 +179,79 @@
 		border-radius: 4px;
 		transition: all 0.2s ease-in-out;
   }
-  .blobContent a {
+  .container a {
 		color: #002920;
 		text-decoration: none;
 		border-bottom: 1px solid #002920;
 		transition: all 0.3s;
   }
-  .blobContent a:hover,
-  .blobContent a:focus {
+  .container a:hover,
+  .container a:focus {
 		color: #73d56b;
 		border-bottom-color: #73d56b;
   }
-  .blobContent pre,
-  .blobContent blockquote {
+  .container pre,
+  .container blockquote {
 		margin: 0 2em;
 		background-color: #fff;
   }
-  .blobContent pre {
+  .container pre {
 		margin: 2em;
 		padding: 1em;
 		white-space: pre-wrap;
   }
-  .blobContent blockquote {
+  .container blockquote {
 		padding: 0.5em 1em;
 		letter-spacing: 0.01rem;
 		font-weight: 400;
 		font-style: italic;
 		border-left: 5px solid #73d56b;
   }
-  .blobContent blockquote p {
+  .container blockquote p {
 		margin: 0;
   }
-  .blobContent table > tbody > tr > td:first-child {
+  .container table > tbody > tr > td:first-child {
 		font-weight: bold;
   }
-  .blobContent table {
+  .container table {
 		width: 100%;
 		border-collapse: collapse;
   }
-  .blobContent table th {
+  .container table th {
 		border-width: 1px;
 		padding: 8px;
 		border-style: solid;
 		border-color: rgba(0, 0, 0, 0.7);
 		text-align: left;
   }
-  .blobContent table td {
+  .container table td {
 		border-width: 1px;
 		padding: 8px;
 		border-style: solid;
 		border-color: rgba(0, 0, 0, 0.7);
   }
-  .blobContent table tr:hover {
+  .container table tr:hover {
 		background-color: #fff;
   }
   
   @media (max-width: 768px) {
-	.blobContent {
+	.container {
 	  text-align: left;
 	}
 	.contribution-tools {
 	  display: none;
 	}
-	.blobContent blockquote {
+	.container blockquote {
 	  margin: 0;
 	}
 	#parentRepo a {
 	  display: block;
 	}
-	.blobContent ul,
-	.blobContent ol {
+	.container ul,
+	.container ol {
 	  margin-left: 0;
 	}
-	.blobContent pre {
+	.container pre {
 	  padding: 0.5em;
 	  margin-left: 0;
 	  margin-right: 0;
@@ -280,19 +276,19 @@
 	margin: 1.5em;
   }
   
-  .blobContent h1 {
+  .container h1 {
 	font-size: 2.3rem;
   }
   
-  .blobContent h2 {
+  .container h2 {
 	font-size: 2rem;
   }
   
-  .blobContent h3 {
+  .container h3 {
 	font-size: 1.4875rem;
   }
   
-  .blobContent h4 {
+  .container h4 {
 	font-size: 1.1875rem;
 	font-size: 1.4875rem;
   }

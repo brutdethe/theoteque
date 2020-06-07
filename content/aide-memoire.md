@@ -3,10 +3,8 @@ lien: aide-memoire
 titre: Aide mémoire pour contribuer
 description: > 
   Permet de retrouver facilement les liens vers les différentes ressources
+categorie: contribution
 ---
-
-
-# Aide mémoire pour contribuer
 
 ## Les liens
 

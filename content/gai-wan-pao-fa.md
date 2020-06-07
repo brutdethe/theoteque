@@ -3,6 +3,7 @@ lien: gai-wan-pao-fa
 titre: 蓋碗泡法 - GàiWǎn PàoFǎ
 description: >
   L'infusion au GàiWǎn ...
+categorie: intermediaire
 ---
 
 ![Gaiwan JingdeZhen](/assets/media/gaiwan-paofa-jingdezhen.jpg)
