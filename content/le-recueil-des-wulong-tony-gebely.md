@@ -79,10 +79,10 @@ Liqueur sombre _Ānxī Tiě GuānYīn_
 
 Ce style de thé est produit dans le comté d'_Ānxī_ de la province du _Fújiàn_ et est sans doute le _WūLóng_ le plus célèbre. Le _Tiě GuānYīn_ est fait à partir des feuilles d'un _cultivar_ du même nom, le _Tiě GuānYīn_. Les versions traditionnelles de ce thé sont fortement torréfiées, mais aujourd'hui, on le trouve le plus souvent à l'état vert, non torréfié. Le _Tiě GuānYīn_ est l'un des dix thés les plus célèbres de Chine ; il est connu pour son parfum floral et 喉韻 _Hóu Yùn_, qui signifie "résonance de la gorge" ou "arrière-goût".
 
-![Feuilles d'Ānxī Huáng Jīn Guì]
+![Feuilles d'Ānxī Huáng Jīn Guì](/assets/media/recueil-wulong_anxi-huang-jin-gui-leaves.jpg)
 Feuilles d'_Ānxī Huáng Jīn Guì_
 
-![Liqueur Ānxī Huáng Jīn Guì]
+![Liqueur Ānxī Huáng Jīn Guì](/assets/media/recueil-wulong_anxi-huang-jin-gui-liquor.jpg)
 Liqueur _Ānxī Huáng Jīn Guì_
 
 #### 安溪黃金桂 _Ānxī Huáng Jīn Guì_ -(Golden Cassia ou Golden Osmanthus)
