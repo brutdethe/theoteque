@@ -68,9 +68,18 @@ En Chine, certains thés verts sont plus connus que d'autres. Voici une liste no
 La tradition chinoise veut qu'on boive le thé pur, sans apport extérieur autre que la feuille de thé elle même. 
 Cette règle est compensée par une exception: les 花茶 Huāchá (littéralement "thés aux fleurs").
 
-Les "thés aux fleurs" en effet sont des thés généralement verts (on retrouve aussi des thés aromatisés noirs) aromatisés à l'aide de fleurs le plus souvent. Le plus connu est surement le thé au jasmin 茉莉花茶 Mòlìhuā chá.
+Les "thés aux fleurs" en effet sont des thés généralement verts (on retrouve aussi des thés aromatisés rouges) aromatisés à l'aide de fleurs le plus souvent. Le plus connu est surement le thé au jasmin 茉莉花茶 Mòlìhuā chá. On appelle aussi quelquefois 花茶 une infusion de fleurs sans qu'il y ait de feuilles de thés mis avec, mais, n'étant pas à proprement parlé du thé, il n'en sera pas question dans cet article. 
 
-Il existe deux type de 花茶: les 熏花茶  ping
+Aux 6 catégories de thés en Chine (Vert, Blanc, Jaune, Wulong, Rouge, Noir) , la classification chinoise  rajoute une sorte d'annexe: les 再加工茶. C'est dans celle ci que se placent les 花茶. Ainsi on ne peut pas dire que les 花茶 sont des thés verts, ou rouge: ils appartiennent à cette catégorie annexe. 
 
+Il existe deux catégories de 花茶: les 窨花茶 Xūn huāchá et les 拼花茶 Pīnhuā chá.
 
+Les 窨花茶 sont des thés (verts la plupart du temps), infusés avec des fleurs ou d'autres aromates, afin que ces derniers lui transfère leurs arômes. Après plusieurs semaines ou mois d'infusion à sec, les additifs odorants sont retirés du thé vert. Le thé garde ainsi la saveur transmise par ces fleurs et plantes, sans que l'on voit les fleurs utilisés lorsqu'on l'achète. 
+
+Au contraire, le 拼花茶 est un thé auquel on a bien rajouté ces additifs mais ces derniers ne sont pas retirés avant mise sur le marché. Un 拼花茶 est donc un thé aux fleurs avec de réelles fleurs lorsqu'il est vendu, alors que le 窨花茶 ne les a plus. 
+
+En règle générale, les 拼花茶 de qualités sont les 窨花茶. 
+L'exemple le plus parlant est le 茉莉花茶: le thé au jasmin chinois. Le plus prisé des 花茶, il peut être vendu avec ou sans fleurs de jasmin. On remarque que les meilleurs thés verts sont réservés pour le 窨花茶, le reste pour les 拼花茶. 
+
+Comme autre thé au fleurs fameux, on peut citer: le thé aux orchidées 球兰花茶 Qiú lánhuā chá, le thé à la rose de Chine 玫瑰花茶 Méiguī huāchá, le thé aux chrysanthèmes 菊花茶 Júhuā chá.
 
