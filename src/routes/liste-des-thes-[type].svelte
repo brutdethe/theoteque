@@ -101,58 +101,56 @@
     <title>Liste des thés</title>
 </svelte:head>
 
-<article class="blobContent" data-title="content">
-    <h1>Liste des thés par type</h1>
-    <p>
-        Cette liste regroupe une sélection de thés que l'on imagine assez
-        faciles à trouver. Pour voir le détail d'un thé suivez le lien en
-        cliquant sur sa photo.
-    </p>
+<h1>Liste des thés par type</h1>
+<p>
+    Cette liste regroupe une sélection de thés que l'on imagine assez faciles à
+    trouver. Pour voir le détail d'un thé suivez le lien en cliquant sur sa
+    photo.
+</p>
 
-    {#each typeToDisplay(typeParam, types) as type}
-        <section class="gallery-teas {type}">
-            <IconTeaType ideogram="{type}" pinyin="{getPinyin(type, i18n)}" />
-            <div class="gallery">
-                {#each getTeasByType(type, teas) as tea}
-                    <figure class="item">
-                        <a href="fiche-{tea.ideogram}">
-                            <img
-                                src="../assets/thes/{tea.ideogram}.jpg"
-                                alt="{tea.pinyin}"
+{#each typeToDisplay(typeParam, types) as type}
+    <section class="gallery-teas {type}">
+        <IconTeaType ideogram="{type}" pinyin="{getPinyin(type, i18n)}" />
+        <div class="gallery">
+            {#each getTeasByType(type, teas) as tea}
+                <figure class="item">
+                    <a href="fiche-{tea.ideogram}">
+                        <img
+                            src="../assets/thes/{tea.ideogram}.jpg"
+                            alt="{tea.pinyin}"
+                        />
+                    </a>
+                    <figcaption class="ideogram">
+                        <audio id="{tea.ideogram}">
+                            <source
+                                src="assets/audio/{tea.ideogram}.mp3"
+                                type="audio/mpeg"
                             />
-                        </a>
-                        <figcaption class="ideogram">
-                            <audio id="{tea.ideogram}">
-                                <source
-                                    src="assets/audio/{tea.ideogram}.mp3"
-                                    type="audio/mpeg"
-                                />
-                            </audio>
-                            <span
-                                class="voice"
-                                title="voix"
-                                on:click="{playAudio(tea.ideogram)}"
-                            >
-                                {tea.ideogram}
-                            </span>
-                            <span
-                                class="pinyin voice"
-                                title="voix"
-                                on:click="{playAudio(tea.ideogram)}"
-                            >
-                                {getPinyin(tea.ideogram, i18n)}
-                            </span>
-                        </figcaption>
+                        </audio>
+                        <span
+                            class="voice"
+                            title="voix"
+                            on:click="{playAudio(tea.ideogram)}"
+                        >
+                            {tea.ideogram}
+                        </span>
+                        <span
+                            class="pinyin voice"
+                            title="voix"
+                            on:click="{playAudio(tea.ideogram)}"
+                        >
+                            {getPinyin(tea.ideogram, i18n)}
+                        </span>
+                    </figcaption>
 
-                    </figure>
-                {:else}
-                    <!-- this block renders when teas.length === 0 -->
-                    <p>chargement des thés...</p>
-                {/each}
-            </div>
-        </section>
-    {:else}
-        <!-- this block renders when teas.length =黄山毛峰 HuángShān== 0 -->
-        <p>chargement des types thés...</p>
-    {/each}
-</article>
+                </figure>
+            {:else}
+                <!-- this block renders when teas.length === 0 -->
+                <p>chargement des thés...</p>
+            {/each}
+        </div>
+    </section>
+{:else}
+    <!-- this block renders when teas.length =黄山毛峰 HuángShān== 0 -->
+    <p>chargement des types thés...</p>
+{/each}

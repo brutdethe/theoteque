@@ -35,8 +35,9 @@
 
     const categories = [
         { name: 'base', title: 'Pour comprendre les bases' },
-        { name: 'intermediaire', title: 'Pour approfondir' },
-        { name: 'expert', title: 'Pour bidouiller' },
+        { name: 'intermediaire', title: 'Pour se cultiver' },
+        { name: 'expert', title: 'Pour creuser' },
+        { name: 'traduction', title: "Pour s'ouvrir sur le monde" },
         { name: 'contribution', title: 'Pour contribuer' }
     ]
 

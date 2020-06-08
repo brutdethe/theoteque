@@ -18,7 +18,7 @@ _WūLóng_ s’écrit en chinois 烏龍, traduit littéralement par "dragon noir
 
 ### Qu’est-ce qu’un _WūLóng_ ?
 
-Le thé _WūLóng_ est un thé semi-oxydé. On dit souvent qu’il se situe entre le LǜChá et le HóngChá. Le degré d’oxydation varie entre 20% et 75%, voir plus selon les produits. On retrouve une très large palette d’arômes : du végétal (châtaigne, haricots, petits pois, etc.) au fruité, en passant par du floral jusqu’à des arômes crémeux, mielleux, cacaotés.
+Le thé _WūLóng_ est un thé semi-oxydé. On dit souvent qu’il se situe entre le _LǜChá_ et le _HóngChá_. Le degré d’oxydation varie entre 20% et 75%, voir plus selon les produits. On retrouve une très large palette d’arômes : du végétal (châtaigne, haricots, petits pois, etc.) au fruité, en passant par du floral jusqu’à des arômes crémeux, mielleux, cacaotés.
 
 ### Quatre familles pour le _WūLóng_
 

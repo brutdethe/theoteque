@@ -1,12 +1,12 @@
 ---
 lien: les-types-de-thes
 titre: Les types de thé
-description: Description des 7 différents type de thé
+description: Description des 6+1 différents type de thé
 par: pntbr, ya-lin, thais
 categorie: base
 ---
 
-## Les 6 ou 7 types de thés ?
+## Les 6 ou 6+1 types de thés ?
 
 Catégoriser les thés qui partagent des caractéristiques communes permet de réduire la complexité en dépassant les spécificités au profit de la généralité.  
   
@@ -28,7 +28,7 @@ Pour classer les centaines de thés, on pourrait se servir de la couleur des feu
 
 Malgré la disparité des thés, en utilisant les "principales" étapes de fabrications on arrive à les regrouper assez élégamment dans ces 6 catégories [^3].  
   
-### Pourquoi 7 types
+### Pourquoi 6 types + 1
 
 En utilisant le système de répartition en 6 couleurs on reste consistant et en accord avec la tradition de la culture Chinoise du thé. Très modestement, il nous a paru intéressant d'ajouter une famille, il s'agit des : 普洱生茶 _Pǔ'ěr Shēng Chá_. Ces thés existent depuis longtemps mais étaient considérés et consommés comme des produits de moindre qualité, ce n'est qu'aux alentours des années 1960 qu'un tournant s'est produit élevant les _Shēng Chá_ sur le devant de la scène. Cette période marque la naissance de manufactures de renom et de recettes qui ont contribué à augmenter l'attention et la qualité de cette famille. Aujourd'hui, les _Pǔ'ěr Shēng Chá_ continuent traditionnellement à être classés dans le type des thés _HēiChá_ (noirs ou sombres en français).
 
@@ -88,7 +88,7 @@ Quelques exemples :
 
 ### 乌龙茶 - Qīng Chá - thé bleu-vert
 
-Les _Qīng Chá_ [^8] sont des thés semi-oxydés. Cela signifie que pendant la production, l'oxydation est initiée, contrôlée et arrêtée à un moment donné avant que les feuilles ne soient considérées comme complètement oxydées. C'est pourquoi vous entendrez souvent dire que le _Qīng Chá_ se situe entre le _Lǜ Chá_ et le _Hóng Chá_.
+Les _Qīng Chá_ [^8] sont des thés semi-oxydés. Cela signifie que pendant la production, l'oxydation est initiée, contrôlée et arrêtée à un moment donné avant que les feuilles ne soient considérées comme complètement oxydées. C'est pourquoi vous entendrez souvent dire que le _Qīng Chá_ se situe entre le _Lǜ Chá_ et le _Hóng Chá_. L'appellation courante pour désigner ce type de thé est : 烏龍 _WūLóng_. 
 
 Quelques thés _Qīng Chá_ [^9] connus :
 
