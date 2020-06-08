@@ -13,7 +13,7 @@ Il se compose en trois parties:
 
 - Le 杯蓋 _Bēi gài_, correspondant au couvercle.
 - Le 杯身 _Bēi Shēn_, correspondant au récipient, c'est le corps du _GàiWǎn_.
-- Le 杯托 _Bēi Tuō_ ou 杯底 _Bēi Di_, correspondant au socle, c'est la soucoupe de l'outil.
+- Le 杯托 _Bēi Tuō_ ou 杯底 _Bēi Dì_, correspondant au socle, c'est la soucoupe de l'outil.
 
 On dit que ces trois parties réunissent le 天地人 _Tiān Dì Rén_ : Le ciel, la terre et l'homme, concept culturel redondant dans la culture artistique, philosophique, religieuse et littéraire chinoise.  
 
