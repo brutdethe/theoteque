@@ -34,7 +34,7 @@ On distinguera trois sous catégories:
 
 
 Les 烘青绿茶 （Hōng qīng lǜchá）: ce sont les thés verts produits par séchage au four des feuilles de thé. Ce type de thé est idéal pour constituer les thés aux fleurs (花茶). 
-Les plus connus sont le 黄山毛峰 (Huángshān máo fēng)，了太平猴魁 (Tàipíng hóu kuí)，六安瓜片 (Liù ān guāpiàn)。
+Les plus connus sont le 黄山毛峰 (Huángshān máo fēng)，太平猴魁 (Tàipíng hóu kuí)，六安瓜片 (Liù ān guāpiàn)。
 
 /Photo huangshanmaofeng/
 
