@@ -13,7 +13,7 @@ _Traduction de l'article original en anglais de Tony Gebely : https://teaepicure
 
 Le mot _WūLóng_ se traduit par "dragon noir". Le pinyin correct est 烏龍 _WūLóng_, mais _oolong_(une translittération aléatoire) est devenu l'orthographe la plus populaire en Occident.
 
-Les feuilles de _WūLóng_ sont semi-oxydées. Cela signifie que pendant la production, l'[oxydation](https://teaepicure.com/tea-leaves-oxidation) est initiée, contrôlée et arrêtée à un moment donné avant que les feuilles ne soient considérées comme complètement oxydées. C'est pourquoi vous entendrez souvent dire que le _WūLóng_ se situe entre le _LǜChá_(thé vert) et le _HóngChá_(thé rouge). Cependant, comme pour beaucoup de choses dans le monde du thé, c'est plus compliqué que cela.
+Les feuilles de _WūLóng_ sont semi-oxydées. Cela signifie que pendant la production, l'[oxydation](https://teaepicure.com/tea-leaves-oxidation) est initiée, contrôlée et arrêtée à un moment donné avant que les feuilles ne soient considérées comme complètement oxydées. C'est pourquoi vous entendrez souvent dire que le _WūLóng_ se situe entre le _LǜChá_ (thé vert) et le _HóngChá_ (thé rouge). Cependant, comme pour beaucoup de choses dans le monde du thé, c'est plus compliqué que cela.
 
 Une étape distincte dans le traitement du thé _WūLóng_ traditionnel est l'étape de _friction_ (également appelée "brassage"). Les feuilles sont brassées, légèrement roulées ou frottées jusqu'à ce que les bords soient flétris. Ce flétrissage provoque des dommages cellulaires et déclenche le processus d'oxydation. La _friction des feuilles_, en tant qu'étape de traitement, est un processus itératif au cours duquel les feuilles sont frictionnées et on les laisse se flétrir et s'oxyder lentement.
 
