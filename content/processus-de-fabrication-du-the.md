@@ -2,7 +2,7 @@
 lien: processus-de-fabrication-du-the
 titre: Le processus de fabrication du thé
 description: Description des différentes étapes de fabrication du thé
-par: pntbr, ya-lin, thais
+par: pntbr, thais
 categorie: intermediaire
 ---
 
@@ -81,4 +81,3 @@ La torréfaction, quand il y en a une, pourra se faire en une ou en plusieurs fo
 
     \- [sheng cha fermentation](https://invidio.us/d2BekCvAZqM?t=448)  
     \- [shu cha fermentation](https://invidio.us/oI4yDyH1oUM)
-    

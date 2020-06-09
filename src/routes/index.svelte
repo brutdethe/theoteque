@@ -33,8 +33,8 @@
 <h2 id="qui-sommes-nous-">Qui sommes-nous ?</h2>
 
 <p>
-    Ya-Lin, Thaïs et Stéphane partagent la même passion, ielles documentent et
-    tentent des expériences autour de l'art chinois du thé.
+    Thaïs et Stéphane partagent la même passion, ils documentent et tentent des
+    expériences autour de l'art chinois du thé.
 </p>
 
 <p>

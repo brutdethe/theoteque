@@ -3,7 +3,6 @@ lien: gong-fu-cha-pao-fa
 titre: 工夫茶泡法 - Gōng Fū Chá PàoFǎ
 description: >
   Guide pour infuser avec l'approche Gōng Fū Chá
-par: ya-lin
 categorie: intermediaire
 ---
 

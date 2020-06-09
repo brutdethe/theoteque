@@ -10,8 +10,6 @@ Au choix : -
 <a href="mailto:stephane@pntbr.fr">Stéphane</a>
 -
 <a href="mailto:thais.e@hotmail.fr">Thaïs</a>
--
-<a href="mailto:bizienyalin@gmail.com">Ya-Lin</a>
 <h3>Sur Mastodon</h3>
 -
 <a href="https://eldritch.cafe/@pntbr">Stéphane</a>

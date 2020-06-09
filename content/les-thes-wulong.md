@@ -1,8 +1,7 @@
 ---
 lien: les-thes-wulong
 titre: 烏龍茶 - les WūLóng
-description: Un article de Ya-Lin pour comprendre les WūLóng, découvrir les différentes familles et soigner l'infusion
-par: ya-lin
+description: Un article pour comprendre les WūLóng, découvrir les différentes familles et soigner l'infusion
 categorie: base
 ---
 
