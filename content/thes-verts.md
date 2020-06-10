@@ -40,12 +40,14 @@ Les plus connus sont le 黃山毛峰 _HuángShān Máo Fēng_，太平猴魁 _T�
 Les 曬青綠茶 _Shài Qīng LǜChá_ : ce sont les _LǜChá_ produits en faisant sécher les feuilles de thé au soleil, après l'étape du _ShāQīng_. 
 On retrouve des thés moins connus tels le 川青 _Chuān Qīng_，ou le 滇青 _Diān qīng_. 
 
-/photo DianQing/
+![_Diān qīng_](/assets/media/thé-vert_滇青.jpg)
+*Feuilles de _Diān qīng_*
 
 Les 蒸青綠茶 _Zhēng Qīng LǜChá_ : ce sont les _LǜChá_ dont le _ShāQīng_ est fait à la vapeur. 
 On retrouve des thés peu connus tels le 玉露 _YùLù_.
 
-/Photo Yulu/
+![_Diān qīng_](/assets/media/thé-vert_玉露.jpg)
+*Feuilles de _YùLù_*
 
 # Les _LǜChá_ connus
 
@@ -62,23 +64,24 @@ En Chine, certains _LǜChá_ sont plus connus que d'autres. Voici une liste non 
 
 # Les _LǜChá_ aromatisés en Chine
 
-/photo molihuacha/
+![_MòlìHuā Chá_ infusé en _CháBēi PàoFǎ_](/assets/media/thé-vert_茉莉花茶.jpg)
+*_MòlìHuā Chá_ infusé en _CháBēi PàoFǎ_*
 
 La tradition chinoise veut qu'on boive le thé pur, sans apport extérieur autre que la feuille de thé elle même. 
 Cette règle est compensée par une exception : les _HuāChá_ (littéralement "thés aux fleurs").
 
 Les _HuāChá_ en effet sont des thés généralement verts (on retrouve aussi des thés aromatisés rouges) aromatisés à l'aide de fleurs le plus souvent. Le plus connu est sûrement le thé au jasmin 茉莉花茶 _MòLìHuā Chá_. On appelle aussi quelquefois _HuāChá_ une infusion de fleurs sans qu'il y ait de feuilles de thés mis avec, mais, n'étant pas à proprement parlé du thé, il n'en sera pas question dans cet article. 
 
-Aux 6 types de thés en Chine (Vert, Blanc, Jaune, Bleu, Rouge, Noir), la classification chinoise  rajoute une sorte d'annexe : les 再加工茶 _Zài JiāGōng Chá_. C'est dans celle ci que se placent les _HuāChá_. Ainsi on ne peut pas dire que les _HuāChá_ sont des _LǜChá_ ou rouge : ils appartiennent à cette catégorie annexe. 
+Aux 6 types de thés en Chine (Vert, Blanc, Jaune, Bleu, Rouge, Noir), la classification chinoise  rajoute une sorte d'annexe : les 再加工茶 _Zài JiāGōng Chá_. C'est dans celle ci que se placent les _HuāChá_. Ainsi on ne peut pas dire que les _HuāChá_ sont des _LǜChá_ ou des _HóngChá_ : ils appartiennent à cette catégorie annexe. 
 
 Il existe deux catégories de _HuāChá_ : les 窨花茶 _Xūn HuāChá_ et les 拼花茶 _PīnHuā Chá_.
 
-Les 窨花茶 sont des thés (verts la plupart du temps), infusés avec des fleurs ou d'autres aromates, afin que ces derniers lui transfère leurs arômes. Après plusieurs semaines ou mois d'infusion à sec, les additifs odorants sont retirés du thé vert. Le thé garde ainsi la saveur transmise par ces fleurs et plantes, sans que l'on voit les fleurs utilisés lorsqu'on l'achète. 
+Les _Xūn HuāChá_ sont des thés (_LǜChá_ la plupart du temps), infusés avec des fleurs ou d'autres aromates, afin que ces derniers lui transfère leurs arômes. Après plusieurs semaines ou mois d'infusion à sec, les additifs odorants sont retirés du _LǜChá_. Le thé garde ainsi la saveur transmise par ces fleurs et plantes, sans que l'on voit les fleurs utilisées lorsqu'on l'achète. 
 
-Au contraire, le 拼花茶 est un thé auquel on a bien rajouté ces additifs mais ces derniers ne sont pas retirés avant mise sur le marché. Un 拼花茶 est donc un thé aux fleurs avec de réelles fleurs lorsqu'il est vendu, alors que le 窨花茶 ne les a plus. 
+Au contraire, le _PīnHuā Chá_ est un thé auquel on a bien rajouté ces additifs mais ces derniers ne sont pas retirés avant mise sur le marché. Un _PīnHuā Chá_ est donc un thé aux fleurs avec de réelles fleurs lorsqu'il est vendu, alors que le _Xūn HuāChá_ ne les a plus. 
 
-En règle générale, les 拼花茶 de qualités sont les 窨花茶. 
-L'exemple le plus parlant est le 茉莉花茶 : le thé au jasmin chinois. Le plus prisé des 花茶, il peut être vendu avec ou sans fleurs de jasmin. On remarque que les meilleurs _LǜChá_ sont réservés pour le 窨花茶, le reste pour les 拼花茶. 
+En règle générale, les _HuāChá_ de qualités sont les _Xūn HuāChá_. 
+L'exemple le plus parlant est le 茉莉花茶 _MòlìHuā Chá_ : le thé au jasmin chinois. Le plus prisé des _HuāChá_, il peut être vendu avec ou sans fleurs de jasmin. On remarque que les meilleurs _LǜChá_ sont réservés pour le _Xūn HuāChá_, le reste pour les _PīnHuā Chá_. 
 
-Comme autre thé au fleurs fameux, on peut citer : le thé aux orchidées 球兰花茶 Qiú lánhuā chá, le thé à la rose de Chine 玫瑰花茶 Méiguī huāchá, le thé aux chrysanthèmes 菊花茶 Júhuā chá.
+Comme autre thé au fleurs fameux, on peut citer : le thé aux orchidées 球蘭花茶 _Qiú LánHuā Chá_, le thé à la rose de Chine 玫瑰花茶 _MéiGuī HuāChá_, le thé aux chrysanthèmes 菊花茶 _JúHuā Chá_.
 
