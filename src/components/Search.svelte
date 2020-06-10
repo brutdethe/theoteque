@@ -41,7 +41,7 @@
     <Select
         items="{teas}"
         bind:selectedTea
-        placeholder="recherche"
+        placeholder="rechercher un thé"
         groupBy="{tea => tea.group}"
         noOptionsMessage="aucun thé trouvé"
         on:select="{tea => {

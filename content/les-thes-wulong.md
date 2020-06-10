@@ -1,8 +1,8 @@
 ---
 lien: les-thes-wulong
-titre: 烏龍茶 - les WūLóng
+titre: 烏龍茶 - les WūLóng - (thés bleus)
 description: Un article pour comprendre les WūLóng, découvrir les différentes familles et soigner l'infusion
-categorie: base
+catégorie: base
 ---
 
 ## 烏龍茶 - les thés _WūLóng_
@@ -41,4 +41,4 @@ Grâce au travail de façonnage (ou le roulage, 揉捻 _RóuNiǎn_), il existe 3
       
 ### Comment infuser un _WūLóng_ ?
 
-Le _WūLóng_ est un thé qui peut être infusé de nombreuses fois, entre 4 et plus de 10 selon le type. Le [工夫茶 _Gōng Fū Chá_](/assets/documentation/gong-fu-cha-pao-fa) est la méthode la plus adaptée pour le _WūLóng_ car il optimise la qualité gustative. 
+Le _WūLóng_ est un thé qui peut être infusé de nombreuses fois, entre 4 et plus de 10 selon le type. Le [工夫茶 _Gōng Fū Chá_](/assets/ressources/gong-fu-cha-pao-fa) est la méthode la plus adaptée pour le _WūLóng_ car il optimise la qualité gustative. 

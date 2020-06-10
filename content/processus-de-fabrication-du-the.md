@@ -3,7 +3,7 @@ lien: processus-de-fabrication-du-the
 titre: Le processus de fabrication du thé
 description: Description des différentes étapes de fabrication du thé
 par: pntbr, thais
-categorie: intermediaire
+catégorie: intermediaire
 ---
 
 ## Processus de fabrication du thé
@@ -22,7 +22,7 @@ La description des étapes proposée ici est très réductrice, elle généralis
 
 - **Cueillette**{#picking} [^4] : Dans les jardins de thé, les bourgeons et/ou deux (ou quelques) jeunes feuilles sont cueillies sur les buissons de _Camellia Sinensis_ principalement au printemps et début de l'été et plus rarement en automne
 {:.foo}
-- **Flétrissage**{#withered} [^5] : Les feuilles de thé commencent à se flétrir peu après la cueillette, avec un début progressif d'oxydation enzymatique. Le flétrissage est utilisé pour éliminer l'excès d'eau des feuilles et permet une très légère oxydation. Les feuilles peuvent être soit mises au soleil, soit laissées dans une pièce fraîche et brillante. Les feuilles sont parfois cassées [^6] pour favoriser l'oxydation. Elles peuvent être simplement secouées ou bien elles sont abîmées en les pétrissant ou en les roulant par exemple [^7]. Elles sont ensuite laissées dans une pièce climatisée où elles deviennent progressivement plus foncées. Dans ce processus, la chlorophylle des feuilles est décomposée par les enzymes et ses tannins sont libérés ou transformés. Ce processus d'_oxydation enzymatique_ est parfois appelé à tort _fermentation_ dans l'industrie du thé. [en savoir plus](./documentation/oxydation-vs-fermentation)
+- **Flétrissage**{#withered} [^5] : Les feuilles de thé commencent à se flétrir peu après la cueillette, avec un début progressif d'oxydation enzymatique. Le flétrissage est utilisé pour éliminer l'excès d'eau des feuilles et permet une très légère oxydation. Les feuilles peuvent être soit mises au soleil, soit laissées dans une pièce fraîche et brillante. Les feuilles sont parfois cassées [^6] pour favoriser l'oxydation. Elles peuvent être simplement secouées ou bien elles sont abîmées en les pétrissant ou en les roulant par exemple [^7]. Elles sont ensuite laissées dans une pièce climatisée où elles deviennent progressivement plus foncées. Dans ce processus, la chlorophylle des feuilles est décomposée par les enzymes et ses tannins sont libérés ou transformés. Ce processus d'_oxydation enzymatique_ est parfois appelé à tort _fermentation_ dans l'industrie du thé. [en savoir plus](./ressources/oxydation-vs-fermentation)
 
 - **Fixation**{#fixed} [^8] : La fixation ( 殺青 - _ShāQīng_ [^9]) est effectuée pour arrêter l'oxydation (brunissement enzymatique [^10]) des feuilles de thé à un niveau souhaité. Ce processus est accompli en chauffant les feuilles de thé à environ 65° (200°) ce qui désactive leurs enzymes oxydantes et élimine les odeurs indésirables dans les feuilles, sans endommager la saveur du thé. Les cuissons lentes favorisent la _réaction de Maillard_ [^11] (brunissement non-enzymatique) qui augmente la palette aromatique. Par exemple, les _Lǜ Chá_ qui sont cuits à la vapeur ont un aspect vert brillant et végétal caractéristiques et n'auront pas les notes de céréales grillées et la palette d'arômes élargie des thés cuient au wok.
 
@@ -40,7 +40,7 @@ La torréfaction, quand il y en a une, pourra se faire en une ou en plusieurs fo
 
 [^1]: [Modern _WūLóng_](https://invidio.us/watch?v=CzkhqNjJ_Mg)
 
-[^2]: [Thé mordu par des insectes](/documentation/cicadellidae)
+[^2]: [Thé mordu par des insectes](/ressources/cicadellidae)
 
 [^3]: [tea processing chart](https://teaepicure.com/tea-processing-chart/)
 

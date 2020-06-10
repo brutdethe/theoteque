@@ -3,7 +3,7 @@ lien: les-types-de-thes
 titre: Les types de thé
 description: Description des 6+1 différents type de thé
 par: pntbr, thais
-categorie: base
+catégorie: base
 ---
 
 ## Les 6 ou 6+1 types de thés ?
@@ -38,7 +38,7 @@ Avec cette 7ème catégorie ajouté on obtient le tableau ci-dessous :
 
 ### 绿茶 - Lǜ Chá - thé vert
 
-Le _Lǜ Chá_ est la forme la plus ancienne et la plus populaire dans les types de thé. Il est fabriqué à partir des jeunes feuilles et des jeunes bourgeons. Dès que l'on cueille les feuilles la réaction d'oxydation (_brunissement enzymatique_) démarre. Pour ce type de thé le producteur stoppe le processus (  殺青 - _ShāQīng_ [^4] ) afin d'obtenir un thé très peu oxydé, entre 0% et 5%. Cette étape de _[fixation](./documentation/processus-de-fabrication-du-the#fixed)_ consiste à chauffer les feuilles pour altérer les enzymes responsables : la _polyphénol oxydase_ et la _peroxydase_.
+Le _Lǜ Chá_ est la forme la plus ancienne et la plus populaire dans les types de thé. Il est fabriqué à partir des jeunes feuilles et des jeunes bourgeons. Dès que l'on cueille les feuilles la réaction d'oxydation (_brunissement enzymatique_) démarre. Pour ce type de thé le producteur stoppe le processus (  殺青 - _ShāQīng_ [^4] ) afin d'obtenir un thé très peu oxydé, entre 0% et 5%. Cette étape de _[fixation](./ressources/processus-de-fabrication-du-the#fixed)_ consiste à chauffer les feuilles pour altérer les enzymes responsables : la _polyphénol oxydase_ et la _peroxydase_.
 
 Les principales provinces qui produisent se situent à 浙江 _ZhèJiāng_, 海南 _HǎiNán_, 安徽 _ĀnHuī_ et 江蘇 _JiāngSū_.
 

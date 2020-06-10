@@ -22,7 +22,7 @@
 
 <script context="module">
     export function preload({ params, query }) {
-        return this.fetch(`documentation.json`)
+        return this.fetch(`ressources.json`)
             .then(r => r.json())
             .then(posts => {
                 return { posts }
@@ -66,17 +66,17 @@
     ]
 
     function getPostsByCategory(category, posts) {
-        return posts.filter(post => post.categorie === category)
+        return posts.filter(post => post.catégorie === category)
     }
 </script>
 
 <svelte:head>
-    <title>Documentation sur les thés</title>
+    <title>Ressources sur les thés</title>
 </svelte:head>
 
 <section id="ghTree" class="ghTree" data-title="tree">
 
-    <h1>Liste des articles</h1>
+    <h1>Liste des ressources</h1>
 
     {#each categories as category}
         <h2 class="ghTreeCategory">{category.title}</h2>
@@ -92,7 +92,7 @@
                         rel="prefetch"
                         class="folderLink"
                         data-title="folderLink"
-                        href="documentation/{post.lien}"
+                        href="ressources/{post.lien}"
                     >
                         {post.titre}
                     </a>
@@ -104,7 +104,7 @@
                     class="ghTreeReadmore"
                     title="Lire la suite de la fiche : {post.titre}"
                     data-title="fileReadmoreLink"
-                    href="documentation/{post.lien}"
+                    href="ressources/{post.lien}"
                 >
                     Lire la suite de la fiche
                 </a>

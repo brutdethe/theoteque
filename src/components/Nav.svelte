@@ -66,16 +66,16 @@
                 aria-current="{segment === 'liste-des-thes-tous' ? 'page' : undefined}"
                 href="liste-des-thes-tous"
             >
-                Liste des thés
+                Théothèque
             </a>
         </li>
         <li>
             <a
                 rel="prefetch"
-                href="documentation"
-                aria-current="{segment === 'documentation' ? 'page' : undefined}"
+                href="ressources"
+                aria-current="{segment === 'ressources' ? 'page' : undefined}"
             >
-                Documentation
+                Ressources
             </a>
         </li>
         <li>

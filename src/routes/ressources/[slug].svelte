@@ -102,7 +102,7 @@
     export async function preload({ params, query }) {
         // the `slug` parameter is available because
         // this file is called [slug].svelte
-        const res = await this.fetch(`documentation/${params.slug}.json`)
+        const res = await this.fetch(`ressources/${params.slug}.json`)
         const data = await res.json()
 
         if (res.status === 200) {
@@ -129,14 +129,14 @@
 
 <aside class="blobTools">
     <a
-        href="https://github.com/oisiflorus/documentation/blob/master/journees-cogitation/prix-libre-et-dialogue.md"
+        href="https://github.com/oisiflorus/ressources/blob/master/journees-cogitation/prix-libre-et-dialogue.md"
         title="Voir sur Github"
         class="blobGhLink tooltip"
     >
         &nbsp;
     </a>
     <a
-        href="https://github.com/oisiflorus/documentation/edit/master/journees-cogitation/prix-libre-et-dialogue.md"
+        href="https://github.com/oisiflorus/ressources/edit/master/journees-cogitation/prix-libre-et-dialogue.md"
         title="Éditer sur Github"
         class="blobGhEdit tooltip"
     >

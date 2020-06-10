@@ -3,7 +3,7 @@ lien: gong-fu-cha-pao-fa
 titre: 工夫茶泡法 - Gōng Fū Chá PàoFǎ
 description: >
   Guide pour infuser avec l'approche Gōng Fū Chá
-categorie: intermediaire
+catégorie: intermediaire
 ---
 
 ## L’équipement de base pour la pratique du _Gōng Fū Chá_ :

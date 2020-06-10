@@ -3,10 +3,10 @@ lien: thes-verts
 titre: 绿茶 - LǜChá - (thés verts) 
 description: >
   Le Lǜ Chá (thé vert) est l'un des incontournables du monde du thé. Excellent pour la santé et plus rapide à fabriquer que les autres thés, il est consommé partout dans le monde, nature et quelque fois aromatisé. 
-categorie: base
+catégorie: base
 ---
 
-Nous ne nous pencherons pas ici sur son procédé de fabrication, que vous trouverez [ici](/documentation/thes-verts), ni sur leur infusion (que vous trouverez dans chaque fiche thé de l'application Broutille). 
+Nous ne nous pencherons pas ici sur son procédé de fabrication, que vous trouverez [ici](/ressources/thes-verts), ni sur leur infusion (que vous trouverez dans chaque fiche thé de l'application Broutille). 
 
 ![_LóngJǐng_ infusé en GàiWǎn](/assets/media/the-vert_gaiwan.jpg)
 _LóngJǐng infusé en GàiWǎn_

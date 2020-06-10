@@ -3,7 +3,7 @@ lien: aide-memoire
 titre: Aide mémoire pour contribuer
 description: > 
   Permet de retrouver facilement les liens vers les différentes ressources
-categorie: contribution
+catégorie: contribution
 ---
 
 ## Les liens
@@ -22,7 +22,7 @@ categorie: contribution
 - Broutille : L'adresse du dépôt Github (où se trouve le code source) et le contenu des articles :  
 📎 [github.com/oisiflorus/broutille](https://github.com/oisiflorus/broutille)  
 
-- Broutille : Le contenu des articles de la documentation :  
+- Broutille : Le contenu des articles de la ressources :  
 📎 [github.com/oisiflorus/articles](https://github.com/oisiflorus/broutille/tree/master/content)  
 
 - API-tea : L'adresse du dépôt Github où se trouve les _data_ sur les thés :  
