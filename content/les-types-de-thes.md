@@ -159,7 +159,7 @@ Conditionné sous forme compressée (galette, nid, champignon, etc.) et stocké 
     \- [Mei Leaf : the 6 types of tea](https://invidio.us/watch?v=EUuw5rqWkZU)  
     \- [wikipedia : types de thés et étapes de production](https://fr.wikipedia.org/wiki/Th%C3%A9#Types_de_th%C3%A9_et_%C3%A9tapes_de_production)
 
-[^4]: [Long Jing tea reportage](https://invidio.us/watch?v=7DmnpLY-V68)
+[^4]: [_LóngJǐng_ tea reportage](https://invidio.us/watch?v=7DmnpLY-V68)
 
 [^5]: [5 green teas tasting](https://invidio.us/watch?v=0-H15W3g-ig)
 
@@ -167,13 +167,13 @@ Conditionné sous forme compressée (galette, nid, champignon, etc.) et stocké 
 
 [^7]: 一年茶，三年藥，七年寶 est un adage Chinois pour le thé blanc : 1 an thé, 3 ans médicament, 7 ans trésors
 
-[^8]: [Wulong guide](https://teaepicure.com/oolong-tea-guide)
+[^8]: [_WūLóng_ guide](https://teaepicure.com/oolong-tea-guide)
 
 [^9]: vidéos reportage
 
-    \- [Tie Guan Yin](https://invidio.us/watch?v=CS-KCBmY2pA)  
+    \- [_Tiě GuānYīn_](https://invidio.us/watch?v=CS-KCBmY2pA)  
     \- [Dan Cong](https://invidio.us/watch?v=jXYFbWHHRXs)
 
-[^10]: [Keemun reportage](https://invidio.us/watch?v=kk7fA1-t7YA)
+[^10]: [_QíMén_ reportage](https://invidio.us/watch?v=kk7fA1-t7YA)
 
-[^11]: [Making pu'er tea](https://invidio.us/d2BekCvAZqM)
+[^11]: [Making _Pǔ'ěr_ tea](https://invidio.us/d2BekCvAZqM)

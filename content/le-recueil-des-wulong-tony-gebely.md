@@ -7,6 +7,12 @@ par: Tony Gebely
 categorie: traduction
 ---
 
+<style>
+  .container image {
+    display: inline;
+  }
+</style>
+
 _Traduction de l'article original en anglais de Tony Gebely : https://teaepicure.com/oolong-tea-guide_
 
 > Ce contenu est un extrait du livre de Tony, [_Tea : A User's Guide_](https://teausersguide.com). Pour plus d'informations sur le livre, veuillez consulter le [site web](https://teausersguide.com) du livre.
@@ -75,7 +81,7 @@ Feuilles sombres _Ānxī Tiě GuānYīn_
 ![Liqueur sombre Ānxī Tiě GuānYīn](/assets/media/recueil-wulong_dark-anxi-tie-guan-yin-liquor.jpg)
 Liqueur sombre _Ānxī Tiě GuānYīn_
 
-#### 安溪鐵觀音 _Ānxī Tiě GuānYīn_ -(Déesse de fer de la miséricorde)
+#### 安溪鐵觀音 _Ānxī Tiě GuānYīn_ -(Iron Goddess of Mercy)
 
 Ce style de thé est produit dans le comté d'_Ānxī_ de la province du _Fújiàn_ et est sans doute le _WūLóng_ le plus célèbre. Le _Tiě GuānYīn_ est fait à partir des feuilles d'un _cultivar_ du même nom, le _Tiě GuānYīn_. Les versions traditionnelles de ce thé sont fortement torréfiées, mais aujourd'hui, on le trouve le plus souvent à l'état vert, non torréfié. Le _Tiě GuānYīn_ est l'un des dix thés les plus célèbres de Chine ; il est connu pour son parfum floral et 喉韻 _Hóu Yùn_, qui signifie "résonance de la gorge" ou "arrière-goût".
 
@@ -105,7 +111,7 @@ Feuilles d'_Ānxī Máo Xiè_
 ![Liqueur Ānxī Máo Xiè](/assets/media/recueil-wulong_anxi-mao-xie-liquor.jpg)
 Liqueur _Ānxī Máo Xiè_
 
-#### 安溪毛蟹 _Ānxī Máo Xiè_ -(Crabe poilu)
+#### 安溪毛蟹 _Ānxī Máo Xiè_ - (Hairy Crabs)
 
 Ce style de thé est produit dans le comté d'_Ānxī_ de la province du _Fújiàn_. Le _Máo Xiè_ est très similaire en apparence au _Tiě GuānYīn_, la caractéristique distinctive étant la grande quantité de poils sur les feuilles. Le _cultivar_ à partir duquel ce thé est produit, le _Máo Xiè_, est connu pour ses feuilles poilues ressemblant à celles d'un crabe.
 
@@ -141,7 +147,7 @@ Départ de _WŭYí Dà Hóng Páo_
 ![Liqueur WŭYí Dà Hóng Páo](/assets/media/recueil-wulong_wuyi-da-hong-pao-liquor.jpg)
 Liqueur _WŭYí Dà Hóng Páo_
 
-#### 武夷大紅袍 _WŭYí Dà Hóng Páo_ -(Big Red Dress)
+#### 武夷大紅袍 _WŭYí Dà Hóng Páo_ - (Big Red Dress)
 
 Ce style de thé est l'un des deux _WūLóng_(_Tiě GuānYīn_ est l'autre) qui figurent dans la liste des dix thés chinois les plus célèbres. Le _WŭYí Dà Hóng Páo_ est le plus célèbre et le plus largement produit des thés _Sì DàMíng Cóng_. Il n'existe pas de _cultivar_ spécifique de _Dà Hóng Páo_ ; on utilise soit le 奇丹 _Qí Dān_ ou le 北斗 _BěiDǒu_, soit un mélange de plusieurs _cultivars_ différents dans le but de créer un thé qui illustre au mieux le _Yán Yùn_, l'arrière-goût distinctif des _WŭYí Yán Chá_.
 
@@ -151,7 +157,7 @@ Départ de _WŭYí Shuǐ JīnGuī_
 ![Liqueur WŭYí Shuǐ JīnGuī](/assets/media/recueil-wulong_wuyi-shui-jin-gui-liquor.jpg)
 Liqueur _WŭYí Shuǐ JīnGuī_
 
-#### 武夷水金龜 _WŭYí Shuǐ JīnGuī_ -(Tortue d'Eau Dorée)
+#### 武夷水金龜 _WŭYí Shuǐ JīnGuī_ - (Tortue d'Eau Dorée)
 
 Ce style de thé est un thé _WŭYí Sì DàMíng Cóng_ fabriqué à partir du _cultivar_ _Shuǐ JīnGuī_.
 
@@ -280,7 +286,7 @@ Liqueur _DōngFāng MĕiRén_
 
 #### 東方美人 _DōngFāng MĕiRén_ -(Oriental Beauty)
 
-Ce style de thé est également connu sous le nom de _Bái Háo_ ou _White Tip WūLóng_ en raison de l'utilisation de bourgeons dans le thé fini. Le _DōngFāng MĕiRén_ est originaire de la région de _XīnZhú_, dans le nord de _TáiWān_, et est produit à partir du _cultivar_ _Qīng Xīn Dà Mào_. Ce _WūLóng_ torsadé est fortement flétrit et fortement oxydé 70-80%. Le processus d'oxydation commence alors que les feuilles sont encore sur pied par les morsures d'insectes comme les [_Amrasca biguttula_](https://en.wikipedia.org/wiki/Amrasca_biguttula). La plante crée davantage de _polyphénols_ pour inhiber les attaques des insectes.
+Ce style de thé est également connu sous le nom de _Bái Háo_ ou _White Tip WūLóng_ en raison de l'utilisation de bourgeons dans le thé fini. Le _DōngFāng MĕiRén_ est originaire de la région de _XīnZhú_, dans le nord de _TáiWān_, et est produit à partir du _cultivar_ _Qīng Xīn Dà Mào_. Ce _WūLóng_ torsadé est fortement flétrit et fortement oxydé 70-80%. Le processus d'oxydation commence alors que les feuilles sont encore sur pied par les morsures d'insectes comme les [_cicadelles_](https://fr.wikipedia.org/wiki/Cicadelle). La plante crée davantage de _polyphénols_ pour inhiber les attaques des insectes.
 
 ![Feuilles de Gāo Shān(Jīn Xuān de Ali Shan)](/assets/media/recueil-wulong_gaoshan-jinxuan-alishan-leaves.jpg)
 Feuilles de _Gāo Shān_(_Jīn Xuān_ de Ali Shan)
@@ -347,7 +353,7 @@ Les feuilles de _Guì Fēi_
 
 #### 贵妃 _Guì Fēi_(Precious Concubine)
 
-Le _Guì Fēi_ est un style de thé qui est traité de la même façon que le _DōngFāng MĕiRén_, sauf qu'il est roulé en forme de demi-perle au lieu d'être torsadé. Tout comme le _DōngFāng MĕiRén_, il est cultivé sans pesticide et peut être piqué par les morsures [_d'Amrasca biguttula_](https://en.wikipedia.org/wiki/Amrasca_biguttula). Le _Guì Fēi_ est souvent très oxydé et légèrement grillé.
+Le _Guì Fēi_ est un style de thé qui est traité de la même façon que le _DōngFāng MĕiRén_, sauf qu'il est roulé en forme de demi-perle au lieu d'être torsadé. Tout comme le _DōngFāng MĕiRén_, il est cultivé sans pesticide et peut être piqué par les morsures de [_cicadelles_](https://fr.wikipedia.org/wiki/Cicadelle). Le _Guì Fēi_ est souvent très oxydé et légèrement grillé.
 
 ![Feuilles de Gaba](/assets/media/recueil-wulong_gaba-oolong-leaves.jpg)
 Feuilles de _Gaba_

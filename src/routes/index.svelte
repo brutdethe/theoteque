@@ -19,10 +19,10 @@
 </style>
 
 <svelte:head>
-    <title>Broutille</title>
+    <title>Thé de Chine et de Taïwan</title>
 </svelte:head>
 
-<h1 class="banner">broutille</h1>
+<h1 class="banner">Thé de Chine</h1>
 <h2 id="pourquoi-">Pourquoi ?</h2>
 <p>
     Ce site présente des ressources pour vous inviter à découvrir ou approfondir

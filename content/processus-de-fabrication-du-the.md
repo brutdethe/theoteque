@@ -38,9 +38,9 @@ La torréfaction, quand il y en a une, pourra se faire en une ou en plusieurs fo
 ---
 #### Notes
 
-[^1]: [Modern Wulong](https://invidio.us/watch?v=CzkhqNjJ_Mg)
+[^1]: [Modern _WūLóng_](https://invidio.us/watch?v=CzkhqNjJ_Mg)
 
-[^2]: [bug bitte tea](http://www.teageek.net/blog/2016/02/bug-bitten-teas-why-are-leafhoppers-only-sometimes-a-good-thing/)
+[^2]: [Thé mordu par des insectes](/documentation/cicadellidae)
 
 [^3]: [tea processing chart](https://teaepicure.com/tea-processing-chart/)
 
@@ -49,15 +49,15 @@ La torréfaction, quand il y en a une, pourra se faire en une ou en plusieurs fo
 [^5]: vidéos sur le flétrissage :
 
     \- [red tea withering](https://invidio.us/kk7fA1-t7YA?t=345)  
-    \- [pu'er tea withering](https://invidio.us/ZAcpNMRY4LE?t=587)
+    \- [_Pǔ'ěr_ tea withering](https://invidio.us/ZAcpNMRY4LE?t=587)
 
-[^6]: [wulong tea oxydation](https://invidio.us/CS-KCBmY2pA?t=640)
+[^6]: [_WūLóng_ tea oxydation](https://invidio.us/CS-KCBmY2pA?t=640)
 
 [^7]: [red tea rolling machine](https://invidio.us/kk7fA1-t7YA?t=437)
 
 [^8]: [green tea fixation](https://invidio.us/_KxwUpEEq64?t=614)
 
-[^9]: [Long Jing tea reportage](https://invidio.us/watch?v=7DmnpLY-V68)
+[^9]: [_LóngJǐng_ tea reportage](https://invidio.us/watch?v=7DmnpLY-V68)
 
 [^10]: [Brunissement enzymatique](https://fr.wikipedia.org/wiki/Brunissement_enzymatique)
 
@@ -67,17 +67,17 @@ La torréfaction, quand il y en a une, pourra se faire en une ou en plusieurs fo
   
 [^13]: . vidéos de façonnage :
 
-    \- [wulong tea rolling](https://invidio.us/CS-KCBmY2pA?t=745)  
-    \- [pu'er tea cake](https://invidio.us/syDZMKuU1tY?t=22)
+    \- [_WūLóng_ tea rolling](https://invidio.us/CS-KCBmY2pA?t=745)  
+    \- [_Pǔ'ěr_ tea cake](https://invidio.us/syDZMKuU1tY?t=22)
 
 [^14]: . vidéos de séchage :
 
     \- [white tea drying](https://invidio.us/GtDSfYq4sPg?t=1981)  
     \- [four de séchage industriel](https://invidio.us/ftMU1J-4Jvg)
 
-[^15]: . [wulong roasting](https://invidio.us/CS-KCBmY2pA?t=1711)
+[^15]: . [_WūLóng_ roasting](https://invidio.us/CS-KCBmY2pA?t=1711)
 
 [^16]: . vidéos sur la fermentation
 
-    \- [sheng cha fermentation](https://invidio.us/d2BekCvAZqM?t=448)  
-    \- [shu cha fermentation](https://invidio.us/oI4yDyH1oUM)
+    \- [_Shēng Chá_ fermentation](https://invidio.us/d2BekCvAZqM?t=448)  
+    \- [_Shú Chá_ fermentation](https://invidio.us/oI4yDyH1oUM)

@@ -79,15 +79,6 @@
             </a>
         </li>
         <li>
-            <a
-                rel="prefetch"
-                href="termes"
-                aria-current="{segment === 'termes' ? 'page' : undefined}"
-            >
-                Termes
-            </a>
-        </li>
-        <li>
             <Search />
         </li>
 

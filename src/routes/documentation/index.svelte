@@ -34,11 +34,35 @@
     export let posts
 
     const categories = [
-        { name: 'base', title: 'Pour comprendre les bases' },
-        { name: 'intermediaire', title: 'Pour se cultiver' },
-        { name: 'expert', title: 'Pour creuser' },
-        { name: 'traduction', title: "Pour s'ouvrir sur le monde" },
-        { name: 'contribution', title: 'Pour contribuer' }
+        {
+            name: 'base',
+            title: 'Les bases',
+            excerpt:
+                "Quelques articles pour se repérer et mettre le pied à l'étrier"
+        },
+        {
+            name: 'intermediaire',
+            title: 'Pour approfondir',
+            excerpt: 'Pour tranquillement, aller un peu plus loin'
+        },
+        {
+            name: 'expert',
+            title: 'Pour butiner',
+            excerpt:
+                'Vous trouverez là, des articles variés pour creuser des sujets spécifiques'
+        },
+        {
+            name: 'traduction',
+            title: "Pour s'ouvrir sur le monde",
+            excerpt:
+                "Petite collection d'articles sélectionnés et traduits de l'anglais ou du chinois"
+        },
+        {
+            name: 'contribution',
+            title: 'Pour contribuer',
+            excerpt:
+                'Si cous souhaitez contribuer, vous trouverez ci-dessous quelques fiches pour démarrer'
+        }
     ]
 
     function getPostsByCategory(category, posts) {
@@ -56,6 +80,7 @@
 
     {#each categories as category}
         <h2 class="ghTreeCategory">{category.title}</h2>
+        <p>{category.excerpt}</p>
         {#each getPostsByCategory(category.name, posts) as post}
             <!-- we're using the non-standard `rel=prefetch` attribute to
 				tell Sapper to load the data for the page as soon as
