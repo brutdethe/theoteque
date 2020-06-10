@@ -11,106 +11,59 @@
         color: #002920;
         text-align: center;
         background: url(/assets/danslajungle.png) center center no-repeat;
-        font-size: 3.5em;
+        font-size: 3.2em;
         font-weight: lighter;
-        text-transform: uppercase;
+        line-height: 1em;
         border: none;
     }
 </style>
 
 <svelte:head>
-    <title>Thé de Chine et de Taïwan</title>
+    <title>Thé de Chine - Taïwan</title>
 </svelte:head>
 
-<h1 class="banner">Thé de Chine</h1>
-<h2 id="pourquoi-">Pourquoi ?</h2>
-<p>
-    Ce site présente des ressources pour vous inviter à découvrir ou approfondir
-    vos connaissances sur les thés de Chine et de Taiwan et à explorer une
-    approche traditionnelle et artisanale des thés.
-</p>
-
-<h2 id="qui-sommes-nous-">Qui sommes-nous ?</h2>
-
-<p>
-    Thaïs et Stéphane partagent la même passion, ils documentent et tentent des
-    expériences autour de l'art chinois du thé.
-</p>
-
-<p>
-    <a href="/nous-contacter">Nous contacter</a>
-</p>
-
-<h2 id="philosophie">Philosophie</h2>
-
-<p>
-    Si vous découvrez le monde des thés authentiques, les indications prodiguées
-    dans ce site vous permettront de découvrir une porte d’entrée. Par la suite,
-    vous comprendrez peu à peu que chaque thé, chaque instant de dégustation et
-    chaque personne étant différents toutes ces indications utiles au départ se
-    révéleront pauvres au regard de vos intuitions.
-</p>
-
-<hr />
-
-<h2 id="quelques-actions--">Quelques actions :</h2>
-
-<h2 id="les-journées-de-cogitation-sur-le-thé">
-    Les journées de cogitation sur le thé
-</h2>
-
-<p>
-    Ces journées sont organisées sous la forme de randos-urbaines. Un parcours
-    de lieux insolites est proposé aux participant·e·s.
+<h1 class="banner">
+    THÉ
     <br />
-    À chaque étape on déguste et on échange sur le monde du thé authentique.
+    Chine & Taïwan
+</h1>
+<h2 id="pourquoi-">Pourquoi ce site ?</h2>
+<p>
+    L'objectif est de proposer des ressources pour vous inviter à découvrir ou
+    approfondir vos connaissances sur les thés de Chine et de Taiwan et à
+    explorer une approche traditionnelle et artisanale des thés.
 </p>
 
+<h3>Pour démarrer</h3>
+
 <ul>
     <li>
-        <a href="https://thedechine.oisiflorus.com/nantes">Nantes</a>
-        - 18 mars 2020 (annulée - COVID-19)
+        <a href="">Adopte un thé</a>
     </li>
     <li>
-        <a href="https://thedechine.oisiflorus.com/montpellier">Montpellier</a>
-        - 12 février 2020
+        <a href="/ressources/faq">Foire Aux Questions</a>
     </li>
 </ul>
 
-<h2 id="quelques-lieux-de-thés-prévenants">
-    Quelques lieux de thés prévenants
-</h2>
-
-<h3 id="nantes">Nantes</h3>
-
+<h3>Infos pratiques</h3>
 <ul>
     <li>
-        <a href="https://danslajungle.oisiflorus.com/nantes/ojacaranda.html">
-            Ôjacaranda
+        <a href="/ressources/lieux-prevenants">
+            Quelques lieux prévenants pour découvrir les thés de Chine et de
+            Taiwan
         </a>
-        : Un salon de thé authentique
+    </li>
+    <li>
+        <a href="/ressources/agenda">Nos rendez-vous passés et à venir</a>
+    </li>
+    <li>
+        <a href="/ressources/contribuer">Guide pour nous aider et contribuer</a>
     </li>
     <li>
         <a
-            href="https://danslajungle.oisiflorus.com/nantes/theine-maison-de-the.html"
+            href="mailto:&#115;&#116;&#101;&#112;&#104;&#97;&#110;&#101;&#64;&#112;&#110;&#116;&#98;&#114;&#46;&#102;&#114;"
         >
-            Théine
+            Nous contacter
         </a>
-        : Petite boutique dans le coeur de ville qui propose des thés et des
-        céramiques du Japon et de Chine
-    </li>
-</ul>
-
-<h3 id="montpellier">Montpellier</h3>
-
-<ul>
-    <li>
-        <a
-            href="https://danslajungle.oisiflorus.com/montpellier/theod-art.html"
-        >
-            Théod’art
-        </a>
-        : Théo d’Art est un endroit idéal pour profiter d’un thé de Chine entre
-        amis
     </li>
 </ul>

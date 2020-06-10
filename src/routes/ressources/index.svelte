@@ -56,12 +56,6 @@
             title: "Pour s'ouvrir sur le monde",
             excerpt:
                 "Petite collection d'articles sélectionnés et traduits de l'anglais ou du chinois"
-        },
-        {
-            name: 'contribution',
-            title: 'Pour contribuer',
-            excerpt:
-                'Si cous souhaitez contribuer, vous trouverez ci-dessous quelques fiches pour démarrer'
         }
     ]
 
