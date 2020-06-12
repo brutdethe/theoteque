@@ -19,7 +19,7 @@ Pour le thé vert, les fabricants utiliseront soit les feuilles de thé, soit le
 Les "AOP" du thé, c'est à dire les thés reconnus tels le 信阳毛尖 - _XìnYáng MáoJiān_, auront dans leur cahier des charges de fabrication un nombre précis de feuilles/bourgeons sur chaque tige à respecter pour donner l'appelation voulu. 
 Exemlpe: le 竹葉青 - _ZhúYèGīng_ devra obligatoirement être fait avec un bourgeon et une feuille ensemble. Autrement dit, les cueilleuses, pour faire ce thé en particulier, cueilleront sur les arbres à thé une tige contenant un bourgeon et une feuille ensemble. 
 
-Le thé vert est principalement fourni par de petits arbustes à thé (灌木茶树 Guànmù cháshù), ne dépassant pas 1,5 mètre en général et n'ayant pas une espérance de vie longue, alors que les thés noirs par exemple sont fourni essentiellement par des arbres à thés (乔木茶树 Qiáomù cháshù），pouvant vivre pendant plusieurs centaines voir plusieurs milliers d'années. 
+Le thé vert est principalement fourni par de petits arbustes à thé (灌木 Guànmù), ne dépassant pas 1,5 mètre en général et n'ayant pas une espérance de vie longue, alors que les thés noirs par exemple sont fourni essentiellement par des arbres à thés (乔木 Qiáomù），pouvant vivre pendant plusieurs centaines voir plusieurs milliers d'années. 
 
 En Chine, on retrouve le thé vert dans toutes les provinces productrices de thé. La plus grosse production de thé en Chine est constituée par le _LǜChá_. Si l'immense majorité des _LǜChá_ en Chine sont consommés purs, c'est à dire sans saveur ajoutée ni matière (lait, miel, etc), il en existe cependant certains qui sont aromatisés de manière naturelle. Nous le verrons plus bas. 
 
