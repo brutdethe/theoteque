@@ -18,7 +18,6 @@ export function get(req, res, next) {
 	const { data, content } = grayMatter(post)
 
 	const html = md.render(content)
-	console.log('html', html)
 
 	if (html) {
 		res.writeHead(200, {
