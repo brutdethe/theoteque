@@ -7,14 +7,17 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
         min-height: 610px;
         color: #002920;
-        text-align: center;
         background: url(/assets/danslajungle.png) center center no-repeat;
         font-size: 3.2em;
         font-weight: lighter;
         line-height: 1em;
         border: none;
+    }
+    .mini {
+        font-size: 0.75em;
     }
 </style>
 
@@ -23,9 +26,8 @@
 </svelte:head>
 
 <h1 class="banner">
-    THÉ
-    <br />
-    Chine & Taïwan
+    <span class="tea">THÉ</span>
+    <span class="mini">Chine & Taïwan</span>
 </h1>
 <h2 id="pourquoi-">Pourquoi ce site ?</h2>
 <p>
