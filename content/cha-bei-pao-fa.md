@@ -14,7 +14,7 @@ Pour certains thés, et notamment les thés verts, on préférera choisir une in
 On pratique généralement l'infusion d'un thé dans un verre pour les thés verts (les 3V: Verre en Verre pour thé Vert).
 La raison est simple: permettre à celui qui boit d'admirer en même temps les feuilles de thé s'ouvrir et "danser" quelquefois. L'eau claire du thé vert permet en effet de proposer ce plaisir des yeux. 
 
-Le verre à thé vert basique est beaucoup plus grand que les tasses à thé. Ils ont une anse pour les verres "pratiques", pour boire le thé tous les jours. Ils sont de forme octogonale et sans anse pour les verres de cérémonie.
+Le verre à thé vert basique est beaucoup plus grand que les tasses à thé. Ils ont une anse latérale pour les verres "pratiques", pour boire le thé tous les jours. Ils sont de forme octogonale et sans anse pour les verres de cérémonie.
 
 ![茶杯](/assets/media/chabeipaofa-chabei.jpg)
 
