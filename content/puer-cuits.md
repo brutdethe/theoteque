@@ -33,7 +33,8 @@ Thé pressé en brique rectangulaire
 
 Thé pressé en forme de gâteau
 
-![饼茶](http://image.baidu.com/search/detail?ct=503316480&z=&tn=baiduimagedetail&ipn=d&word=%E9%A5%BC%E8%8C%B6%E7%86%9F%E8%8C%B6&step_word=&ie=utf-8&in=&cl=2&lm=-1&st=-1&hd=0&latest=0&copyright=0&cs=1211355061,2674247391&os=3686795722,1483768970&simid=91608126,912319365&pn=3&rn=1&di=76230&ln=1805&fr=&fmq=1592151274579_R&fm=result&ic=0&s=undefined&se=&sme=&tab=0&width=&height=&face=undefined&is=0,0&istype=2&ist=&jit=&bdtype=0&spn=0&pi=0&gsm=0&objurl=http%3A%2F%2Fwww.tbw-xie.com%2FtuxieJDA0JDIyLzIwNzY2Mjk3MDcvVEIyYW5hWWNnMUouZUJqeTBGcFhYYU1vWFhhXyEhMjA3NjYyOTcwNyQ5.jpg&rpstart=0&rpnum=0&adpicid=0&force=undefined&ctd=1592151291150^3_1440X669%1)
+![饼茶](assets/media/puercuits-bingcha.jpg)
+
 ## 沱茶 Tuóchá
 
 Thé pressé en forme de nid d'oiseau
