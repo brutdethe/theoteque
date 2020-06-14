@@ -21,8 +21,8 @@ Le verre à thé vert basique est beaucoup plus grand que les tasses à thé. Il
 ## La méthode
 
 Après avoir versé de l'eau bouillante dans le verre afin de stériliser le verre, vider l'eau et mettre les feuilles directement dans le verre. 
-Verser l'eau chaude à température désirée [températures](master/content/table-d-infusion.md) soit directement sur les feuilles soit sur les bords du verre. 
-Laisser infuser le temps qu'il faut [table d'infusion](master/content/table-d-infusion.md), et déguster sans autre artifice: les feuilles se déposeront naturellement au fond du verre.
+Verser l'eau chaude à température désirée [températures](/master/content/table-d-infusion.md) soit directement sur les feuilles soit sur les bords du verre. 
+Laisser infuser le temps qu'il faut [table d'infusion](/master/content/table-d-infusion.md), et déguster sans autre artifice: les feuilles se déposeront naturellement au fond du verre.
 
 Réitérez l'opération autant de fois que les feuilles vous l'autorise. En général vous verserez au moins trois fois de l'eau chaude sur le même thé.
 
