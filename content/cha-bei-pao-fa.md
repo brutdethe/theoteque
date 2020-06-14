@@ -1,12 +1,13 @@
 ---
 lien: cha-bei-pao-fa
 titre: 茶杯泡法 - CháBēi Pào Fǎ
+par: Thaïs
 description: >
   L'infusion au verre ...
 catégorie: intermediaire
 ---
 
-Pour certains thé, on préférera choisir une infusion dans un grand verre: c'est la 茶杯泡法 _CháBēi Pào Fǎ_.
+Pour certains thés, et notamment les thés verts, on préférera choisir une infusion dans un grand verre trasparent: c'est la 茶杯泡法 _CháBēi Pào Fǎ_.
 
 # Les verres à thés
 
