@@ -21,6 +21,8 @@ Exemlpe: le 竹葉青 - _ZhúYèGīng_ devra obligatoirement être fait avec un 
 
 Le thé vert est principalement fourni par de petits arbustes à thé (灌木 Guànmù), ne dépassant pas 1,5 mètre en général et n'ayant pas une espérance de vie longue, alors que les thés noirs par exemple sont fourni essentiellement par des arbres à thés (乔木 Qiáomù），pouvant vivre pendant plusieurs centaines voir plusieurs milliers d'années. 
 
+![灌木 Guànmù](/assets/media/the-vert_%20arbuste.jpg)
+
 En Chine, on retrouve le thé vert dans toutes les provinces productrices de thé. La plus grosse production de thé en Chine est constituée par le _LǜChá_. Si l'immense majorité des _LǜChá_ en Chine sont consommés purs, c'est à dire sans saveur ajoutée ni matière (lait, miel, etc), il en existe cependant certains qui sont aromatisés de manière naturelle. Nous le verrons plus bas. 
 
 # Les différentes familles de _LǜChá_
