@@ -1,6 +1,7 @@
 ---
 lien: gai-wan-pao-fa
 titre: 蓋碗泡法 - GàiWǎn PàoFǎ
+par: Thaïs
 description: >
   L'infusion au GàiWǎn ...
 catégorie: intermediaire
