@@ -72,6 +72,15 @@ La plupart des thés pǔ'ěr cuit sont pressés après leur fabrication, ce qui 
 
 # Les montagnes de thé pǔ'ěr
 
+Ce sont les mêmes que celles du Pǔ'ěr cru.
+
+/lien/
+
 # les marques fameuses
 
+Ce sont les mêmes que le Pǔ'ěr cru
+/lien/
+
 # Les arômes types
+
+Les arômes dégagés par le thé Pǔ'ěr cuit sont nombreux. Parmis eux, et suivant le millésime, on retrouvera: caramel (pour les vieux milésimes), sous bois, humus, oeil de dragon, lotus, datte, ginseng, bois d'aloes. 
