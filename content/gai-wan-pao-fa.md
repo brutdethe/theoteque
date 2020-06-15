@@ -7,9 +7,9 @@ description: >
 catégorie: intermediaire
 ---
 
-![Gaiwan JingdeZhen](/assets/media/gaiwan-paofa-jingdezhen.jpg)
+![Gaiwan JingdeZhen](/assets/media/gaiwan-paofa_jingdezhen.jpg)
 
-Le _GàiWǎn_ est un outil permettant d'infuser du thé de façon traditionnelle en Chine.
+Le 蓋碗 _GàiWǎn_ est un outil permettant d'infuser du thé de façon traditionnelle en Chine.
 Il se compose en trois parties:
 
 - Le 杯蓋 _Bēi gài_, correspondant au couvercle.
