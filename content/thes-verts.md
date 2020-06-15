@@ -1,6 +1,7 @@
 ---
 lien: thes-verts
 titre: 绿茶 - LǜChá - (thés verts) 
+par: Thaïs
 description: >
   Le Lǜ Chá (thé vert) est l'un des incontournables du monde du thé. Excellent pour la santé et plus rapide à fabriquer que les autres thés, il est consommé partout dans le monde, nature et quelque fois aromatisé. 
 catégorie: base
@@ -14,7 +15,16 @@ _LóngJǐng infusé en GàiWǎn_
 # Généralités
 
 Par définition, le 绿茶 _LǜChá_ (thé vert) est le seul type de thé qui n'est pas oxydé ou très peu (moins de 5%). C'est cet état de fait lui donne ses qualités bienfaisantes et médicinales. Il est entre autre stimulant (caféine et vitamine C), antioxidant (_polyphénols_), stimule les défenses immunitaires, parmi nombre d'autres bienfaits. 
-En Chine, on le retrouve dans toutes les provinces productrices de thé. La plus grosse production de thé en Chine est constituée par le _LǜChá_. Si l'immense majorité des _LǜChá_ en Chine sont consommés purs, c'est à dire sans saveur ajoutée ni matière (lait, miel, etc), il en existe cependant certains qui sont aromatisés de manière naturelle. Nous le verrons plus bas. 
+
+Pour le thé vert, les fabricants utiliseront soit les feuilles de thé, soit les bourgeons, soit les deux ensemble. Si le fabricant décide d'utiliser cette dernière technique de sélection, alors il y aura toujours un seul bourgeon, et une ou plusieurs feuilles, mais jamais plusieurs bourgeons. 
+Les "AOP" du thé, c'est à dire les thés reconnus tels le 信阳毛尖 - _XìnYáng MáoJiān_, auront dans leur cahier des charges de fabrication un nombre précis de feuilles/bourgeons sur chaque tige à respecter pour donner l'appelation voulu. 
+Exemlpe: le 竹葉青 - _ZhúYèGīng_ devra obligatoirement être fait avec un bourgeon et une feuille ensemble. Autrement dit, les cueilleuses, pour faire ce thé en particulier, cueilleront sur les arbres à thé une tige contenant un bourgeon et une feuille ensemble. 
+
+Le thé vert est principalement fourni par de petits arbustes à thé (灌木 Guànmù), ne dépassant pas 1,5 mètre en général et n'ayant pas une espérance de vie longue, alors que les thés noirs par exemple sont fourni essentiellement par des arbres à thés (乔木 Qiáomù），pouvant vivre pendant plusieurs centaines voir plusieurs milliers d'années. 
+
+![灌木 Guànmù](/assets/media/the-vert_%20arbuste.jpg)
+
+En Chine, on retrouve le thé vert dans toutes les provinces productrices de thé. La plus grosse production de thé en Chine est constituée par le _LǜChá_. Si l'immense majorité des _LǜChá_ en Chine sont consommés purs, c'est à dire sans saveur ajoutée ni matière (lait, miel, etc), il en existe cependant certains qui sont aromatisés de manière naturelle. Nous le verrons plus bas. 
 
 # Les différentes familles de _LǜChá_
 
