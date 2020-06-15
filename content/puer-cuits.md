@@ -29,6 +29,8 @@ On l'a vu le millésime sur un pǔ'ěr cuit n'est important (il l'est sur les p�
 
 Thé pressé en brique rectangulaire
 
+![饼茶](assets/media/puercuits-bingcha.jpg)
+
 ## 饼茶 Bǐng chá
 
 Thé pressé en forme de gâteau
@@ -39,21 +41,31 @@ Thé pressé en forme de gâteau
 
 Thé pressé en forme de nid d'oiseau
 
+![沱茶](assets/media/puer-cuits-nidoiseau.jpg)
+
 ## 小饼 Xiǎo bǐng
 
 Thé pressé en forme de mini ni d'oiseau
+
+![小饼](assets/media/puer-cuits:minitou.jpg)
 
 ## 老茶头 Lǎo chá tóu
 
 Thé provenant d'agglomérats produts durant la fabrication du thé pǔ'ěr cuit, qui donne un finit crémeu dans la soupe.
 
+![老茶头](assets/media/puer-cuits:laochatou.jpg)
+
 ## 方茶 Fāng chá
 
 Thé pressé en forme carrée.
 
+![方茶](assets/media/puer-cuits:fangcha.jpg)
+
 ## 茶化石 Chá huàshí
 
-Produit exclusif de la marque 龙园号 Lóng yuán hào, ce sont de petits éclats réguliers de thé pǔ'ěr cuit, qui donnent des notes de fumé dans la préparation, très agréable. 
+Produit initié par la marque 龙园号 Lóng yuán hào, ce sont de petits éclats réguliers de thé pǔ'ěr cuit, qui donnent des notes de fumé dans la préparation, très agréable. 
+
+![茶化石](media/puer-cuits:chahuashi.jpg)
 
 
 La plupart des thés pǔ'ěr cuit sont pressés après leur fabrication, ce qui leur permet une meilleure conservation, et un gain de place. Les thés pǔ'ěr cuits non pressés sont dit en "vrac".
