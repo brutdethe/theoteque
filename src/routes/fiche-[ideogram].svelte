@@ -14,17 +14,21 @@
 
     .box {
         color: #444;
-        padding-left: 0.5em;
+        padding-left: 3em;
     }
 
     .photo-zoom {
         padding: 0;
         height: 400px; /* [1.1] Set it as per your need */
         width: 400px;
+        position: relative;
         overflow: hidden; /* [1.2] Hide the overflowing of child elements */
         -webkit-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
         -moz-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
         box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
+        cursor: -webkit-zoom-in;
+        cursor: -moz-zoom-in;
+        cursor: zoom-in;
     }
 
     .photo-zoom img {
@@ -36,8 +40,16 @@
     }
 
     .photo-zoom:hover img {
-        cursor: zoom-in;
         transform: scale(4);
+    }
+
+    .zoom {
+        background: url(/assets/icons/zoom-in.svg) center center no-repeat;
+        position: absolute;
+        left: 0;
+        top: 0.5em;
+        z-index: 1000;
+        width: 2em;
     }
 
     .property-title {
@@ -62,7 +74,7 @@
         font-size: 0.8em;
     }
     .icons {
-        margin: -0.45em auto;
+        margin: 0 auto;
         border: none;
         background: transparent;
         display: inline-block;
@@ -158,6 +170,18 @@
     function playAudio(ideogram) {
         document.querySelector(`#${ideogram.replace(/\s/g, '')}`).play()
     }
+    function getFrenchSeason(season) {
+        switch (season) {
+            case '春季':
+                return 'Printemps'
+            case '夏季':
+                return 'Été'
+            case '秋季':
+                return 'Automne'
+            case '冬季':
+                return 'Hivers'
+        }
+    }
 </script>
 
 <svelte:head>
@@ -190,7 +214,8 @@
         </div>
     </h1>
     <div class="wrapper">
-        <div class="box photo-zoom">
+        <div class="box photo-zoom" tabindex="0">
+            <div class="zoom">&nbsp;</div>
             <img
                 src="/assets/thes/{tea.ideogram}.jpg"
                 alt="{tea.ideogram}"
@@ -252,13 +277,17 @@
                     </dd>
                 {/if}
                 {#if tea.harvests.length}
-                    <dt class="property-title">Récolte :</dt>
+                    <dt class="property-title">
+                        {#if tea.harvests.length > 1}Saisons{:else}Saison{/if}
+                        de récolte :
+                    </dt>
                     <dd class="property-value">
                         {#each tea.harvests as season}
                             <img
                                 class="icons"
                                 src="/assets/icons/{season}.svg"
                                 alt="{season}"
+                                title="{getFrenchSeason(season)}"
                             />
                         {/each}
                     </dd>
