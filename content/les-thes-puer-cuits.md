@@ -1,5 +1,5 @@
 ---
-lien: thes-puer-cuits
+lien: les-thes-puer-cuits
 titre: 熟普洱 - Shú pǔ'ěr - (thés pu'er cuits) 
 par: Thaïs
 description: >
