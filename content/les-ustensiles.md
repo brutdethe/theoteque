@@ -23,3 +23,7 @@ Les ustensiles vous permettrons peut-être d'explorer d'autres approches d'infus
 ![Gaiwan JingdeZhen](/assets/media/ustensiles_gaiwan.jpg)
 
 [Le _GàiWǎn_](./ressources/gai-wan-pao-fa) est originaire de Chine, son design est apparu au 17e siècle. Le nom se traduit approximativement par "une tasse avec un couvercle". Le _GàiWǎn_ en porcelaine est applicable pour l'infusion de n'importe quel type de thé. La porcelaine est neutre et ne modifie pas les thés et l'eau ne reste pas longtempes très chaude ce qui protège les feuilles. Il est donc bien adapté pour s'initier à la culture des thés de Chine et de Taïwan.
+
+![茶巾 tissus à thé](/assets/media/ustensiles_茶巾.jpg)
+
+茶巾 _CháJīn_ est un éléments essentiel dans la culture du thé. Autrefois, 
