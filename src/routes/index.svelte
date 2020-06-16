@@ -40,9 +40,6 @@
 
 <ul>
     <li>
-        <a href="">Adopte un thé</a>
-    </li>
-    <li>
         <a href="/ressources/faq">Foire Aux Questions</a>
     </li>
 </ul>
