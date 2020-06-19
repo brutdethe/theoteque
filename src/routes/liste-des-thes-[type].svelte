@@ -116,7 +116,7 @@
                 <figure class="item">
                     <a href="fiche-{tea.ideogram}">
                         <img
-                            src="../assets/thes/{tea.ideogram}.jpg"
+                            src="../assets/thes/thumbs/{tea.ideogram}.jpg"
                             alt="{tea.pinyin}"
                         />
                     </a>
