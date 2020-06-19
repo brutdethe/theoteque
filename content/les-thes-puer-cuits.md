@@ -65,7 +65,7 @@ Thé pressé en forme carrée.
 
 Produit initié par la marque 龙园号 _LóngYuán Hào_, ce sont de petits éclats réguliers de thé _Shú Pǔ'ěr_, qui donnent des notes de fumé dans la préparation, très agréable. 
 
-![茶化石](media/puer-cuits_chahuashi.jpg)
+![茶化石](/assets/media/puer-cuits_chahuashi.jpg)
 
 La plupart des thés _Shú Pǔ'ěr_ sont pressés après leur fabrication, ce qui leur permet une meilleure conservation, et un gain de place. Les thés _Shú Pǔ'ěr_ non pressés sont dit en "vrac".
 

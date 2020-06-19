@@ -11,12 +11,12 @@ catégorie: base
 
 ### Les marques de Pǔ'ěr
 
-Les fabricants de Pǔ'ěr (les marques), produisent des thés avec des feuilles provenant de divers cru (cru = montagne de thé, 茶山 Cháshān en chinois). Les marques se partagent donc entre elle les récoltes des 茶山 _CháShān_, en concurrence les unes avec les autres. 
+Les fabricants de Pǔ'ěr (les marques), produisent des thés avec des feuilles provenant de divers cru (cru = montagne de thé, 茶山 _Cháshān_ en chinois). Les marques se partagent donc entre elle les récoltes des 茶山 _CháShān_, en concurrence les unes avec les autres. 
 
 Parmi ces fabricants, certains se sont distingués. On verra ici les marques les plus connues :
 
 - 大益普洱茶 Dà yì Pǔ'ěr chá
-![Galette Dà yì Pǔ'ěr chá](/static/assets/media/the-puer-cru_dayi.jpg)
+![Galette Dà yì Pǔ'ěr chá](/assets/media/the-puer-cru_dayi.jpg)
 
 - 龙园号普洱茶 Lóng yuán hào Pǔ'ěr chá
 ![Galette Lóng yuán hào Pǔ'ěr chá](/assets/media/the-puer-cru_longyuanhao.jpg)
@@ -34,7 +34,7 @@ Parmi ces fabricants, certains se sont distingués. On verra ici les marques les
 ![Galette Lóng shēng Pǔ'ěr chá](/assets/media/the-puer-cru_longsheng.jpg) 
 
 - 中茶普洱茶 Zhōng chá Pǔ'ěr chá
-![Galette Zhōng chá Pǔ'ěr chá](/media/the-puer-cru_zhongcha.jpg) 
+![Galette Zhōng chá Pǔ'ěr chá](/assets/media/the-puer-cru_zhongcha.jpg) 
 
 - 郎河普洱茶 Láng hé Pǔ'ěr chá
 ![Galette Láng hé Pǔ'ěr chá](/assets/media/the-puer-cru_langhe.jpg) 
