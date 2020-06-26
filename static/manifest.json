@@ -1,8 +1,8 @@
 {
 	"background_color": "rgb(252, 249, 255)",
 	"theme_color": "rgb(252, 249, 255)",
-	"name": "Broutille",
-	"short_name": "Broutille",
+	"name": "Brut de thé",
+	"short_name": "brudedethe",
 	"display": "minimal-ui",
 	"start_url": "/",
 	"icons": [

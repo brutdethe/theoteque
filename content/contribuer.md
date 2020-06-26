@@ -9,21 +9,21 @@ Si vous souhaitez contribuer, vous trouverez ci-dessous quelques indications pou
 ## Les liens
 
 - Le site Web  
-📎 [broutille.oisiflorus.com](https://broutille.oisiflorus.com/)  
+📎 [brutdethe.oisiflorus.com](https://brutdethe.oisiflorus.com/)  
 
 - Pour suivre le travail effectué et les choses qu'on aimerait faire :  
-📎 [Liste des tâches](https://github.com/oisiflorus/broutille/projects/1?fullscreen=true)
+📎 [Liste des tâches](https://github.com/oisiflorus/brutdethe/projects/1?fullscreen=true)
 
 - Le site De l'API-tea  
 📎 [API-tea.oisiflorus.com](https://api-tea.oisiflorus.com/)  
   
 ### Liens pour contribuer
 
-- Broutille : L'adresse du dépôt Github (où se trouve le code source) et le contenu des articles :  
-📎 [github.com/oisiflorus/broutille](https://github.com/oisiflorus/broutille)  
+- L'adresse du dépôt Github (où se trouve le code source) et le contenu des articles :  
+📎 [github.com/oisiflorus/brutdethe](https://github.com/oisiflorus/brutdethe)  
 
-- Broutille : Le contenu des articles de la ressources :  
-📎 [github.com/oisiflorus/articles](https://github.com/oisiflorus/broutille/tree/master/content)  
+- Le contenu des articles de la ressources :  
+📎 [github.com/oisiflorus/articles](https://github.com/oisiflorus/brutdethe/tree/master/content)  
 
 - API-tea : L'adresse du dépôt Github où se trouve les _data_ sur les thés :  
 📎 [github.com/oisiflorus/api-tea](https://github.com/oisiflorus/api-tea)  

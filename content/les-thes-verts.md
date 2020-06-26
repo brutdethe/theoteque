@@ -7,7 +7,7 @@ description: >
 catégorie: base
 ---
 
-Nous ne nous pencherons pas ici sur son procédé de fabrication, que vous trouverez [ici](/ressources/thes-verts), ni sur leur infusion (que vous trouverez dans chaque fiche thé de l'application Broutille). 
+Nous ne nous pencherons pas ici sur son procédé de fabrication, que vous trouverez [ici](/ressources/thes-verts), ni sur leur infusion (que vous trouverez dans chacune des fiches de thé). 
 
 ![_LóngJǐng_ infusé en GàiWǎn](/assets/media/the-vert_gaiwan.jpg)
 _LóngJǐng infusé en GàiWǎn_

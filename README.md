@@ -1,8 +1,8 @@
-# Broutille, guide d'infusion pour les thés Chinois
+# Guide d'infusion pour les thés Chinois
 
 ## Thé authentique
 
-L’art du thé s’adresse à tous, on peut aussi bien le pratiquer comme une façon de vivre, ou choisir de simplement le contempler et le déguster. _Broutille_ permet de guider les personnes amatrices de thés Chinois dans le processus d'infusion.
+L’art du thé s’adresse à tous, on peut aussi bien le pratiquer comme une façon de vivre, ou choisir de simplement le contempler et le déguster. Cette plateforme permet de guider les personnes amatrices de thés Chinois dans le processus d'infusion.
 
 ## Crédits
 
@@ -29,4 +29,4 @@ Les données concernant les thés proviennent d'API-tea :
 
 ## Licence
 
-[CC0-1.0](https://github.com/oisiflorus/broutille/blob/master/LICENSE)
+[CC0-1.0](https://github.com/oisiflorus/brutdethe/blob/master/LICENSE)
