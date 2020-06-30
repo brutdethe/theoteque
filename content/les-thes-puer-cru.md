@@ -24,6 +24,13 @@ Voici pourquoi, encore aujourd'hui, les galettes de thé puer pèsent 357 gramme
 
 # Les montagnes de thé pǔ'ěr 
 
+Le thé pǔ'ěr est un thé historique en Chine, il existe depuis des siècles sous sa forme actuelle. Ainsi au fur et à mesure du temps, certains cru, ou "montagnes de thé" 茶山 ont vu le jour. Ces montagnes sont très localisées en Chine. Elles se trouvent dans le Yunnan, c'est à dire au sud de la Chine, bordées par la Birmanie et le Laos. 
+Ces montagnes s'étendent de part et d'autre d'un fleuve nommé LanCang Jiang 澜沧江. Ce fleuve, qui descend jusqu'au Laos, y est appellé là bas "Mékong". Les montagnes de thé pǔ'ěr sont en effet empreint des eaux du grand fleuve. 
+
+![montagnes de thépǔ'ěr](assets/media/ShengPuer%20-%20chashan.png)
+
+On distingue 3 catégories de montanges de thé pǔ'ěr: les plus anciennes, les classiques, et les nouvelles. 
+
 #
 
 # Les marques de pǔ'ěr
