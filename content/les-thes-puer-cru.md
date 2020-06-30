@@ -31,7 +31,11 @@ Ces montagnes s'étendent de part et d'autre d'un fleuve nommé LanCang Jiang �
 
 On distingue 3 catégories de montanges de thé pǔ'ěr: les plus anciennes, les classiques, et les nouvelles. 
 
-#
+## 最古老茶山
+
+## 古今六大茶山
+
+## 新六大茶山
 
 # Les marques de pǔ'ěr
 
