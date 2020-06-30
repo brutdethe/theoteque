@@ -57,3 +57,8 @@ Parmi ces fabricants, certains se sont distingués. On verra ici les marques les
 ![Galette Láng hé pǔ'ěr chá](/assets/media/the-puer-cru-langhe.jpg) 
 
 # Conserver un thé pǔ'ěr
+
+Traditionnellement, on conservera les galettes de thé pǔ'ěr crues ou cuites:
+- *Dans un endroit aéré, en hauteur et sec*. Ceci pour éviter que la galette ne pourisse ou soit attaquée par des champignons, ce qui la rendrait non pas toxique ou mauvaise pour la santé, mais sans les qualités qu'on lui prêtait au départ.  
+- *A l'abris de la lumière directe du soleil*. Le thé pǔ'ěr et surtout le cru, comme tout aliment vivant, est sensible à la lumière qui pourrait détruire une partie de ses éléments et le rendre ainsi moins intéressant. 
+- *Dans une environnement sans odeur exétérieures*. Le thé pǔ'ěr comme tous les thés s'impreigne facilement des odeurs exétieures. En le protégeant de ces dernières, on évitera de modifier le goût originel du thé. 
