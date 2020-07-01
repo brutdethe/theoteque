@@ -36,32 +36,31 @@ On distingue 3 catégories de montanges de thé pǔ'ěr: les plus anciennes, les
 
 Ce sont les trois montagnes de thé historiques du pǔ'ěr, les plus anciennes historiquement. Elles se trouvent éparpillées dans le Yunnan. 
 
-大雪山 Dà xuěshān: au nord ouest de la ville de Láncāngjiāng, dans le nord du Yúnnán, très connu pour ses thés. 
-老班章 Lǎo bān zhāng： ce cru se situe dans les profondeurs de la montagne 布朗山 Bùlǎng shān, au Sud du Yúnnán. C'est l'une des plus connues encore actuellement.
-基诺山 Jīnuò shān: située au sud du Yúnnán.
-
+- 大雪山 Dà xuěshān: au nord ouest de la ville de Láncāngjiāng, dans le nord du Yúnnán, très connu pour ses thés. 
+- 老班章 Lǎo bān zhāng： ce cru se situe dans les profondeurs de la montagne 布朗山 Bùlǎng shān, au Sud du Yúnnán. C'est l'une des plus connues encore actuellement.
+- 基诺山 Jīnuò shān: située au sud du Yúnnán.
 
 ## 古今六大茶山
 
 Ces six montagnes se situent à l'Est du Láncāngjiāng.
 
-革登山 Gé dēngshān：
-莽枝山 Mǎng zhī shān
-倚邦山 Yǐ bāng shān
-蛮砖山 Mán zhuān shān
-易武山 Yì wǔshān
-yuleshan
+- 革登山 Gé dēngshān：
+- 莽枝山 Mǎng zhī shān
+- 倚邦山 Yǐ bāng shān
+- 蛮砖山 Mán zhuān shān
+- 易武山 Yì wǔshān
+- yuleshan
 
 ## 新六大茶山
 
 Ces six montagnes se situent à l'Ouest du LanCangJiang.
 
-Nannuo
+南糯 Nán nuò
 Nanxun
 Yansong
-Jingmai
-Bulan
-Bada
+景迈 Jǐng mài
+布朗 Bùlǎng
+巴达 Bā dá
 
 # Les marques de pǔ'ěr
 
