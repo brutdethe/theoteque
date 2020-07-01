@@ -24,8 +24,9 @@ Voici pourquoi, encore aujourd'hui, les galettes de thé puer pèsent 357 gramme
 
 # Les montagnes de thé pǔ'ěr 
 
-Le thé pǔ'ěr est un thé historique en Chine, il existe depuis des siècles sous sa forme actuelle. Ainsi au fur et à mesure du temps, certains cru, ou "montagnes de thé" 茶山 ont vu le jour. Ces montagnes sont très localisées en Chine. Elles se trouvent dans le Yunnan, c'est à dire au sud de la Chine, bordées par la Birmanie et le Laos. 
-Ces montagnes s'étendent de part et d'autre d'un fleuve nommé LanCang Jiang 澜沧江. Ce fleuve, qui descend jusqu'au Laos, y est appellé là bas "Mékong". Les montagnes de thé pǔ'ěr sont en effet empreint des eaux du grand fleuve. 
+Le thé pǔ'ěr est un thé historique en Chine, il existe depuis des siècles sous sa forme actuelle. Ainsi au fur et à mesure du temps, certains cru, ou "montagnes de thé" 茶山 Cháshān ont vu le jour. Ces montagnes se trouvent toutes dans le Yunnan, c'est à dire au sud de la Chine, bordées par la Birmanie et le Laos. 
+
+Ces montagnes s'étendent de part et d'autre d'un fleuve nommé LanCang Jiang 澜沧江 Láncāngjiāng. Ce fleuve, qui descend jusqu'au Laos, y est appellé là bas "Mékong". Les montagnes de thé pǔ'ěr sont en effet empreint des eaux de ce grand fleuve. 
 
 ![montagnes de thépǔ'ěr](assets/media/ShengPuer%20-%20chashan.png)
 
@@ -33,9 +34,34 @@ On distingue 3 catégories de montanges de thé pǔ'ěr: les plus anciennes, les
 
 ## 最古老茶山
 
+Ce sont les trois montagnes de thé historiques du pǔ'ěr, les plus anciennes historiquement. Elles se trouvent éparpillées dans le Yunnan. 
+
+大雪山 Dà xuěshān: au nord ouest de la ville de Láncāngjiāng, dans le nord du Yúnnán, très connu pour ses thés. 
+老班章 Lǎo bān zhāng： ce cru se situe dans les profondeurs de la montagne 布朗山 Bùlǎng shān, au Sud du Yúnnán. C'est l'une des plus connues encore actuellement.
+基诺山 Jīnuò shān: située au sud du Yúnnán.
+
+
 ## 古今六大茶山
 
+Ces six montagnes se situent à l'Est du Láncāngjiāng.
+
+革登山 Gé dēngshān：
+莽枝山 Mǎng zhī shān
+倚邦山 Yǐ bāng shān
+蛮砖山 Mán zhuān shān
+易武山 Yì wǔshān
+yuleshan
+
 ## 新六大茶山
+
+Ces six montagnes se situent à l'Ouest du LanCangJiang.
+
+Nannuo
+Nanxun
+Yansong
+Jingmai
+Bulan
+Bada
 
 # Les marques de pǔ'ěr
 
