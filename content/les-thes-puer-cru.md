@@ -22,6 +22,15 @@ A dos de cheval, les négociants voulaient placer 60 kg de thé, poids rationnel
 Or pour arriver à ce chiffre, un galette devait peser exactement: 357 grammes, correspondant à 7两 en mesure chinoise. 
 Voici pourquoi, encore aujourd'hui, les galettes de thé puer pèsent 357 grammes exactement_.
 
+# La constitution d'une galette de thé pǔ'ěr
+
+Une galette de thé pǔ'ěr est constituée exclusivement de feuilles de thés provenant du cultivar 云南大叶种 Yúnnán dà yè zhòng, traduit par "espèce aux grandes feuilles du Yunnan". Ces feuilles de thé sont cueillies sur des arbres à thé 乔木 Qiáomù (et non sur des arbustes). Ces arbres à thés sont souvent centenaires, et parfois millénaires. Mais la plupart des galettes de thé pǔ'ěr sont faites avec des arbres ne dépassant pas cent ans. 
+
+Les fabricants peuvent utiliser les feuilles d'un même millésime pour réaliser l'ensemble de la galette. Cependant, souvent, on verra plutôt des blend, c'est à dire des galettes composées de plusieurs feuilles de plusieurs millésimes différents. Comme un champagne, ces recettes font souvent la renommée des fabricants, qui savent composer leurs thés en fonction des années. 
+
+Depuis peu, on voit des dates apparaitre sur les galettes de thé pǔ'ěr. C'est ce fameux millésime, date de récolte des feuilles de thé. Selon maître Tseng du salon de thé "La maison des Trois thés" à Paris, ce phénomène nouveau a été inspiré par le système de millésime des vins français. Aujourd'hui, c'est le seul type de thé qui soit millésimé systématiquement. On remarquera que les galettes de thé blanc sont assez souvent millésimées de même. 
+La raison à cela est simple: le thé pǔ'ěr cru ainsi que le thé blanc sont ce qu'on peut appeler des thés de garde, c'est à dire qu'ils vont se bonifier avec le temps, comme un bon vin. D'où l'intérêt de les millésimer pour les tracer au cours de leur vie. C'est ce qui fera dire à maître Li, caligraphe chinois renommé du GuiZhou: 茶酒同道 Chájiǔ tóngdào ("le thé et le vin ont le même chemin" ou "thé et vin sont d'un même monde").
+
 # Les montagnes de thé pǔ'ěr 
 
 Le thé pǔ'ěr est un thé historique en Chine, il existe depuis des siècles sous sa forme actuelle. Ainsi au fur et à mesure du temps, certains cru, ou "montagnes de thé" 茶山 Cháshān ont vu le jour. Ces montagnes se trouvent toutes dans le Yunnan, c'est à dire au sud de la Chine, bordées par la Birmanie et le Laos. 
@@ -49,15 +58,15 @@ Ces six montagnes se situent à l'Est du Láncāngjiāng.
 - 倚邦山 Yǐ bāng shān
 - 蛮砖山 Mán zhuān shān
 - 易武山 Yì wǔshān
-- yuleshan
+- 攸乐山 Yōu yàoshān
 
 ## 新六大茶山
 
 Ces six montagnes se situent à l'Ouest du LanCangJiang.
 
 南糯 Nán nuò
-Nanxun
-Yansong
+南峤 Nán jiào
+勐宋 Měng sòng
 景迈 Jǐng mài
 布朗 Bùlǎng
 巴达 Bā dá
