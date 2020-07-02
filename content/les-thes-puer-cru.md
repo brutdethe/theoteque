@@ -19,8 +19,8 @@ Le thé pǔ'ěr cru est le thé post fermenté par excellence. De là on compren
 _Anecdote: un décret impérial de la dynastie Qing (la dernière dynastie chinoise), a imposé que chaque galette de thé pǔ'ěr cru fasse exactement 357 grammes. 
 Aujourd'hui cette règle est toujours en place. Mais d'où vient elle? Quelle en était la raison première_. 
 
-_A dos de cheval, les négociants voulaient placer 60 kg de thé, poids rationnel pour un transport optimal à dos de cheval. Ce poids était réparti en deux 件 de 30 kg de chaque côté (gros paniers). Ces 件 étaient composés de 12 筒 de 2,5 kg. 1 筒 était composé de 7 galettes de thé 茶饼 emballés dans de la feuille de bananier séchée et relié en ficelle de bambou.
-Or pour arriver à ce chiffre, un galette devait peser exactement: 357 grammes, correspondant à 7两 en mesure chinoise. 
+_A dos de cheval, les négociants voulaient placer 60 kg de thé, poids rationnel pour un transport optimal à dos de cheval. Ce poids était réparti en deux 件 Jiàn de 30 kg de chaque côté (gros paniers). Ces 件 étaient composés de 12 筒 Tǒng de 2,5 kg. 1 筒 était composé de 7 galettes de thé 茶饼 Chá bǐng emballés dans de la feuille de bananier séchée et relié en ficelle de bambou.
+Or pour arriver à ce chiffre, un galette devait peser exactement: 357 grammes, correspondant à 7两 en mesure chinoise (1两 = 51 grammes). 
 Voici pourquoi, encore aujourd'hui, les galettes de thé puer pèsent 357 grammes exactement_.
 
 # La constitution d'une galette de thé pǔ'ěr
