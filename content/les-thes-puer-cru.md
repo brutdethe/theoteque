@@ -41,7 +41,7 @@ Ces montagnes s'étendent de part et d'autre d'un fleuve nommé LanCang Jiang �
 
 On distingue 3 catégories de montanges de thé pǔ'ěr: les plus anciennes, les classiques, et les nouvelles. 
 
-## 最古老茶山
+## 最古老茶山 Zuì gǔlǎo cháshān
 
 Ce sont les trois montagnes de thé historiques du pǔ'ěr, les plus anciennes historiquement. Elles se trouvent éparpillées dans le Yunnan. 
 
@@ -49,7 +49,7 @@ Ce sont les trois montagnes de thé historiques du pǔ'ěr, les plus anciennes h
 - 老班章 Lǎo bān zhāng： ce cru se situe dans les profondeurs de la montagne 布朗山 Bùlǎng shān, au Sud du Yúnnán. C'est l'une des plus connues encore actuellement.
 - 基诺山 Jīnuò shān: située au sud du Yúnnán.
 
-## 古今六大茶山
+## 古今六大茶山 Gǔjīn liù dà cháshān
 
 Ces six montagnes se situent à l'Est du Láncāngjiāng.
 
@@ -60,7 +60,7 @@ Ces six montagnes se situent à l'Est du Láncāngjiāng.
 - 易武山 Yì wǔshān
 - 攸乐山 Yōu yàoshān
 
-## 新六大茶山
+## 新六大茶山 Xīn liù dà cháshān
 
 Ces six montagnes se situent à l'Ouest du LanCangJiang.
 
