@@ -51,7 +51,7 @@ Ce sont les trois montagnes de thé historiques du pǔ'ěr, les plus anciennes h
 
 ## 古今六大茶山 Gǔjīn liù dà cháshān
 
-Ces six montagnes se situent à l'Est du Láncāngjiāng.
+Ces six montagnes se situent à l'Est du Láncāngjiāng. Elles sont appelées "classiques". 
 
 - 革登山 Gé dēngshān：
 - 莽枝山 Mǎng zhī shān
@@ -62,7 +62,7 @@ Ces six montagnes se situent à l'Est du Láncāngjiāng.
 
 ## 新六大茶山 Xīn liù dà cháshān
 
-Ces six montagnes se situent à l'Ouest du LanCangJiang.
+Ces six montagnes se situent à l'Ouest du LanCangJiang. Ce sont les montagnes de thé pǔ'ěr les plus modernes. 
 
 南糯 Nán nuò
 南峤 Nán jiào
