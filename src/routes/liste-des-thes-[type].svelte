@@ -100,7 +100,6 @@
 <svelte:head>
     <title>Liste des thés</title>
 </svelte:head>
-{teas.map(tea => `${tea.ideogram} _${tea.pinyin}_<br`)}
 <h1>Liste des thés par type</h1>
 <p>
     Cette liste regroupe une sélection de thés que l'on imagine assez faciles à
