@@ -47,6 +47,11 @@
 <h3>Infos pratiques</h3>
 <ul>
     <li>
+        <a href="/ressources/liens">
+            Des liens vers des sites, des vidéos, des podcasts
+        </a>
+    </li>
+    <li>
         <a href="/ressources/lieux-prevenants">
             Quelques lieux prévenants pour découvrir les thés de Chine et de
             Taiwan
