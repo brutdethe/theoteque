@@ -1,4 +1,4 @@
-<style>
+<!--<style>
     .gallery-teas {
         padding: 1em;
         border-top: 1px solid #ccc;
@@ -38,15 +38,11 @@
     .voice {
         cursor: pointer;
     }
-</style>
-
-<script context="module">
+</style><script context="module">
     export function preload(page) {
         return { typeParam: page.params.type }
     }
-</script>
-
-<script>
+</script><script>
     import { onMount } from 'svelte'
     import IconTeaType from '../components/IconTeaType.svelte'
 
@@ -85,9 +81,7 @@
     function playAudio(ideogram) {
         document.querySelector(`#${ideogram}`).play()
     }
-</script>
-
-<svelte:head>
+</script><svelte:head>
     <title>Liste des ustensiles de thés</title>
 </svelte:head>
 <h1>Liste des ustensiles de thés</h1>
@@ -132,8 +126,10 @@
             </figure>
         {:else}
             <!-- this block renders when teas.length === 0 -->
+<!--
             <p>chargement des ustensiles thés...</p>
         {/each}
     </div>
 </section>
 tea
+-->
