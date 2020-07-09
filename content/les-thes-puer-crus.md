@@ -108,4 +108,4 @@ Traditionnellement, on conservera les galettes de thé _Pǔ'ěr_:
 
 - **Dans un endroit aéré, en hauteur et sec**. Ceci pour éviter que la galette ne pourisse ou soit attaquée par des champignons, ce qui la rendrait non pas toxique ou mauvaise pour la santé, mais sans les qualités qu'on lui prêtait au départ.  
 - **À l'abris de la lumière directe du soleil**. Le thé _Pǔ'ěr_ est sensible à la lumière qui pourrait détruire une partie de ses éléments et le rendre ainsi moins intéressant. 
-- **Dans une environnement sans odeur exétérieures**. Le thé _Pǔ'ěr_ comme tous les thés s'imprègne facilement des odeurs extérieures. En le protégeant de ces dernières, on évitera de modifier le goût originel du thé. 
+- **Dans une environnement sans odeur extérieures**. Le thé _Pǔ'ěr_ comme tous les thés s'imprègne facilement des odeurs extérieures. En le protégeant de ces dernières, on évitera de modifier le goût originel du thé. 
