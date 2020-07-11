@@ -7,6 +7,9 @@ par: Eric R. Scott
 catégorie: traduction
 ---
 
+_Traduction de l'article original en anglais de [Eric R. Scott](http://www.ericrscott.com) :
+[http://www.teageek.net/blog/2017/02/science-nomenclature-tea-processing-part-2-microbial-ripening/](http://www.teageek.net/blog/2017/02/science-nomenclature-tea-processing-part-2-microbial-ripening/)_
+
 ![Feuilles de thé](/assets/media/maturation-microbienne-2_galette.jpg)
 
 ## La science et la nomenclature de la transformation du thé. 
