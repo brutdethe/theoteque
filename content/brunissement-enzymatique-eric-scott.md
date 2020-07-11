@@ -8,7 +8,7 @@ catégorie: traduction
 ---
 
 _Traduction de l'article original en anglais de [Eric R. Scott](http://www.ericrscott.com) :
-http://www.teageek.net/blog/2017/02/tea-terminology-part-1/_
+[http://www.teageek.net/blog/2017/02/tea-terminology-part-1/](http://www.teageek.net/blog/2017/02/tea-terminology-part-1/)_
 
 ![Feuilles de thé](/assets/media/brunissement-enzymatique-1_feuille.jpg)
 
@@ -43,6 +43,6 @@ Lorsque vous décidez du nom à donner à ce processus, il est important de pens
 ---
 #### Notes
 
-[^1]: C'est pourquoi je pense qu'il est inutile d'invoquer la théorie du _[partial kill-green](http://www.marshaln.com/2013/07/a-clear-and-present-danger)_ pour expliquer la différence entre le _Pǔ'ěr Shēng Chá_ et le 綠茶 - _LǜChá_. Les _catéchines_ s'oxydent très bien en quelques années, sans aucune enzyme. Il est cependant tout à fait possible que les températures plus élevées lors du traitement tuent les microbes présents sur les feuilles de thé fraîches et ralentissent ou empêchent le mûrissement du thé puer brut en raison d'une colonisation microbienne réduite.
+[^1]: C'est pourquoi je pense qu'il est inutile d'invoquer la théorie du _[partial kill-green](http://www.marshaln.com/2013/07/a-clear-and-present-danger)_ pour expliquer la différence entre le 普洱生茶 _Pǔ'ěr Shēng Chá_ et le 綠茶 - _LǜChá_. Les _catéchines_ s'oxydent très bien en quelques années, sans aucune enzyme. Il est cependant tout à fait possible que les températures plus élevées lors du traitement tuent les microbes présents sur les feuilles de thé fraîches et ralentissent ou empêchent le mûrissement du thé puer brut en raison d'une colonisation microbienne réduite.
 
 [^2]: Les scientifiques du thé semblent être aussi confus que tout le monde. Ils utilisent parfois le terme _fermentation_ en expliquant que cette étape n'implique pas réellement de _microbes_. D'autres fois, ils utilisent l'_oxydation_, mais expliquent que ce sont des réactions chimiques spécifiques qui se produisent. D'autres fois encore, ils utilisent ces termes sans expliquer qu'ils ont une signification différente de celle des scientifiques !
