@@ -73,16 +73,13 @@ La plupart des thés _Shú Pǔ'ěr_ sont pressés après leur fabrication, ce qu
 
 Ce sont les mêmes que celles du _Shēng Pǔ'ěr_.
 
-/lien/
-
-master/content/les-thes-puer-crus.md
+[Les montagnes de thé](/master/content/les-thes-puer-crus)
 
 # les marques fameuses
 
 Ce sont les mêmes que le _Shēng Pǔ'ěr_
-/lien/
 
-master/content/les-thes-puer-crus.md
+[Les marques fameuses](/master/content/les-thes-puer-crus)
 
 # Les arômes types
 
