@@ -1,5 +1,14 @@
 # Guide d'infusion pour les thés Chinois
 
+## Nom pour le site d'évènement
+
+- Théine
+- SinoThé
+- PassionThé
+- UniThé
+- animthé
+
+
 ## Thé authentique
 
 L’art du thé s’adresse à tous, on peut aussi bien le pratiquer comme une façon de vivre, ou choisir de simplement le contempler et le déguster. Cette plateforme permet de guider les personnes amatrices de thés Chinois dans le processus d'infusion.
