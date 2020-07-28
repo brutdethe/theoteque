@@ -57,7 +57,7 @@
     let i18n = []
 
     onMount(async () => {
-        const res = await fetch('https://api-tea.oisiflorus.com/api/v1/teas')
+        const res = await fetch('https://api-tea.brutdethé.fr/api/v1/teas')
 
         if (res.ok) {
             teas = (await res.json()).api
@@ -65,7 +65,7 @@
             throw new Error(text)
         }
 
-        const res1 = await fetch('https://api-tea.oisiflorus.com/api/v1/type')
+        const res1 = await fetch('https://api-tea.brutdethé.fr/api/v1/type')
 
         if (res1.ok) {
             types = (await res1.json()).api.map(type => type.ideogram)
@@ -73,7 +73,7 @@
             throw new Error(text)
         }
 
-        const res2 = await fetch(`https://api-tea.oisiflorus.com/api/v1/pinyin`)
+        const res2 = await fetch(`https://api-tea.brutdethé.fr/api/v1/pinyin`)
 
         if (res2.ok) {
             i18n = (await res2.json()).api

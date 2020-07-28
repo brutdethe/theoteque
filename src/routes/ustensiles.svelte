@@ -54,7 +54,7 @@
 
     onMount(async () => {
         const res = await fetch(
-            'https://api-tea.oisiflorus.com/api/v1/teawares'
+            'https://api-tea.brutdethé.fr/api/v1/teawares'
         )
 
         if (res.ok) {
@@ -63,7 +63,7 @@
             throw new Error(text)
         }
 
-        const res2 = await fetch(`https://api-tea.oisiflorus.com/api/v1/pinyin`)
+        const res2 = await fetch(`https://api-tea.brutdethé.fr/api/v1/pinyin`)
 
         if (res2.ok) {
             i18n = (await res2.json()).api

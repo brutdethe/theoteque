@@ -21,7 +21,7 @@
     let teas = []
 
     onMount(async () => {
-        const res = await fetch('https://api-tea.oisiflorus.com/api/v1/teas')
+        const res = await fetch('https://api-tea.brutdethé.fr/api/v1/teas')
         const normalize = str =>
             str.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
         if (res.ok) {

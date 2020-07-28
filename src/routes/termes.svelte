@@ -20,7 +20,7 @@
     let themes = []
 
     onMount(async () => {
-        const res = await fetch(`https://api-tea.oisiflorus.com/api/v1/pinyin`)
+        const res = await fetch(`https://api-tea.brutdethé.fr/api/v1/pinyin`)
 
         if (res.ok) {
             terms = (await res.json()).api
@@ -29,7 +29,7 @@
             throw new Error(text)
         }
 
-        const res1 = await fetch(`https://api-tea.oisiflorus.com/api/v1/themes`)
+        const res1 = await fetch(`https://api-tea.brutdethé.fr/api/v1/themes`)
 
         if (res1.ok) {
             themes = (await res1.json()).api
