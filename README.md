@@ -2,7 +2,7 @@
 
 ## Thé authentique
 
-L’art du thé s’adresse à tous et à toutes, on peut aussi bien le pratiquer comme une façon de vivre ou choisir de simplement le contempler et le déguster. Cette plateforme permet de guider les personnes amatrices des thés Chinde Chine et de Taïwan.
+L’art du thé s’adresse à tous et à toutes, on peut aussi bien le pratiquer comme une façon de vivre ou choisir de simplement le contempler et le déguster. Cette plateforme permet de guider les personnes amatrices des thés de Chine et de Taïwan.
 
 ## Crédits
 
