@@ -28,7 +28,7 @@ Le thé que nous buvons peut être de 6 couleurs différentes : vert, blanc, jau
 ## La couleur d’un thé tient du travail de l’homme et non de l’espèce de thé cueillie
 
 Pour obtenir du thé, on cueille simplement une feuille d’un arbuste ou arbre à thé (Camellia Sinensis), et on la travaille (en la séchant, en la laissant fermenté, etc) suivant le type de thé que l’on veut.
-Vous pouvez approfondir ce point sur un autre article : ["méthode de fabrication du thé"](www.brutdethé.fr/ressources/processus-de-fabrication-du-the) 
+Vous pouvez approfondir ce point sur un autre article : ["méthode de fabrication du thé"](/ressources/processus-de-fabrication-du-the/) 
 
 C’est le processus de fabrication qui va déterminer la couleur du thé, et non le « cultivar » (le cépage du thé). En effet peu importe le cultivar que l’on cueille, c’est le travail de l’homme qui décidera si une feuille de théier deviendra « thé rouge », « thé vert », etc. 
 Cependant certains cultivars sont plus ou moins propice à un type de thé en particulier. Par exemple le thé « puit du dragon » n’est fait qu’avec un cultivar spécifique : le LongJing 43.
