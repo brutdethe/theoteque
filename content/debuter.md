@@ -11,6 +11,8 @@ Pour débuter dans le monde du thé, il faut en saisir les bases pratiques. Nous
 
 L’histoire du thé commence par une légende chinoise. 
 
+![Shennong](/master/static/assets/media/Shennong.jpg)
+
 Aux alentours de 2730 av JC, le mythique empereur chinois Shennong a déjà inventé l’agriculture, et conseillait à ses sujets de faire bouillir l’eau avant de la boire. C’était aussi un savant, qui testait les plantes afin d’en connaître les secrets médicinaux. 
 Il s’empoisonnait souvent avec.
 
@@ -24,6 +26,8 @@ Quoi qu’il en soit, les origines du thé viennent de Chine, et plus particuli�
 # Le thé
 
 Le thé que nous buvons peut être de 6 couleurs différentes : vert, blanc, jaune, bleu, rouge, ou noir. C’est du moins les 6 couleurs « officielles » en Chine, berceau de la culture du thé. 
+
+![Le thé](/static/assets/media/tea-picking.jpg)
 
 ## La couleur d’un thé tient du travail de l’homme et non de l’espèce de thé cueillie
 
