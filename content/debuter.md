@@ -1,6 +1,7 @@
 ---
 lien: debuter
 titre: Débuter avec les thés de Chine et de Taïwan
+par: Thaïs
 catégorie: page
 ---
 
@@ -81,4 +82,23 @@ Pour chaque type de thé, il y aura une infusion particulière. Le but est d’e
 Nous vous avons préparer une table d’infusion pour cela :
 
 ["table d’infusion"](https://www.brutdethé.fr/ressources/table-d-infusion/)
+
+# De l'importance de l'eau dans la préparation du thé
+
+Un détail important concernant l'infusion consiste à choisir une eau compatible avec la préparation du thé.
+
+Cette problématique a déjà été abordée dans la Chine antique. En effet la Chine traditionnelle classifiait la qualité des eaux pour infuser les thés. 
+Dans l'ordre, on retrouve en haut de la pyramide l'eau des montagnes, autrement dit l'eau des sources. En effet c'est selon les anciens l'eau la plus pure, qui tombe du Ciel et est filtrée par les montagnes. 
+Vient juste après l'eau des rivirères et des fleuves. Qualitative mais parfois viciée par les rejets des villes et des villages. Aujourd'hui on n'envisagerait pas d'utiliser cette eau, à part si elle est parfaitement filtrée. 
+Enfin on retrouve l'eau des puits, qui est la moins qualitative.
+A côté de ces trois eaux, la Chine traditionnelle voyait une eau à part, rare, et exceptionnelle. C'est l'eau qui se dépose par la pluie ou la rosée sur les feuilles et fleurs de lotus. Très recherchée à l'époque, on la disait parfumée et faisait de l'infusion d'un thé classique un thé d'exception. 
+
+Aujourd'hui, à cause de la pollution des eaux, des sols, et des pluies, l'eau pour préparer le thé doit être choisit avec attention. En France, nous vous conseillons la Volvic et la Mont Roucous. En effet ces deux eaux sont riches en oligo-éléments, et pauvres en minéraux: l'idéal pour conserver les bienfaits d'une eau et conserver le goût original du thé. 
+Dans tous les cas l'eau du robinet est à proscrire, sauf si elle est filtrée. 
+
+Note: privilégiez les bouilloires en fonte ou en inox pour faire bouillir votre eau. 
+Les bouilloires en plastique même alimentaire comportent des risques de dénaturation du goût de l'infusion et risque aussi de libérer dans votre thé des particules toxiques (plastiques, etc) qui ne sont clairement pas les bienvenues dans le monde du thé. 
+
+Petite astuce: les bouilloires en fonte permettent de porter une eau à 100 degré, alors que les bouilloires en plastique ne le permettent pas. De plus la température de l'eau est conservée beacoup plus longtemps. 
+
 
