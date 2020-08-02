@@ -16,13 +16,13 @@
     img:hover {
         opacity: 100%;
     }
-    .ideogram {
+    .pinyin {
         font-weight: normal;
         font-size: 1em;
     }
-    .pinyin {
+    .ideogram {
         display: block;
-        font-size: 0.7em;
+        font-size: 0.8em;
         color: #999;
     }
     .item {
@@ -49,6 +49,7 @@
 <script>
     import { onMount } from 'svelte'
     import IconTeaType from '../components/IconTeaType.svelte'
+    import { normalize } from '../components/NormalizePinyin.svelte'
 
     export let typeParam
 
@@ -82,7 +83,6 @@
             throw new Error(text)
         }
     })
-
     const typeToDisplay = () =>
         types.includes(typeParam) ? [typeParam] : types
     const getTeasByType = (type, teas) => teas.filter(tea => tea.type === type)
@@ -113,13 +113,13 @@
         <div class="gallery">
             {#each getTeasByType(type, teas) as tea}
                 <figure class="item">
-                    <a href="fiche-{tea.ideogram}">
+                    <a href="fiche-{normalize(tea.pinyin)}">
                         <img
                             src="../assets/thes/thumbs/{tea.ideogram}.jpg"
                             alt="{tea.pinyin}"
                         />
                     </a>
-                    <figcaption class="ideogram">
+                    <figcaption class="pinyin">
                         <audio id="{tea.ideogram}">
                             <source
                                 src="assets/audio/{tea.ideogram}.mp3"
@@ -131,14 +131,14 @@
                             title="voix"
                             on:click="{playAudio(tea.ideogram)}"
                         >
-                            {tea.ideogram}
+                            {tea.pinyin}
                         </span>
                         <span
-                            class="pinyin voice"
+                            class="ideogram voice"
                             title="voix"
                             on:click="{playAudio(tea.ideogram)}"
                         >
-                            {getPinyin(tea.ideogram, i18n)}
+                            {tea.ideogram}
                         </span>
                     </figcaption>
 
