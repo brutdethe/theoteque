@@ -83,6 +83,12 @@
         }
     })
 
+    const normalize = str =>
+        str
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .replace(/ /g, '')
+
     const typeToDisplay = () =>
         types.includes(typeParam) ? [typeParam] : types
     const getTeasByType = (type, teas) => teas.filter(tea => tea.type === type)
@@ -113,7 +119,7 @@
         <div class="gallery">
             {#each getTeasByType(type, teas) as tea}
                 <figure class="item">
-                    <a href="fiche-{tea.ideogram}">
+                    <a href="fiche-{normalize(tea.pinyin)}">
                         <img
                             src="../assets/thes/thumbs/{tea.ideogram}.jpg"
                             alt="{tea.pinyin}"
@@ -138,7 +144,7 @@
                             title="voix"
                             on:click="{playAudio(tea.ideogram)}"
                         >
-                            {getPinyin(tea.ideogram, i18n)}
+                            {tea.pinyin}
                         </span>
                     </figcaption>
 

@@ -110,7 +110,7 @@
 
 <script context="module">
     export function preload(page) {
-        return { ideogram: page.params.ideogram }
+        return { pinyin: page.params.pinyin }
     }
 </script>
 
@@ -119,18 +119,23 @@
     import Brews from '../components/Brews.svelte'
     import IconTeaType from '../components/IconTeaType.svelte'
 
-    export let ideogram
+    export let pinyin
 
     let tea = {}
     let i18n = []
 
     onMount(async () => {
-        const res = await fetch(
-            `https://api-tea.brutdethé.fr/api/v1/tea/${ideogram}`
-        )
+        const res0 = await fetch(`https://api-tea.brutdethé.fr/api/v1/teas`)
 
-        if (res.ok) {
-            tea = (await res.json()).api
+        if (res0.ok) {
+            const teas = (await res0.json()).api
+
+            const normalize = str =>
+                str
+                    .normalize('NFD')
+                    .replace(/[\u0300-\u036f]/g, '')
+                    .replace(/ /g, '')
+            tea = teas.filter(tea => pinyin === normalize(tea.pinyin))[0]
         } else {
             // 404
             throw new Error(text)
@@ -188,7 +193,7 @@
     <title>Fiche de thé</title>
 </svelte:head>
 
-{#if tea.ideogram}
+{#if tea.pinyin}
     <h1>
         <div class="ideogram-pinyin">
             <audio id="{tea.ideogram}">
@@ -209,7 +214,7 @@
                 title="voix"
                 on:click="{playAudio(tea.ideogram)}"
             >
-                {getPinyin(tea.ideogram, i18n)}
+                {tea.pinyin}
             </span>
         </div>
     </h1>
