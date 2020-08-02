@@ -7,11 +7,12 @@ L’art du thé s’adresse à tous et à toutes, on peut aussi bien le pratique
 ## Crédits
 
 **Zheng Ya Lin**
+
 > Ya-Lin est « Instructeur international de l’art du thé chinois ». Son histoire avec le thé prend ses racines dans son enfance, élevée par un grand-père amateur et passionné. Puis, en 2011 elle rencontre son instructeur de thé, qui lui ouvre les yeux sur l’art au delà du goût.
 
 **Thaïs** :
 
-> J’ai découvert le monde du thé à 16 ans en Chine pendant mes études. Depuis 6 ans, je m’y intéresse vraiment. J’ai passé deux diplômes d’Etat chinois : maître de cérémonie du thé (茶艺师）et testeur de thé (品茶圆).
+> J’ai découvert le monde du thé à 16 ans en Chine pendant mes études. Depuis 6 ans, je m’y intéresse vraiment. J’ai passé deux diplômes d’État chinois : maître de cérémonie du thé (茶艺师）et testeur de thé (品茶圆).
 > J’étudie et teste de nouveaux thés quotidiennement et tout ce qui tourne autour du thé (théières, ustensiles, techniques, poterie, etc).
 
 **Stéphane Langlois** :
@@ -22,7 +23,7 @@ L’art du thé s’adresse à tous et à toutes, on peut aussi bien le pratique
 
 Les données concernant les thés proviennent d'API-tea :
 - https://api-tea.brutdethé.fr
-- https://github.com/oisiflorus/api-tea
+- https://github.com/brutdethe/api-tea
 
 ## déploiement
 
@@ -30,4 +31,4 @@ Les données concernant les thés proviennent d'API-tea :
 
 ## Licence
 
-[CC0-1.0](https://github.com/oisiflorus/brutdethe/blob/master/LICENSE)
+[CC0-1.0](https://github.com/brutdethe/site/blob/master/LICENSE)
