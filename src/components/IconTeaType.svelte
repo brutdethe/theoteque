@@ -20,10 +20,9 @@
         -moz-box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
         box-shadow: 6px 7px 5px 0px rgba(156, 154, 156, 1);
     }
-    .pinyin {
-        font-size: 0.7rem;
+    .ideogram {
+        font-size: 0.8rem;
         color: #999;
-        border-bottom: 1px solid #002920;
     }
     .voice {
         cursor: pointer;
@@ -56,18 +55,18 @@
             <source src="assets/audio/{ideogram}.mp3" type="audio/mpeg" />
         </audio>
         <span
-            class="ideogram voice"
-            title="voix"
-            on:click="{playAudio(ideogram)}"
-        >
-            {ideogram}
-        </span>
-        <span
             class="pinyin voice"
             title="voix"
             on:click="{playAudio(ideogram)}"
         >
             {pinyin}
+            <span
+                class="ideogram voice"
+                title="voix"
+                on:click="{playAudio(ideogram)}"
+            >
+                {ideogram}
+            </span>
         </span>
     </a>
 </aside>

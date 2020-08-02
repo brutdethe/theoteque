@@ -16,17 +16,13 @@
     import { goto } from '@sapper/app'
     import { onMount } from 'svelte'
     import Select from 'svelte-select'
+    import { normalize } from '../components/NormalizePinyin.svelte'
 
     let selectedTea
     let teas = []
 
     onMount(async () => {
         const res = await fetch('https://api-tea.brutdethé.fr/api/v1/teas')
-        const normalize = str =>
-            str
-                .normalize('NFD')
-                .replace(/[\u0300-\u036f]/g, '')
-                .replace(/ /g, '')
         if (res.ok) {
             teas = (await res.json()).api
             teas = teas.map(tea => ({

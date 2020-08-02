@@ -83,7 +83,7 @@
     .ideogram-pinyin {
         display: inline-block;
     }
-    .pinyin {
+    .ideogram {
         font-size: 0.7em;
         color: #999;
         font-weight: normal;
@@ -96,9 +96,9 @@
         margin: 0;
         padding: 0;
     }
-    .ideogram {
+    .pinyin {
         font-weight: normal;
-        font-size: 1em;
+        font-size: 1.1em;
     }
     .mountain {
         vertical-align: top;
@@ -118,6 +118,7 @@
     import { onMount } from 'svelte'
     import Brews from '../components/Brews.svelte'
     import IconTeaType from '../components/IconTeaType.svelte'
+    import { normalize } from '../components/NormalizePinyin.svelte'
 
     export let pinyin
 
@@ -129,13 +130,11 @@
 
         if (res0.ok) {
             const teas = (await res0.json()).api
-
-            const normalize = str =>
-                str
-                    .normalize('NFD')
-                    .replace(/[\u0300-\u036f]/g, '')
-                    .replace(/ /g, '')
             tea = teas.filter(tea => pinyin === normalize(tea.pinyin))[0]
+            if (!tea) {
+                // 404
+                throw new Error('no tea found')
+            }
         } else {
             // 404
             throw new Error(text)
@@ -203,18 +202,18 @@
                 />
             </audio>
             <span
-                class="ideogram voice"
-                title="voix"
-                on:click="{playAudio(tea.ideogram)}"
-            >
-                {tea.ideogram}
-            </span>
-            <span
                 class="pinyin voice"
                 title="voix"
                 on:click="{playAudio(tea.ideogram)}"
             >
                 {tea.pinyin}
+            </span>
+            <span
+                class="ideogram voice"
+                title="voix"
+                on:click="{playAudio(tea.ideogram)}"
+            >
+                {tea.ideogram}
             </span>
         </div>
     </h1>
@@ -239,7 +238,7 @@
                     <dd class="property-value">
                         <ul class="ideogram-pinyin">
                             {#each tea.families as family}
-                                <li class="ideogram">
+                                <li class="pinyin">
                                     <audio id="{family}">
                                         <source
                                             src="assets/audio/{family}.mp3"
@@ -247,18 +246,18 @@
                                         />
                                     </audio>
                                     <span
-                                        class="voice"
-                                        title="voix"
-                                        on:click="{playAudio(family)}"
-                                    >
-                                        {family}
-                                    </span>
-                                    <p
                                         class="pinyin voice"
                                         title="voix"
                                         on:click="{playAudio(family)}"
                                     >
                                         {getPinyin(family, i18n)}
+                                    </span>
+                                    <p
+                                        class="voice"
+                                        title="voix"
+                                        on:click="{playAudio(family)}"
+                                    >
+                                        {family}
                                     </p>
                                 </li>
                             {/each}
@@ -302,7 +301,7 @@
                     <dd class="property-value">
                         <ul class="ideogram-pinyin">
                             {#each tea.pickings as pick}
-                                <li class="ideogram">
+                                <li class="pinyin">
                                     <audio id="{pick.replace(/\s/g, '')}">
                                         <source
                                             src="assets/audio/{pick}.mp3"
@@ -314,14 +313,14 @@
                                         title="voix"
                                         on:click="{playAudio(pick)}"
                                     >
-                                        {pick}
+                                        {getPinyin(pick, i18n)}
                                     </span>
                                     <p
-                                        class="pinyin voice"
+                                        class="ideogram voice"
                                         title="voix"
                                         on:click="{playAudio(pick)}"
                                     >
-                                        {getPinyin(pick, i18n)}
+                                        {pick}
                                     </p>
                                 </li>
                             {/each}
@@ -336,7 +335,7 @@
                 <dd class="property-value">
                     <ul class="ideogram-pinyin">
                         {#each tea.provinces as provinces}
-                            <li class="ideogram">
+                            <li class="pinyin">
                                 <a
                                     href="https://map.baidu.com/search/?querytype=s&wd={provinces}"
                                     target="_blank"
@@ -352,15 +351,15 @@
                                         title="voix"
                                         on:click="{playAudio(provinces)}"
                                     >
-                                        {provinces}
+                                        {getPinyin(provinces, i18n)}
                                     </span>
                                 </a>
                                 <p
-                                    class="pinyin voice"
+                                    class="ideogram voice"
                                     title="voix"
                                     on:click="{playAudio(provinces)}"
                                 >
-                                    {getPinyin(provinces, i18n)}
+                                    {provinces}
                                 </p>
 
                             </li>
@@ -373,7 +372,7 @@
                 <dd class="property-value">
                     <ul class="ideogram-pinyin">
                         {#each tea.towns as towns}
-                            <li class="ideogram">
+                            <li class="pinyin">
                                 <a
                                     href="https://map.baidu.com/search/?querytype=s&wd={towns}"
                                     target="_blank"
@@ -389,15 +388,15 @@
                                         title="voix"
                                         on:click="{playAudio(towns)}"
                                     >
-                                        {towns}
+                                        {getPinyin(towns, i18n)}
                                     </span>
                                 </a>
                                 <p
-                                    class="pinyin voice"
+                                    class="ideogram voice"
                                     title="voix"
                                     on:click="{playAudio(towns)}"
                                 >
-                                    {getPinyin(towns, i18n)}
+                                    {towns}
                                 </p>
                             </li>
                         {/each}
@@ -409,7 +408,7 @@
                 <dd class="property-value">
                     <ul class="ideogram-pinyin">
                         {#each tea.cultivars as cultivars}
-                            <li class="ideogram">
+                            <li class="pinyin">
                                 <audio id="{cultivars}">
                                     <source
                                         src="assets/audio/{cultivars}.mp3"
@@ -421,14 +420,14 @@
                                     title="voix"
                                     on:click="{playAudio(cultivars)}"
                                 >
-                                    {cultivars}
+                                    {getPinyin(cultivars, i18n)}
                                 </span>
                                 <p
-                                    class="pinyin voice"
+                                    class="ideogram voice"
                                     title="voix"
                                     on:click="{playAudio(cultivars)}"
                                 >
-                                    {getPinyin(cultivars, i18n)}
+                                    {cultivars}
                                 </p>
                             </li>
                         {/each}
