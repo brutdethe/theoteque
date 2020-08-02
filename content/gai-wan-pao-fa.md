@@ -3,7 +3,7 @@ lien: gai-wan-pao-fa
 titre: 蓋碗泡法 - GàiWǎn PàoFǎ
 par: Thaïs
 description: >
-  L'infusion au GàiWǎn ...
+  Bien qu'il existe une myriade d'appareils pour infuser le thé, le plus simple, et peut-être le plus élégant, est le GàiWǎn.
 catégorie: intermediaire
 ---
 
@@ -28,7 +28,7 @@ Après avoir mis le couvercle, secouez un peu le thé de manière à sentir les 
 
 Verser l'eau chaude sur les feuilles directement ou sur le bord (pour éviter de trop brusquer les feuilles) selon votre goût, et remplir le _GàiWǎn_ jusqu'aux 9/10èmes.
 
-Lorsque vous considérerez l'infusion terminée (cf. [table d'infusion](./ressources/table-d-infusion)), créer un petit espace entre le Couvercle et le Corps du _GàiWǎn_ de manière à laisser la liqueur 茶湯 _Chá Tāng_ s'écouler sans les feuilles, et verser dans un 公道杯 _GōngDào Bēi_ (aussi appelé 茶海 _Chá Hǎi_). 
+Lorsque vous considérerez l'infusion terminée (cf. [table d'infusion](/ressources/table-d-infusion), créer un petit espace entre le Couvercle et le Corps du _GàiWǎn_ de manière à laisser la liqueur 茶湯 _Chá Tāng_ s'écouler sans les feuilles, et verser dans un 公道杯 _GōngDào Bēi_ (aussi appelé 茶海 _Chá Hǎi_). 
 Pour se faire, tenez avec seulement votre pouce et votre majeur les bords du _GàiWǎn_ (pour éviter de vous brûler), et basculez le _GàiWǎn_ en tenant avec votre index le couvercle.
 N'oubliez pas de bien verser toute la liqueur du _GàiWǎn_, de manière à éviter un goût potentiellement amer lors de votre prochaine infusion. 
 

@@ -1,9 +1,9 @@
 <style>
-    .ideogram {
+    .pinyin {
         font-weight: normal;
         font-size: 1.5em;
     }
-    .pinyin {
+    .ideogram {
         font-size: 1em;
         color: #999;
         font-weight: normal;
@@ -114,18 +114,18 @@
             <source src="assets/audio/{brew.type}.mp3" type="audio/mpeg" />
         </audio>
         <span
-            class="ideogram voice"
-            title="voix"
-            on:click="{playAudio(brew.type)}"
-        >
-            {brew.type}
-        </span>
-        <span
             class="pinyin voice"
             title="voix"
             on:click="{playAudio(brew.type)}"
         >
             {getPinyin(brew.type, i18n)}
+        </span>
+        <span
+            class="ideogram voice"
+            title="voix"
+            on:click="{playAudio(brew.type)}"
+        >
+            {brew.type}
         </span>
     </div>
 </aside>

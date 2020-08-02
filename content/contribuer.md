@@ -12,7 +12,7 @@ Si vous souhaitez contribuer, vous trouverez ci-dessous quelques indications pou
 📎 [brutdethé.fr](https://www.brutdethé.fr)  
 
 - Pour suivre le travail effectué et les choses qu'on aimerait faire :  
-📎 [Liste des tâches](https://github.com/oisiflorus/brutdethe/projects/1?fullscreen=true)
+📎 [Liste des tâches](https://github.com/orgs/brutdethe/projects/1?fullscreen=true)
 
 - Le site De l'API-tea  
 📎 [api-tea.brutdethé.fr](https://api-tea.brutdethé.fr/)  

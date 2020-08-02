@@ -22,7 +22,7 @@ L’art du thé s’adresse à tous et à toutes, on peut aussi bien le pratique
 
 Les données concernant les thés proviennent d'API-tea :
 - https://api-tea.brutdethé.fr
-- https://github.com/oisiflorus/api-tea
+- https://github.com/brutdethe/api-tea
 
 ## déploiement
 
@@ -30,4 +30,4 @@ Les données concernant les thés proviennent d'API-tea :
 
 ## Licence
 
-[CC0-1.0](https://github.com/oisiflorus/brutdethe/blob/master/LICENSE)
+[CC0-1.0](https://github.com/brutdethe/site/blob/master/LICENSE)
