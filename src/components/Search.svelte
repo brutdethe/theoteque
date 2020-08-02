@@ -23,11 +23,14 @@
     onMount(async () => {
         const res = await fetch('https://api-tea.brutdethé.fr/api/v1/teas')
         const normalize = str =>
-            str.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+            str
+                .normalize('NFD')
+                .replace(/[\u0300-\u036f]/g, '')
+                .replace(/ /g, '')
         if (res.ok) {
             teas = (await res.json()).api
             teas = teas.map(tea => ({
-                value: tea.ideogram,
+                value: normalize(tea.pinyin),
                 label: tea.ideogram + ' - ' + normalize(tea.pinyin),
                 group: tea.type
             }))
