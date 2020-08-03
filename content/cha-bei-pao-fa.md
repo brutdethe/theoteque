@@ -1,6 +1,6 @@
 ---
 lien: cha-bei-pao-fa
-titre: 茶杯泡法 - CháBēi Pào Fǎ
+titre: 茶杯泡法 - CháBēi Pào Fǎ - L'infusion en verre
 par: Thaïs
 description: >
   On pratique généralement l'infusion d'un thé dans un verre pour les 綠茶 LǜChá (thés verts)
