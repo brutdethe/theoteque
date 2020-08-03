@@ -17,7 +17,7 @@ Ces formes sont standardisées, et les maitres fabricants se base sur ces modèl
 
 # Comment utiliser les théières
 
-Pour infuser le thé en théière de manière simple et efficace, commencez par mettre votre thé dans la théière selon les quantités désirées (cf Table d’infusion). 
+Pour infuser le thé en théière de manière simple et efficace, commencez par mettre votre thé dans la théière selon les quantités désirées [table d’infusion](https://www.brutdethé.fr/ressources/table-d-infusion). 
 
 Verser ensuite l’eau chaude dans votre théière, puis verser l’infusion dans le ChaHai. Votre thé est prêt et l’infusion bien contrôlée par vos soins !
 
