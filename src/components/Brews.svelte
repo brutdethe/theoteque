@@ -165,11 +165,11 @@
         </tr>
     {/if}
     <td colspan="2">
-        Vous pouvez tester avec
-        <strong>{weight} g</strong>
-        pour
+        Vous pouvez tester pour
         <input type="number" step="20" bind:value="{ml}" />
-        ml
+        ml avec
+        <strong>{weight} g</strong>
+        de thé.
         <!-- <input type=range bind:value={b} min=0 max=10> -->
     </td>
 </table>
