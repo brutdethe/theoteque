@@ -31,9 +31,12 @@
 </h1>
 <h2 id="pourquoi-">Pourquoi ce site ?</h2>
 <p>
-    L'objectif est de proposer des ressources pour vous inviter à découvrir ou
-    approfondir vos connaissances sur les thés de Chine et de Taiwan et à
-    explorer une approche traditionnelle et artisanale des thés.
+    L'objectif est de proposer des ressources pour vous inviter à
+    <a href="/ressources/debuter">découvrir</a>
+    ou
+    <a href="/ressources/maturation-microbienne-eric-scott">approfondir</a>
+    vos connaissances sur les thés de Chine et de Taiwan et à explorer une
+    approche traditionnelle et artisanale des thés.
 </p>
 
 <h3>Pour démarrer</h3>
