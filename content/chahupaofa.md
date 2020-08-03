@@ -33,4 +33,4 @@ Utilisez un filtre au dessus du Chahai pour éviter d’y ajouter par inadvertan
 Essuyez le bas de votre théière avec une serviette à thé avant toute opération de versage, cela empêchera à l’eau présente sur votre table à thé (qui n’est pas propre donc) de se faufiler dans votre infusion. 
 
 
-Retrouvez tous nos conseils pour déguster le thé de manière authentique dans (lien vers animation.brutdethé.fr).
+Retrouvez tous nos conseils pour déguster le thé de manière authentique dans animation.brutdethé.fr.
