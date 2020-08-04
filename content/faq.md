@@ -14,5 +14,4 @@ Le thé à plusieurs milliers d'années d'histoire en Chine et la france découv
 
 ### Quelle philosophie derrière ce projet ?
 
- Si vous découvrez le monde des thés authentiques, nous imaginons que les indications prodiguées dans ce site vous permettront de découvrir une porte d’entrée. Par la suite, vous constaterez peu à peu que chaque thé, chaque instant de dégustation et chaque personne étant différents toutes ces indications utiles au départ se révéleront pauvres au regard de vos intuitions.
- 
+Nous vous proposons de les consulter [ici](/ressources/nos-valeurs)
