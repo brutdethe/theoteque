@@ -50,6 +50,11 @@
 <h3>Infos pratiques</h3>
 <ul>
     <li>
+        <a href="/ressources/nos-valeurs">
+            Découvrir les valeurs qui nous animent
+        </a>
+    </li>
+    <li>
         <a href="/ressources/liens">
             Des liens vers des sites, des vidéos, des podcasts
         </a>
