@@ -64,7 +64,7 @@ Grâce à ces outils, l’amateur de thé va pouvoir infuser son thé de manièr
 Pour cela nous vous avons fait trois articles traitant de ces trois manières d’infuser un thé. 
 
 - [_GàiWǎn PàoFǎ_](https://www.brutdethé.fr/ressources/gai-wan-pao-fa)
-- _Chahu_ : lien chahu paofa
+- [_CháHu Pào Fǎ_](https://www.brutdethé.fr/ressources/gong-fu-cha-pao-fa/) 
 - [_CháBēi Pào Fǎ_](https://www.brutdethé.fr/ressources/cha-bei-pao-fa/)
 
 ### L’infusion
