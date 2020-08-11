@@ -7,7 +7,7 @@ par: Tony Gebely
 catégorie: traduction
 ---
 
-_Traduction de l'article original en anglais de Tony Gebely : https://teaepicure.com/kinetics-of-steeping-tea/
+_Traduction de l'article original en anglais de Tony Gebely : https://teaepicure.com/kinetics-of-steeping-tea/_
 
 L'infusion est la dernière étape de la vie des feuilles de thé. Et dans leur dernier acte, elles se déploient et se défont lentement, créant une boisson qui raconte l'histoire de leur origine. Chaque fois que nous buvons de l'alcool provenant des feuilles infusées, cela nous dit quel était le temps avant qu'elles ne soient cueillies et comment elles ont été manipulées, traitées et stockées avant d'atteindre votre tasse.
 
@@ -51,7 +51,7 @@ Quelle que soit votre source, le moyen le plus simple de vous assurer que votre 
 
 Selon l'endroit où vous vivez, l'eau du robinet peut être une excellente source d'eau pour le thé ou une source d'eau terrible pour le thé. Si vous utilisez l'eau du robinet d'une source municipale qui a été traitée au _chlore_, cela affectera le goût du thé. Une eau qui sent la piscine produira un thé qui sent et qui a le goût de la piscine ! Vous pouvez éliminer la majeure partie du _chlore_ présent dans l'eau en la faisant bouillir, en la laissant reposer dans un récipient ouvert pendant 24 heures, et/ou en la filtrant avec du _charbon actif_. De nombreuses municipalités ont commencé à remplacer le _chlore_ par de la _chloramine_, qui n'est pas aussi facile à éliminer que le _chlore_. Pour éliminer la _chloramine_, vous devrez utiliser un filtre à _charbon catalytique_ spécial.
 
-Si la source d'eau de votre ménage est un puit, les niveaux de dureté sont généralement le principal problème. Je recommande de filtrer toute l'eau du robinet avec un filtre à _charbon actif_ ; des filtres de type pichet sont largement disponibles, et la plupart d'entre eux élimineront les odeurs et les goûts bizarre de l'eau. Pour la plupart des types d'eau, un simple filtre au _charbon_ fera l'affaire. L'objectif n'est pas de filtrer tous les _minéraux naturels_ présents dans l'eau ; de nombreux _minéraux_ présents dans l'eau du robinet sont utiles pour une bonne infusion et le goût souhaité.
+Si la source d'eau de votre ménage est un puits, les niveaux de dureté sont généralement le principal problème. Je recommande de filtrer toute l'eau du robinet avec un filtre à _charbon actif_ ; des filtres de type pichet sont largement disponibles, et la plupart d'entre eux élimineront les odeurs et les goûts bizarre de l'eau. Pour la plupart des types d'eau, un simple filtre au _charbon_ fera l'affaire. L'objectif n'est pas de filtrer tous les _minéraux naturels_ présents dans l'eau ; de nombreux _minéraux_ présents dans l'eau du robinet sont utiles pour une bonne infusion et le goût souhaité.
 
 ### Eau de source en bouteille
 
@@ -97,7 +97,8 @@ J'ai observé que **pour chaque augmentation de 20 degrés** de la température 
 ---
 #### Notes externes à la traduction
 
-[^1]: \- Table d'infusion du site [Mei Leaf](https://meileaf.com/article/basic-brewing-guide/).
+[^1]: https://www.safewater.org/french-fact-sheets/2017/2/9/tds-ph
+
 [^2]: http://www.teausa.com
 
 [^3]: [Indice de Langelier](https://fr.wikipedia.org/wiki/Duret%C3%A9_de_l%27eau#Indice_de_saturation_de_Langelier_(LSI))
