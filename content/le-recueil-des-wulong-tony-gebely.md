@@ -17,7 +17,7 @@ _Traduction de l'article original en anglais de Tony Gebely : https://teaepicure
 
 > Ce contenu est un extrait du livre de Tony, [_Tea : A User's Guide_](https://teausersguide.com). Pour plus d'informations sur le livre, veuillez consulter le [site web](https://teausersguide.com) du livre.
 
-Le mot _WūLóng_ se traduit par "dragon noir". Le pinyin correct est 烏龍 _WūLóng_, mais _oolong_(une translittération aléatoire) est devenu l'orthographe la plus populaire en Occident.
+Le mot _WūLóng_ se traduit par "dragon noir". Le pinyin correct est 烏龍 _WūLóng_, mais _oolong_ (une translittération aléatoire) est devenu l'orthographe la plus populaire en Occident.
 
 Les feuilles de _WūLóng_ sont semi-oxydées. Cela signifie que pendant la production, l'[oxydation](https://teaepicure.com/tea-leaves-oxidation) est initiée, contrôlée et arrêtée à un moment donné avant que les feuilles ne soient considérées comme complètement oxydées. C'est pourquoi vous entendrez souvent dire que le _WūLóng_ se situe entre le _LǜChá_ (thé vert) et le _HóngChá_ (thé rouge). Cependant, comme pour beaucoup de choses dans le monde du thé, c'est plus compliqué que cela.
 
@@ -35,7 +35,7 @@ Les _WūLóng_ se [flétrissent](https://teaepicure.com/tea-leaves-wither) gén�
 
 ### Friction / Oxydation
 
-L'étape de traitement distincte qui fait d'un _WūLóng_ un _WūLóng_ est le _RóuQīng_(friction, brassage des feuilles). L'objectif de cette friction des feuilles est d'amorcer l'oxydation. Pour ce faire, selon le type de thé et la personne qui le prépare, les feuilles seront frottées, secouées ou même légèrement roulées(comme c'est le cas pour de nombreux nouveaux _WūLóng_ non traditionnels). Lorsque les feuilles sont abîmées, les parois cellulaires de la partie abîmée des feuilles sont brisées, ce qui déclenche l'oxydation. Les feuilles sont alors laissées à se flétrir et à s'oxyder avant d'être à nouveau frictionnées. Ce processus itératif se poursuit jusqu'à ce que le niveau d'oxydation souhaité soit atteint par le théier. Les _WūLóng_ sont souvent appelés thés semi-oxydés et, à ce titre, peuvent être produits à des niveaux d'oxydation très variés. Les _WūLóng_ les plus verts sont oxydés à environ 5-10%, tandis que les _WūLóng_ plus foncés sont presque oxydés à des niveaux de _HóngChá_(thé rouge), autour de 80-90%.
+L'étape de traitement distincte qui fait d'un _WūLóng_ un _WūLóng_ est le _RóuQīng_ (friction, brassage des feuilles). L'objectif de cette friction des feuilles est d'amorcer l'oxydation. Pour ce faire, selon le type de thé et la personne qui le prépare, les feuilles seront frottées, secouées ou même légèrement roulées(comme c'est le cas pour de nombreux nouveaux _WūLóng_ non traditionnels). Lorsque les feuilles sont abîmées, les parois cellulaires de la partie abîmée des feuilles sont brisées, ce qui déclenche l'oxydation. Les feuilles sont alors laissées à se flétrir et à s'oxyder avant d'être à nouveau frictionnées. Ce processus itératif se poursuit jusqu'à ce que le niveau d'oxydation souhaité soit atteint par le théier. Les _WūLóng_ sont souvent appelés thés semi-oxydés et, à ce titre, peuvent être produits à des niveaux d'oxydation très variés. Les _WūLóng_ les plus verts sont oxydés à environ 5-10%, tandis que les _WūLóng_ plus foncés sont presque oxydés à des niveaux de _HóngChá_ (thé rouge), autour de 80-90%.
 
 ### Fixation
 
@@ -149,7 +149,7 @@ Liqueur _WŭYí Dà Hóng Páo_
 
 #### 武夷大紅袍 _WŭYí Dà Hóng Páo_ - (Big Red Dress)
 
-Ce style de thé est l'un des deux _WūLóng_(_Tiě GuānYīn_ est l'autre) qui figurent dans la liste des dix thés chinois les plus célèbres. Le _WŭYí Dà Hóng Páo_ est le plus célèbre et le plus largement produit des thés _Sì DàMíng Cóng_. Il n'existe pas de _cultivar_ spécifique de _Dà Hóng Páo_ ; on utilise soit le 奇丹 _Qí Dān_ ou le 北斗 _BěiDǒu_, soit un mélange de plusieurs _cultivars_ différents dans le but de créer un thé qui illustre au mieux le _Yán Yùn_, l'arrière-goût distinctif des _WŭYí Yán Chá_.
+Ce style de thé est l'un des deux _WūLóng_ (_Tiě GuānYīn_ est l'autre) qui figurent dans la liste des dix thés chinois les plus célèbres. Le _WŭYí Dà Hóng Páo_ est le plus célèbre et le plus largement produit des thés _Sì DàMíng Cóng_. Il n'existe pas de _cultivar_ spécifique de _Dà Hóng Páo_ ; on utilise soit le 奇丹 _Qí Dān_ ou le 北斗 _BěiDǒu_, soit un mélange de plusieurs _cultivars_ différents dans le but de créer un thé qui illustre au mieux le _Yán Yùn_, l'arrière-goût distinctif des _WŭYí Yán Chá_.
 
 ![Feuilles de WŭYí Shuǐ JīnGuī](/assets/media/recueil-wulong_wuyi-shui-jin-gui-leaves.jpg)
 Départ de _WŭYí Shuǐ JīnGuī_
@@ -289,11 +289,11 @@ Liqueur _DōngFāng MĕiRén_
 Ce style de thé est également connu sous le nom de _Bái Háo_ ou _White Tip WūLóng_ en raison de l'utilisation de bourgeons dans le thé fini. Le _DōngFāng MĕiRén_ est originaire de la région de _XīnZhú_, dans le nord de _TáiWān_, et est produit à partir du _cultivar_ _Qīng Xīn Dà Mào_. Ce _WūLóng_ torsadé est fortement flétrit et fortement oxydé 70-80%. Le processus d'oxydation commence alors que les feuilles sont encore sur pied par les morsures d'insectes comme les [_cicadelles_](https://fr.wikipedia.org/wiki/Cicadelle). La plante crée davantage de _polyphénols_ pour inhiber les attaques des insectes.
 
 ![Feuilles de Gāo Shān(Jīn Xuān de Ali Shan)](/assets/media/recueil-wulong_gaoshan-jinxuan-alishan-leaves.jpg)
-Feuilles de _Gāo Shān_(_Jīn Xuān_ de Ali Shan)
+Feuilles de _Gāo Shān_ (_Jīn Xuān_ de Ali Shan)
 
 
 ![Liqueur Gāo Shān(Jīn Xuān de Ali Shan)](/assets/media/recueil-wulong_gaoshan-jinxuan-alishan-liquor.jpg)
-Liqueur _Gāo Shān_(_Jīn Xuān_ de Ali Shan)
+Liqueur _Gāo Shān_ (_Jīn Xuān_ de Ali Shan)
 
 #### 高山 _Gāo Shān_ -(Haute montagne)
 
@@ -351,7 +351,7 @@ Liqueur _Guì Fēi_
 ![Les feuilles de Gui Fei](/assets/media/recueil-wulong_gui-fei-liquor.jpg)
 Les feuilles de _Guì Fēi_
 
-#### 贵妃 _Guì Fēi_(Precious Concubine)
+#### 贵妃 _Guì Fēi_ (Precious Concubine)
 
 Le _Guì Fēi_ est un style de thé qui est traité de la même façon que le _DōngFāng MĕiRén_, sauf qu'il est roulé en forme de demi-perle au lieu d'être torsadé. Tout comme le _DōngFāng MĕiRén_, il est cultivé sans pesticide et peut être piqué par les morsures de [_cicadelles_](https://fr.wikipedia.org/wiki/Cicadelle). Le _Guì Fēi_ est souvent très oxydé et légèrement grillé.
 
