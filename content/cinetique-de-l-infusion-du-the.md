@@ -2,14 +2,15 @@
 lien: cinetique-de-l-infusion-du-the
 titre: Cinétique de l'infusion du thé
 description: >
- Ce contenu est un extrait du site de Tony Gebely : teaepicure.com
+  L'infusion est la dernière étape de la vie des feuilles de thé. Et dans leur dernier acte,  elles se déploient et se défont lentement, créant une boisson qui raconte l'histoire de leur  origine.
+  Ce contenu est un extrait du site de Tony Gebely : teaepicure.com
 par: Tony Gebely
 catégorie: traduction
 ---
 
 _Traduction de l'article original en anglais de Tony Gebely : https://teaepicure.com/kinetics-of-steeping-tea/_
 
-L'infusion est la dernière étape de la vie des feuilles de thé. Et dans leur dernier acte, elles se déploient et se défont lentement, créant une boisson qui raconte l'histoire de leur origine. Chaque fois que nous buvons de l'alcool provenant des feuilles infusées, cela nous dit quel était le temps avant qu'elles ne soient cueillies et comment elles ont été manipulées, traitées et stockées avant d'atteindre votre tasse.
+L'infusion est la dernière étape de la vie des feuilles de thé. Et dans leur dernier acte,  elles se déploient et se défont lentement, créant une boisson qui raconte l'histoire de leur  origine. Chaque fois que nous buvons de l'alcool provenant des feuilles infusées, cela nous  dit quel était le temps avant qu'elles ne soient cueillies et comment elles ont été  manipulées, traitées et stockées avant d'atteindre votre tasse.
 
 Sur le plan chimique, le l'infusion consiste [à tremper les feuilles](https://teaepicure.com/engineers-guide-to-tea-preparation/) de thé dans un solvant (l'eau) pour obtenir une solution qui contient en moyenne 98 % d'eau et 2 % de composés provenant des feuilles de thé.
 
