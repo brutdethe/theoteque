@@ -11,4 +11,9 @@ catégorie: page
 
 ## Montpellier
 
-- [Théod’art](https://danslajungle.oisiflorus.com/montpellier/theod-art.html) : un endroit idéal pour profiter d’un thé de Chine entre ami·e·s
+- ~~[Théodart](https://danslajungle.oisiflorus.com/montpellier/theod-art.html)~~ : un endroit **qui était** idéal pour profiter d’un thé de Chine entre ami·e·s et qui a fermé après le premier confinement
+
+## Lille
+
+- [Unami](https://danslajungle.oisiflorus.com/lille/unami.html)
+Une boutique et slaon de thé authentique à deux pas des deux gares

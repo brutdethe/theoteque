@@ -11,7 +11,7 @@ catégorie: intermediaire
 
 Il existe des centaines de type de théière, toutes ayant une forme spécifique, et un nom allant avec. Par exemple, on trouve énormément en Europe les XiShi, petites théière à bec court, qui est une forme assez connue en Chine aussi.
 
-![Théière XiShi](/master/static/assets/media/西施壶.jpg)
+![Théière XiShi](/assets/media/西施壶.jpg)
 
 Ces formes sont standardisées, et les maitres fabricants se base sur ces modèles pour créer leurs théières. Très peu d’entre eux osent créer de nouvelles formes. 
 
@@ -21,7 +21,7 @@ Pour infuser le thé en théière de manière simple et efficace, commencez par 
 
 Verser ensuite l’eau chaude dans votre théière, puis verser l’infusion dans le ChaHai. Votre thé est prêt et l’infusion bien contrôlée par vos soins !
 
-![Infusion d'un thé vert en théière](/static/assets/media/Chahupaofa.JPG)
+![Infusion d'un thé vert en théière](/assets/media/chahupaofa.jpg)
 
 # Quelques conseils
 
