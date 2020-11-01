@@ -38,6 +38,6 @@ Suivant le type et la qualité du thé, vous pouvez infuser plusieurs fois les m
 Contrairement à l'infusion en théière utilisée pour corriger ou embellir le thé, le _GàiWǎn_ est neutre et convient à tout type de thé.
 
 > Conseil :
-> travaillez les premières manipulation le _GàiWǎn_ vide, puis avec de l'eau froide. 
+> travaillez les premières manipulations le _GàiWǎn_ vide, puis avec de l'eau froide. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qOmDIB7o2So" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
