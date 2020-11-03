@@ -63,15 +63,15 @@ Grâce à ces outils, l’amateur de thé va pouvoir infuser son thé de manièr
 
 Pour cela nous vous avons fait trois articles traitant de ces trois manières d’infuser un thé. 
 
-- [_GàiWǎn PàoFǎ_](https://www.brutdethé.fr/ressources/gai-wan-pao-fa) : l'infusion en Gaiwan
-- [_CháHu Pào Fǎ_](https://www.brutdethé.fr/ressources/gong-fu-cha-pao-fa/)  : l'infusion en théière
-- [_CháBēi Pào Fǎ_](https://www.brutdethé.fr/ressources/cha-bei-pao-fa/) : l'infusion en verre
+- [_GàiWǎn PàoFǎ_](/ressources/gai-wan-pao-fa) : l'infusion en Gaiwan
+- [_CháHu Pào Fǎ_](/ressources/gong-fu-cha-pao-fa/)  : l'infusion en théière
+- [_CháBēi Pào Fǎ_](/ressources/cha-bei-pao-fa/) : l'infusion en verre
 
 ### L’infusion
 
 Pour chaque type de thé, il y aura une infusion particulière. Le but est d’extraire au maximum les arômes tout en évitant le côté trop amer du thé qui est souvent gênant lorsqu’on commence à infuser. 
 
-Nous vous avons préparer une [table d’infusion](https://www.brutdethé.fr/ressources/table-d-infusion) pour cela
+Nous vous avons préparer une [table d’infusion](/ressources/table-d-infusion) pour cela
 
 ## De l'importance de l'eau dans la préparation du thé
 
