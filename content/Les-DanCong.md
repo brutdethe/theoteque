@@ -1,9 +1,11 @@
 ---
 lien: les-thes-DanCong-
 titre: 单丛 - Dān cóng - (les thés Dān cóng) 
-par: Thaïs
 description: >
   De plus en plus connu en Occident, les Dān cóng sont restés discrets jusqu'à présent. Présentant un panel aromatique varié, il râvi les amateurs de thés chevronnés. 
+  par: Thaïs
+  catégorie: intermediaire
+
 ---
 
 ![Les DanCong](/assets/media/infusion-dancong.jpg)
