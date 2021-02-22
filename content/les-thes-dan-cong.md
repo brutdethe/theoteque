@@ -1,18 +1,18 @@
 ---
-lien: les-thes-DanCong-
-titre: 单丛 - Dān cóng - (les thés Dān cóng)
+lien: les-thes-dan-cong
+titre: 單叢 - Les thés Dān Cóng
 par: Thaïs
 description: >
-  De plus en plus connu en Occident, les Dān cóng sont restés discrets jusqu'à présent. Présentant un panel aromatique varié, il râvi les amateurs de thés chevronnés. 
-catégorie: intermediaire
+  De plus en plus connu en Occident, les 單叢 _Dān Cóng_ sont restés discrets jusqu'à présent. Présentant un panel aromatique varié, il râvi les amateurs de thés chevronnés. 
+catégorie: intermédiaire
 ---
 
 ![Les DanCong](/assets/media/infusion-dancong.jpg)
 
 # Généralités
 
-Les Dān cóng sont des thés issus de la famille des thés Wulong, produits dans la province de Canton, autour de la ville de 潮州 Cháozhōu. 
-Ce sont des Wulong "rouges", c'est à dire que leur aspect ainsi que leurs arômes se rapprocheront plus d'un thé de roche du FuJian du Nord plutôt que d'un TieGuanYin par exemple. Leur infusion est plus foncée qu'un Wulong classique, allant du jaune au rouge. 
+Les 單叢 _Dān cóng_ sont des thés issus de la famille des thés 烏龍 _WūLóng_, produits dans la province de Canton, autour de la ville de 潮州 _CháoZhōu_. 
+Ce sont des _WūLóng_ "rouges", c'est à dire que leur aspect ainsi que leurs arômes se rapprocheront plus d'un *thé de roche* du FuJian du Nord plutôt que d'un TieGuanYin par exemple. Leur infusion est plus foncée qu'un Wulong classique, allant du jaune au rouge. 
 Le cultivar utilisé pour faire les Dān cóng est le 凤凰水仙 Fènghuáng shuǐxiān, endémique de la région de Cháozhōu.
 
 ![Champ de thé DanCong](/assets/media/champdethe-dancong.jpg)
