@@ -63,19 +63,19 @@
         <li>
             <a
                 rel="prefetch"
-                aria-current="{segment === 'liste-des-thes-tous' ? 'page' : undefined}"
-                href="liste-des-thes-tous"
+                href="https://wiki.brutdethé.fr"
+                aria-current="{segment === 'wiki' ? 'page' : undefined}"
             >
-                Théothèque
+                wiki
             </a>
         </li>
         <li>
             <a
                 rel="prefetch"
-                href="ressources"
-                aria-current="{segment === 'ressources' ? 'page' : undefined}"
+                href="termes"
+                aria-current="{segment === 'termes' ? 'page' : undefined}"
             >
-                Ressources
+                termes
             </a>
         </li>
         <li>
