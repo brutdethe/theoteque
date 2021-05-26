@@ -1,17 +1,15 @@
-name: Build Sapper and Deploy to GitHub Pages
+name: Sapper Publish
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
-  build_deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@main
-      - name: Build Sapper
-        uses: truewebartisans/actions-sapper@master
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@main
+      - uses: actions/checkout@v2
+      - uses: antoncarlsson/deploy-sapper-to-gh-pages-action@v1.1.6
         with:
-          publish_dir: __sapper__/export
-          publish_branch: gh-pages
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
