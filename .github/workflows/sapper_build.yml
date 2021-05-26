@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@main
       - name: Build Sapper
-        uses: truewebartisans/actions-sapper@main
+        uses: truewebartisans/actions-sapper@master
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@main
         with:
