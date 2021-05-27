@@ -1,0 +1,295 @@
+/*
+ * GENERAL 
+ */
+
+/*
+ * RESET
+ * Reset just the minimum, improve with time
+ */
+
+  body {
+		margin: 0;
+  }
+  
+  /*Titles*/
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+		margin-top: 0;
+		margin-bottom: 0;
+  }
+  
+  /*Forms*/
+  fieldset {
+		padding: 0;
+		margin-right: 0;
+		margin-left: 0;
+		border: none;
+  }
+  
+  /*Lists*/
+  ul {
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-left: 0;
+  }
+  
+  * {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+  }
+	
+	/* global css */
+
+
+  @media (max-width: 768px) {
+		#sapper {
+			width: 100%;
+			padding: 0 20px;
+		}
+		img {
+			width: 100%;
+			height: auto;
+		}
+  }
+
+	@font-face {
+		font-family: "Lexend Deca";
+		src: url(/assets/font/LexendDeca-Regular.ttf) format("truetype");
+  }
+
+  body {
+		font-family: "Lexend Deca", arial, sans-serif;
+		font-size: 1rem;
+		line-height: 1.2;
+		color: #002920;
+		-webkit-font-smoothing: antialiased;
+		background: rgb(252, 249, 255);
+		border-top: 3px solid #73d56b;
+	}
+	
+  #sapper {
+		margin: 0px auto;
+		width: 100%;
+		max-width: 1024px;
+		padding-right: 1em;
+		padding-left: 1em;
+	}
+
+	.container {
+		margin: 1em 0px;
+		letter-spacing: 0.01rem;
+  }
+
+	.container h1,
+  .container h2,
+  .container h3 {
+		color: #73d56b;
+		font-weight: lighter;
+	}
+		
+	.container p,
+	.container ul,
+	.container ol {
+		margin-top: 1.5rem;
+		margin-bottom: 1.5rem;
+		font-size: 1.188rem;
+		line-height: 1.5;
+	}
+	
+  .container h1 {
+		width: 100%;
+		padding: 20px 0 30px;
+		margin-top: 0;
+		margin-bottom: 1.75rem;
+		border-bottom: 1px solid #002920;
+		font-size: 2.25rem;
+		line-height: 2.5rem;
+  }
+  .container h2 {
+		font-size: 1.9375rem;
+		line-height: 1.75rem;
+		margin-top: 3.5rem;
+		margin-bottom: 1.75rem;
+		
+  }
+  .container h3 {
+		font-size: 1.1875rem;
+		line-height: 1.75rem;
+		margin-top: 1.75rem;
+		margin-bottom: 1.75rem;
+  }
+  .container h4 {
+		font-size: 1.1875rem;
+		line-height: 1.75rem;
+		margin-top: 1.75rem;
+		margin-bottom: 1.75rem;
+  }
+ 
+  .container ul,
+  .container ol {
+		margin-top: 1.5rem;
+		margin-bottom: 1.5rem;
+		font-size: 1.188rem;
+		line-height: 1.5;
+  }
+  .container ul {
+		margin-left: 20px;
+  }
+  .container ul ul {
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+		margin-left: 36px;
+  }
+  .container li {
+		position: relative;
+		margin-bottom: 5px;
+		padding-left: 20px;
+		list-style-type: none;
+  }
+  .container li:before {
+		content: ">";
+		position: absolute;
+		left: 0;
+		top: 0;
+		font-weight: bold;
+  }
+  .container ol {
+		padding-left: 0;
+		counter-reset: section;
+		list-style-type: none;
+		margin-left: 20px;
+  }
+  .container ol li:before {
+		position: relative;
+		counter-increment: section;
+		content: counters(section, ".") " ";
+  }
+  .container img {
+		width: 100%;
+		height: auto;
+		display: block;
+		padding: 4px;
+		margin: 0.75rem 0;
+		background-color: #fff;
+		border: 1px solid #73d56b;
+		border-radius: 4px;
+		transition: all 0.2s ease-in-out;
+  }
+  .container a {
+		color: #002920;
+		text-decoration: none;
+		border-bottom: 1px solid #002920;
+		transition: all 0.3s;
+  }
+  .container a:hover,
+  .container a:focus {
+		color: #73d56b;
+		border-bottom-color: #73d56b;
+  }
+  .container pre,
+  .container blockquote {
+		margin: 0 2em;
+		background-color: #fff;
+  }
+  .container pre {
+		margin: 2em;
+		padding: 1em;
+		white-space: pre-wrap;
+  }
+  .container blockquote {
+		padding: 0.5em 1em;
+		letter-spacing: 0.01rem;
+		font-weight: 400;
+		font-style: italic;
+		border-left: 5px solid #73d56b;
+  }
+  .container blockquote p {
+		margin: 0;
+  }
+  .container table > tbody > tr > td:first-child {
+		font-weight: bold;
+  }
+  .container table {
+		width: 100%;
+		border-collapse: collapse;
+  }
+  .container table th {
+		border-width: 1px;
+		padding: 8px;
+		border-style: solid;
+		border-color: rgba(0, 0, 0, 0.7);
+		text-align: left;
+  }
+  .container table td {
+		border-width: 1px;
+		padding: 8px;
+		border-style: solid;
+		border-color: rgba(0, 0, 0, 0.7);
+  }
+  .container table tr:hover {
+		background-color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+	.container {
+	  text-align: left;
+	}
+	.contribution-tools {
+	  display: none;
+	}
+	.container blockquote {
+	  margin: 0;
+	}
+	#parentRepo a {
+	  display: block;
+	}
+	.container ul,
+	.container ol {
+	  margin-left: 0;
+	}
+	.container pre {
+	  padding: 0.5em;
+	  margin-left: 0;
+	  margin-right: 0;
+	  font-size: 1.188rem;
+	  word-wrap: break-word;
+	}
+  }
+  
+
+  /*
+  notes
+  */
+  .footnotes ol li::before {
+	position: absolute;
+  }
+  .footnotes p {
+	margin: 0;
+	font-size: 0.9em;
+	line-height: 1.6em;
+  }
+  .footnotes li {
+	margin: 1.5em;
+  }
+  
+  .container h1 {
+	font-size: 2.3rem;
+  }
+  
+  .container h2 {
+	font-size: 2rem;
+  }
+  
+  .container h3 {
+	font-size: 1.4875rem;
+  }
+  
+  .container h4 {
+	font-size: 1.1875rem;
+	font-size: 1.4875rem;
+  }
+  
