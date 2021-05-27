@@ -108,19 +108,16 @@
     }
 </style>
 
-<script context="module">
-    export function preload(page) {
-        return { pinyin: page.params.pinyin }
-    }
-</script>
-
 <script>
+    import { stores } from '@sapper/app'
     import { onMount } from 'svelte'
     import Brews from '../components/Brews.svelte'
     import IconTeaType from '../components/IconTeaType.svelte'
     import { normalize } from '../components/NormalizePinyin.svelte'
 
-    export let pinyin
+    const { page } = stores()
+
+    const pinyin = $page.query.pinyin
 
     let tea = {}
     let i18n = []

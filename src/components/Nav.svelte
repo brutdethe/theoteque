@@ -63,7 +63,7 @@
         <li>
             <a
                 rel="prefetch"
-                href="https://wiki.brutdethé.fr"
+                href="https://www.brutdethé.fr"
                 aria-current="{segment === 'wiki' ? 'page' : undefined}"
             >
                 wiki

@@ -113,7 +113,7 @@
         <div class="gallery">
             {#each getTeasByType(type, teas) as tea}
                 <figure class="item">
-                    <a href="fiche-{normalize(tea.pinyin)}">
+                    <a href="fiche?pinyin={normalize(tea.pinyin)}">
                         <img
                             src="../assets/thes/thumbs/{tea.ideogram}.jpg"
                             alt="{tea.pinyin}"
